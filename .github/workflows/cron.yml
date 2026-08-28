@@ -55,7 +55,7 @@ jobs:
 
       - name: Create Pull Request
         id: pr
-        uses: peter-evans/create-pull-request@a45d1fb447fcaf601166e405fd4f335cde1a8aa8 # pin@00897e0bc2ceba9f86c9b0fda8429107112e6fa5
+        uses: peter-evans/create-pull-request@36d7c8468b48f9c2f8f29e260e82f10d4b90d2bd # pin@00897e0bc2ceba9f86c9b0fda8429107112e6fa5
         with:
           token: ${{ steps.app-token.outputs.token }}
           author: Cache-bot <noreply@github.com>
