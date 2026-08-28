@@ -46,7 +46,7 @@ jobs:
           token: ${{ steps.app-token.outputs.token }}
           release-type: node
 
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v6.0.2
         if: ${{ !steps.release.outputs.release_created}}
 
       - name: Approve pr
