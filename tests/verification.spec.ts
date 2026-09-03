@@ -134,13 +134,21 @@ const knownErrors = {
     '0x30559E3d35e33AB69399a3fe9F383d32bd3c016E': true, // PT_sUSDE_18JUN2026 verified but not detecting
     '0x23B17d3944742ACe3d0C71586FcB320d1e4a1Ed2': true, // PT_USDe_18JUN2026 verified but not detecting
   },
+  196: {
+    '0x64768bE1b925Eb04a2Caa2E1F9ffEC2f959cAC9c': true, // PT_USDG_29OCT2026 A_TOKEN, not yet verified on explorer
+    '0x11f847ED85657cd066bfC3e9a5b29737aFb85c1E': true, // PT_USDG_29OCT2026 V_TOKEN, not yet verified on explorer
+    '0x6052839E52ab454F164ee5668e5B523cF5A389Fc': true, // PT_USDG_29OCT2026 ORACLE, not yet verified on explorer
+  },
 };
 
 describe('verification', {timeout: 500_000}, () => {
   it('should have all contracts verified except for the known set of errors', async () => {
     const addressesToCheck = flattenedAddresses.filter(
       (item) =>
-        ![ChainId.harmony, ChainId.fantom, ChainId.zksync].includes(item.chainId as any) &&
+        // arc has no public explorer api, its explorer sits behind cloudflare access
+        ![ChainId.harmony, ChainId.fantom, ChainId.zksync, ChainId.arc].includes(
+          item.chainId as any,
+        ) &&
         !ChainList[item.chainId].testnet &&
         !knownErrors[item.chainId]?.[item.value] &&
         (!verified[item.chainId]?.[item.value] ||

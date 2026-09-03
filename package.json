@@ -97,7 +97,7 @@
   "homepage": "https://github.com/aave-dao/aave-address-book#readme",
   "devDependencies": {
     "@aave-dao/react-web3-icons": "^1.52.2",
-    "@aave-dao/toolbox": "^0.5.0",
+    "@aave-dao/toolbox": "^0.6.0",
     "@size-limit/file": "^12.0.0",
     "@types/node": "^25.2.0",
     "@uniswap/token-lists": "^1.0.0-beta.33",

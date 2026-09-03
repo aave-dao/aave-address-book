@@ -247,6 +247,25 @@ library AaveV3XLayerAssets {
 
   // https://www.oklink.com/xlayer/address/0x3eFfeBDD435217A8B485dfaEFDecf766F2a3c05B
   address internal constant GHO_INTEREST_RATE_STRATEGY = 0x3eFfeBDD435217A8B485dfaEFDecf766F2a3c05B;
+
+  // https://www.oklink.com/xlayer/address/0x9a09a9E491DB3dd8Ada5B1B889991AC9Ad5fd362
+  address internal constant PT_USDG_29OCT2026_UNDERLYING =
+    0x9a09a9E491DB3dd8Ada5B1B889991AC9Ad5fd362;
+
+  uint8 internal constant PT_USDG_29OCT2026_DECIMALS = 6;
+
+  // https://www.oklink.com/xlayer/address/0x64768bE1b925Eb04a2Caa2E1F9ffEC2f959cAC9c
+  address internal constant PT_USDG_29OCT2026_A_TOKEN = 0x64768bE1b925Eb04a2Caa2E1F9ffEC2f959cAC9c;
+
+  // https://www.oklink.com/xlayer/address/0x11f847ED85657cd066bfC3e9a5b29737aFb85c1E
+  address internal constant PT_USDG_29OCT2026_V_TOKEN = 0x11f847ED85657cd066bfC3e9a5b29737aFb85c1E;
+
+  // https://www.oklink.com/xlayer/address/0x6052839E52ab454F164ee5668e5B523cF5A389Fc
+  address internal constant PT_USDG_29OCT2026_ORACLE = 0x6052839E52ab454F164ee5668e5B523cF5A389Fc;
+
+  // https://www.oklink.com/xlayer/address/0x3eFfeBDD435217A8B485dfaEFDecf766F2a3c05B
+  address internal constant PT_USDG_29OCT2026_INTEREST_RATE_STRATEGY =
+    0x3eFfeBDD435217A8B485dfaEFDecf766F2a3c05B;
 }
 library AaveV3XLayerEModes {
   uint8 internal constant NONE = 0;
@@ -262,6 +281,10 @@ library AaveV3XLayerEModes {
   uint8 internal constant xBETH__xETH = 5;
 
   uint8 internal constant xOKSOL__xSOL = 6;
+
+  uint8 internal constant PT_USDG_29OCT2026__USDT_USDG_GHO = 7;
+
+  uint8 internal constant PT_USDG_29OCT2026__USDG = 8;
 }
 library AaveV3XLayerExternalLibraries {
   // https://www.oklink.com/xlayer/address/0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6

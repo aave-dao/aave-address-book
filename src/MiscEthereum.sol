@@ -193,4 +193,11 @@ library MiscEthereum {
   // https://etherscan.io/address/0x4cc755fBFAE135933b64865E7D7Ea6ae778A4D43
   address internal constant STABLE_VAULT_DAO_WALLET_INCENTIVES =
     0x4cc755fBFAE135933b64865E7D7Ea6ae778A4D43;
+
+  // https://etherscan.io/address/0x187AAE17d4931310B3fc75743e7F16Bdc9eD77e9
+  address internal constant V4_SECURITY_COUNCIL = 0x187AAE17d4931310B3fc75743e7F16Bdc9eD77e9;
+
+  // https://etherscan.io/address/0x14339e2178A954d5FB839D5Ff31644fE0F25F517
+  address internal constant V4_SECURITY_COUNCIL_EXECUTOR =
+    0x14339e2178A954d5FB839D5Ff31644fE0F25F517;
 }

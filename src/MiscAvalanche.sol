@@ -56,4 +56,11 @@ library MiscAvalanche {
 
   // https://snowscan.xyz/address/0x9DE1d45e2786b03498289959203F25b29B4D1193
   address internal constant TOKENLOGIC_EXECUTION_SAFE = 0x9DE1d45e2786b03498289959203F25b29B4D1193;
+
+  // https://snowscan.xyz/address/0x187AAE17d4931310B3fc75743e7F16Bdc9eD77e9
+  address internal constant V4_SECURITY_COUNCIL = 0x187AAE17d4931310B3fc75743e7F16Bdc9eD77e9;
+
+  // https://snowscan.xyz/address/0xb619fA61e795D47f517702e63ce50292370561F1
+  address internal constant V4_SECURITY_COUNCIL_EXECUTOR =
+    0xb619fA61e795D47f517702e63ce50292370561F1;
 }

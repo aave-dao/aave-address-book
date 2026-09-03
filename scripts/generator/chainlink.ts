@@ -25,6 +25,7 @@ const CHAIN_ID_TO_NAME = {
   [ChainId.sonic]: 'Sonic',
   [ChainId.mantle]: 'Mantle',
   [ChainId.soneium]: 'Soneium',
+  [ChainId.arc]: 'Arc',
 };
 
 export function generateChainlink() {
