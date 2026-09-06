@@ -213,6 +213,9 @@ library AaveV3EthereumAssets {
   // https://etherscan.io/address/0xB07E357cc262E92eee03D8B81464D596B258eA7a
   address internal constant WBTC_STATIC_A_TOKEN = 0xB07E357cc262E92eee03D8B81464D596B258eA7a;
 
+  // https://etherscan.io/address/0x2A5D51e22A8010701674E0c3D45E9aCf7b9C8a62
+  address internal constant WBTC_STATA_TOKEN = 0x2A5D51e22A8010701674E0c3D45E9aCf7b9C8a62;
+
   // https://etherscan.io/address/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48
   address internal constant USDC_UNDERLYING = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
 
@@ -1115,6 +1118,9 @@ library AaveV3EthereumAssets {
   // https://etherscan.io/address/0x9ec6F08190DeA04A54f8Afc53Db96134e5E3FdFB
   address internal constant EURC_INTEREST_RATE_STRATEGY =
     0x9ec6F08190DeA04A54f8Afc53Db96134e5E3FdFB;
+
+  // https://etherscan.io/address/0x476a2D04AB8A7fb93E13aC14f2c077866ff13500
+  address internal constant EURC_STATA_TOKEN = 0x476a2D04AB8A7fb93E13aC14f2c077866ff13500;
 
   // https://etherscan.io/address/0x9F56094C450763769BA0EA9Fe2876070c0fD5F77
   address internal constant PT_sUSDE_25SEP2025_UNDERLYING =
