@@ -1876,6 +1876,20 @@
     },
     {
       "chainId": 1,
+      "address": "0x2A5D51e22A8010701674E0c3D45E9aCf7b9C8a62",
+      "name": "Wrapped Aave Ethereum WBTC",
+      "decimals": 8,
+      "symbol": "waEthWBTC",
+      "tags": ["aaveV3", "stataToken"],
+      "logoURI": "https://raw.githubusercontent.com/aave-dao/web3-icons/main/icons/full/statawbtc.svg",
+      "extensions": {
+        "pool": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2",
+        "underlying": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "underlyingAToken": "0x5Ee5bf7ae06D1Be5997A1A72006FE6C607eC6DE8"
+      }
+    },
+    {
+      "chainId": 1,
       "address": "0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c",
       "name": "Aave Ethereum USDC",
       "decimals": 6,
@@ -3212,6 +3226,20 @@
       "extensions": {
         "pool": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2",
         "underlying": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x476a2D04AB8A7fb93E13aC14f2c077866ff13500",
+      "name": "Wrapped Aave Ethereum EURC",
+      "decimals": 6,
+      "symbol": "waEthEURC",
+      "tags": ["aaveV3", "stataToken"],
+      "logoURI": "https://raw.githubusercontent.com/aave-dao/web3-icons/main/icons/full/stataeurc.svg",
+      "extensions": {
+        "pool": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2",
+        "underlying": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
+        "underlyingAToken": "0xAA6e91C82942aeAE040303Bf96c15a6dBcB82CA0"
       }
     },
     {
@@ -10781,6 +10809,26 @@
       }
     },
     {
+      "chainId": 196,
+      "address": "0x9a09a9E491DB3dd8Ada5B1B889991AC9Ad5fd362",
+      "name": "PT Global Dollar 29OCT2026",
+      "decimals": 6,
+      "symbol": "PT-USDG-29OCT2026",
+      "tags": ["underlying"]
+    },
+    {
+      "chainId": 196,
+      "address": "0x64768bE1b925Eb04a2Caa2E1F9ffEC2f959cAC9c",
+      "name": "Aave XLayer PT_USDG_29OCT2026",
+      "decimals": 6,
+      "symbol": "aXlrPT_USDG_29OCT2026",
+      "tags": ["aTokenV3", "aaveV3"],
+      "extensions": {
+        "pool": "0xE3F3Caefdd7180F884c01E57f65Df979Af84f116",
+        "underlying": "0x9a09a9E491DB3dd8Ada5B1B889991AC9Ad5fd362"
+      }
+    },
+    {
       "chainId": 143,
       "address": "0xe7cd86e13AC4309349F30B3435a9d337750fC82D",
       "name": "USDT0",
@@ -11282,6 +11330,6 @@
       }
     }
   ],
-  "version": { "major": 3, "minor": 0, "patch": 186 },
-  "timestamp": "2026-08-27T01:28:01.294Z"
+  "version": { "major": 3, "minor": 0, "patch": 187 },
+  "timestamp": "2026-09-06T00:25:13.040Z"
 }
