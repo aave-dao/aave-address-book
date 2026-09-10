@@ -18819,6 +18819,15 @@
     },
     "0xf0243635e888E1C6a279189aaeFfE0B622b71d35": {
       "name": "TransparentUpgradeableProxy"
+    },
+    "0x3a7d91122a076eA8A3043b1A032319ea3a2D46B0": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x75e9AF2609B103C2FcDe7717b9447c9D0B8FF787": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x6a157d504548C6b20a3D2635daFe8b5fe7cc9483": {
+      "name": "TransparentUpgradeableProxy"
     }
   },
   "59144": {
