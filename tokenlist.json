@@ -9575,6 +9575,20 @@
     },
     {
       "chainId": 57073,
+      "address": "0xcC77859570c782b842Ce58CecB3CF2D84b76B367",
+      "name": "Wrapped Aave InkWhitelabel WETH",
+      "decimals": 18,
+      "symbol": "waInkWlWETH",
+      "tags": ["aaveV3", "stataToken"],
+      "logoURI": "https://raw.githubusercontent.com/aave-dao/web3-icons/main/icons/full/stataweth.svg",
+      "extensions": {
+        "pool": "0x2816cf15F6d2A220E789aA011D5EE4eB6c47FEbA",
+        "underlying": "0x4200000000000000000000000000000000000006",
+        "underlyingAToken": "0x2B35eF056728BaFFaC103e3b81cB029788006EF9"
+      }
+    },
+    {
+      "chainId": 57073,
       "address": "0x73E0C0d45E048D25Fc26Fa3159b0aA04BfA4Db98",
       "name": "Kraken Wrapped Bitcoin",
       "decimals": 8,
@@ -9593,6 +9607,20 @@
       "extensions": {
         "pool": "0x2816cf15F6d2A220E789aA011D5EE4eB6c47FEbA",
         "underlying": "0x73E0C0d45E048D25Fc26Fa3159b0aA04BfA4Db98"
+      }
+    },
+    {
+      "chainId": 57073,
+      "address": "0x82547F1435b6c8fF00Ead830B94F169A02F642f0",
+      "name": "Wrapped Aave InkWhitelabel KBTC",
+      "decimals": 8,
+      "symbol": "waInkWlKBTC",
+      "tags": ["aaveV3", "stataToken"],
+      "logoURI": "https://raw.githubusercontent.com/aave-dao/web3-icons/main/icons/full/statakbtc.svg",
+      "extensions": {
+        "pool": "0x2816cf15F6d2A220E789aA011D5EE4eB6c47FEbA",
+        "underlying": "0x73E0C0d45E048D25Fc26Fa3159b0aA04BfA4Db98",
+        "underlyingAToken": "0xC712C3a5624de08EA593FB23270804B47942564e"
       }
     },
     {
@@ -9619,6 +9647,20 @@
     },
     {
       "chainId": 57073,
+      "address": "0x977CC5164A4E618d830a84dDA2CB01354C2eBe7E",
+      "name": "Wrapped Aave InkWhitelabel USDT",
+      "decimals": 6,
+      "symbol": "waInkWlUSDT",
+      "tags": ["aaveV3", "stataToken"],
+      "logoURI": "https://raw.githubusercontent.com/aave-dao/web3-icons/main/icons/full/statausdt0.svg",
+      "extensions": {
+        "pool": "0x2816cf15F6d2A220E789aA011D5EE4eB6c47FEbA",
+        "underlying": "0x0200C29006150606B650577BBE7B6248F58470c1",
+        "underlyingAToken": "0x99cBF1Ff4527675Ed3301671105C9F7748fb8a04"
+      }
+    },
+    {
+      "chainId": 57073,
       "address": "0xe343167631d89B6Ffc58B88d6b7fB0228795491D",
       "name": "Global Dollar",
       "decimals": 6,
@@ -9635,6 +9677,19 @@
       "extensions": {
         "pool": "0x2816cf15F6d2A220E789aA011D5EE4eB6c47FEbA",
         "underlying": "0xe343167631d89B6Ffc58B88d6b7fB0228795491D"
+      }
+    },
+    {
+      "chainId": 57073,
+      "address": "0x60bb682Cf04986897D3B2d8cA1DEdfD88AfCdFbe",
+      "name": "Wrapped Aave InkWhitelabel USDG",
+      "decimals": 6,
+      "symbol": "waInkWlUSDG",
+      "tags": ["aaveV3", "stataToken"],
+      "extensions": {
+        "pool": "0x2816cf15F6d2A220E789aA011D5EE4eB6c47FEbA",
+        "underlying": "0xe343167631d89B6Ffc58B88d6b7fB0228795491D",
+        "underlyingAToken": "0x4cd13ce4edbB5523fd4849252b5f1bF215129D10"
       }
     },
     {
@@ -9661,6 +9716,20 @@
     },
     {
       "chainId": 57073,
+      "address": "0x43374463fC8Cf3829b02ab00372bA1262f315053",
+      "name": "Wrapped Aave InkWhitelabel GHO",
+      "decimals": 18,
+      "symbol": "waInkWlGHO",
+      "tags": ["aaveV3", "stataToken"],
+      "logoURI": "https://raw.githubusercontent.com/aave-dao/web3-icons/main/icons/full/statagho.svg",
+      "extensions": {
+        "pool": "0x2816cf15F6d2A220E789aA011D5EE4eB6c47FEbA",
+        "underlying": "0xfc421aD3C883Bf9E7C4f42dE845C4e4405799e73",
+        "underlyingAToken": "0xC629140A8aA21F8f319A21F41b2DC1b0431693C1"
+      }
+    },
+    {
+      "chainId": 57073,
       "address": "0x2D270e6886d130D724215A266106e6832161EAEd",
       "name": "USDC",
       "decimals": 6,
@@ -9679,6 +9748,20 @@
       "extensions": {
         "pool": "0x2816cf15F6d2A220E789aA011D5EE4eB6c47FEbA",
         "underlying": "0x2D270e6886d130D724215A266106e6832161EAEd"
+      }
+    },
+    {
+      "chainId": 57073,
+      "address": "0x81F3494F0dB4F91Cae613Aa8843e5358B44a6458",
+      "name": "Wrapped Aave InkWhitelabel USDC",
+      "decimals": 6,
+      "symbol": "waInkWlUSDC",
+      "tags": ["aaveV3", "stataToken"],
+      "logoURI": "https://raw.githubusercontent.com/aave-dao/web3-icons/main/icons/full/statausdc.svg",
+      "extensions": {
+        "pool": "0x2816cf15F6d2A220E789aA011D5EE4eB6c47FEbA",
+        "underlying": "0x2D270e6886d130D724215A266106e6832161EAEd",
+        "underlyingAToken": "0x70A38B0c90441e991346B7A0Cd98C8528dD1c234"
       }
     },
     {
@@ -9705,6 +9788,20 @@
     },
     {
       "chainId": 57073,
+      "address": "0xE017E2755C79f7ea23bfedAADdF6816030a9783F",
+      "name": "Wrapped Aave InkWhitelabel weETH",
+      "decimals": 18,
+      "symbol": "waInkWlweETH",
+      "tags": ["aaveV3", "stataToken"],
+      "logoURI": "https://raw.githubusercontent.com/aave-dao/web3-icons/main/icons/full/stataweeth.svg",
+      "extensions": {
+        "pool": "0x2816cf15F6d2A220E789aA011D5EE4eB6c47FEbA",
+        "underlying": "0xA3D68b74bF0528fdD07263c60d6488749044914b",
+        "underlyingAToken": "0x7789888E302Bc3288A78a182efe6DfE91da756ec"
+      }
+    },
+    {
+      "chainId": 57073,
       "address": "0x9f0a74A92287E323Eb95c1cd9eCdBEb0e397cAe4",
       "name": "rsETHWrapper",
       "decimals": 18,
@@ -9723,6 +9820,20 @@
       "extensions": {
         "pool": "0x2816cf15F6d2A220E789aA011D5EE4eB6c47FEbA",
         "underlying": "0x9f0a74A92287E323Eb95c1cd9eCdBEb0e397cAe4"
+      }
+    },
+    {
+      "chainId": 57073,
+      "address": "0x96A54EF05dB537c3330e211537933C9043bcbc87",
+      "name": "Wrapped Aave InkWhitelabel wrsETH",
+      "decimals": 18,
+      "symbol": "waInkWlwrsETH",
+      "tags": ["aaveV3", "stataToken"],
+      "logoURI": "https://raw.githubusercontent.com/aave-dao/web3-icons/main/icons/full/statawrseth.svg",
+      "extensions": {
+        "pool": "0x2816cf15F6d2A220E789aA011D5EE4eB6c47FEbA",
+        "underlying": "0x9f0a74A92287E323Eb95c1cd9eCdBEb0e397cAe4",
+        "underlyingAToken": "0x98F6A9b82799813447E6c00E51aF5b325976199A"
       }
     },
     {
@@ -9749,6 +9860,20 @@
     },
     {
       "chainId": 57073,
+      "address": "0xFCF4c905DaB903B7a602E57e2A399aE733cBE0D1",
+      "name": "Wrapped Aave InkWhitelabel ezETH",
+      "decimals": 18,
+      "symbol": "waInkWlezETH",
+      "tags": ["aaveV3", "stataToken"],
+      "logoURI": "https://raw.githubusercontent.com/aave-dao/web3-icons/main/icons/full/stataezeth.svg",
+      "extensions": {
+        "pool": "0x2816cf15F6d2A220E789aA011D5EE4eB6c47FEbA",
+        "underlying": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+        "underlyingAToken": "0xd596B3C15E28795AaBF0481DaA0Ff4eBAa42c5F2"
+      }
+    },
+    {
+      "chainId": 57073,
       "address": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
       "name": "Staked USDe",
       "decimals": 18,
@@ -9767,6 +9892,20 @@
       "extensions": {
         "pool": "0x2816cf15F6d2A220E789aA011D5EE4eB6c47FEbA",
         "underlying": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2"
+      }
+    },
+    {
+      "chainId": 57073,
+      "address": "0xf0243635e888E1C6a279189aaeFfE0B622b71d35",
+      "name": "Wrapped Aave InkWhitelabel sUSDe",
+      "decimals": 18,
+      "symbol": "waInkWlsUSDe",
+      "tags": ["aaveV3", "stataToken"],
+      "logoURI": "https://raw.githubusercontent.com/aave-dao/web3-icons/main/icons/full/statasusde.svg",
+      "extensions": {
+        "pool": "0x2816cf15F6d2A220E789aA011D5EE4eB6c47FEbA",
+        "underlying": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
+        "underlyingAToken": "0x24C1FaC3447C45137E5f1c2C54Fe9ed3F1EdeA61"
       }
     },
     {
@@ -9793,6 +9932,20 @@
     },
     {
       "chainId": 57073,
+      "address": "0x3a7d91122a076eA8A3043b1A032319ea3a2D46B0",
+      "name": "Wrapped Aave InkWhitelabel USDe",
+      "decimals": 18,
+      "symbol": "waInkWlUSDe",
+      "tags": ["aaveV3", "stataToken"],
+      "logoURI": "https://raw.githubusercontent.com/aave-dao/web3-icons/main/icons/full/statausde.svg",
+      "extensions": {
+        "pool": "0x2816cf15F6d2A220E789aA011D5EE4eB6c47FEbA",
+        "underlying": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+        "underlyingAToken": "0x726D965F0D759A0489d178365f00b4c3c3207BB7"
+      }
+    },
+    {
+      "chainId": 57073,
       "address": "0xaE4EFbc7736f963982aACb17EFA37fCBAb924cB3",
       "name": "Solv BTC",
       "decimals": 18,
@@ -9815,6 +9968,20 @@
     },
     {
       "chainId": 57073,
+      "address": "0x75e9AF2609B103C2FcDe7717b9447c9D0B8FF787",
+      "name": "Wrapped Aave InkWhitelabel SolvBTC",
+      "decimals": 18,
+      "symbol": "waInkWlSolvBTC",
+      "tags": ["aaveV3", "stataToken"],
+      "logoURI": "https://raw.githubusercontent.com/aave-dao/web3-icons/main/icons/full/statasolvbtc.svg",
+      "extensions": {
+        "pool": "0x2816cf15F6d2A220E789aA011D5EE4eB6c47FEbA",
+        "underlying": "0xaE4EFbc7736f963982aACb17EFA37fCBAb924cB3",
+        "underlyingAToken": "0x0373715A7e8f77354B4Af002C6f9F33C79f4F92a"
+      }
+    },
+    {
+      "chainId": 57073,
       "address": "0x8A76fe7fA6da27f85a626c5C53730B38D13603d7",
       "name": "Syrup USDT",
       "decimals": 6,
@@ -9831,6 +9998,19 @@
       "extensions": {
         "pool": "0x2816cf15F6d2A220E789aA011D5EE4eB6c47FEbA",
         "underlying": "0x8A76fe7fA6da27f85a626c5C53730B38D13603d7"
+      }
+    },
+    {
+      "chainId": 57073,
+      "address": "0x6a157d504548C6b20a3D2635daFe8b5fe7cc9483",
+      "name": "Wrapped Aave InkWhitelabel syrupUSDT",
+      "decimals": 6,
+      "symbol": "waInkWlsyrupUSDT",
+      "tags": ["aaveV3", "stataToken"],
+      "extensions": {
+        "pool": "0x2816cf15F6d2A220E789aA011D5EE4eB6c47FEbA",
+        "underlying": "0x8A76fe7fA6da27f85a626c5C53730B38D13603d7",
+        "underlyingAToken": "0x9d97196e7e6652e82C2F0FE93a9B3876E3d8528e"
       }
     },
     {
@@ -11330,6 +11510,6 @@
       }
     }
   ],
-  "version": { "major": 3, "minor": 0, "patch": 187 },
-  "timestamp": "2026-09-07T00:24:47.623Z"
+  "version": { "major": 3, "minor": 0, "patch": 188 },
+  "timestamp": "2026-09-10T00:21:36.323Z"
 }

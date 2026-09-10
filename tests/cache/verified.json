@@ -4826,12 +4826,6 @@
     },
     "0xbe2840440d4f77CD98CEC2de09913e6851907744": {
       "name": "AaveEModeAgent"
-    },
-    "0x2A5D51e22A8010701674E0c3D45E9aCf7b9C8a62": {
-      "name": "TransparentUpgradeableProxy"
-    },
-    "0x476a2D04AB8A7fb93E13aC14f2c077866ff13500": {
-      "name": "TransparentUpgradeableProxy"
     }
   },
   "10": {
@@ -10843,9 +10837,6 @@
     },
     "0xAA12BAd4a501d45A5b771e49C2Fd415BA8BFc79d": {
       "name": "SafeProxy"
-    },
-    "0x9a09a9E491DB3dd8Ada5B1B889991AC9Ad5fd362": {
-      "name": "PendlePrincipalToken"
     },
     "0x6052839E52ab454F164ee5668e5B523cF5A389Fc": {
       "name": "PendlePriceCapAdapter"
@@ -18798,6 +18789,36 @@
     },
     "0xEcD37F855bB9814D75A83F0021815dc5cd6fd889": {
       "name": "SafeProxy"
+    },
+    "0xcC77859570c782b842Ce58CecB3CF2D84b76B367": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x82547F1435b6c8fF00Ead830B94F169A02F642f0": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x977CC5164A4E618d830a84dDA2CB01354C2eBe7E": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x60bb682Cf04986897D3B2d8cA1DEdfD88AfCdFbe": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x43374463fC8Cf3829b02ab00372bA1262f315053": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x81F3494F0dB4F91Cae613Aa8843e5358B44a6458": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0xE017E2755C79f7ea23bfedAADdF6816030a9783F": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x96A54EF05dB537c3330e211537933C9043bcbc87": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0xFCF4c905DaB903B7a602E57e2A399aE733cBE0D1": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0xf0243635e888E1C6a279189aaeFfE0B622b71d35": {
+      "name": "TransparentUpgradeableProxy"
     }
   },
   "59144": {
