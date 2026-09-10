@@ -39,6 +39,7 @@ import { monadProtoV3 } from 'scripts/configs/pools/monad';
 import { mainnetV4Config } from 'scripts/configs/v4/ethereum';
 import { avalancheV4Config } from 'scripts/configs/v4/avalanche';
 import { arcV4Config } from 'scripts/configs/v4/arc';
+import { optimismWhitelabelV4Config } from 'scripts/configs/v4/optimism';
 import { generateProtocolV4Library } from 'scripts/generator/protocolV4Generator';
 import { generateGovernanceLibrary } from 'scripts/generator/governanceV3Generator';
 import { generateProtocolV2Library } from 'scripts/generator/protocolV2Generator';
@@ -204,7 +205,7 @@ async function main() {
     ].map((config) => generateProtocolV3Library(config)),
   );
   const v4LibraryNames = await Promise.all(
-    [mainnetV4Config, avalancheV4Config, arcV4Config].map((config) =>
+    [mainnetV4Config, avalancheV4Config, arcV4Config, optimismWhitelabelV4Config].map((config) =>
       generateProtocolV4Library(config),
     ),
   );
