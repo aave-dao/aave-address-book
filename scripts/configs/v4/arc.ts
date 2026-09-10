@@ -1,0 +1,31 @@
+import {ChainId} from '@aave-dao/toolbox';
+import {V4Config} from 'scripts/configs/types';
+
+export const arcV4Config: V4Config = {
+  name: 'Arc',
+  chainId: ChainId.arc,
+  admin: {
+    ACCESS_MANAGER: '0x24761DB265998ba1D38E8a29031cF72C2CeF3A7D',
+    HUB_CONFIGURATOR: '0x419cF771E08d927b23F2F1691968C5135Ad8B659',
+    SPOKE_CONFIGURATOR: '0x102610d2A7Fd87A85ad8fdCfC78879be8Fd40576',
+    TREASURY_SPOKE: '0xcbd466CB8709D9f6dd8312668B4dbef394cE0e15',
+    CONFIG_ENGINE: '0x0A3af96f72b1B52c9BB9778FcD839154c2599371',
+  },
+  hubs: {
+    CORE: '0x17288dfc86205301064577b98B02b81017e6F79C',
+  },
+  spokes: {
+    MAIN: '0xB843bdC3a87A05E77E07Df9FE48928b3A34b134d',
+    FOREX: '0x4164EBCAF74670aa74C8D4F59de6157c0780F1bB',
+  },
+  // Arc pays gas in USDC, so there is no native token wrapper and no NativeTokenGateway.
+  positionManagers: {
+    GIVER_POSITION_MANAGER: '0x01Da80Eef3004ebbF90b7637B1De7fF30fBc7cf1',
+    TAKER_POSITION_MANAGER: '0xe9fae1C386c6f45B1fb3C3Ef01aDE424DAd4bCcF',
+    CONFIG_POSITION_MANAGER: '0xa5Aa65Ae1c830d2ae10853CeEa42AE653adB3312',
+    SIGNATURE_GATEWAY: '0x0d36A4a21119BBBDe559d59002254171D976289f',
+  },
+  externalLibraries: {
+    LIQUIDATION_LOGIC: '0x818E84198224535FAeaEc1b583d3Ff6b812A5AF3',
+  },
+};
