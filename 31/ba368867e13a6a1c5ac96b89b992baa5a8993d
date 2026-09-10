@@ -1,0 +1,72 @@
+src/AaveV4Arc.sol
+  s_e332576c766e20::t_99a53399f373a5 1-193
+scripts/generateAddresses.ts
+  s_e332576c766e20::t_99a53399f373a5 41,113,209-210,259
+  s_e332576c766e20::t_f758949e5ed822 208
+tests/verification.spec.ts
+  s_e332576c766e20::t_99a53399f373a5 137-141
+scripts/configs/networks/arc.ts
+  s_e332576c766e20::t_99a53399f373a5 1-16
+src/AaveV3InkWhitelabel.sol
+  s_e332576c766e20::t_99a53399f373a5 108-110,129-131,150-152,171-173,191-193,212-214,233-235,254-256,275-277,296-298,317-319,338-340,358-360
+tokenlist.json
+  s_e332576c766e20::t_99a53399f373a5 9576-9589,9612-9625,9648-9661,9682-9694,9717-9730,9753-9766,9789-9802,9825-9838,9861-9874,9897-9910,9933-9946,9969-9982,10003-10015,11513-11514
+CHANGELOG.md
+  s_e332576c766e20::t_99a53399f373a5 5-19
+src/ts/AaveAddressBook.ts
+  s_e332576c766e20::t_99a53399f373a5 66,98
+src/ts/MiscEthereum.ts
+  s_e332576c766e20::t_99a53399f373a5 177-182
+src/MiscArc.sol
+  s_e332576c766e20::t_99a53399f373a5 1-21
+safe.csv
+  s_e332576c766e20::t_99a53399f373a5 1723-1724,3942-3989,4000-4004,5544-5545,5554,5560,5566,5572,5578,5584,5590,5596,5602,5608,5614,5620,5626
+tests/cache/verified.json
+  s_e332576c766e20::t_99a53399f373a5 4788-4799,10994-10996,18517-18522,18948-18986
+scripts/configs/networks/avalanche.ts
+  s_e332576c766e20::t_99a53399f373a5 26-27
+scripts/configs/networks/ethereum.ts
+  s_e332576c766e20::t_99a53399f373a5 54-55,121-122
+src/MiscAvalanche.sol
+  s_e332576c766e20::t_99a53399f373a5 59-65
+src/ts/AaveV3Ethereum.ts
+  s_e332576c766e20::t_99a53399f373a5 1551-1553,1568
+src/MiscEthereum.sol
+  s_e332576c766e20::t_99a53399f373a5 196-202
+scripts/configs/v4/arc.ts
+  s_e332576c766e20::t_99a53399f373a5 1-31
+src/ts/AaveV3InkWhitelabel.ts
+  s_e332576c766e20::t_99a53399f373a5 87,97,107,117,127,137,147,157,167,177,187,197,207
+src/ts/AaveV4Arc.ts
+  s_e332576c766e20::t_99a53399f373a5 1-100
+src/ts/abis/ITakerPositionManager.ts
+  s_e332576c766e20::t_99a53399f373a5 668-669,671,674,680-681,683,767-768,770,773,779-780,782
+package.json
+  s_e332576c766e20::t_99a53399f373a5 3
+src/ts/MiscArc.ts
+  s_e332576c766e20::t_99a53399f373a5 1-17
+src/ts/MiscAvalanche.ts
+  s_e332576c766e20::t_99a53399f373a5 56-61
+foundry.lock
+  s_e332576c766e20::t_d990e491ea3b8c 5
+lib/aave-v3-origin
+  s_e332576c766e20::t_b39f9c5ee1a8c5 1
+package-lock.json
+  s_e332576c766e20::t_e1a1c162491e62 3,9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "31ba368867e13a6a1c5ac96b89b992baa5a8993d",
+  "prompts": {},
+  "sessions": {
+    "s_e332576c766e20": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "77e1e328-bf3b-4f3c-8869-b022a94644b4",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "DhairyaSethi <55102840+DhairyaSethi@users.noreply.github.com>"
+    }
+  }
+}
