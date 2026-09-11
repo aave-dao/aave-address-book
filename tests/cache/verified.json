@@ -4826,6 +4826,15 @@
     },
     "0xbe2840440d4f77CD98CEC2de09913e6851907744": {
       "name": "AaveEModeAgent"
+    },
+    "0x6493a23874b506D5Bb6038ea44aE9CC74cD00849": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x45804880De22913dAFE09f4980848ECE6EcbAf78": {
+      "name": "AdminUpgradeabilityProxy"
+    },
+    "0xAD75cE6354f87F3135cE10621d385d8D1e2562C2": {
+      "name": "TransparentUpgradeableProxy"
     }
   },
   "10": {
