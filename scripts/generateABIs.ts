@@ -1,52 +1,45 @@
-import util from 'node:util';
-import {exec} from 'node:child_process';
-import {existsSync, mkdirSync, rmSync, writeFileSync} from 'node:fs';
+import {execFile} from 'node:child_process';
+import {mkdirSync, mkdtempSync, renameSync, rmSync, writeFileSync} from 'node:fs';
+import {dirname, join} from 'node:path';
+import {promisify} from 'node:util';
 import {prefixWithGeneratedWarning} from 'scripts/generator/utils';
-import {ABI_INTERFACES, DOWNLOAD_ABI_INTERFACES, resolveAbiInterface} from 'scripts/configs/abis';
+import {generateABIImports} from 'scripts/generator/abis';
+import {ABI_INTERFACES} from 'scripts/configs/abis';
 
-const awaitableExec = util.promisify(exec);
+const awaitableExecFile = promisify(execFile);
+const ABI_DIRECTORY = './src/ts/abis';
 
-export async function generateABIs(removeExisting: boolean) {
-  if (existsSync('./src/ts/abis')) {
-    if (removeExisting) {
-      rmSync('./src/ts/abis', {recursive: true});
-      mkdirSync('./src/ts/abis');
-    }
-  } else {
-    mkdirSync('./src/ts/abis');
-  }
-  for (const ENTRY of ABI_INTERFACES) {
-    const {path, name} = resolveAbiInterface(ENTRY);
-    const {stdout, stderr} = await awaitableExec(`forge inspect --json ${path} abi`);
-    if (stderr) {
-      throw new Error(`Failed to generate abi for ${name}`);
-    }
+export async function generateABIs(outputDirectory: string) {
+  mkdirSync(outputDirectory, {recursive: true});
+
+  for (const {name, target} of ABI_INTERFACES) {
+    const {stdout} = await awaitableExecFile('forge', ['inspect', '--json', target, 'abi']);
     const varName = `${name}_ABI`;
     writeFileSync(
-      `./src/ts/abis/${name}.ts`,
+      join(outputDirectory, `${name}.ts`),
       prefixWithGeneratedWarning(
         `export const ${varName} = ${JSON.stringify(JSON.parse(stdout.trim()), null, 2)} as const;`,
       ),
     );
   }
-  for (const INTERFACE of DOWNLOAD_ABI_INTERFACES) {
-    const fileName = `./src/ts/abis/${INTERFACE.name}.ts`;
-    if (existsSync(fileName)) {
-      console.log(`skipping download of abi ${INTERFACE.name} as it already exists`);
-      continue;
-    }
-    const {stdout, stderr} = await awaitableExec(`cast interface -j ${INTERFACE.address}`);
-    if (stderr) {
-      throw new Error(`Failed to generate abi for ${INTERFACE.name} from ${INTERFACE.address}`);
-    }
-    const varName = `${INTERFACE.name}_ABI`;
-    writeFileSync(
-      fileName,
-      prefixWithGeneratedWarning(
-        `export const ${varName} = ${JSON.stringify(JSON.parse(stdout.trim()), null, 2)} as const;`,
-      ),
-    );
+
+  writeFileSync(join(outputDirectory, 'index.ts'), `${generateABIImports().join('\n')}\n`);
+}
+
+async function replaceGeneratedABIs() {
+  mkdirSync(dirname(ABI_DIRECTORY), {recursive: true});
+  const stagingDirectory = mkdtempSync(join(dirname(ABI_DIRECTORY), '.abis-'));
+
+  try {
+    await generateABIs(stagingDirectory);
+    rmSync(ABI_DIRECTORY, {recursive: true, force: true});
+    renameSync(stagingDirectory, ABI_DIRECTORY);
+  } catch (error) {
+    rmSync(stagingDirectory, {recursive: true, force: true});
+    throw error;
   }
 }
 
-generateABIs(false);
+if (require.main === module) {
+  replaceGeneratedABIs();
+}
