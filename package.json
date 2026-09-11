@@ -76,6 +76,7 @@
     "check:verification": "tsx scripts/verifyVerified.ts",
     "check:sanity": "tsx scripts/sanity.ts",
     "generate:abis": "tsx scripts/generateABIs.ts && prettier --write 'src/ts/abis/**/*.ts'",
+    "check:abis": "tsx scripts/checkGeneratedABIs.ts",
     "generate:safe": "tsx scripts/generateSafeCSV.ts",
     "generate:addresses": "tsx scripts/generateAddresses.ts && npm run generate:safe && npm run prettier",
     "start": "tsx scripts/generateABIs.ts && tsx scripts/generateAddresses.ts && npm run prettier",
