@@ -173,6 +173,10 @@ library AaveV4EthereumSpokePriceFeeds {
   address internal constant BLUECHIP_SPOKE_CORE_USDT_PRICE_FEED =
     0x260326c220E469358846b187eE53328303Efe19C;
 
+  // https://etherscan.io/address/0x83D20dEEdcd4aC1313496c8CBcAad0fa298c0CE4
+  address internal constant BLUECHIP_SPOKE_USDG_PRICE_FEED =
+    0x83D20dEEdcd4aC1313496c8CBcAad0fa298c0CE4;
+
   // https://etherscan.io/address/0x0a72df02CE3E4185b6CEDf561f0AE651E9BeE235
   address internal constant ETHENA_CORRELATED_SPOKE_PT_USDe_7MAY2026_PRICE_FEED =
     0x0a72df02CE3E4185b6CEDf561f0AE651E9BeE235;
