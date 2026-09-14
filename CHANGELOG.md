@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.68.0](https://github.com/aave-dao/aave-address-book/compare/v4.67.4...v4.68.0) (2026-09-14)
+
+
+### Features
+
+* add PAXG Gold Spoke ([#1549](https://github.com/aave-dao/aave-address-book/issues/1549)) ([8b9e5a0](https://github.com/aave-dao/aave-address-book/commit/8b9e5a08cabe91749f89e98b8facb9f9e82ace9b))
+
 ## [4.67.4](https://github.com/aave-dao/aave-address-book/compare/v4.67.3...v4.67.4) (2026-09-13)
 
 
