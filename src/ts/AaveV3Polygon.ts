@@ -123,7 +123,7 @@ export const ASSETS = {
     ORACLE: '0xd9FFdb71EbE7496cC440152d43986Aae0AB76665',
     STATIC_A_TOKEN: '0x37868a45c6741616F9E5a189dC0481AD70056B6a',
   },
-  USDC: {
+  USDCe: {
     decimals: 6,
     id: 2,
     UNDERLYING: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
@@ -319,7 +319,7 @@ export const ASSETS = {
 } as const;
 export const E_MODES = {
   '1': {
-    label: 'DAI,USDC,USDT0,EURS,jEUR,EURA,miMATIC,USDCn / ',
+    label: 'DAI,USDCe,USDT0,EURS,jEUR,EURA,miMATIC,USDCn / ',
     collateralBitmap: '1171493',
     collateralAssets: [
       '0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',

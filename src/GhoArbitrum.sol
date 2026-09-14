@@ -39,4 +39,10 @@ library GhoArbitrum {
 
   // https://arbiscan.io/address/0x8513e6F37dBc52De87b166980Fa3F50639694B60
   address internal constant RISK_COUNCIL = 0x8513e6F37dBc52De87b166980Fa3F50639694B60;
+
+  // https://arbiscan.io/address/0x2Be58aD215AA8552CB5BD038a88d0dE39d2427BB
+  address internal constant GSM_REGISTRY = 0x2Be58aD215AA8552CB5BD038a88d0dE39d2427BB;
+
+  // https://arbiscan.io/address/0xF5F579926e704C01Bb6e51e18751F5E2b17B0cCC
+  address internal constant FEE_STRATEGY_FACTORY = 0xF5F579926e704C01Bb6e51e18751F5E2b17B0cCC;
 }
