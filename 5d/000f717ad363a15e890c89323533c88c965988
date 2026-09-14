@@ -1,0 +1,89 @@
+CHANGELOG.md
+  s_68a4309c5d18cc::t_0cfc41b4aca930 5-47
+foundry.lock
+  s_68a4309c5d18cc::t_eeb00f03ee8989 5
+lib/aave-v3-origin
+  s_68a4309c5d18cc::t_996b83b44736a3 1
+package-lock.json
+  s_68a4309c5d18cc::t_5163a3818b63a1 3,9,16,57-60,9516-9535
+package.json
+  s_68a4309c5d18cc::t_a4d7922ea50016 3,100
+safe.csv
+  s_68a4309c5d18cc::t_4d42a98e8b8a10 419,679,1107,1143,1167,1211,1256,1303-1304,1308-1309,1355,1736-1737,3325-3329,3872-3934,5474-5475,5484,5490,5496,5502,5508,5514,5520,5526,5532,5538,5544,5550,5556,5876
+scripts/configs/networks/arc.ts
+  s_68a4309c5d18cc::t_3bbc2c15424874 1-16
+scripts/configs/networks/avalanche.ts
+  s_68a4309c5d18cc::t_29190b4541bbde 26-27
+scripts/configs/networks/ethereum.ts
+  s_68a4309c5d18cc::t_18fa0553bae425 54-55,121-122
+scripts/configs/v4/arc.ts
+  s_68a4309c5d18cc::t_78de569644dac3 1-31
+scripts/generateAddresses.ts
+  s_68a4309c5d18cc::t_79d80dc1030160 41,112,207-209,258
+scripts/generator/chainlink.ts
+  s_68a4309c5d18cc::t_4c2d27b212315d 28
+src/AaveV3Ethereum.sol
+  s_68a4309c5d18cc::t_53cb810b0e00d4 216-218,1122-1124
+src/AaveV3InkWhitelabel.sol
+  s_68a4309c5d18cc::t_de9df124c8be9c 108-110,129-131,150-152,171-173,191-193,212-214,233-235,254-256,275-277,296-298,317-319,338-340,358-360
+src/AaveV3XLayer.sol
+  s_68a4309c5d18cc::t_680ef35cb4270e 250-268,284-287
+src/AaveV4Arc.sol
+  s_68a4309c5d18cc::t_25ac08d1eaa909 1-193
+src/AaveV4Ethereum.sol
+  s_68a4309c5d18cc::t_bdc8513cdab4b2 183-186,355-362,376-380,563-566,712-715,860-864,895,933,938,992
+src/ChainlinkArc.sol
+  s_68a4309c5d18cc::t_b509c95d9d8a0c 1-35
+src/MiscArc.sol
+  s_68a4309c5d18cc::t_faaea1b1d0dd5f 1-21
+src/MiscAvalanche.sol
+  s_68a4309c5d18cc::t_8343cb2e0f7911 59-65
+src/MiscEthereum.sol
+  s_68a4309c5d18cc::t_7d5cd0fb09b3f8 196-202
+src/ts/AaveAddressBook.ts
+  s_68a4309c5d18cc::t_49d70169262f6e 66,97,122
+src/ts/AaveV3Ethereum.ts
+  s_68a4309c5d18cc::t_4852e820ebe456 163,603,1551-1552,1566-1567
+src/ts/AaveV3InkWhitelabel.ts
+  s_68a4309c5d18cc::t_0a4a23d9c4e2a8 87,97,107,117,127,137,147,157,167,177,187,197,207
+src/ts/AaveV3XLayer.ts
+  s_68a4309c5d18cc::t_f9eb37e6869667 158-166,257-284
+src/ts/AaveV4Arc.ts
+  s_68a4309c5d18cc::t_d2a83f3d58f872 1-100
+src/ts/AaveV4Ethereum.ts
+  s_68a4309c5d18cc::t_5f14fbc23b3c3e 68,116-117,121-122,171,211,319-322,382,434
+src/ts/ChainlinkArc.ts
+  s_68a4309c5d18cc::t_8d7ab07dc32fa8 1-32
+src/ts/MiscArc.ts
+  s_68a4309c5d18cc::t_ffb3f2915d98dd 1-17
+src/ts/MiscAvalanche.ts
+  s_68a4309c5d18cc::t_fb273b117b3fdd 56-61
+src/ts/MiscEthereum.ts
+  s_68a4309c5d18cc::t_c090c28d3cb0f8 177-182
+src/ts/abis/ITakerPositionManager.ts
+  s_68a4309c5d18cc::t_b99ba38c3fd259 668-669,671,674,680-681,683,767-768,770,773,779-780,782
+tests/cache/verified.json
+  s_68a4309c5d18cc::t_76a724c6da639d 4788-4799,4830-4835,10847-10849,10852-10860,18373-18378,18804-18842
+tests/sanity/configEngine.spec.ts
+  s_68a4309c5d18cc::t_972bdb4fc952e2 55-58,60
+tests/verification.spec.ts
+  s_68a4309c5d18cc::t_cb00cdb569bd13 137-141,148-152
+tokenlist.json
+  s_68a4309c5d18cc::t_5d55b5838a225a 1877-1890,3231-3244,9576-9589,9612-9625,9648-9661,9682-9694,9717-9730,9753-9766,9789-9802,9825-9838,9861-9874,9897-9910,9933-9946,9969-9982,10003-10015,10991-11010,11513-11514
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "5d000f717ad363a15e890c89323533c88c965988",
+  "prompts": {},
+  "sessions": {
+    "s_68a4309c5d18cc": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a09f4e-2831-7ef0-8f1b-4d50e8c5e135",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "AlbertoCentonze <11707683+AlbertoCentonze@users.noreply.github.com>"
+    }
+  }
+}
