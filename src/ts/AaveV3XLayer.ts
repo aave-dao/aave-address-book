@@ -155,6 +155,15 @@ export const ASSETS = {
     INTEREST_RATE_STRATEGY: '0x3eFfeBDD435217A8B485dfaEFDecf766F2a3c05B',
     ORACLE: '0x2Ce400703dAcc37b7edFA99D228b8E70a4d3831B',
   },
+  PT_USDG_29OCT2026: {
+    decimals: 6,
+    id: 9,
+    UNDERLYING: '0x9a09a9E491DB3dd8Ada5B1B889991AC9Ad5fd362',
+    A_TOKEN: '0x64768bE1b925Eb04a2Caa2E1F9ffEC2f959cAC9c',
+    V_TOKEN: '0x11f847ED85657cd066bfC3e9a5b29737aFb85c1E',
+    INTEREST_RATE_STRATEGY: '0x3eFfeBDD435217A8B485dfaEFDecf766F2a3c05B',
+    ORACLE: '0x6052839E52ab454F164ee5668e5B523cF5A389Fc',
+  },
 } as const;
 export const E_MODES = {
   '1': {
@@ -244,6 +253,34 @@ export const E_MODES = {
     ltv: 8800,
     liquidationThreshold: 9000,
     liquidationBonus: 10200,
+  },
+  '7': {
+    label: 'PT_USDG_29OCT2026 / USDT,USDG,GHO',
+    collateralBitmap: '512',
+    collateralAssets: ['0x9a09a9E491DB3dd8Ada5B1B889991AC9Ad5fd362'],
+    borrowableBitmap: '259',
+    borrowableAssets: [
+      '0x779Ded0c9e1022225f8E0630b35a9b54bE713736',
+      '0x4ae46a509F6b1D9056937BA4500cb143933D2dc8',
+      '0xDe6539018B095353A40753Dc54C91C68c9487D4E',
+    ],
+    ltvzeroBitmap: '0',
+    ltvzeroAssets: [],
+    ltv: 9266,
+    liquidationThreshold: 9466,
+    liquidationBonus: 10234,
+  },
+  '8': {
+    label: 'PT_USDG_29OCT2026 / USDG',
+    collateralBitmap: '512',
+    collateralAssets: ['0x9a09a9E491DB3dd8Ada5B1B889991AC9Ad5fd362'],
+    borrowableBitmap: '2',
+    borrowableAssets: ['0x4ae46a509F6b1D9056937BA4500cb143933D2dc8'],
+    ltvzeroBitmap: '0',
+    ltvzeroAssets: [],
+    ltv: 9359,
+    liquidationThreshold: 9559,
+    liquidationBonus: 10134,
   },
 } as const;
 export const EXTERNAL_LIBRARIES = {

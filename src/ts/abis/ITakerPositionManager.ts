@@ -665,6 +665,12 @@ export const ITakerPositionManager_ABI = [
         internalType: 'address',
       },
       {
+        name: 'reserveId',
+        type: 'uint256',
+        indexed: true,
+        internalType: 'uint256',
+      },
+      {
         name: 'owner',
         type: 'address',
         indexed: true,
@@ -673,14 +679,8 @@ export const ITakerPositionManager_ABI = [
       {
         name: 'spender',
         type: 'address',
-        indexed: true,
-        internalType: 'address',
-      },
-      {
-        name: 'reserveId',
-        type: 'uint256',
         indexed: false,
-        internalType: 'uint256',
+        internalType: 'address',
       },
       {
         name: 'amount',
@@ -764,6 +764,12 @@ export const ITakerPositionManager_ABI = [
         internalType: 'address',
       },
       {
+        name: 'reserveId',
+        type: 'uint256',
+        indexed: true,
+        internalType: 'uint256',
+      },
+      {
         name: 'owner',
         type: 'address',
         indexed: true,
@@ -772,14 +778,8 @@ export const ITakerPositionManager_ABI = [
       {
         name: 'spender',
         type: 'address',
-        indexed: true,
-        internalType: 'address',
-      },
-      {
-        name: 'reserveId',
-        type: 'uint256',
         indexed: false,
-        internalType: 'uint256',
+        internalType: 'address',
       },
       {
         name: 'amount',

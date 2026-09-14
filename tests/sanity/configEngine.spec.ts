@@ -51,15 +51,13 @@ async function check(addresses: Record<string, any>) {
 describe('config engine', () => {
   Object.keys(addressBook).forEach((library) => {
     const addresses = addressBook[library];
-    const client = getClient(addresses.CHAIN_ID);
     // we only want to validate AaveV3 config engines as V2 does not expose the necessary getters
+    // the client is resolved after this check as not every library has a chain with a known rpc
+    if (!addresses.CONFIG_ENGINE || !addresses.COLLECTOR || !library.startsWith('AaveV3')) return;
+
+    const client = getClient(addresses.CHAIN_ID);
     // we also skip testnets as they are not controlled trough governance
-    if (
-      !client.chain?.testnet &&
-      addresses.CONFIG_ENGINE &&
-      addresses.COLLECTOR &&
-      library.startsWith('AaveV3')
-    )
+    if (!client.chain?.testnet)
       it.concurrent(
         `should reference correct contracts on all getters: ${client.chain!.name}`,
         async () => {
