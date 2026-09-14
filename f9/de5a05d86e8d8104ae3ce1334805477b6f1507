@@ -1,0 +1,29 @@
+package.json
+  h_739c25e72c37fb 3,100
+tests/verification.spec.ts
+  h_739c25e72c37fb 148-149
+src/ts/AaveV3Ethereum.ts
+  h_739c25e72c37fb 1551,1566-1567
+  h_739c25e72c37fb 1552-1553,1568
+CHANGELOG.md
+  h_739c25e72c37fb 5-11
+package-lock.json
+  h_739c25e72c37fb 3,9,16,57-59
+tests/cache/verified.json
+  h_739c25e72c37fb 4829-4834,10846-10857
+tests/sanity/configEngine.spec.ts
+  h_739c25e72c37fb 55-58,60
+tokenlist.json
+  h_739c25e72c37fb 11333-11334
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "f9de5a05d86e8d8104ae3ce1334805477b6f1507",
+  "prompts": {},
+  "humans": {
+    "h_739c25e72c37fb": {
+      "author": "DhairyaSethi <55102840+DhairyaSethi@users.noreply.github.com>"
+    }
+  }
+}

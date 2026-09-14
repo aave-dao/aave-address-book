@@ -1,0 +1,36 @@
+scripts/generator/chainlink.ts
+  s_39f6c37627df28::t_e2d545aa433a65 28
+src/ts/AaveAddressBook.ts
+  s_39f6c37627df28::t_1d8906dd192b24 120
+src/ts/ChainlinkArc.ts
+  s_39f6c37627df28::t_1d8906dd192b24 1-32
+tests/verification.spec.ts
+  s_39f6c37627df28::t_582db3325fbda4 143-147
+tests/cache/verified.json
+  s_39f6c37627df28::t_a0a5bccf93898a 10837-10842
+  s_39f6c37627df28::t_4b8ab059e98602 10834-10836
+safe.csv
+  s_39f6c37627df28::t_1d8906dd192b24 3857-3866
+src/ChainlinkArc.sol
+  s_39f6c37627df28::t_1d8906dd192b24 1-35
+package.json
+  s_39f6c37627df28::t_2f97898b1157fd 100
+package-lock.json
+  s_39f6c37627df28::t_f282b7661d9db4 16,57-60,9516-9535
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "497e9057a9aaf60ba4f67b7077d71b1acd7b95e0",
+  "prompts": {},
+  "sessions": {
+    "s_39f6c37627df28": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5e31b8d7-b0a8-4405-87a0-0c747dcd9d6d",
+        "model": "claude-opus-5"
+      },
+      "human_author": "DhairyaSethi <55102840+DhairyaSethi@users.noreply.github.com>"
+    }
+  }
+}

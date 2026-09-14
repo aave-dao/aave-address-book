@@ -1,0 +1,31 @@
+scripts/configs/v4/optimism.ts
+  s_e332576c766e20::t_edc7c529f76362 1-22
+safe.csv
+  s_e332576c766e20::t_0b8dee7f904bed 1883-1964
+src/ts/AaveV4OptimismWhitelabel.ts
+  s_e332576c766e20::t_0b8dee7f904bed 1-179
+tests/cache/verified.json
+  s_e332576c766e20::t_22483c315b4563 6058-6210
+src/ts/AaveAddressBook.ts
+  s_e332576c766e20::t_0b8dee7f904bed 66
+scripts/generateAddresses.ts
+  s_e332576c766e20::t_edc7c529f76362 41,206
+src/AaveV4OptimismWhitelabel.sol
+  s_e332576c766e20::t_0b8dee7f904bed 1-357
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "499ffc50f20e9b35d5dc4d57d00e05f1a1499c90",
+  "prompts": {},
+  "sessions": {
+    "s_e332576c766e20": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "77e1e328-bf3b-4f3c-8869-b022a94644b4",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "DhairyaSethi <55102840+DhairyaSethi@users.noreply.github.com>"
+    }
+  }
+}

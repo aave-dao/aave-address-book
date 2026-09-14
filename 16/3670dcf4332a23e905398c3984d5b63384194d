@@ -1,0 +1,19 @@
+tests/sanity/configEngine.spec.ts
+  s_39f6c37627df28::t_9f69075a0b2339 55-58,60
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "163670dcf4332a23e905398c3984d5b63384194d",
+  "prompts": {},
+  "sessions": {
+    "s_39f6c37627df28": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5e31b8d7-b0a8-4405-87a0-0c747dcd9d6d",
+        "model": "claude-opus-5"
+      },
+      "human_author": "DhairyaSethi <55102840+DhairyaSethi@users.noreply.github.com>"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+foundry.lock
+  s_915080d038b234::t_9579949088fa29 5
+safe.csv
+  s_915080d038b234::t_24b159e867d60e 3897,3901
+src/AaveV4Arc.sol
+  s_915080d038b234::t_c22051a06c363d 54-55,68,70
+src/ts/AaveV4Arc.ts
+  s_915080d038b234::t_ffece5e0ab6d65 33,37
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "d99f54d1434e800686d824398e43a637d87f14a1",
+  "prompts": {},
+  "sessions": {
+    "s_915080d038b234": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "27fdde38-9f52-47ac-b2b9-ee29b9ef0f1d",
+        "model": "claude-opus-5"
+      },
+      "human_author": "DhairyaSethi <55102840+DhairyaSethi@users.noreply.github.com>"
+    }
+  }
+}
