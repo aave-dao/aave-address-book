@@ -10858,6 +10858,18 @@
     },
     "0x11f847ED85657cd066bfC3e9a5b29737aFb85c1E": {
       "name": "InitializableImmutableAdminUpgradeabilityProxy"
+    },
+    "0xB6CEceAB302E2E4948951eE7843FC24E92933061": {
+      "name": "FiatTokenProxy"
+    },
+    "0x7Da9B238CBd6A227ff054704Ec5cF7e700f03414": {
+      "name": "InitializableImmutableAdminUpgradeabilityProxy"
+    },
+    "0x585Eb919387F82bc9B2B440C4F3D8615B079465A": {
+      "name": "InitializableImmutableAdminUpgradeabilityProxy"
+    },
+    "0x26AD1207EAA39F74FAC725599ce1c431C80eF6cC": {
+      "name": "PriceCapAdapterStable"
     }
   },
   "324": {

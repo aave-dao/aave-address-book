@@ -266,23 +266,41 @@ library AaveV3XLayerAssets {
   // https://www.oklink.com/xlayer/address/0x3eFfeBDD435217A8B485dfaEFDecf766F2a3c05B
   address internal constant PT_USDG_29OCT2026_INTEREST_RATE_STRATEGY =
     0x3eFfeBDD435217A8B485dfaEFDecf766F2a3c05B;
+
+  // https://www.oklink.com/xlayer/address/0xB6CEceAB302E2E4948951eE7843FC24E92933061
+  address internal constant USDC_UNDERLYING = 0xB6CEceAB302E2E4948951eE7843FC24E92933061;
+
+  uint8 internal constant USDC_DECIMALS = 6;
+
+  // https://www.oklink.com/xlayer/address/0x7Da9B238CBd6A227ff054704Ec5cF7e700f03414
+  address internal constant USDC_A_TOKEN = 0x7Da9B238CBd6A227ff054704Ec5cF7e700f03414;
+
+  // https://www.oklink.com/xlayer/address/0x585Eb919387F82bc9B2B440C4F3D8615B079465A
+  address internal constant USDC_V_TOKEN = 0x585Eb919387F82bc9B2B440C4F3D8615B079465A;
+
+  // https://www.oklink.com/xlayer/address/0x26AD1207EAA39F74FAC725599ce1c431C80eF6cC
+  address internal constant USDC_ORACLE = 0x26AD1207EAA39F74FAC725599ce1c431C80eF6cC;
+
+  // https://www.oklink.com/xlayer/address/0x3eFfeBDD435217A8B485dfaEFDecf766F2a3c05B
+  address internal constant USDC_INTEREST_RATE_STRATEGY =
+    0x3eFfeBDD435217A8B485dfaEFDecf766F2a3c05B;
 }
 library AaveV3XLayerEModes {
   uint8 internal constant NONE = 0;
 
-  uint8 internal constant xBTC__USDT_USDG_GHO = 1;
+  uint8 internal constant xBTC__USDT_USDG_GHO_USDC = 1;
 
-  uint8 internal constant xETH__USDT_USDG_GHO = 2;
+  uint8 internal constant xETH__USDT_USDG_GHO_USDC = 2;
 
-  uint8 internal constant xSOL__USDT_USDG_GHO = 3;
+  uint8 internal constant xSOL__USDT_USDG_GHO_USDC = 3;
 
-  uint8 internal constant WOKB__USDT_USDG_GHO = 4;
+  uint8 internal constant WOKB__USDT_USDG_GHO_USDC = 4;
 
   uint8 internal constant xBETH__xETH = 5;
 
   uint8 internal constant xOKSOL__xSOL = 6;
 
-  uint8 internal constant PT_USDG_29OCT2026__USDT_USDG_GHO = 7;
+  uint8 internal constant PT_USDG_29OCT2026__USDT_USDG_GHO_USDC = 7;
 
   uint8 internal constant PT_USDG_29OCT2026__USDG = 8;
 }

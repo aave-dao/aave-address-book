@@ -11009,6 +11009,28 @@
       }
     },
     {
+      "chainId": 196,
+      "address": "0xB6CEceAB302E2E4948951eE7843FC24E92933061",
+      "name": "USDC",
+      "decimals": 6,
+      "symbol": "USDC",
+      "tags": ["underlying"],
+      "logoURI": "https://raw.githubusercontent.com/aave-dao/web3-icons/main/icons/full/usdc.svg"
+    },
+    {
+      "chainId": 196,
+      "address": "0x7Da9B238CBd6A227ff054704Ec5cF7e700f03414",
+      "name": "Aave XLayer USDC",
+      "decimals": 6,
+      "symbol": "aXlrUSDC",
+      "tags": ["aTokenV3", "aaveV3"],
+      "logoURI": "https://raw.githubusercontent.com/aave-dao/web3-icons/main/icons/full/ausdc.svg",
+      "extensions": {
+        "pool": "0xE3F3Caefdd7180F884c01E57f65Df979Af84f116",
+        "underlying": "0xB6CEceAB302E2E4948951eE7843FC24E92933061"
+      }
+    },
+    {
       "chainId": 143,
       "address": "0xe7cd86e13AC4309349F30B3435a9d337750fC82D",
       "name": "USDT0",
@@ -11510,6 +11532,6 @@
       }
     }
   ],
-  "version": { "major": 3, "minor": 0, "patch": 188 },
-  "timestamp": "2026-09-10T00:21:36.323Z"
+  "version": { "major": 3, "minor": 0, "patch": 189 },
+  "timestamp": "2026-09-16T00:22:21.447Z"
 }
