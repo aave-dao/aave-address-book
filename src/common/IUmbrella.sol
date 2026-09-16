@@ -92,17 +92,17 @@ interface IUmbrella {
   function coverReserveDeficit(address reserve, uint256 amount) external returns (uint256);
 
   function createStakeTokens(
-    IUmbrellaStkManager.StakeTokenSetup[] memory stakeTokenSetups
-  ) external returns (address[] memory stakeTokens);
+    IUmbrellaStkManager.StakeTokenSetup[] memory stakeSetups
+  ) external returns (address[] memory);
 
   function emergencyEtherTransfer(address to, uint256 amount) external;
 
-  function emergencyEtherTransferStk(address stk, address to, uint256 amount) external;
+  function emergencyEtherTransferStk(address umbrellaStake, address to, uint256 amount) external;
 
   function emergencyTokenTransfer(address erc20Token, address to, uint256 amount) external;
 
   function emergencyTokenTransferStk(
-    address stk,
+    address umbrellaStake,
     address erc20Token,
     address to,
     uint256 amount
@@ -125,7 +125,7 @@ interface IUmbrella {
 
   function getStakeTokenData(
     address umbrellaStake
-  ) external view returns (IUmbrellaConfiguration.StakeTokenData memory stakeTokenData);
+  ) external view returns (IUmbrellaConfiguration.StakeTokenData memory);
 
   function getStkTokens() external view returns (address[] memory);
 
@@ -141,17 +141,15 @@ interface IUmbrella {
     address transparentProxyFactory
   ) external;
 
-  function isReserveSlashable(address reserve) external view returns (bool flag, uint256 amount);
+  function isReserveSlashable(address reserve) external view returns (bool, uint256);
 
-  function isUmbrellaStkToken(address stakeToken) external view returns (bool);
+  function isUmbrellaStkToken(address umbrellaStake) external view returns (bool);
 
-  function latestUnderlyingAnswer(
-    address umbrellaStake
-  ) external view returns (int256 latestAnswer);
+  function latestUnderlyingAnswer(address umbrellaStake) external view returns (int256);
 
   function maxRescue(address) external pure returns (uint256);
 
-  function pauseStk(address stk) external;
+  function pauseStk(address umbrellaStake) external;
 
   function predictStakeTokensAddresses(
     IUmbrellaStkManager.StakeTokenSetup[] memory stakeSetups
@@ -179,7 +177,7 @@ interface IUmbrella {
 
   function tokenForDeficitCoverage(address reserve) external view returns (address);
 
-  function unpauseStk(address stk) external;
+  function unpauseStk(address umbrellaStake) external;
 
   function updateSlashingConfigs(
     IUmbrellaConfiguration.SlashingConfigUpdate[] memory slashingConfigs
