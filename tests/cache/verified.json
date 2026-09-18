@@ -14193,6 +14193,81 @@
     },
     "0xfbeB4AcB31340bA4de9C87B11dfBf7e2bc8C0bF1": {
       "name": "GnosisSafeProxy"
+    },
+    "0x4010C94698EDE9d895814502B6EB122D764a1Cc6": {
+      "name": "AccessManagerEnumerable"
+    },
+    "0x2Cd40DFF9f2F74e8765dA148102b6668A5e9778A": {
+      "name": "HubConfigurator"
+    },
+    "0x0191B1Aa743c6B3C545119B5D56a0577D7f3a57F": {
+      "name": "SpokeConfigurator"
+    },
+    "0x5F8d0102F5B51Fae6DE9d2F2561bda63Fb5Db674": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x8753d579B592f3F45902b4Dc13B547B8E8BD03c4": {
+      "name": "AaveV4ConfigEngine"
+    },
+    "0xa4d5947Eb727A052bae69C593FfC84247EC9864E": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x17905Db0e4A3514467539956c084180616AE7B8D": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0xaBaf048fD7675Ea34a84332371ffd5D55E322A47": {
+      "name": "AaveOracle"
+    },
+    "0x787f13dEa48Db0897CbCDD985de77809D837F988": {
+      "name": "EACAggregatorProxy"
+    },
+    "0x06A8E4b3aBB3B7543d8396FB2B763d22820cB295": {
+      "name": "EACAggregatorProxy"
+    },
+    "0x5bF49E0ffA937CE2FfF033c739aD7C634c4D34F2": {
+      "name": "EACAggregatorProxy"
+    },
+    "0x6526aE6797A76123638b863AeE4dD27Ba4E4b27D": {
+      "name": "EACAggregatorProxy"
+    },
+    "0xeB10A6c9aa7E537aEd766C08c35Dae35B321b18c": {
+      "name": "EACAggregatorProxy"
+    },
+    "0x04689a41629776563E6822F76f2e57D148d28513": {
+      "name": "EACAggregatorProxy"
+    },
+    "0xFaf869185383a24F8cb00e27BdA6b63B9905DCb4": {
+      "name": "EACAggregatorProxy"
+    },
+    "0x7081CE7EB1282c53CF38EA9B622f6269cb8FeFDc": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x3b0c5FbEff9d32fB6bB706bACc988c88b1871770": {
+      "name": "AssetInterestRateStrategy"
+    },
+    "0x9E81c2fDE4E34CAB3AB1667ca3c932dBAED95F08": {
+      "name": "GiverPositionManager"
+    },
+    "0x8481204E528735aF2F3391AD98f36E757A56D695": {
+      "name": "TakerPositionManager"
+    },
+    "0xe90F830bEe4b190B4910e146908437075b0BDaaF": {
+      "name": "ConfigPositionManager"
+    },
+    "0xdFC11f7037Ba11D9cC29A822844f5dC19C42B70d": {
+      "name": "NativeTokenGateway"
+    },
+    "0x5d488d3EAAa86DDb6D4f834FC34938054eC505A7": {
+      "name": "SignatureGateway"
+    },
+    "0x88dF535473C5adf1f57789734A05E555F7Deb8DB": {
+      "name": "LiquidationLogic"
+    },
+    "0x187AAE17d4931310B3fc75743e7F16Bdc9eD77e9": {
+      "name": "SafeProxy"
+    },
+    "0xA9D9923A1ADC1200771aaaA38CFeD6A5b8483d70": {
+      "name": "Executor"
     }
   },
   "9745": {
