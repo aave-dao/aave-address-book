@@ -4838,6 +4838,12 @@
     },
     "0x8CEcC12b23ED45EC2A9b9EB57EA6974c0cae850B": {
       "name": "AaveOracle"
+    },
+    "0xE6ec1f0Ae6Cd023bd0a9B4d0253BDC755103253c": {
+      "name": "SafeProxy"
+    },
+    "0x5C905d62B22e4DAa4967E517C4a047Ff6026C731": {
+      "name": "GhoAaveSteward"
     }
   },
   "10": {

@@ -73,6 +73,9 @@ library AaveV3EthereumHorizon {
 
   // https://etherscan.io/address/0x69D55D504BC9556E377b340D19818E736bbB318b
   address internal constant RWA_ORACLE_PARAMS_REGISTRY = 0x69D55D504BC9556E377b340D19818E736bbB318b;
+
+  // https://etherscan.io/address/0xE6ec1f0Ae6Cd023bd0a9B4d0253BDC755103253c
+  address internal constant RISK_STEWARD_SAFE = 0xE6ec1f0Ae6Cd023bd0a9B4d0253BDC755103253c;
 }
 library AaveV3EthereumHorizonAssets {
   // https://etherscan.io/address/0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f
