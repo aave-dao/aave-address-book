@@ -71,4 +71,11 @@ library MiscBase {
 
   // https://basescan.org/address/0x9DE1d45e2786b03498289959203F25b29B4D1193
   address internal constant TOKENLOGIC_EXECUTION_SAFE = 0x9DE1d45e2786b03498289959203F25b29B4D1193;
+
+  // https://basescan.org/address/0x187AAE17d4931310B3fc75743e7F16Bdc9eD77e9
+  address internal constant V4_SECURITY_COUNCIL = 0x187AAE17d4931310B3fc75743e7F16Bdc9eD77e9;
+
+  // https://basescan.org/address/0xA9D9923A1ADC1200771aaaA38CFeD6A5b8483d70
+  address internal constant V4_SECURITY_COUNCIL_EXECUTOR =
+    0xA9D9923A1ADC1200771aaaA38CFeD6A5b8483d70;
 }
