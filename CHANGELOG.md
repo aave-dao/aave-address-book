@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.69.0](https://github.com/aave-dao/aave-address-book/compare/v4.68.3...v4.69.0) (2026-09-21)
+
+
+### Features
+
+* Base V4 stocks market ([#1569](https://github.com/aave-dao/aave-address-book/issues/1569)) ([02a9bb4](https://github.com/aave-dao/aave-address-book/commit/02a9bb4edc1e62e37736f4e28ce01b2bc6f945f8))
+
 ## [4.68.3](https://github.com/aave-dao/aave-address-book/compare/v4.68.2...v4.68.3) (2026-09-21)
 
 
