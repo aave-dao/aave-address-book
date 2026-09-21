@@ -69,8 +69,8 @@ library AaveV4BaseSpokePriceFeeds {
   address internal constant MAG7_SPOKE_TSLAc_PRICE_FEED =
     0xFaf869185383a24F8cb00e27BdA6b63B9905DCb4;
 
-  // https://basescan.org/address/0xf52D010c7d4ecBfda92c2509900593CE34535D86
-  address internal constant MAG7_SPOKE_USDC_PRICE_FEED = 0xf52D010c7d4ecBfda92c2509900593CE34535D86;
+  // https://basescan.org/address/0xC7d0f8dCC1F860ca752054c59Ea82Ba2A5AaB50c
+  address internal constant MAG7_SPOKE_USDC_PRICE_FEED = 0xC7d0f8dCC1F860ca752054c59Ea82Ba2A5AaB50c;
 }
 library AaveV4BaseTokenizationSpokes {
   // https://basescan.org/address/0x7081CE7EB1282c53CF38EA9B622f6269cb8FeFDc

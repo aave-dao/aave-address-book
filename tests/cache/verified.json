@@ -14268,6 +14268,9 @@
     },
     "0xA9D9923A1ADC1200771aaaA38CFeD6A5b8483d70": {
       "name": "Executor"
+    },
+    "0xC7d0f8dCC1F860ca752054c59Ea82Ba2A5AaB50c": {
+      "name": "PriceCapAdapterStable"
     }
   },
   "9745": {
