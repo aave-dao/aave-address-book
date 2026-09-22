@@ -18,6 +18,28 @@ library MiscPlasma {
   // https://plasmascan.to/address/0x9240a6669CC4782FC98620212862DF5CB2e0Df10
   address internal constant RANGE_VALIDATION_MODULE = 0x9240a6669CC4782FC98620212862DF5CB2e0Df10;
 
+  // https://plasmascan.to/address/0x1a0267E9E5929a5914Ae9DbBf23Bc07B14365471
+  address internal constant LLAMARISK_RISK_ORACLE_ADMIN_SAFE =
+    0x1a0267E9E5929a5914Ae9DbBf23Bc07B14365471;
+
+  // https://plasmascan.to/address/0x4f240E3825e7FD6D834EEb861b1539dF0b43BfD0
+  address internal constant LLAMARISK_RISK_ORACLE = 0x4f240E3825e7FD6D834EEb861b1539dF0b43BfD0;
+
+  // https://plasmascan.to/address/0xED34a5374FeaaD8Ead024023d2Fc3b844bb9Bb47
+  address internal constant LLAMARISK_PT_PARAMETER_REGISTRY =
+    0xED34a5374FeaaD8Ead024023d2Fc3b844bb9Bb47;
+
+  // https://plasmascan.to/address/0xaC8690DE68dcB7068805c0C631004E9894FAFbe0
+  address internal constant LLAMARISK_RISK_ORACLE_ROUTER =
+    0xaC8690DE68dcB7068805c0C631004E9894FAFbe0;
+
+  // https://plasmascan.to/address/0x8feb86657dbBbB89B7D2D115263D6927Afeb8bd4
+  address internal constant LLAMARISK_PT_DISCOUNT_RATE_AGENT =
+    0x8feb86657dbBbB89B7D2D115263D6927Afeb8bd4;
+
+  // https://plasmascan.to/address/0x3DdAAcFFaeBb466B026cBb38C21b1723129D9ae6
+  address internal constant LLAMARISK_PT_EMODE_AGENT = 0x3DdAAcFFaeBb466B026cBb38C21b1723129D9ae6;
+
   // https://plasmascan.to/address/0x22740deBa78d5a0c24C58C740e3715ec29de1bFa
   address internal constant AFC_SAFE = 0x22740deBa78d5a0c24C58C740e3715ec29de1bFa;
 
