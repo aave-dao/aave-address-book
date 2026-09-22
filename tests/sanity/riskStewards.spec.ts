@@ -1,4 +1,5 @@
 import {describe, it} from 'vitest';
+import {ChainId} from '@aave-dao/toolbox';
 import * as addressBook from 'src/ts/AaveAddressBook';
 import {getContract} from 'viem';
 import {getClient} from 'scripts/clients';
@@ -154,8 +155,9 @@ async function checkV4(addresses: Record<string, any>) {
 
   // Arc has no governance deployment, so the v4 security council executor owns the steward there.
   const executor =
-    (getGovernance(addresses.CHAIN_ID) as any)?.EXECUTOR_LVL_1 ??
-    (getMisc(addresses.CHAIN_ID) as any)?.V4_SECURITY_COUNCIL_EXECUTOR;
+    addresses.CHAIN_ID === ChainId.arc
+      ? (getMisc(addresses.CHAIN_ID) as any)?.V4_SECURITY_COUNCIL_EXECUTOR
+      : (getGovernance(addresses.CHAIN_ID) as any)?.EXECUTOR_LVL_1;
   if (OWNER !== executor)
     throw new Error(
       `SANITY_RISK_STEWARDS_V4: OWNER MISMATCH ${addresses.RISK_STEWARD}:${OWNER} != ${executor} on ${client.chain?.name}`,
