@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.70.0](https://github.com/aave-dao/aave-address-book/compare/v4.69.2...v4.70.0) (2026-09-22)
+
+
+### Features
+
+* Risk Stewards V4 ([#1580](https://github.com/aave-dao/aave-address-book/issues/1580)) ([04efbda](https://github.com/aave-dao/aave-address-book/commit/04efbdacbe395089716ed7f91cff84f6f5bb83a1))
+
 ## [4.69.2](https://github.com/aave-dao/aave-address-book/compare/v4.69.1...v4.69.2) (2026-09-22)
 
 
