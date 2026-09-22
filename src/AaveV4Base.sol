@@ -23,6 +23,12 @@ library AaveV4Base {
   // https://basescan.org/address/0x8753d579B592f3F45902b4Dc13B547B8E8BD03c4
   IAaveV4ConfigEngine internal constant CONFIG_ENGINE =
     IAaveV4ConfigEngine(0x8753d579B592f3F45902b4Dc13B547B8E8BD03c4);
+
+  // https://basescan.org/address/0x22c28Bfc9708740938e3d7C0C49791571435eC8b
+  address internal constant RISK_STEWARD = 0x22c28Bfc9708740938e3d7C0C49791571435eC8b;
+
+  // https://basescan.org/address/0xfbeB4AcB31340bA4de9C87B11dfBf7e2bc8C0bF1
+  address internal constant RISK_COUNCIL = 0xfbeB4AcB31340bA4de9C87B11dfBf7e2bc8C0bF1;
 }
 library AaveV4BaseHubs {
   // https://basescan.org/address/0xa4d5947Eb727A052bae69C593FfC84247EC9864E

@@ -2,7 +2,7 @@ import {describe, it} from 'vitest';
 import * as addressBook from 'src/ts/AaveAddressBook';
 import {getContract} from 'viem';
 import {getClient} from 'scripts/clients';
-import {getGovernance, getWhiteLabelGovernance, isPoolWhiteLabel} from 'tests/utils';
+import {getGovernance, getMisc, getWhiteLabelGovernance, isPoolWhiteLabel} from 'tests/utils';
 import {IRiskSteward_ABI} from 'src/ts/abis/IRiskSteward';
 import {IACLManager_ABI} from 'src/ts/abis/IACLManager';
 
@@ -89,7 +89,7 @@ async function check(addresses: Record<string, any>) {
 describe('risk stewards', () => {
   Object.keys(addressBook).forEach((library) => {
     const addresses = addressBook[library];
-    if (addresses.RISK_STEWARD) {
+    if (addresses.RISK_STEWARD && addresses.POOL_ADDRESSES_PROVIDER) {
       const client = getClient(addresses.CHAIN_ID);
       it.concurrent(
         `should reference correct contracts on all getters: ${client.chain!.name}`,
@@ -122,12 +122,55 @@ async function checkAclRiskAdmin(addresses: Record<string, any>) {
 describe('acl manager roles', () => {
   Object.keys(addressBook).forEach((library) => {
     const addresses = addressBook[library];
-    if (addresses.RISK_STEWARD) {
+    if (addresses.RISK_STEWARD && addresses.POOL_ADDRESSES_PROVIDER) {
       const client = getClient(addresses.CHAIN_ID);
       it.concurrent(
         `RISK_STEWARD should hold RISK_ADMIN_ROLE on ACL_MANAGER: ${client.chain!.name}`,
         async () => {
           return checkAclRiskAdmin(addresses);
+        },
+      );
+    }
+  });
+});
+
+// The v4 steward takes no config engine and no pool data provider, and v4 permissioning lives on
+// the AccessManager instead of an ACL manager, so only the council and owner checks carry over.
+async function checkV4(addresses: Record<string, any>) {
+  const client = getClient(addresses.CHAIN_ID);
+  const riskStewardContract = getContract({
+    abi: IRiskSteward_ABI,
+    address: addresses.RISK_STEWARD,
+    client,
+  });
+  const [OWNER, RISK_COUNCIL] = await Promise.all([
+    riskStewardContract.read.owner(),
+    riskStewardContract.read.RISK_COUNCIL(),
+  ]);
+  if (RISK_COUNCIL !== addresses.RISK_COUNCIL)
+    throw new Error(
+      `SANITY_RISK_STEWARDS_V4: RISK_COUNCIL MISMATCH ${addresses.RISK_STEWARD}:${RISK_COUNCIL} != ${addresses.RISK_COUNCIL} on ${client.chain?.name}`,
+    );
+
+  // Arc has no governance deployment, so the v4 security council executor owns the steward there.
+  const executor =
+    (getGovernance(addresses.CHAIN_ID) as any)?.EXECUTOR_LVL_1 ??
+    (getMisc(addresses.CHAIN_ID) as any)?.V4_SECURITY_COUNCIL_EXECUTOR;
+  if (OWNER !== executor)
+    throw new Error(
+      `SANITY_RISK_STEWARDS_V4: OWNER MISMATCH ${addresses.RISK_STEWARD}:${OWNER} != ${executor} on ${client.chain?.name}`,
+    );
+}
+
+describe('v4 risk stewards', () => {
+  Object.keys(addressBook).forEach((library) => {
+    const addresses = addressBook[library];
+    if (addresses.RISK_STEWARD && addresses.ACCESS_MANAGER) {
+      const client = getClient(addresses.CHAIN_ID);
+      it.concurrent(
+        `should reference correct contracts on all getters: ${client.chain!.name}`,
+        async () => {
+          return checkV4(addresses);
         },
       );
     }

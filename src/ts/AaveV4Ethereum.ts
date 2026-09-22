@@ -14,6 +14,12 @@ export const TREASURY_SPOKE = '0xB9B0b8616f6Bf6841972a52058132BE08d723155';
 // IAaveV4ConfigEngine https://etherscan.io/address/0xa1673fbD457747A05e91D9ef904Cb12827916B1E
 export const CONFIG_ENGINE = '0xa1673fbD457747A05e91D9ef904Cb12827916B1E';
 
+// https://etherscan.io/address/0x6f48d9Cdb8EE6E17c96B2d8Aec128af426A295c1
+export const RISK_STEWARD = '0x6f48d9Cdb8EE6E17c96B2d8Aec128af426A295c1';
+
+// https://etherscan.io/address/0x47c71dFEB55Ebaa431Ae3fbF99Ea50e0D3d30fA8
+export const RISK_COUNCIL = '0x47c71dFEB55Ebaa431Ae3fbF99Ea50e0D3d30fA8';
+
 export const CHAIN_ID = 1;
 
 export const HUBS = {

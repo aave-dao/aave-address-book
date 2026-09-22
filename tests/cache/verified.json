@@ -4838,6 +4838,9 @@
     },
     "0x8CEcC12b23ED45EC2A9b9EB57EA6974c0cae850B": {
       "name": "AaveOracle"
+    },
+    "0x6f48d9Cdb8EE6E17c96B2d8Aec128af426A295c1": {
+      "name": "RiskSteward"
     }
   },
   "10": {
@@ -14271,6 +14274,9 @@
     },
     "0xC7d0f8dCC1F860ca752054c59Ea82Ba2A5AaB50c": {
       "name": "PriceCapAdapterStable"
+    },
+    "0x22c28Bfc9708740938e3d7C0C49791571435eC8b": {
+      "name": "RiskSteward"
     }
   },
   "9745": {
@@ -18466,6 +18472,9 @@
     },
     "0xb619fA61e795D47f517702e63ce50292370561F1": {
       "name": "Executor"
+    },
+    "0xd8d7AbC42c1c938BdEC94fF8da1b3cd5b7e3b107": {
+      "name": "RiskSteward"
     }
   },
   "57073": {

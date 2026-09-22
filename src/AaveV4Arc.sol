@@ -23,6 +23,12 @@ library AaveV4Arc {
   // https://explorer.arc.io/address/0x0A3af96f72b1B52c9BB9778FcD839154c2599371
   IAaveV4ConfigEngine internal constant CONFIG_ENGINE =
     IAaveV4ConfigEngine(0x0A3af96f72b1B52c9BB9778FcD839154c2599371);
+
+  // https://explorer.arc.io/address/0x73adb67D5De247D40152Cf06aC16174b3d87D2c8
+  address internal constant RISK_STEWARD = 0x73adb67D5De247D40152Cf06aC16174b3d87D2c8;
+
+  // https://explorer.arc.io/address/0xa3b6DA2C0853357dfd5bd0ae1A4f07dDB52682d1
+  address internal constant RISK_COUNCIL = 0xa3b6DA2C0853357dfd5bd0ae1A4f07dDB52682d1;
 }
 library AaveV4ArcHubs {
   // https://explorer.arc.io/address/0x17288dfc86205301064577b98B02b81017e6F79C
