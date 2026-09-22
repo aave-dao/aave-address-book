@@ -14768,6 +14768,24 @@
     },
     "0xA1c93D2687f7014Aaf588c764E3Ce80aF016229b": {
       "name": "SafeProxy"
+    },
+    "0x1a0267E9E5929a5914Ae9DbBf23Bc07B14365471": {
+      "name": "SafeProxy"
+    },
+    "0x4f240E3825e7FD6D834EEb861b1539dF0b43BfD0": {
+      "name": "RiskOracle"
+    },
+    "0xED34a5374FeaaD8Ead024023d2Fc3b844bb9Bb47": {
+      "name": "PTParameterRegistry"
+    },
+    "0xaC8690DE68dcB7068805c0C631004E9894FAFbe0": {
+      "name": "LlamaguardRiskOracleRouter"
+    },
+    "0x8feb86657dbBbB89B7D2D115263D6927Afeb8bd4": {
+      "name": "AaveDiscountRateAgent"
+    },
+    "0x3DdAAcFFaeBb466B026cBb38C21b1723129D9ae6": {
+      "name": "AaveEModeAgent"
     }
   },
   "42161": {
