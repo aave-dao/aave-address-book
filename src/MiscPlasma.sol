@@ -37,8 +37,8 @@ library MiscPlasma {
   address internal constant LLAMARISK_PT_DISCOUNT_RATE_AGENT =
     0x8feb86657dbBbB89B7D2D115263D6927Afeb8bd4;
 
-  // https://plasmascan.to/address/0x3DdAAcFFaeBb466B026cBb38C21b1723129D9ae6
-  address internal constant LLAMARISK_PT_EMODE_AGENT = 0x3DdAAcFFaeBb466B026cBb38C21b1723129D9ae6;
+  // https://plasmascan.to/address/0xBcFaBC3ea806d4755ED3F1eA2C5EAE92706Beb29
+  address internal constant LLAMARISK_PT_EMODE_AGENT = 0xBcFaBC3ea806d4755ED3F1eA2C5EAE92706Beb29;
 
   // https://plasmascan.to/address/0x22740deBa78d5a0c24C58C740e3715ec29de1bFa
   address internal constant AFC_SAFE = 0x22740deBa78d5a0c24C58C740e3715ec29de1bFa;
