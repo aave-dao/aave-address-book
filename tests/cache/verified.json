@@ -16561,6 +16561,18 @@
     },
     "0x3Be327F22eB4BD8042e6944073b8826dCf357Aa2": {
       "name": "GnosisSafeProxy"
+    },
+    "0x2Be58aD215AA8552CB5BD038a88d0dE39d2427BB": {
+      "name": "GsmRegistry"
+    },
+    "0xF5F579926e704C01Bb6e51e18751F5E2b17B0cCC": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x1aEe7A618B0CC687cCED9aB796e464062f1508CA": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x4daF7FCe9EfcA48e9274b35b5A7B4639b0DdFCCa": {
+      "name": "ChainlinkOracleSwapFreezer"
     }
   },
   "42220": {
