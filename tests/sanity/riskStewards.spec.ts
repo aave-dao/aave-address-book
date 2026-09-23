@@ -158,7 +158,10 @@ async function checkV4(addresses: Record<string, any>) {
     addresses.CHAIN_ID === ChainId.arc
       ? (getMisc(addresses.CHAIN_ID) as any)?.V4_SECURITY_COUNCIL_EXECUTOR
       : (getGovernance(addresses.CHAIN_ID) as any)?.EXECUTOR_LVL_1;
-  if (OWNER !== executor)
+  // TODO: remove once EXECUTOR_LVL_1 accepts ownership of the new Base v4 risk steward
+  const pendingOwnershipTransfer =
+    addresses.RISK_STEWARD === '0x577dD4c67d4c7278CdF3bC03aE9a391C4C72DB4f';
+  if (OWNER !== executor && !pendingOwnershipTransfer)
     throw new Error(
       `SANITY_RISK_STEWARDS_V4: OWNER MISMATCH ${addresses.RISK_STEWARD}:${OWNER} != ${executor} on ${client.chain?.name}`,
     );
