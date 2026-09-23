@@ -46,11 +46,12 @@ jobs:
           token: ${{ steps.app-token.outputs.token }}
           release-type: node
 
+      # release-please opens no PR when there are no releasable commits (e.g. chore-only pushes)
       - uses: actions/checkout@v6
-        if: ${{ !steps.release.outputs.release_created}}
+        if: ${{ !steps.release.outputs.release_created && steps.release.outputs.pr }}
 
       - name: Approve pr
-        if: ${{ !steps.release.outputs.release_created }}
+        if: ${{ !steps.release.outputs.release_created && steps.release.outputs.pr }}
         run: |
           PR_NUMBER=$(echo '${{ steps.release.outputs.pr }}' | jq -r '.number')
           gh pr review --approve "$PR_NUMBER"
@@ -59,7 +60,7 @@ jobs:
           GH_REPO: ${{ github.repository }}
 
       - name: Enable Pull Request Automerge
-        if: ${{ !steps.release.outputs.release_created }}
+        if: ${{ !steps.release.outputs.release_created && steps.release.outputs.pr }}
         run: |
           PR_NUMBER=$(echo '${{ steps.release.outputs.pr }}' | jq -r '.number')
           gh pr merge --squash --auto "$PR_NUMBER"
