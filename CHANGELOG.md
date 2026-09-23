@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.70.1](https://github.com/aave-dao/aave-address-book/compare/v4.70.0...v4.70.1) (2026-09-23)
+
+
+### Bug Fixes
+
+* bump ui toolbox to 0.6.1 for arc explorer links ([#1583](https://github.com/aave-dao/aave-address-book/issues/1583)) ([759dc04](https://github.com/aave-dao/aave-address-book/commit/759dc04ae73e0a551059c4f711e9ae31e3ea262c))
+
 ## [4.70.0](https://github.com/aave-dao/aave-address-book/compare/v4.69.2...v4.70.0) (2026-09-22)
 
 
