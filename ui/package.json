@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@aave-dao/react-web3-icons": "^1.52.2",
-    "@aave-dao/toolbox": "^0.5.0",
+    "@aave-dao/toolbox": "^0.6.1",
     "@leeoniya/ufuzzy": "^1.0.18",
     "clsx": "^2.1.1",
     "next": "16.1.6",
