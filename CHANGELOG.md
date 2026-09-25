@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.70.2](https://github.com/aave-dao/aave-address-book/compare/v4.70.1...v4.70.2) (2026-09-23)
+
+
+### Bug Fixes
+
+* replace Base V4 Risk Steward with newly deployed version ([#1587](https://github.com/aave-dao/aave-address-book/issues/1587)) ([1d14a5a](https://github.com/aave-dao/aave-address-book/commit/1d14a5af26f8401ea2773cb90294a71b7366adaa))
+
+## [4.70.1](https://github.com/aave-dao/aave-address-book/compare/v4.70.0...v4.70.1) (2026-09-23)
+
+
+### Bug Fixes
+
+* bump ui toolbox to 0.6.1 for arc explorer links ([#1583](https://github.com/aave-dao/aave-address-book/issues/1583)) ([759dc04](https://github.com/aave-dao/aave-address-book/commit/759dc04ae73e0a551059c4f711e9ae31e3ea262c))
+
+## [4.70.0](https://github.com/aave-dao/aave-address-book/compare/v4.69.2...v4.70.0) (2026-09-22)
+
+
+### Features
+
+* Risk Stewards V4 ([#1580](https://github.com/aave-dao/aave-address-book/issues/1580)) ([04efbda](https://github.com/aave-dao/aave-address-book/commit/04efbdacbe395089716ed7f91cff84f6f5bb83a1))
+
 ## [4.69.2](https://github.com/aave-dao/aave-address-book/compare/v4.69.1...v4.69.2) (2026-09-22)
 
 

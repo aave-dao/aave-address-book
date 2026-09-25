@@ -23,6 +23,12 @@ library AaveV4Avalanche {
   // https://snowscan.xyz/address/0x1F0C67Fde7FcaF7eCEA43b76A23461803972c45c
   IAaveV4ConfigEngine internal constant CONFIG_ENGINE =
     IAaveV4ConfigEngine(0x1F0C67Fde7FcaF7eCEA43b76A23461803972c45c);
+
+  // https://snowscan.xyz/address/0xd8d7AbC42c1c938BdEC94fF8da1b3cd5b7e3b107
+  address internal constant RISK_STEWARD = 0xd8d7AbC42c1c938BdEC94fF8da1b3cd5b7e3b107;
+
+  // https://snowscan.xyz/address/0xCa66149425E7DC8f81276F6D80C4b486B9503D1a
+  address internal constant RISK_COUNCIL = 0xCa66149425E7DC8f81276F6D80C4b486B9503D1a;
 }
 library AaveV4AvalancheHubs {
   // https://snowscan.xyz/address/0xd07369fAE4A5BB13c9Ce446B052c7867B1AbDf6e
