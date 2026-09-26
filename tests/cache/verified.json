@@ -18942,6 +18942,18 @@
     },
     "0x6a157d504548C6b20a3D2635daFe8b5fe7cc9483": {
       "name": "TransparentUpgradeableProxy"
+    },
+    "0xAd09Cd20e513E4d8cB78036F77Ab9AfdE8555929": {
+      "name": "KHYPEProxy"
+    },
+    "0x49411839511dcB473e9eCd5471B7add47EA1082e": {
+      "name": "InitializableImmutableAdminUpgradeabilityProxy"
+    },
+    "0x335c7Ea0b40b14E6dD31fb52532D2db70cf77878": {
+      "name": "InitializableImmutableAdminUpgradeabilityProxy"
+    },
+    "0xB42BA1d34BbF88731aA456Ec87D039b54B818972": {
+      "name": "EACAggregatorProxy"
     }
   },
   "59144": {
