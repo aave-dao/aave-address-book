@@ -167,28 +167,28 @@ library AaveV3OptimismAssets {
   address internal constant LINK_STATA_TOKEN = 0xC438643b0eee8a314eEC53eb8A1Ee6467C88fc24;
 
   // https://optimistic.etherscan.io/address/0x7F5c764cBc14f9669B88837ca1490cCa17c31607
-  address internal constant USDC_UNDERLYING = 0x7F5c764cBc14f9669B88837ca1490cCa17c31607;
+  address internal constant USDCe_UNDERLYING = 0x7F5c764cBc14f9669B88837ca1490cCa17c31607;
 
-  uint8 internal constant USDC_DECIMALS = 6;
+  uint8 internal constant USDCe_DECIMALS = 6;
 
   // https://optimistic.etherscan.io/address/0x625E7708f30cA75bfd92586e17077590C60eb4cD
-  address internal constant USDC_A_TOKEN = 0x625E7708f30cA75bfd92586e17077590C60eb4cD;
+  address internal constant USDCe_A_TOKEN = 0x625E7708f30cA75bfd92586e17077590C60eb4cD;
 
   // https://optimistic.etherscan.io/address/0xFCCf3cAbbe80101232d343252614b6A3eE81C989
-  address internal constant USDC_V_TOKEN = 0xFCCf3cAbbe80101232d343252614b6A3eE81C989;
+  address internal constant USDCe_V_TOKEN = 0xFCCf3cAbbe80101232d343252614b6A3eE81C989;
 
   // https://optimistic.etherscan.io/address/0x6379A975Ef93EC2bE87f56A02CCF8535dFAde201
-  address internal constant USDC_ORACLE = 0x6379A975Ef93EC2bE87f56A02CCF8535dFAde201;
+  address internal constant USDCe_ORACLE = 0x6379A975Ef93EC2bE87f56A02CCF8535dFAde201;
 
   // https://optimistic.etherscan.io/address/0x9359282735496463131139875849d5302Fb4bed1
-  address internal constant USDC_INTEREST_RATE_STRATEGY =
+  address internal constant USDCe_INTEREST_RATE_STRATEGY =
     0x9359282735496463131139875849d5302Fb4bed1;
 
   // https://optimistic.etherscan.io/address/0x9F281eb58fd98ad98EDe0fc4C553AD4D73e7Ca2C
-  address internal constant USDC_STATIC_A_TOKEN = 0x9F281eb58fd98ad98EDe0fc4C553AD4D73e7Ca2C;
+  address internal constant USDCe_STATIC_A_TOKEN = 0x9F281eb58fd98ad98EDe0fc4C553AD4D73e7Ca2C;
 
   // https://optimistic.etherscan.io/address/0x0B590eF479c8e03825Ae779839aCb4583aCc15FD
-  address internal constant USDC_STATA_TOKEN = 0x0B590eF479c8e03825Ae779839aCb4583aCc15FD;
+  address internal constant USDCe_STATA_TOKEN = 0x0B590eF479c8e03825Ae779839aCb4583aCc15FD;
 
   // https://optimistic.etherscan.io/address/0x68f180fcCe6836688e9084f035309E29Bf0A2095
   address internal constant WBTC_UNDERLYING = 0x68f180fcCe6836688e9084f035309E29Bf0A2095;
@@ -452,7 +452,7 @@ library AaveV3OptimismAssets {
 library AaveV3OptimismEModes {
   uint8 internal constant NONE = 0;
 
-  uint8 internal constant DAI_USDC_USDT_sUSD_USDCn__ = 1;
+  uint8 internal constant DAI_USDCe_USDT_sUSD_USDCn__ = 1;
 
   uint8 internal constant WETH_wstETH_rETH__WETH = 2;
 }
