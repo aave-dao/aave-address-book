@@ -10014,6 +10014,26 @@
       }
     },
     {
+      "chainId": 57073,
+      "address": "0xAd09Cd20e513E4d8cB78036F77Ab9AfdE8555929",
+      "name": "Kraken Wrapped HYPE",
+      "decimals": 18,
+      "symbol": "kHYPE",
+      "tags": ["underlying"]
+    },
+    {
+      "chainId": 57073,
+      "address": "0x49411839511dcB473e9eCd5471B7add47EA1082e",
+      "name": "Aave InkWhitelabel kHYPE",
+      "decimals": 18,
+      "symbol": "aInkWlkHYPE",
+      "tags": ["aTokenV3", "aaveV3"],
+      "extensions": {
+        "pool": "0x2816cf15F6d2A220E789aA011D5EE4eB6c47FEbA",
+        "underlying": "0xAd09Cd20e513E4d8cB78036F77Ab9AfdE8555929"
+      }
+    },
+    {
       "chainId": 9745,
       "address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
       "name": "USDT0",
@@ -11009,6 +11029,28 @@
       }
     },
     {
+      "chainId": 196,
+      "address": "0xB6CEceAB302E2E4948951eE7843FC24E92933061",
+      "name": "USDC",
+      "decimals": 6,
+      "symbol": "USDC",
+      "tags": ["underlying"],
+      "logoURI": "https://raw.githubusercontent.com/aave-dao/web3-icons/main/icons/full/usdc.svg"
+    },
+    {
+      "chainId": 196,
+      "address": "0x7Da9B238CBd6A227ff054704Ec5cF7e700f03414",
+      "name": "Aave XLayer USDC",
+      "decimals": 6,
+      "symbol": "aXlrUSDC",
+      "tags": ["aTokenV3", "aaveV3"],
+      "logoURI": "https://raw.githubusercontent.com/aave-dao/web3-icons/main/icons/full/ausdc.svg",
+      "extensions": {
+        "pool": "0xE3F3Caefdd7180F884c01E57f65Df979Af84f116",
+        "underlying": "0xB6CEceAB302E2E4948951eE7843FC24E92933061"
+      }
+    },
+    {
       "chainId": 143,
       "address": "0xe7cd86e13AC4309349F30B3435a9d337750fC82D",
       "name": "USDT0",
@@ -11510,6 +11552,6 @@
       }
     }
   ],
-  "version": { "major": 3, "minor": 0, "patch": 188 },
-  "timestamp": "2026-09-10T00:21:36.323Z"
+  "version": { "major": 3, "minor": 0, "patch": 190 },
+  "timestamp": "2026-09-26T00:22:22.989Z"
 }

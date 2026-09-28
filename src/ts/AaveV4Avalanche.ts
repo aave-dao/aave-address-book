@@ -14,6 +14,12 @@ export const TREASURY_SPOKE = '0x2C4Aea1A5F000889c6DfFE8f52377aFc2CB113a6';
 // IAaveV4ConfigEngine https://snowscan.xyz/address/0x1F0C67Fde7FcaF7eCEA43b76A23461803972c45c
 export const CONFIG_ENGINE = '0x1F0C67Fde7FcaF7eCEA43b76A23461803972c45c';
 
+// https://snowscan.xyz/address/0xd8d7AbC42c1c938BdEC94fF8da1b3cd5b7e3b107
+export const RISK_STEWARD = '0xd8d7AbC42c1c938BdEC94fF8da1b3cd5b7e3b107';
+
+// https://snowscan.xyz/address/0xCa66149425E7DC8f81276F6D80C4b486B9503D1a
+export const RISK_COUNCIL = '0xCa66149425E7DC8f81276F6D80C4b486B9503D1a';
+
 export const CHAIN_ID = 43114;
 
 export const HUBS = {

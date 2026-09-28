@@ -139,6 +139,17 @@ const knownErrors = {
     '0x11f847ED85657cd066bfC3e9a5b29737aFb85c1E': true, // PT_USDG_29OCT2026 V_TOKEN, not yet verified on explorer
     '0x6052839E52ab454F164ee5668e5B523cF5A389Fc': true, // PT_USDG_29OCT2026 ORACLE, not yet verified on explorer
   },
+  8453: {
+    // Coinbase tokenized equities: their code is a single 0xef byte handled natively by the Base
+    // client, so there is no source to verify and there never will be
+    '0xb200000000000000000000C2e324d24d7eEcd1fb': true, // AAPLc
+    '0xb200000000000000000000d9192b6B456483C2E8': true, // AMZNc
+    '0xb2000000000000000000002D0BA3164cc74f58B7': true, // GOOGLc
+    '0xb2000000000000000000008bC8786B856E61707C': true, // METAc
+    '0xB200000000000000000000Ab99cFa739E253872B': true, // MSFTc
+    '0xb20000000000000000000078ee7ce2fE4908108C': true, // NVDAc
+    '0xb2000000000000000000001e800a7f5189430cD0': true, // TSLAc
+  },
 };
 
 describe('verification', {timeout: 500_000}, () => {

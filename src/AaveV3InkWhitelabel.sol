@@ -358,21 +358,41 @@ library AaveV3InkWhitelabelAssets {
 
   // https://explorer.inkonchain.com/address/0x6a157d504548C6b20a3D2635daFe8b5fe7cc9483
   address internal constant syrupUSDT_STATA_TOKEN = 0x6a157d504548C6b20a3D2635daFe8b5fe7cc9483;
+
+  // https://explorer.inkonchain.com/address/0xAd09Cd20e513E4d8cB78036F77Ab9AfdE8555929
+  address internal constant kHYPE_UNDERLYING = 0xAd09Cd20e513E4d8cB78036F77Ab9AfdE8555929;
+
+  uint8 internal constant kHYPE_DECIMALS = 18;
+
+  // https://explorer.inkonchain.com/address/0x49411839511dcB473e9eCd5471B7add47EA1082e
+  address internal constant kHYPE_A_TOKEN = 0x49411839511dcB473e9eCd5471B7add47EA1082e;
+
+  // https://explorer.inkonchain.com/address/0x335c7Ea0b40b14E6dD31fb52532D2db70cf77878
+  address internal constant kHYPE_V_TOKEN = 0x335c7Ea0b40b14E6dD31fb52532D2db70cf77878;
+
+  // https://explorer.inkonchain.com/address/0xB42BA1d34BbF88731aA456Ec87D039b54B818972
+  address internal constant kHYPE_ORACLE = 0xB42BA1d34BbF88731aA456Ec87D039b54B818972;
+
+  // https://explorer.inkonchain.com/address/0xCFDAdA7DCd2e785cF706BaDBC2B8Af5084d595e9
+  address internal constant kHYPE_INTEREST_RATE_STRATEGY =
+    0xCFDAdA7DCd2e785cF706BaDBC2B8Af5084d595e9;
 }
 library AaveV3InkWhitelabelEModes {
   uint8 internal constant NONE = 0;
 
   uint8 internal constant weETH_wrsETH_ezETH__WETH = 1;
 
-  uint8 internal constant sUSDe_USDe__USDT_USDG_USDC = 2;
+  uint8 internal constant sUSDe_USDe__USDT_USDC = 2;
 
-  uint8 internal constant USDe__USDT_USDG_USDC = 3;
+  uint8 internal constant USDe__USDT_USDC = 3;
 
   uint8 internal constant syrupUSDT__USDT = 4;
 
-  uint8 internal constant sUSDe_USDe__USDT_USDG = 5;
+  uint8 internal constant sUSDe_USDe__USDT = 5;
 
   uint8 internal constant SolvBTC__GHO = 6;
+
+  uint8 internal constant kHYPE__USDG = 7;
 }
 library AaveV3InkWhitelabelExternalLibraries {
   // https://explorer.inkonchain.com/address/0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6
