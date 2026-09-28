@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.71.0](https://github.com/aave-dao/aave-address-book/compare/v4.70.3...v4.71.0) (2026-09-28)
+
+
+### Features
+
+* add LlamaRisk PT contracts on Plasma ([#1581](https://github.com/aave-dao/aave-address-book/issues/1581)) ([28d6d02](https://github.com/aave-dao/aave-address-book/commit/28d6d0206538593d006704b4f58500129b88b11b))
+
+
+### Bug Fixes
+
+* **cache:** automated cache update - updated addresses ([#1591](https://github.com/aave-dao/aave-address-book/issues/1591)) ([f6fcd27](https://github.com/aave-dao/aave-address-book/commit/f6fcd27537cd5b6e056b64fe875e9efd45ffe0c9))
+
 ## [4.70.3](https://github.com/aave-dao/aave-address-book/compare/v4.70.2...v4.70.3) (2026-09-26)
 
 
