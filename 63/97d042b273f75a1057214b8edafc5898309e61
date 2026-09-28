@@ -1,0 +1,31 @@
+src/AaveV4EtherFiOptimismWhitelabel.sol
+  s_e0c1cbc7e27698::t_5f3f3e52be78a3 6,27,31,43,128-138,140,232-247,249,253,368-382,384,387,393,399-400,403-413
+tests/cache/verified.json
+  s_e0c1cbc7e27698::t_d8cb4433d7fc0b 6242-6244
+src/ts/AaveAddressBook.ts
+  s_e0c1cbc7e27698::t_d8cb4433d7fc0b 68
+safe.csv
+  s_e0c1cbc7e27698::t_d8cb4433d7fc0b 1900-1992
+src/ts/AaveV4EtherFiOptimismWhitelabel.ts
+  s_e0c1cbc7e27698::t_5f3f3e52be78a3 53-55,82-88,188-199
+scripts/configs/v4/etherFiOptimism.ts
+  s_e0c1cbc7e27698::t_5f3f3e52be78a3 1-26
+scripts/generateAddresses.ts
+  s_e0c1cbc7e27698::t_d8cb4433d7fc0b 43,214
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "6397d042b273f75a1057214b8edafc5898309e61",
+  "prompts": {},
+  "sessions": {
+    "s_e0c1cbc7e27698": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "66938ed6-cda3-48b7-9026-96d3e5f59993",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "DhairyaSethi <55102840+DhairyaSethi@users.noreply.github.com>"
+    }
+  }
+}
