@@ -6239,6 +6239,9 @@
     "0x7445E49137F073B836eB93Fd2929820d730b948C": {
       "name": "OracleSinkPriceFeed"
     },
+    "0x01F8cDFb1694eA8fE4ED6c38a0fD78d1188E03F4": {
+      "name": "ERC1967Proxy"
+    },
     "0x01bFF41798a0BcF287b996046Ca68b395DbC1071": {
       "name": "TransparentUpgradeableProxy"
     },

@@ -3,7 +3,7 @@
 pragma solidity >=0.6.0;
 
 import {IHub, IHubConfigurator, ISpoke, ISpokeConfigurator, ITokenizationSpoke, ITreasurySpoke, IAaveOracle, IConfigPositionManager, IGiverPositionManager, ITakerPositionManager, INativeTokenGateway, ISignatureGateway, IAaveV4ConfigEngine, IAccessManagerEnumerable, IBasicInterestRateStrategy, PositionManagers} from './AaveV4.sol';
-library AaveV4OptimismWhitelabel {
+library AaveV4EtherFiOptimismWhitelabel {
   // https://optimistic.etherscan.io/address/0x188d7173772499FB6375F23FdFd130CE6107286b
   IAccessManagerEnumerable internal constant ACCESS_MANAGER =
     IAccessManagerEnumerable(0x188d7173772499FB6375F23FdFd130CE6107286b);
@@ -24,11 +24,11 @@ library AaveV4OptimismWhitelabel {
   IAaveV4ConfigEngine internal constant CONFIG_ENGINE =
     IAaveV4ConfigEngine(0x84210b3087E952Be0f3610fD75f0f045995eAF22);
 }
-library AaveV4OptimismWhitelabelHubs {
+library AaveV4EtherFiOptimismWhitelabelHubs {
   // https://optimistic.etherscan.io/address/0x66753c4e3fC84f1eD0e3C267C927284E9d90C572
   IHub internal constant CASH_HUB = IHub(0x66753c4e3fC84f1eD0e3C267C927284E9d90C572);
 }
-library AaveV4OptimismWhitelabelSpokes {
+library AaveV4EtherFiOptimismWhitelabelSpokes {
   // https://optimistic.etherscan.io/address/0x7EB4d25F137868662350603A2863F682287b0768
   ITreasurySpoke internal constant TREASURY_SPOKE =
     ITreasurySpoke(0x7EB4d25F137868662350603A2863F682287b0768);
@@ -40,7 +40,7 @@ library AaveV4OptimismWhitelabelSpokes {
   IAaveOracle internal constant CASH_SPOKE_ORACLE =
     IAaveOracle(0xe8cbd37210bF1E29436dAe183d7b9fe45E886fA8);
 }
-library AaveV4OptimismWhitelabelSpokePriceFeeds {
+library AaveV4EtherFiOptimismWhitelabelSpokePriceFeeds {
   // https://optimistic.etherscan.io/address/0x5B057985496A6ff09bf62C9Ba867Ae5dDEAFA4E0
   address internal constant CASH_SPOKE_USDC_PRICE_FEED = 0x5B057985496A6ff09bf62C9Ba867Ae5dDEAFA4E0;
 
@@ -125,8 +125,19 @@ library AaveV4OptimismWhitelabelSpokePriceFeeds {
   // https://optimistic.etherscan.io/address/0x81D0305B9DC94f8f177Bbf6DbEB0278D7afF22Df
   address internal constant CASH_SPOKE_iwTBLLx_PRICE_FEED =
     0x81D0305B9DC94f8f177Bbf6DbEB0278D7afF22Df;
+
+  // https://optimistic.etherscan.io/address/0x7579977643ee68946DB95d9Cb5fF582674619025
+  address internal constant CASH_SPOKE_USD_0_PRICE_FEED =
+    0x7579977643ee68946DB95d9Cb5fF582674619025;
+
+  // https://optimistic.etherscan.io/address/0x9B92A2D4468ff3Df8A6Be50Ad043E8a5165459c2
+  address internal constant CASH_SPOKE_iPAXGy_PRICE_FEED =
+    0x9B92A2D4468ff3Df8A6Be50Ad043E8a5165459c2;
+
+  // https://optimistic.etherscan.io/address/0x7445E49137F073B836eB93Fd2929820d730b948C
+  address internal constant CASH_SPOKE_ZCHF_PRICE_FEED = 0x7445E49137F073B836eB93Fd2929820d730b948C;
 }
-library AaveV4OptimismWhitelabelIRStrategies {
+library AaveV4EtherFiOptimismWhitelabelIRStrategies {
   // https://optimistic.etherscan.io/address/0x51d07C362f9c4716F96EbEB63DB985EF9D2aCd7C
   IBasicInterestRateStrategy internal constant CASH_USDC_IR_STRATEGY =
     IBasicInterestRateStrategy(0x51d07C362f9c4716F96EbEB63DB985EF9D2aCd7C);
@@ -218,12 +229,28 @@ library AaveV4OptimismWhitelabelIRStrategies {
   // https://optimistic.etherscan.io/address/0x51d07C362f9c4716F96EbEB63DB985EF9D2aCd7C
   IBasicInterestRateStrategy internal constant CASH_iwTBLLx_IR_STRATEGY =
     IBasicInterestRateStrategy(0x51d07C362f9c4716F96EbEB63DB985EF9D2aCd7C);
+
+  // https://optimistic.etherscan.io/address/0x51d07C362f9c4716F96EbEB63DB985EF9D2aCd7C
+  IBasicInterestRateStrategy internal constant CASH_USD_0_IR_STRATEGY =
+    IBasicInterestRateStrategy(0x51d07C362f9c4716F96EbEB63DB985EF9D2aCd7C);
+
+  // https://optimistic.etherscan.io/address/0x51d07C362f9c4716F96EbEB63DB985EF9D2aCd7C
+  IBasicInterestRateStrategy internal constant CASH_iPAXGy_IR_STRATEGY =
+    IBasicInterestRateStrategy(0x51d07C362f9c4716F96EbEB63DB985EF9D2aCd7C);
+
+  // https://optimistic.etherscan.io/address/0x51d07C362f9c4716F96EbEB63DB985EF9D2aCd7C
+  IBasicInterestRateStrategy internal constant CASH_ZCHF_IR_STRATEGY =
+    IBasicInterestRateStrategy(0x51d07C362f9c4716F96EbEB63DB985EF9D2aCd7C);
 }
-library AaveV4OptimismWhitelabelExternalLibraries {
+library AaveV4EtherFiOptimismWhitelabelPositionManagers {
+  // https://optimistic.etherscan.io/address/0x01F8cDFb1694eA8fE4ED6c38a0fD78d1188E03F4
+  address internal constant LEND_GATEWAY = 0x01F8cDFb1694eA8fE4ED6c38a0fD78d1188E03F4;
+}
+library AaveV4EtherFiOptimismWhitelabelExternalLibraries {
   // https://optimistic.etherscan.io/address/0x88dF535473C5adf1f57789734A05E555F7Deb8DB
   address internal constant LIQUIDATION_LOGIC = 0x88dF535473C5adf1f57789734A05E555F7Deb8DB;
 }
-library AaveV4OptimismWhitelabelAssets {
+library AaveV4EtherFiOptimismWhitelabelAssets {
   // https://optimistic.etherscan.io/address/0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85
   address internal constant USDC_UNDERLYING = 0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85;
 
@@ -338,24 +365,50 @@ library AaveV4OptimismWhitelabelAssets {
   address internal constant iwTBLLx_UNDERLYING = 0x5F8b2D2b97aD4d63188f44965778F6004D5bc387;
 
   uint8 internal constant iwTBLLx_DECIMALS = 18;
+
+  // https://optimistic.etherscan.io/address/0x01bFF41798a0BcF287b996046Ca68b395DbC1071
+  address internal constant USD_0_UNDERLYING = 0x01bFF41798a0BcF287b996046Ca68b395DbC1071;
+
+  uint8 internal constant USD_0_DECIMALS = 6;
+
+  // https://optimistic.etherscan.io/address/0x5168E0cDeb3f308F47fDF0D9A2E250A2135C3cF5
+  address internal constant iPAXGy_UNDERLYING = 0x5168E0cDeb3f308F47fDF0D9A2E250A2135C3cF5;
+
+  uint8 internal constant iPAXGy_DECIMALS = 18;
+
+  // https://optimistic.etherscan.io/address/0xD4dD9e2F021BB459D5A5f6c24C12fE09c5D45553
+  address internal constant ZCHF_UNDERLYING = 0xD4dD9e2F021BB459D5A5f6c24C12fE09c5D45553;
+
+  uint8 internal constant ZCHF_DECIMALS = 18;
 }
-library AaveV4OptimismWhitelabelGetters {
+library AaveV4EtherFiOptimismWhitelabelGetters {
   function getAllHubs() internal pure returns (IHub[] memory) {
     IHub[] memory hubs = new IHub[](1);
-    hubs[0] = AaveV4OptimismWhitelabelHubs.CASH_HUB;
+    hubs[0] = AaveV4EtherFiOptimismWhitelabelHubs.CASH_HUB;
     return hubs;
   }
 
   function getAllSpokes() internal pure returns (ISpoke[] memory) {
     ISpoke[] memory spokes = new ISpoke[](1);
-    spokes[0] = AaveV4OptimismWhitelabelSpokes.CASH_SPOKE;
+    spokes[0] = AaveV4EtherFiOptimismWhitelabelSpokes.CASH_SPOKE;
     return spokes;
   }
 
   function getAllSpokesRaw() internal pure returns (address[] memory) {
     address[] memory spokes = new address[](2);
-    spokes[0] = address(AaveV4OptimismWhitelabelSpokes.TREASURY_SPOKE);
-    spokes[1] = address(AaveV4OptimismWhitelabelSpokes.CASH_SPOKE);
+    spokes[0] = address(AaveV4EtherFiOptimismWhitelabelSpokes.TREASURY_SPOKE);
+    spokes[1] = address(AaveV4EtherFiOptimismWhitelabelSpokes.CASH_SPOKE);
     return spokes;
+  }
+
+  function getPositionManagers() internal pure returns (PositionManagers memory) {
+    return
+      PositionManagers({
+        giver: IGiverPositionManager(address(0)),
+        taker: ITakerPositionManager(address(0)),
+        config: IConfigPositionManager(address(0)),
+        nativeGateway: INativeTokenGateway(address(0)),
+        signatureGateway: ISignatureGateway(address(0))
+      });
   }
 }

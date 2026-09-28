@@ -1,8 +1,8 @@
 import {ChainId} from '@aave-dao/toolbox';
 import {V4Config} from 'scripts/configs/types';
 
-export const optimismWhitelabelV4Config: V4Config = {
-  name: 'OptimismWhitelabel',
+export const etherFiOptimismWhitelabelV4Config: V4Config = {
+  name: 'EtherFiOptimismWhitelabel',
   chainId: ChainId.optimism,
   admin: {
     ACCESS_MANAGER: '0x188d7173772499FB6375F23FdFd130CE6107286b',
@@ -16,6 +16,9 @@ export const optimismWhitelabelV4Config: V4Config = {
   },
   spokes: {
     CASH: '0xdffcC3536D932eb51Df51a7F5FA407c4270d5308',
+  },
+  positionManagers: {
+    LEND_GATEWAY: '0x01F8cDFb1694eA8fE4ED6c38a0fD78d1188E03F4',
   },
   externalLibraries: {
     LIQUIDATION_LOGIC: '0x88dF535473C5adf1f57789734A05E555F7Deb8DB',
