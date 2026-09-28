@@ -24,8 +24,8 @@ library AaveV4Base {
   IAaveV4ConfigEngine internal constant CONFIG_ENGINE =
     IAaveV4ConfigEngine(0x8753d579B592f3F45902b4Dc13B547B8E8BD03c4);
 
-  // https://basescan.org/address/0x22c28Bfc9708740938e3d7C0C49791571435eC8b
-  address internal constant RISK_STEWARD = 0x22c28Bfc9708740938e3d7C0C49791571435eC8b;
+  // https://basescan.org/address/0x577dD4c67d4c7278CdF3bC03aE9a391C4C72DB4f
+  address internal constant RISK_STEWARD = 0x577dD4c67d4c7278CdF3bC03aE9a391C4C72DB4f;
 
   // https://basescan.org/address/0xfbeB4AcB31340bA4de9C87B11dfBf7e2bc8C0bF1
   address internal constant RISK_COUNCIL = 0xfbeB4AcB31340bA4de9C87B11dfBf7e2bc8C0bF1;

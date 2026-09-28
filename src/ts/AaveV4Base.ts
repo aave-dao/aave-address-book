@@ -14,8 +14,8 @@ export const TREASURY_SPOKE = '0x5F8d0102F5B51Fae6DE9d2F2561bda63Fb5Db674';
 // IAaveV4ConfigEngine https://basescan.org/address/0x8753d579B592f3F45902b4Dc13B547B8E8BD03c4
 export const CONFIG_ENGINE = '0x8753d579B592f3F45902b4Dc13B547B8E8BD03c4';
 
-// https://basescan.org/address/0x22c28Bfc9708740938e3d7C0C49791571435eC8b
-export const RISK_STEWARD = '0x22c28Bfc9708740938e3d7C0C49791571435eC8b';
+// https://basescan.org/address/0x577dD4c67d4c7278CdF3bC03aE9a391C4C72DB4f
+export const RISK_STEWARD = '0x577dD4c67d4c7278CdF3bC03aE9a391C4C72DB4f';
 
 // https://basescan.org/address/0xfbeB4AcB31340bA4de9C87B11dfBf7e2bc8C0bF1
 export const RISK_COUNCIL = '0xfbeB4AcB31340bA4de9C87B11dfBf7e2bc8C0bF1';
