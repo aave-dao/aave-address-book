@@ -52,6 +52,13 @@ library AaveV4ArcSpokes {
   // https://explorer.arc.io/address/0x2abd2B5C30D649273B3b762b0E1758BaC8F87cFE
   IAaveOracle internal constant FOREX_SPOKE_ORACLE =
     IAaveOracle(0x2abd2B5C30D649273B3b762b0E1758BaC8F87cFE);
+
+  // https://explorer.arc.io/address/0x18Dde098d25722C14e09842a6Fa7db6aAFC395a2
+  ISpoke internal constant MAPLE_SPOKE = ISpoke(0x18Dde098d25722C14e09842a6Fa7db6aAFC395a2);
+
+  // https://explorer.arc.io/address/0x1Dd77518EC8A68E91C0656660d7972e301Fc00A4
+  IAaveOracle internal constant MAPLE_SPOKE_ORACLE =
+    IAaveOracle(0x1Dd77518EC8A68E91C0656660d7972e301Fc00A4);
 }
 library AaveV4ArcSpokePriceFeeds {
   // https://explorer.arc.io/address/0x729cFd10FC10A908aE9F9b35245cB6Ee14D44D6B
@@ -159,9 +166,10 @@ library AaveV4ArcGetters {
   }
 
   function getAllSpokes() internal pure returns (ISpoke[] memory) {
-    ISpoke[] memory spokes = new ISpoke[](2);
+    ISpoke[] memory spokes = new ISpoke[](3);
     spokes[0] = AaveV4ArcSpokes.MAIN_SPOKE;
     spokes[1] = AaveV4ArcSpokes.FOREX_SPOKE;
+    spokes[2] = AaveV4ArcSpokes.MAPLE_SPOKE;
     return spokes;
   }
 
@@ -175,14 +183,15 @@ library AaveV4ArcGetters {
   }
 
   function getAllSpokesRaw() internal pure returns (address[] memory) {
-    address[] memory spokes = new address[](7);
+    address[] memory spokes = new address[](8);
     spokes[0] = address(AaveV4ArcSpokes.TREASURY_SPOKE);
     spokes[1] = address(AaveV4ArcSpokes.MAIN_SPOKE);
     spokes[2] = address(AaveV4ArcSpokes.FOREX_SPOKE);
-    spokes[3] = address(AaveV4ArcTokenizationSpokes.CORE_USDC_TOKENIZATION_SPOKE);
-    spokes[4] = address(AaveV4ArcTokenizationSpokes.CORE_EURC_TOKENIZATION_SPOKE);
-    spokes[5] = address(AaveV4ArcTokenizationSpokes.CORE_cirBTC_TOKENIZATION_SPOKE);
-    spokes[6] = address(AaveV4ArcTokenizationSpokes.CORE_WETH_TOKENIZATION_SPOKE);
+    spokes[3] = address(AaveV4ArcSpokes.MAPLE_SPOKE);
+    spokes[4] = address(AaveV4ArcTokenizationSpokes.CORE_USDC_TOKENIZATION_SPOKE);
+    spokes[5] = address(AaveV4ArcTokenizationSpokes.CORE_EURC_TOKENIZATION_SPOKE);
+    spokes[6] = address(AaveV4ArcTokenizationSpokes.CORE_cirBTC_TOKENIZATION_SPOKE);
+    spokes[7] = address(AaveV4ArcTokenizationSpokes.CORE_WETH_TOKENIZATION_SPOKE);
     return spokes;
   }
 
