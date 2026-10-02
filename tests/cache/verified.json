@@ -10080,6 +10080,12 @@
     },
     "0x1a0267E9E5929a5914Ae9DbBf23Bc07B14365471": {
       "name": "SafeProxy"
+    },
+    "0x9047f3084Dd26d0d8a6b0Ef9Bb8643b01dA726D3": {
+      "name": "AaveDiscountRateAgent"
+    },
+    "0xa89C6f877380af190AFD839c0F9cBF57474162f1": {
+      "name": "AaveEModeAgent"
     }
   },
   "146": {

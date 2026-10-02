@@ -30,6 +30,13 @@ library MiscMonad {
   address internal constant LLAMARISK_RISK_ORACLE_ROUTER =
     0x8fDdd4Ab11Ecd6A95F6d67f13166031604624B71;
 
+  // https://monadscan.com/address/0x9047f3084Dd26d0d8a6b0Ef9Bb8643b01dA726D3
+  address internal constant LLAMARISK_PT_DISCOUNT_RATE_AGENT =
+    0x9047f3084Dd26d0d8a6b0Ef9Bb8643b01dA726D3;
+
+  // https://monadscan.com/address/0xa89C6f877380af190AFD839c0F9cBF57474162f1
+  address internal constant LLAMARISK_PT_EMODE_AGENT = 0xa89C6f877380af190AFD839c0F9cBF57474162f1;
+
   // https://monadscan.com/address/0xAA2461f0f0A3dE5fEAF3273eAe16DEF861cf594e
   address internal constant AHAB_SAFE = 0xAA2461f0f0A3dE5fEAF3273eAe16DEF861cf594e;
 
