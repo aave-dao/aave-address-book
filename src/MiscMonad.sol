@@ -9,6 +9,12 @@ library MiscMonad {
   // https://monadscan.com/address/0xc887455536CBD4e615B745e70CaCde15B3117e74
   address internal constant PROTOCOL_GUARDIAN = 0xc887455536CBD4e615B745e70CaCde15B3117e74;
 
+  // https://monadscan.com/address/0xa1Cf1e3D3fC743c0fd0e38f631A843372b7169DB
+  address internal constant AGENT_HUB = 0xa1Cf1e3D3fC743c0fd0e38f631A843372b7169DB;
+
+  // https://monadscan.com/address/0x863D5B3f24E6b84564432dd20606a82bB1C61dC5
+  address internal constant RANGE_VALIDATION_MODULE = 0x863D5B3f24E6b84564432dd20606a82bB1C61dC5;
+
   // https://monadscan.com/address/0xAA2461f0f0A3dE5fEAF3273eAe16DEF861cf594e
   address internal constant AHAB_SAFE = 0xAA2461f0f0A3dE5fEAF3273eAe16DEF861cf594e;
 
