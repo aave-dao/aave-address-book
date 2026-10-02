@@ -10062,6 +10062,24 @@
     },
     "0x6D8f31268E94Bec0b0E07bc06b561b8B749F3127": {
       "name": "PendlePriceCapAdapter"
+    },
+    "0x4b00A38ee9396E952d07F81B26Ed1514e480dCFC": {
+      "name": "RiskOracle"
+    },
+    "0xA046b090C93A7a98b18e466ff770ED01116fa695": {
+      "name": "PTParameterRegistry"
+    },
+    "0x8fDdd4Ab11Ecd6A95F6d67f13166031604624B71": {
+      "name": "LlamaguardRiskOracleRouter"
+    },
+    "0x1a0267E9E5929a5914Ae9DbBf23Bc07B14365471": {
+      "name": "SafeProxy"
+    },
+    "0x9047f3084Dd26d0d8a6b0Ef9Bb8643b01dA726D3": {
+      "name": "AaveDiscountRateAgent"
+    },
+    "0xa89C6f877380af190AFD839c0F9cBF57474162f1": {
+      "name": "AaveEModeAgent"
     }
   },
   "146": {
