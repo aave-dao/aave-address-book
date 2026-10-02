@@ -15,6 +15,21 @@ library MiscMonad {
   // https://monadscan.com/address/0x863D5B3f24E6b84564432dd20606a82bB1C61dC5
   address internal constant RANGE_VALIDATION_MODULE = 0x863D5B3f24E6b84564432dd20606a82bB1C61dC5;
 
+  // https://monadscan.com/address/0x1a0267E9E5929a5914Ae9DbBf23Bc07B14365471
+  address internal constant LLAMARISK_RISK_ORACLE_ADMIN_SAFE =
+    0x1a0267E9E5929a5914Ae9DbBf23Bc07B14365471;
+
+  // https://monadscan.com/address/0x4b00A38ee9396E952d07F81B26Ed1514e480dCFC
+  address internal constant LLAMARISK_RISK_ORACLE = 0x4b00A38ee9396E952d07F81B26Ed1514e480dCFC;
+
+  // https://monadscan.com/address/0xA046b090C93A7a98b18e466ff770ED01116fa695
+  address internal constant LLAMARISK_PT_PARAMETER_REGISTRY =
+    0xA046b090C93A7a98b18e466ff770ED01116fa695;
+
+  // https://monadscan.com/address/0x8fDdd4Ab11Ecd6A95F6d67f13166031604624B71
+  address internal constant LLAMARISK_RISK_ORACLE_ROUTER =
+    0x8fDdd4Ab11Ecd6A95F6d67f13166031604624B71;
+
   // https://monadscan.com/address/0xAA2461f0f0A3dE5fEAF3273eAe16DEF861cf594e
   address internal constant AHAB_SAFE = 0xAA2461f0f0A3dE5fEAF3273eAe16DEF861cf594e;
 
