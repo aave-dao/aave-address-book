@@ -54,10 +54,10 @@ library AaveV4ArcSpokes {
     IAaveOracle(0x2abd2B5C30D649273B3b762b0E1758BaC8F87cFE);
 
   // https://explorer.arc.io/address/0x18Dde098d25722C14e09842a6Fa7db6aAFC395a2
-  ISpoke internal constant MAPLE_SPOKE = ISpoke(0x18Dde098d25722C14e09842a6Fa7db6aAFC395a2);
+  ISpoke internal constant USDC_MAPLE_ESPOKE = ISpoke(0x18Dde098d25722C14e09842a6Fa7db6aAFC395a2);
 
   // https://explorer.arc.io/address/0x1Dd77518EC8A68E91C0656660d7972e301Fc00A4
-  IAaveOracle internal constant MAPLE_SPOKE_ORACLE =
+  IAaveOracle internal constant USDC_MAPLE_ESPOKE_ORACLE =
     IAaveOracle(0x1Dd77518EC8A68E91C0656660d7972e301Fc00A4);
 }
 library AaveV4ArcSpokePriceFeeds {
@@ -169,7 +169,7 @@ library AaveV4ArcGetters {
     ISpoke[] memory spokes = new ISpoke[](3);
     spokes[0] = AaveV4ArcSpokes.MAIN_SPOKE;
     spokes[1] = AaveV4ArcSpokes.FOREX_SPOKE;
-    spokes[2] = AaveV4ArcSpokes.MAPLE_SPOKE;
+    spokes[2] = AaveV4ArcSpokes.USDC_MAPLE_ESPOKE;
     return spokes;
   }
 
@@ -187,7 +187,7 @@ library AaveV4ArcGetters {
     spokes[0] = address(AaveV4ArcSpokes.TREASURY_SPOKE);
     spokes[1] = address(AaveV4ArcSpokes.MAIN_SPOKE);
     spokes[2] = address(AaveV4ArcSpokes.FOREX_SPOKE);
-    spokes[3] = address(AaveV4ArcSpokes.MAPLE_SPOKE);
+    spokes[3] = address(AaveV4ArcSpokes.USDC_MAPLE_ESPOKE);
     spokes[4] = address(AaveV4ArcTokenizationSpokes.CORE_USDC_TOKENIZATION_SPOKE);
     spokes[5] = address(AaveV4ArcTokenizationSpokes.CORE_EURC_TOKENIZATION_SPOKE);
     spokes[6] = address(AaveV4ArcTokenizationSpokes.CORE_cirBTC_TOKENIZATION_SPOKE);
