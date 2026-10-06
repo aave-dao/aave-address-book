@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.72.1](https://github.com/aave-dao/aave-address-book/compare/v4.72.0...v4.72.1) (2026-10-06)
+
+
+### Bug Fixes
+
+* add the LlamaRisk PT oracle addresses on Monad ([#1597](https://github.com/aave-dao/aave-address-book/issues/1597)) ([04ee7f2](https://github.com/aave-dao/aave-address-book/commit/04ee7f28e30b616935dc4e3742f1a8909cabe319))
+* **cache:** automated cache update - updated addresses ([#1604](https://github.com/aave-dao/aave-address-book/issues/1604)) ([89cedba](https://github.com/aave-dao/aave-address-book/commit/89cedba7b3af0acb43318fa2983cab93a74a50f1))
+
 ## [4.72.0](https://github.com/aave-dao/aave-address-book/compare/v4.71.3...v4.72.0) (2026-10-06)
 
 
