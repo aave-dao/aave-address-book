@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.72.0](https://github.com/aave-dao/aave-address-book/compare/v4.71.3...v4.72.0) (2026-10-06)
+
+
+### Features
+
+* add AgentHub and RangeValidationModule on Monad ([#1596](https://github.com/aave-dao/aave-address-book/issues/1596)) ([60cdaaf](https://github.com/aave-dao/aave-address-book/commit/60cdaafe281492bdb2ee1421170416ee670f3572))
+
+
+### Bug Fixes
+
+* **cache:** automated cache update - updated addresses ([#1602](https://github.com/aave-dao/aave-address-book/issues/1602)) ([a69fcb8](https://github.com/aave-dao/aave-address-book/commit/a69fcb834f0ef52c3e4d3576007e3500036f81b9))
+
 ## [4.71.3](https://github.com/aave-dao/aave-address-book/compare/v4.71.2...v4.71.3) (2026-10-06)
 
 
