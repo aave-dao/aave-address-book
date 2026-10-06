@@ -81,6 +81,14 @@ library AaveV4ArcSpokePriceFeeds {
   // https://explorer.arc.io/address/0x3b381530cF032F1B2dc1974D228c8BD70bF41914
   address internal constant FOREX_SPOKE_EURC_PRICE_FEED =
     0x3b381530cF032F1B2dc1974D228c8BD70bF41914;
+
+  // https://explorer.arc.io/address/0xAFcab475C68D931C3DC1035eFb50df2d29e003C3
+  address internal constant USDC_MAPLE_ESPOKE_syrupUSDC_PRICE_FEED =
+    0xAFcab475C68D931C3DC1035eFb50df2d29e003C3;
+
+  // https://explorer.arc.io/address/0x729cFd10FC10A908aE9F9b35245cB6Ee14D44D6B
+  address internal constant USDC_MAPLE_ESPOKE_USDC_PRICE_FEED =
+    0x729cFd10FC10A908aE9F9b35245cB6Ee14D44D6B;
 }
 library AaveV4ArcTokenizationSpokes {
   // https://explorer.arc.io/address/0x42EAB64310E1D1c66b4d8aF7C9C4ce253885eB83
@@ -114,6 +122,10 @@ library AaveV4ArcIRStrategies {
 
   // https://explorer.arc.io/address/0xaa5b3bF9f16b634Eb1e0C1210bF8bB92b526e76D
   IBasicInterestRateStrategy internal constant CORE_WETH_IR_STRATEGY =
+    IBasicInterestRateStrategy(0xaa5b3bF9f16b634Eb1e0C1210bF8bB92b526e76D);
+
+  // https://explorer.arc.io/address/0xaa5b3bF9f16b634Eb1e0C1210bF8bB92b526e76D
+  IBasicInterestRateStrategy internal constant CORE_syrupUSDC_IR_STRATEGY =
     IBasicInterestRateStrategy(0xaa5b3bF9f16b634Eb1e0C1210bF8bB92b526e76D);
 }
 library AaveV4ArcPositionManagers {
@@ -157,6 +169,11 @@ library AaveV4ArcAssets {
   address internal constant WETH_UNDERLYING = 0x128cC466B61f542da60c70e3aA11c10e19B84EDB;
 
   uint8 internal constant WETH_DECIMALS = 18;
+
+  // https://explorer.arc.io/address/0x0dC6b79F3c3854E4d74514fD4d29BE6c96Beee39
+  address internal constant syrupUSDC_UNDERLYING = 0x0dC6b79F3c3854E4d74514fD4d29BE6c96Beee39;
+
+  uint8 internal constant syrupUSDC_DECIMALS = 6;
 }
 library AaveV4ArcGetters {
   function getAllHubs() internal pure returns (IHub[] memory) {
