@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.71.3](https://github.com/aave-dao/aave-address-book/compare/v4.71.2...v4.71.3) (2026-10-06)
+
+
+### Bug Fixes
+
+* Arc Maple Spoke ([#1593](https://github.com/aave-dao/aave-address-book/issues/1593)) ([af11534](https://github.com/aave-dao/aave-address-book/commit/af11534215eb2ac2927cbf0c83edfdd41eb4f523))
+* **cache:** automated cache update - updated addresses ([#1600](https://github.com/aave-dao/aave-address-book/issues/1600)) ([25d18c8](https://github.com/aave-dao/aave-address-book/commit/25d18c8e8b94c73777d364290a53ddb672c2da3b))
+
+## [4.71.2](https://github.com/aave-dao/aave-address-book/compare/v4.71.1...v4.71.2) (2026-10-05)
+
+
+### Bug Fixes
+
+* **cache:** automated cache update - updated addresses ([#1598](https://github.com/aave-dao/aave-address-book/issues/1598)) ([ef5639a](https://github.com/aave-dao/aave-address-book/commit/ef5639a53b1e2e138a3cc84501a679f2bd91a98a))
+
 ## [4.71.1](https://github.com/aave-dao/aave-address-book/compare/v4.71.0...v4.71.1) (2026-10-02)
 
 
