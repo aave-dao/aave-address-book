@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.73.1](https://github.com/aave-dao/aave-address-book/compare/v4.73.0...v4.73.1) (2026-10-09)
+
+
+### Bug Fixes
+
+* add Arbitrum GSM registry/fee factory and rename bridged USDC to USDCe ([#1524](https://github.com/aave-dao/aave-address-book/issues/1524)) ([4250a79](https://github.com/aave-dao/aave-address-book/commit/4250a79306a1de2a98aa3f60bb42fbfcfc612ec7))
+
 ## [4.73.0](https://github.com/aave-dao/aave-address-book/compare/v4.72.3...v4.73.0) (2026-10-09)
 
 
