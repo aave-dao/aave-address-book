@@ -10068,7 +10068,7 @@
     },
     "0x863D5B3f24E6b84564432dd20606a82bB1C61dC5": {
       "name": "RangeValidationModule"
-      },
+    },
     "0x4b00A38ee9396E952d07F81B26Ed1514e480dCFC": {
       "name": "RiskOracle"
     },
@@ -10086,6 +10086,18 @@
     },
     "0xa89C6f877380af190AFD839c0F9cBF57474162f1": {
       "name": "AaveEModeAgent"
+    },
+    "0x8B562578b2f9Aa8C14cCda3c5d6CBCEaD3B06a57": {
+      "name": "PendlePrincipalToken"
+    },
+    "0x8F8d143F1FCe0A57A6e80D8DF7f7288703b2Eb7e": {
+      "name": "InitializableImmutableAdminUpgradeabilityProxy"
+    },
+    "0x7C10Ebde9C6ba023d4410Da645E013Fd8677795e": {
+      "name": "InitializableImmutableAdminUpgradeabilityProxy"
+    },
+    "0x4dc9Ee8d739411242303f7F78C6610d5B0371a2C": {
+      "name": "PendlePriceCapAdapter"
     }
   },
   "146": {

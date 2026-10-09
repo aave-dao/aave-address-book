@@ -353,6 +353,25 @@ library AaveV3MonadAssets {
   // https://monadscan.com/address/0x1f6F08BC1Da8B311bf6D87b829AD2FFAA8fB8211
   address internal constant PT_AUSD_8OCT2026_INTEREST_RATE_STRATEGY =
     0x1f6F08BC1Da8B311bf6D87b829AD2FFAA8fB8211;
+
+  // https://monadscan.com/address/0x8B562578b2f9Aa8C14cCda3c5d6CBCEaD3B06a57
+  address internal constant PT_AUSD_17DEC2026_UNDERLYING =
+    0x8B562578b2f9Aa8C14cCda3c5d6CBCEaD3B06a57;
+
+  uint8 internal constant PT_AUSD_17DEC2026_DECIMALS = 6;
+
+  // https://monadscan.com/address/0x8F8d143F1FCe0A57A6e80D8DF7f7288703b2Eb7e
+  address internal constant PT_AUSD_17DEC2026_A_TOKEN = 0x8F8d143F1FCe0A57A6e80D8DF7f7288703b2Eb7e;
+
+  // https://monadscan.com/address/0x7C10Ebde9C6ba023d4410Da645E013Fd8677795e
+  address internal constant PT_AUSD_17DEC2026_V_TOKEN = 0x7C10Ebde9C6ba023d4410Da645E013Fd8677795e;
+
+  // https://monadscan.com/address/0x4dc9Ee8d739411242303f7F78C6610d5B0371a2C
+  address internal constant PT_AUSD_17DEC2026_ORACLE = 0x4dc9Ee8d739411242303f7F78C6610d5B0371a2C;
+
+  // https://monadscan.com/address/0x1f6F08BC1Da8B311bf6D87b829AD2FFAA8fB8211
+  address internal constant PT_AUSD_17DEC2026_INTEREST_RATE_STRATEGY =
+    0x1f6F08BC1Da8B311bf6D87b829AD2FFAA8fB8211;
 }
 library AaveV3MonadEModes {
   uint8 internal constant NONE = 0;
@@ -366,6 +385,8 @@ library AaveV3MonadEModes {
   uint8 internal constant weETH__WETH = 4;
 
   uint8 internal constant PT_AUSD_8OCT2026__USDT0_USDC_USDe_GHO = 5;
+
+  uint8 internal constant PT_AUSD_17DEC2026__USDT0_USDC_USDe_mUSD_GHO = 6;
 }
 library AaveV3MonadExternalLibraries {
   // https://monadscan.com/address/0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6
