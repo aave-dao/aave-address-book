@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.73.0](https://github.com/aave-dao/aave-address-book/compare/v4.72.3...v4.73.0) (2026-10-09)
+
+
+### Features
+
+* add AaveV4EtherFiOptimismWhitelabel (EtherFi Cash instance) ([#1553](https://github.com/aave-dao/aave-address-book/issues/1553)) ([6f60740](https://github.com/aave-dao/aave-address-book/commit/6f60740c2e2b43e7d4b105250e24d2ab1b7701ca))
+
 ## [4.72.3](https://github.com/aave-dao/aave-address-book/compare/v4.72.2...v4.72.3) (2026-10-09)
 
 
