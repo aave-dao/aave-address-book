@@ -2,6 +2,62 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.72.3](https://github.com/aave-dao/aave-address-book/compare/v4.72.2...v4.72.3) (2026-10-09)
+
+
+### Bug Fixes
+
+* **cache:** automated cache update - updated addresses ([#1608](https://github.com/aave-dao/aave-address-book/issues/1608)) ([086166f](https://github.com/aave-dao/aave-address-book/commit/086166f38c5c8147bd091af9d7a243ac2e178573))
+
+## [4.72.2](https://github.com/aave-dao/aave-address-book/compare/v4.72.1...v4.72.2) (2026-10-08)
+
+
+### Bug Fixes
+
+* **cache:** automated cache update - updated addresses ([#1606](https://github.com/aave-dao/aave-address-book/issues/1606)) ([d03d3e2](https://github.com/aave-dao/aave-address-book/commit/d03d3e2380c5c90c92371b1ad5f1084fb635da1b))
+
+## [4.72.1](https://github.com/aave-dao/aave-address-book/compare/v4.72.0...v4.72.1) (2026-10-06)
+
+
+### Bug Fixes
+
+* add the LlamaRisk PT oracle addresses on Monad ([#1597](https://github.com/aave-dao/aave-address-book/issues/1597)) ([04ee7f2](https://github.com/aave-dao/aave-address-book/commit/04ee7f28e30b616935dc4e3742f1a8909cabe319))
+* **cache:** automated cache update - updated addresses ([#1604](https://github.com/aave-dao/aave-address-book/issues/1604)) ([89cedba](https://github.com/aave-dao/aave-address-book/commit/89cedba7b3af0acb43318fa2983cab93a74a50f1))
+
+## [4.72.0](https://github.com/aave-dao/aave-address-book/compare/v4.71.3...v4.72.0) (2026-10-06)
+
+
+### Features
+
+* add AgentHub and RangeValidationModule on Monad ([#1596](https://github.com/aave-dao/aave-address-book/issues/1596)) ([60cdaaf](https://github.com/aave-dao/aave-address-book/commit/60cdaafe281492bdb2ee1421170416ee670f3572))
+
+
+### Bug Fixes
+
+* **cache:** automated cache update - updated addresses ([#1602](https://github.com/aave-dao/aave-address-book/issues/1602)) ([a69fcb8](https://github.com/aave-dao/aave-address-book/commit/a69fcb834f0ef52c3e4d3576007e3500036f81b9))
+
+## [4.71.3](https://github.com/aave-dao/aave-address-book/compare/v4.71.2...v4.71.3) (2026-10-06)
+
+
+### Bug Fixes
+
+* Arc Maple Spoke ([#1593](https://github.com/aave-dao/aave-address-book/issues/1593)) ([af11534](https://github.com/aave-dao/aave-address-book/commit/af11534215eb2ac2927cbf0c83edfdd41eb4f523))
+* **cache:** automated cache update - updated addresses ([#1600](https://github.com/aave-dao/aave-address-book/issues/1600)) ([25d18c8](https://github.com/aave-dao/aave-address-book/commit/25d18c8e8b94c73777d364290a53ddb672c2da3b))
+
+## [4.71.2](https://github.com/aave-dao/aave-address-book/compare/v4.71.1...v4.71.2) (2026-10-05)
+
+
+### Bug Fixes
+
+* **cache:** automated cache update - updated addresses ([#1598](https://github.com/aave-dao/aave-address-book/issues/1598)) ([ef5639a](https://github.com/aave-dao/aave-address-book/commit/ef5639a53b1e2e138a3cc84501a679f2bd91a98a))
+
+## [4.71.1](https://github.com/aave-dao/aave-address-book/compare/v4.71.0...v4.71.1) (2026-10-02)
+
+
+### Bug Fixes
+
+* **cache:** automated cache update - updated addresses ([#1594](https://github.com/aave-dao/aave-address-book/issues/1594)) ([4f6f7c1](https://github.com/aave-dao/aave-address-book/commit/4f6f7c1c3c8fc34955e988a65aa33f5ca86ca041))
+
 ## [4.71.0](https://github.com/aave-dao/aave-address-book/compare/v4.70.3...v4.71.0) (2026-09-28)
 
 

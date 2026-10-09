@@ -20,6 +20,9 @@ export const arcV4Config: V4Config = {
     MAIN: '0xB843bdC3a87A05E77E07Df9FE48928b3A34b134d',
     FOREX: '0x4164EBCAF74670aa74C8D4F59de6157c0780F1bB',
   },
+  eSpokes: {
+    USDC_MAPLE: '0x18Dde098d25722C14e09842a6Fa7db6aAFC395a2',
+  },
   // Arc pays gas in USDC, so there is no native token wrapper and no NativeTokenGateway.
   positionManagers: {
     GIVER_POSITION_MANAGER: '0x01Da80Eef3004ebbF90b7637B1De7fF30fBc7cf1',

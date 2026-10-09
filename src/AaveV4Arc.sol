@@ -52,6 +52,13 @@ library AaveV4ArcSpokes {
   // https://explorer.arc.io/address/0x2abd2B5C30D649273B3b762b0E1758BaC8F87cFE
   IAaveOracle internal constant FOREX_SPOKE_ORACLE =
     IAaveOracle(0x2abd2B5C30D649273B3b762b0E1758BaC8F87cFE);
+
+  // https://explorer.arc.io/address/0x18Dde098d25722C14e09842a6Fa7db6aAFC395a2
+  ISpoke internal constant USDC_MAPLE_ESPOKE = ISpoke(0x18Dde098d25722C14e09842a6Fa7db6aAFC395a2);
+
+  // https://explorer.arc.io/address/0x1Dd77518EC8A68E91C0656660d7972e301Fc00A4
+  IAaveOracle internal constant USDC_MAPLE_ESPOKE_ORACLE =
+    IAaveOracle(0x1Dd77518EC8A68E91C0656660d7972e301Fc00A4);
 }
 library AaveV4ArcSpokePriceFeeds {
   // https://explorer.arc.io/address/0x729cFd10FC10A908aE9F9b35245cB6Ee14D44D6B
@@ -74,6 +81,14 @@ library AaveV4ArcSpokePriceFeeds {
   // https://explorer.arc.io/address/0x3b381530cF032F1B2dc1974D228c8BD70bF41914
   address internal constant FOREX_SPOKE_EURC_PRICE_FEED =
     0x3b381530cF032F1B2dc1974D228c8BD70bF41914;
+
+  // https://explorer.arc.io/address/0xAFcab475C68D931C3DC1035eFb50df2d29e003C3
+  address internal constant USDC_MAPLE_ESPOKE_syrupUSDC_PRICE_FEED =
+    0xAFcab475C68D931C3DC1035eFb50df2d29e003C3;
+
+  // https://explorer.arc.io/address/0x729cFd10FC10A908aE9F9b35245cB6Ee14D44D6B
+  address internal constant USDC_MAPLE_ESPOKE_USDC_PRICE_FEED =
+    0x729cFd10FC10A908aE9F9b35245cB6Ee14D44D6B;
 }
 library AaveV4ArcTokenizationSpokes {
   // https://explorer.arc.io/address/0x42EAB64310E1D1c66b4d8aF7C9C4ce253885eB83
@@ -107,6 +122,10 @@ library AaveV4ArcIRStrategies {
 
   // https://explorer.arc.io/address/0xaa5b3bF9f16b634Eb1e0C1210bF8bB92b526e76D
   IBasicInterestRateStrategy internal constant CORE_WETH_IR_STRATEGY =
+    IBasicInterestRateStrategy(0xaa5b3bF9f16b634Eb1e0C1210bF8bB92b526e76D);
+
+  // https://explorer.arc.io/address/0xaa5b3bF9f16b634Eb1e0C1210bF8bB92b526e76D
+  IBasicInterestRateStrategy internal constant CORE_syrupUSDC_IR_STRATEGY =
     IBasicInterestRateStrategy(0xaa5b3bF9f16b634Eb1e0C1210bF8bB92b526e76D);
 }
 library AaveV4ArcPositionManagers {
@@ -150,6 +169,11 @@ library AaveV4ArcAssets {
   address internal constant WETH_UNDERLYING = 0x128cC466B61f542da60c70e3aA11c10e19B84EDB;
 
   uint8 internal constant WETH_DECIMALS = 18;
+
+  // https://explorer.arc.io/address/0x0dC6b79F3c3854E4d74514fD4d29BE6c96Beee39
+  address internal constant syrupUSDC_UNDERLYING = 0x0dC6b79F3c3854E4d74514fD4d29BE6c96Beee39;
+
+  uint8 internal constant syrupUSDC_DECIMALS = 6;
 }
 library AaveV4ArcGetters {
   function getAllHubs() internal pure returns (IHub[] memory) {
@@ -159,9 +183,10 @@ library AaveV4ArcGetters {
   }
 
   function getAllSpokes() internal pure returns (ISpoke[] memory) {
-    ISpoke[] memory spokes = new ISpoke[](2);
+    ISpoke[] memory spokes = new ISpoke[](3);
     spokes[0] = AaveV4ArcSpokes.MAIN_SPOKE;
     spokes[1] = AaveV4ArcSpokes.FOREX_SPOKE;
+    spokes[2] = AaveV4ArcSpokes.USDC_MAPLE_ESPOKE;
     return spokes;
   }
 
@@ -175,14 +200,15 @@ library AaveV4ArcGetters {
   }
 
   function getAllSpokesRaw() internal pure returns (address[] memory) {
-    address[] memory spokes = new address[](7);
+    address[] memory spokes = new address[](8);
     spokes[0] = address(AaveV4ArcSpokes.TREASURY_SPOKE);
     spokes[1] = address(AaveV4ArcSpokes.MAIN_SPOKE);
     spokes[2] = address(AaveV4ArcSpokes.FOREX_SPOKE);
-    spokes[3] = address(AaveV4ArcTokenizationSpokes.CORE_USDC_TOKENIZATION_SPOKE);
-    spokes[4] = address(AaveV4ArcTokenizationSpokes.CORE_EURC_TOKENIZATION_SPOKE);
-    spokes[5] = address(AaveV4ArcTokenizationSpokes.CORE_cirBTC_TOKENIZATION_SPOKE);
-    spokes[6] = address(AaveV4ArcTokenizationSpokes.CORE_WETH_TOKENIZATION_SPOKE);
+    spokes[3] = address(AaveV4ArcSpokes.USDC_MAPLE_ESPOKE);
+    spokes[4] = address(AaveV4ArcTokenizationSpokes.CORE_USDC_TOKENIZATION_SPOKE);
+    spokes[5] = address(AaveV4ArcTokenizationSpokes.CORE_EURC_TOKENIZATION_SPOKE);
+    spokes[6] = address(AaveV4ArcTokenizationSpokes.CORE_cirBTC_TOKENIZATION_SPOKE);
+    spokes[7] = address(AaveV4ArcTokenizationSpokes.CORE_WETH_TOKENIZATION_SPOKE);
     return spokes;
   }
 
