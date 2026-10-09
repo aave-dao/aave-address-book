@@ -128,7 +128,7 @@ export const ASSETS = {
     STATIC_A_TOKEN: '0x39BCf217ACc4Bf2fCaF7BC8800E69D986912c75e',
     STATA_TOKEN: '0xC438643b0eee8a314eEC53eb8A1Ee6467C88fc24',
   },
-  USDC: {
+  USDCe: {
     decimals: 6,
     id: 2,
     UNDERLYING: '0x7F5c764cBc14f9669B88837ca1490cCa17c31607',
@@ -262,7 +262,7 @@ export const ASSETS = {
 } as const;
 export const E_MODES = {
   '1': {
-    label: 'DAI,USDC,USDT,sUSD,USDCn / ',
+    label: 'DAI,USDCe,USDT,sUSD,USDCn / ',
     collateralBitmap: '8357',
     collateralAssets: [
       '0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1',
