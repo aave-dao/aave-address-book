@@ -4841,6 +4841,12 @@
     },
     "0x6f48d9Cdb8EE6E17c96B2d8Aec128af426A295c1": {
       "name": "RiskSteward"
+    },
+    "0xE6ec1f0Ae6Cd023bd0a9B4d0253BDC755103253c": {
+      "name": "SafeProxy"
+    },
+    "0x5C905d62B22e4DAa4967E517C4a047Ff6026C731": {
+      "name": "GhoAaveSteward"
     }
   },
   "10": {
