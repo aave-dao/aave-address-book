@@ -152,8 +152,8 @@ library AaveV3CeloAssets {
   // https://celoscan.io/address/0x05Ee3d1fBACbDbA1259946033cd7A42FDFcCcF0d
   address internal constant USDm_V_TOKEN = 0x05Ee3d1fBACbDbA1259946033cd7A42FDFcCcF0d;
 
-  // https://celoscan.io/address/0xdCdA3E7E90fe827776b8FDaEa3C5977F123354DA
-  address internal constant USDm_ORACLE = 0xdCdA3E7E90fe827776b8FDaEa3C5977F123354DA;
+  // https://celoscan.io/address/0x1E1Ef58d6286739a666C9E0eA98af77e65c5f1C1
+  address internal constant USDm_ORACLE = 0x1E1Ef58d6286739a666C9E0eA98af77e65c5f1C1;
 
   // https://celoscan.io/address/0x8B62D241Bf59f40991DCd18531683156d7013355
   address internal constant USDm_INTEREST_RATE_STRATEGY =
