@@ -16894,6 +16894,15 @@
     },
     "0x4daF7FCe9EfcA48e9274b35b5A7B4639b0DdFCCa": {
       "name": "ChainlinkOracleSwapFreezer"
+    },
+    "0x80e8F4b3698A079d7f2397cd71ab4bb17a12924e": {
+      "name": "FixedPriceAdapter"
+    },
+    "0x0EB34b917D500a7736555f4508BFE77452cb261d": {
+      "name": "FixedPriceAdapter"
+    },
+    "0xC3B102d52dB93fE3B22B356085C5854c6Bcc2091": {
+      "name": "FixedPriceAdapter"
     }
   },
   "42220": {

@@ -349,8 +349,8 @@ library AaveV3ArbitrumAssets {
   // https://arbiscan.io/address/0x34e2eD44EF7466D5f9E0b782B5c08b57475e7907
   address internal constant MAI_V_TOKEN = 0x34e2eD44EF7466D5f9E0b782B5c08b57475e7907;
 
-  // https://arbiscan.io/address/0xAF92b0A685a15F4E26B6d7DA86F1a9C8C01E2a09
-  address internal constant MAI_ORACLE = 0xAF92b0A685a15F4E26B6d7DA86F1a9C8C01E2a09;
+  // https://arbiscan.io/address/0x80e8F4b3698A079d7f2397cd71ab4bb17a12924e
+  address internal constant MAI_ORACLE = 0x80e8F4b3698A079d7f2397cd71ab4bb17a12924e;
 
   // https://arbiscan.io/address/0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F
   address internal constant MAI_INTEREST_RATE_STRATEGY = 0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F;
@@ -393,8 +393,8 @@ library AaveV3ArbitrumAssets {
   // https://arbiscan.io/address/0xA8669021776Bc142DfcA87c21b4A52595bCbB40a
   address internal constant LUSD_V_TOKEN = 0xA8669021776Bc142DfcA87c21b4A52595bCbB40a;
 
-  // https://arbiscan.io/address/0x8659250B67C7BdA853EbEBCF56dD22d6d4aE7617
-  address internal constant LUSD_ORACLE = 0x8659250B67C7BdA853EbEBCF56dD22d6d4aE7617;
+  // https://arbiscan.io/address/0x0EB34b917D500a7736555f4508BFE77452cb261d
+  address internal constant LUSD_ORACLE = 0x0EB34b917D500a7736555f4508BFE77452cb261d;
 
   // https://arbiscan.io/address/0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F
   address internal constant LUSD_INTEREST_RATE_STRATEGY =
@@ -438,8 +438,8 @@ library AaveV3ArbitrumAssets {
   // https://arbiscan.io/address/0x5D557B07776D12967914379C71a1310e917C7555
   address internal constant FRAX_V_TOKEN = 0x5D557B07776D12967914379C71a1310e917C7555;
 
-  // https://arbiscan.io/address/0x8aa156740411030Cf9a6381baa51FA4f1Af2c47C
-  address internal constant FRAX_ORACLE = 0x8aa156740411030Cf9a6381baa51FA4f1Af2c47C;
+  // https://arbiscan.io/address/0xC3B102d52dB93fE3B22B356085C5854c6Bcc2091
+  address internal constant FRAX_ORACLE = 0xC3B102d52dB93fE3B22B356085C5854c6Bcc2091;
 
   // https://arbiscan.io/address/0x429F16dBA3B9e1900087Cbaa7b50D38Bc60fB73F
   address internal constant FRAX_INTEREST_RATE_STRATEGY =
