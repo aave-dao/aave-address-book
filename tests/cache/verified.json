@@ -9904,6 +9904,27 @@
     },
     "0xdeadD8aB03075b7FBA81864202a2f59EE25B312b": {
       "name": "GnosisSafeProxy"
+    },
+    "0xF83D860A7a038592Ab028F812b93FE3cEe93a286": {
+      "name": "DefaultReserveInterestRateStrategy"
+    },
+    "0x97F28Df431E02ff4f3A23d9b0b55F4A9F0d3E08b": {
+      "name": "CLSynchronicityPriceAdapterBaseToPeg"
+    },
+    "0xc48c7B21Ba4dd93aA44665A43Ea4bDF7A15ddaD7": {
+      "name": "DefaultReserveInterestRateStrategy"
+    },
+    "0x540FBdE71C7c004Fa9eB4Dd712b5F3fa4C0deD72": {
+      "name": "CLSynchronicityPriceAdapterBaseToPeg"
+    },
+    "0x61c417D189A9983B3eD9054692c16451E5391058": {
+      "name": "FixedPriceAdapter"
+    },
+    "0x55Eb6D9432a9842844b60Cd9D38497c0be7E623D": {
+      "name": "FixedPriceAdapter"
+    },
+    "0xe756E3e985Bb5666ce7CE07d47EA97E1Fd33B834": {
+      "name": "FixedPriceAdapter"
     }
   },
   "143": {

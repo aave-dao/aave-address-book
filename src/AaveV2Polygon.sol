@@ -225,12 +225,12 @@ library AaveV2PolygonAssets {
   // https://polygonscan.com/address/0x36e988a38542C3482013Bb54ee46aC1fb1efedcd
   address internal constant GHST_V_TOKEN = 0x36e988a38542C3482013Bb54ee46aC1fb1efedcd;
 
-  // https://polygonscan.com/address/0xe638249AF9642CdA55A92245525268482eE4C67b
-  address internal constant GHST_ORACLE = 0xe638249AF9642CdA55A92245525268482eE4C67b;
+  // https://polygonscan.com/address/0x97F28Df431E02ff4f3A23d9b0b55F4A9F0d3E08b
+  address internal constant GHST_ORACLE = 0x97F28Df431E02ff4f3A23d9b0b55F4A9F0d3E08b;
 
-  // https://polygonscan.com/address/0xfe72F0c532c4E7cfA65FCbd3B92D926d26Fb73a9
+  // https://polygonscan.com/address/0xF83D860A7a038592Ab028F812b93FE3cEe93a286
   address internal constant GHST_INTEREST_RATE_STRATEGY =
-    0xfe72F0c532c4E7cfA65FCbd3B92D926d26Fb73a9;
+    0xF83D860A7a038592Ab028F812b93FE3cEe93a286;
 
   // https://polygonscan.com/address/0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3
   address internal constant BAL_UNDERLYING = 0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3;
@@ -243,11 +243,11 @@ library AaveV2PolygonAssets {
   // https://polygonscan.com/address/0x773E0e32e7b6a00b7cA9daa85dfba9D61B7f2574
   address internal constant BAL_V_TOKEN = 0x773E0e32e7b6a00b7cA9daa85dfba9D61B7f2574;
 
-  // https://polygonscan.com/address/0x03CD157746c61F44597dD54C6f6702105258C722
-  address internal constant BAL_ORACLE = 0x03CD157746c61F44597dD54C6f6702105258C722;
+  // https://polygonscan.com/address/0x540FBdE71C7c004Fa9eB4Dd712b5F3fa4C0deD72
+  address internal constant BAL_ORACLE = 0x540FBdE71C7c004Fa9eB4Dd712b5F3fa4C0deD72;
 
-  // https://polygonscan.com/address/0xA78F3bc07035422f6f69c3f2B72fcCd0487348FA
-  address internal constant BAL_INTEREST_RATE_STRATEGY = 0xA78F3bc07035422f6f69c3f2B72fcCd0487348FA;
+  // https://polygonscan.com/address/0xc48c7B21Ba4dd93aA44665A43Ea4bDF7A15ddaD7
+  address internal constant BAL_INTEREST_RATE_STRATEGY = 0xc48c7B21Ba4dd93aA44665A43Ea4bDF7A15ddaD7;
 
   // https://polygonscan.com/address/0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369
   address internal constant DPI_UNDERLYING = 0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369;

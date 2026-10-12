@@ -341,8 +341,8 @@ library AaveV3PolygonAssets {
   // https://polygonscan.com/address/0xCE186F6Cccb0c955445bb9d10C59caE488Fea559
   address internal constant GHST_V_TOKEN = 0xCE186F6Cccb0c955445bb9d10C59caE488Fea559;
 
-  // https://polygonscan.com/address/0xDD229Ce42f11D8Ee7fFf29bDB71C7b81352e11be
-  address internal constant GHST_ORACLE = 0xDD229Ce42f11D8Ee7fFf29bDB71C7b81352e11be;
+  // https://polygonscan.com/address/0x61c417D189A9983B3eD9054692c16451E5391058
+  address internal constant GHST_ORACLE = 0x61c417D189A9983B3eD9054692c16451E5391058;
 
   // https://polygonscan.com/address/0x56076f960980d453b5B749CB6A1c4D2E4e138B1A
   address internal constant GHST_INTEREST_RATE_STRATEGY =
@@ -362,8 +362,8 @@ library AaveV3PolygonAssets {
   // https://polygonscan.com/address/0xA8669021776Bc142DfcA87c21b4A52595bCbB40a
   address internal constant BAL_V_TOKEN = 0xA8669021776Bc142DfcA87c21b4A52595bCbB40a;
 
-  // https://polygonscan.com/address/0xD106B538F2A868c28Ca1Ec7E298C3325E0251d66
-  address internal constant BAL_ORACLE = 0xD106B538F2A868c28Ca1Ec7E298C3325E0251d66;
+  // https://polygonscan.com/address/0x55Eb6D9432a9842844b60Cd9D38497c0be7E623D
+  address internal constant BAL_ORACLE = 0x55Eb6D9432a9842844b60Cd9D38497c0be7E623D;
 
   // https://polygonscan.com/address/0x56076f960980d453b5B749CB6A1c4D2E4e138B1A
   address internal constant BAL_INTEREST_RATE_STRATEGY = 0x56076f960980d453b5B749CB6A1c4D2E4e138B1A;
@@ -465,8 +465,8 @@ library AaveV3PolygonAssets {
   // https://polygonscan.com/address/0x18248226C16BF76c032817854E7C83a2113B4f06
   address internal constant miMATIC_V_TOKEN = 0x18248226C16BF76c032817854E7C83a2113B4f06;
 
-  // https://polygonscan.com/address/0x1e2Ba4725c6847dC8304466c4eA25A872A7D43a8
-  address internal constant miMATIC_ORACLE = 0x1e2Ba4725c6847dC8304466c4eA25A872A7D43a8;
+  // https://polygonscan.com/address/0xe756E3e985Bb5666ce7CE07d47EA97E1Fd33B834
+  address internal constant miMATIC_ORACLE = 0xe756E3e985Bb5666ce7CE07d47EA97E1Fd33B834;
 
   // https://polygonscan.com/address/0x56076f960980d453b5B749CB6A1c4D2E4e138B1A
   address internal constant miMATIC_INTEREST_RATE_STRATEGY =
