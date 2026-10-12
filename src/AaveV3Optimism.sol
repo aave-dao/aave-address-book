@@ -297,8 +297,8 @@ library AaveV3OptimismAssets {
   // https://optimistic.etherscan.io/address/0x4a1c3aD6Ed28a636ee1751C69071f6be75DEb8B8
   address internal constant sUSD_V_TOKEN = 0x4a1c3aD6Ed28a636ee1751C69071f6be75DEb8B8;
 
-  // https://optimistic.etherscan.io/address/0x8ea108096AdEA6Ac059cbEaE6862ce9BB52B4E87
-  address internal constant sUSD_ORACLE = 0x8ea108096AdEA6Ac059cbEaE6862ce9BB52B4E87;
+  // https://optimistic.etherscan.io/address/0x70371a0c40e8497Ce491f889D546AB760d644Eec
+  address internal constant sUSD_ORACLE = 0x70371a0c40e8497Ce491f889D546AB760d644Eec;
 
   // https://optimistic.etherscan.io/address/0x9359282735496463131139875849d5302Fb4bed1
   address internal constant sUSD_INTEREST_RATE_STRATEGY =
@@ -368,8 +368,8 @@ library AaveV3OptimismAssets {
   // https://optimistic.etherscan.io/address/0xCE186F6Cccb0c955445bb9d10C59caE488Fea559
   address internal constant LUSD_V_TOKEN = 0xCE186F6Cccb0c955445bb9d10C59caE488Fea559;
 
-  // https://optimistic.etherscan.io/address/0x5a602E33B935415477550c709a79cDF23E1355d5
-  address internal constant LUSD_ORACLE = 0x5a602E33B935415477550c709a79cDF23E1355d5;
+  // https://optimistic.etherscan.io/address/0x0EB34b917D500a7736555f4508BFE77452cb261d
+  address internal constant LUSD_ORACLE = 0x0EB34b917D500a7736555f4508BFE77452cb261d;
 
   // https://optimistic.etherscan.io/address/0x9359282735496463131139875849d5302Fb4bed1
   address internal constant LUSD_INTEREST_RATE_STRATEGY =
@@ -392,8 +392,8 @@ library AaveV3OptimismAssets {
   // https://optimistic.etherscan.io/address/0xA8669021776Bc142DfcA87c21b4A52595bCbB40a
   address internal constant MAI_V_TOKEN = 0xA8669021776Bc142DfcA87c21b4A52595bCbB40a;
 
-  // https://optimistic.etherscan.io/address/0x1D85F6eB05f618154ac520D2fDa74C40D21BD93e
-  address internal constant MAI_ORACLE = 0x1D85F6eB05f618154ac520D2fDa74C40D21BD93e;
+  // https://optimistic.etherscan.io/address/0x80e8F4b3698A079d7f2397cd71ab4bb17a12924e
+  address internal constant MAI_ORACLE = 0x80e8F4b3698A079d7f2397cd71ab4bb17a12924e;
 
   // https://optimistic.etherscan.io/address/0x9359282735496463131139875849d5302Fb4bed1
   address internal constant MAI_INTEREST_RATE_STRATEGY = 0x9359282735496463131139875849d5302Fb4bed1;
