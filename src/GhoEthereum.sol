@@ -22,6 +22,9 @@ library GhoEthereum {
   // https://etherscan.io/address/0x60Bf2DF49F17529Cf956D57848ebEB8a0d0a2757
   address internal constant SGHO_STEWARD = 0x60Bf2DF49F17529Cf956D57848ebEB8a0d0a2757;
 
+  // https://etherscan.io/address/0x4C728397b9d5C8071d46229DF8823Ea2782124fb
+  address internal constant STK_GHO_MIGRATOR = 0x4C728397b9d5C8071d46229DF8823Ea2782124fb;
+
   // https://etherscan.io/address/0xD1E856a947CdF56b4f000ee29d34F5808E0A6848
   address internal constant GHO_GSM_STEWARD = 0xD1E856a947CdF56b4f000ee29d34F5808E0A6848;
 

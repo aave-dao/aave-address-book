@@ -4928,6 +4928,9 @@
     },
     "0x4501b17229a27eE82F364172928e30526D2215E8": {
       "name": "FixedPriceAdapter"
+    },
+    "0x4C728397b9d5C8071d46229DF8823Ea2782124fb": {
+      "name": "StkGhoMigrator"
     }
   },
   "10": {
