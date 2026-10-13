@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.73.5](https://github.com/aave-dao/aave-address-book/compare/v4.73.4...v4.73.5) (2026-10-13)
+
+
+### Bug Fixes
+
+* add horizon risk admin and prime GHO Aave steward ([#1567](https://github.com/aave-dao/aave-address-book/issues/1567)) ([5ed601e](https://github.com/aave-dao/aave-address-book/commit/5ed601e75ba56ae780fc3a7c0c64c5704f94c810))
+
 ## [4.73.4](https://github.com/aave-dao/aave-address-book/compare/v4.73.3...v4.73.4) (2026-10-12)
 
 
