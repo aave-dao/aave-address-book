@@ -90,7 +90,7 @@ async function check(addresses: Record<string, any>) {
 describe('risk stewards', () => {
   Object.keys(addressBook).forEach((library) => {
     const addresses = addressBook[library];
-    if (addresses.RISK_STEWARD && addresses.POOL_ADDRESSES_PROVIDER) {
+    if (addresses.RISK_STEWARD && addresses.POOL_ADDRESSES_PROVIDER && !addresses.ACCESS_MANAGER) {
       const client = getClient(addresses.CHAIN_ID);
       it.concurrent(
         `should reference correct contracts on all getters: ${client.chain!.name}`,
@@ -123,7 +123,7 @@ async function checkAclRiskAdmin(addresses: Record<string, any>) {
 describe('acl manager roles', () => {
   Object.keys(addressBook).forEach((library) => {
     const addresses = addressBook[library];
-    if (addresses.RISK_STEWARD && addresses.POOL_ADDRESSES_PROVIDER) {
+    if (addresses.RISK_STEWARD && addresses.POOL_ADDRESSES_PROVIDER && !addresses.ACCESS_MANAGER) {
       const client = getClient(addresses.CHAIN_ID);
       it.concurrent(
         `RISK_STEWARD should hold RISK_ADMIN_ROLE on ACL_MANAGER: ${client.chain!.name}`,
@@ -137,7 +137,7 @@ describe('acl manager roles', () => {
 
 // The v4 steward takes no config engine and no pool data provider, and v4 permissioning lives on
 // the AccessManager instead of an ACL manager, so only the council and owner checks carry over.
-async function checkV4(addresses: Record<string, any>) {
+async function checkV4(library: string, addresses: Record<string, any>) {
   const client = getClient(addresses.CHAIN_ID);
   const riskStewardContract = getContract({
     abi: IRiskSteward_ABI,
@@ -154,8 +154,11 @@ async function checkV4(addresses: Record<string, any>) {
     );
 
   // Arc has no governance deployment, so the v4 security council executor owns the steward there.
-  const executor =
-    addresses.CHAIN_ID === ChainId.arc
+  // Externally curated markets hand the steward to the v4 security council itself.
+  const isCurated = library.endsWith('Curated');
+  const executor = isCurated
+    ? (getMisc(addresses.CHAIN_ID) as any)?.V4_SECURITY_COUNCIL
+    : addresses.CHAIN_ID === ChainId.arc
       ? (getMisc(addresses.CHAIN_ID) as any)?.V4_SECURITY_COUNCIL_EXECUTOR
       : (getGovernance(addresses.CHAIN_ID) as any)?.EXECUTOR_LVL_1;
   // TODO: remove once EXECUTOR_LVL_1 accepts ownership of the new Base v4 risk steward
@@ -175,7 +178,7 @@ describe('v4 risk stewards', () => {
       it.concurrent(
         `should reference correct contracts on all getters: ${client.chain!.name}`,
         async () => {
-          return checkV4(addresses);
+          return checkV4(library, addresses);
         },
       );
     }
