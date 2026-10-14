@@ -1,7 +1,7 @@
 import {describe, it} from 'vitest';
 import {ChainId} from '@aave-dao/toolbox';
 import * as addressBook from 'src/ts/AaveAddressBook';
-import {getContract, parseAbi} from 'viem';
+import {getContract} from 'viem';
 import {getClient} from 'scripts/clients';
 import {getGovernance, getMisc, getWhiteLabelGovernance, isPoolWhiteLabel} from 'tests/utils';
 import {IRiskSteward_ABI} from 'src/ts/abis/IRiskSteward';
@@ -153,28 +153,16 @@ async function checkV4(library: string, addresses: Record<string, any>) {
       `SANITY_RISK_STEWARDS_V4: RISK_COUNCIL MISMATCH ${addresses.RISK_STEWARD}:${RISK_COUNCIL} != ${addresses.RISK_COUNCIL} on ${client.chain?.name}`,
     );
 
-  // Arc has no governance deployment, so the v4 security council executor owns the steward there.
-  // Externally curated markets hand the steward to the v4 security council itself.
-  const isCurated = library.endsWith('Curated');
-  const executor = isCurated
+  // Externally curated markets hand the steward to the v4 security council itself, and Arc has no
+  // governance deployment, so the v4 security council executor owns the steward there.
+  const expectedOwner = library.endsWith('Curated')
     ? (getMisc(addresses.CHAIN_ID) as any)?.V4_SECURITY_COUNCIL
     : addresses.CHAIN_ID === ChainId.arc
       ? (getMisc(addresses.CHAIN_ID) as any)?.V4_SECURITY_COUNCIL_EXECUTOR
       : (getGovernance(addresses.CHAIN_ID) as any)?.EXECUTOR_LVL_1;
-  // TODO: remove once EXECUTOR_LVL_1 accepts ownership of the new Base v4 risk steward
-  // TODO: remove the curated pending-owner allowance once the V4 Security Council executes
-  // acceptOwnership() on the Sentora risk steward (Safe nonce 36)
-  const pendingOwnershipTransfer =
-    addresses.RISK_STEWARD === '0x577dD4c67d4c7278CdF3bC03aE9a391C4C72DB4f' ||
-    (isCurated &&
-      (await client.readContract({
-        address: addresses.RISK_STEWARD,
-        abi: parseAbi(['function pendingOwner() view returns (address)']),
-        functionName: 'pendingOwner',
-      })) === executor);
-  if (OWNER !== executor && !pendingOwnershipTransfer)
+  if (OWNER !== expectedOwner)
     throw new Error(
-      `SANITY_RISK_STEWARDS_V4: OWNER MISMATCH ${addresses.RISK_STEWARD}:${OWNER} != ${executor} on ${client.chain?.name}`,
+      `SANITY_RISK_STEWARDS_V4: OWNER MISMATCH ${addresses.RISK_STEWARD}:${OWNER} != ${expectedOwner} on ${client.chain?.name}`,
     );
 }
 
