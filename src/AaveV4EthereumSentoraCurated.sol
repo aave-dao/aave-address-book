@@ -2,24 +2,24 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.6.0;
 
-// WIP: written by hand with placeholder addresses (0x...10XX) until the Sentora market is deployed
+// WIP: written by hand; RISK_STEWARD is a placeholder (0x...1005) until the steward is deployed
 import {IHub, IHubConfigurator, ISpoke, ISpokeConfigurator, ITokenizationSpoke, ITreasurySpoke, IAaveOracle, IConfigPositionManager, IGiverPositionManager, ITakerPositionManager, INativeTokenGateway, ISignatureGateway, IAaveV4ConfigEngine, IAccessManagerEnumerable, IBasicInterestRateStrategy, PositionManagers} from './AaveV4.sol';
 library AaveV4EthereumSentoraCurated {
-  // https://etherscan.io/address/0x0000000000000000000000000000000000001001
+  // https://etherscan.io/address/0xbb8C3EF59895B48037C42c57e6E6840A902af7A2
   IAccessManagerEnumerable internal constant ACCESS_MANAGER =
-    IAccessManagerEnumerable(0x0000000000000000000000000000000000001001);
+    IAccessManagerEnumerable(0xbb8C3EF59895B48037C42c57e6E6840A902af7A2);
 
-  // https://etherscan.io/address/0x0000000000000000000000000000000000001002
+  // https://etherscan.io/address/0xa0eD3ECC19ab04BD0e6417023824cC4930d77b70
   IHubConfigurator internal constant HUB_CONFIGURATOR =
-    IHubConfigurator(0x0000000000000000000000000000000000001002);
+    IHubConfigurator(0xa0eD3ECC19ab04BD0e6417023824cC4930d77b70);
 
-  // https://etherscan.io/address/0x0000000000000000000000000000000000001003
+  // https://etherscan.io/address/0x93bd198d4F64798157233142769159329b3cBbce
   ISpokeConfigurator internal constant SPOKE_CONFIGURATOR =
-    ISpokeConfigurator(0x0000000000000000000000000000000000001003);
+    ISpokeConfigurator(0x93bd198d4F64798157233142769159329b3cBbce);
 
-  // https://etherscan.io/address/0x0000000000000000000000000000000000001004
+  // https://etherscan.io/address/0xcCC6579021A8309E3f75a8147304f04f7f7D29B7
   ITreasurySpoke internal constant TREASURY_SPOKE =
-    ITreasurySpoke(0x0000000000000000000000000000000000001004);
+    ITreasurySpoke(0xcCC6579021A8309E3f75a8147304f04f7f7D29B7);
 
   // https://etherscan.io/address/0xa1673fbD457747A05e91D9ef904Cb12827916B1E
   IAaveV4ConfigEngine internal constant CONFIG_ENGINE =
@@ -43,34 +43,34 @@ library AaveV4EthereumSentoraCurated {
   address internal constant POOL_ADDRESSES_PROVIDER = 0xFA13FCaf38bf5257DaFDB3C9d268F514eDDe46fe;
 }
 library AaveV4EthereumSentoraCuratedHubs {
-  // https://etherscan.io/address/0x0000000000000000000000000000000000001010
-  IHub internal constant SENTORA_HUB = IHub(0x0000000000000000000000000000000000001010);
+  // https://etherscan.io/address/0xD138FcB0E8C52fDbB2Ac4573FA4d8925cf11e9c2
+  IHub internal constant SENTORA_HUB = IHub(0xD138FcB0E8C52fDbB2Ac4573FA4d8925cf11e9c2);
 }
 library AaveV4EthereumSentoraCuratedSpokes {
-  // https://etherscan.io/address/0x0000000000000000000000000000000000001004
+  // https://etherscan.io/address/0xcCC6579021A8309E3f75a8147304f04f7f7D29B7
   ITreasurySpoke internal constant TREASURY_SPOKE =
-    ITreasurySpoke(0x0000000000000000000000000000000000001004);
+    ITreasurySpoke(0xcCC6579021A8309E3f75a8147304f04f7f7D29B7);
 
-  // https://etherscan.io/address/0x0000000000000000000000000000000000001011
-  ISpoke internal constant RLUSD_YIELD_SPOKE = ISpoke(0x0000000000000000000000000000000000001011);
+  // https://etherscan.io/address/0x9EbF0C19BF7dFE859820Cc09E846114b53814e52
+  ISpoke internal constant RLUSD_YIELD_SPOKE = ISpoke(0x9EbF0C19BF7dFE859820Cc09E846114b53814e52);
 
-  // https://etherscan.io/address/0x0000000000000000000000000000000000001014
+  // https://etherscan.io/address/0xB5A140D5209E3bc069cD9BBEA39D0051ee041360
   IAaveOracle internal constant RLUSD_YIELD_SPOKE_ORACLE =
-    IAaveOracle(0x0000000000000000000000000000000000001014);
+    IAaveOracle(0xB5A140D5209E3bc069cD9BBEA39D0051ee041360);
 
-  // https://etherscan.io/address/0x0000000000000000000000000000000000001012
-  ISpoke internal constant OUSD_YIELD_SPOKE = ISpoke(0x0000000000000000000000000000000000001012);
+  // https://etherscan.io/address/0xbb97b61Ad6747D337E5805F2d159d275BB1f0828
+  ISpoke internal constant OUSD_YIELD_SPOKE = ISpoke(0xbb97b61Ad6747D337E5805F2d159d275BB1f0828);
 
-  // https://etherscan.io/address/0x0000000000000000000000000000000000001015
+  // https://etherscan.io/address/0xC03078e957bD139C68984015268dA0F16a571F78
   IAaveOracle internal constant OUSD_YIELD_SPOKE_ORACLE =
-    IAaveOracle(0x0000000000000000000000000000000000001015);
+    IAaveOracle(0xC03078e957bD139C68984015268dA0F16a571F78);
 
-  // https://etherscan.io/address/0x0000000000000000000000000000000000001013
-  ISpoke internal constant BLUECHIP_SPOKE = ISpoke(0x0000000000000000000000000000000000001013);
+  // https://etherscan.io/address/0xA37e7cdC557f3C7f745FB3F337b6439979662c46
+  ISpoke internal constant BLUECHIP_SPOKE = ISpoke(0xA37e7cdC557f3C7f745FB3F337b6439979662c46);
 
-  // https://etherscan.io/address/0x0000000000000000000000000000000000001016
+  // https://etherscan.io/address/0x5Aa69D0DA40636786Fd72D01E656c81818D0A350
   IAaveOracle internal constant BLUECHIP_SPOKE_ORACLE =
-    IAaveOracle(0x0000000000000000000000000000000000001016);
+    IAaveOracle(0x5Aa69D0DA40636786Fd72D01E656c81818D0A350);
 }
 library AaveV4EthereumSentoraCuratedSpokePriceFeeds {
   // https://etherscan.io/address/0x5120deb18Ca5545B056D9eb2fB368811162F737a
@@ -130,25 +130,25 @@ library AaveV4EthereumSentoraCuratedSpokePriceFeeds {
     0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c;
 }
 library AaveV4EthereumSentoraCuratedPositionManagers {
-  // https://etherscan.io/address/0x0000000000000000000000000000000000001017
+  // https://etherscan.io/address/0x4CF59b43ADC4A183d3f7ED5Ec9c0Aca1ce3f25A4
   IGiverPositionManager internal constant GIVER_POSITION_MANAGER =
-    IGiverPositionManager(0x0000000000000000000000000000000000001017);
+    IGiverPositionManager(0x4CF59b43ADC4A183d3f7ED5Ec9c0Aca1ce3f25A4);
 
-  // https://etherscan.io/address/0x0000000000000000000000000000000000001018
+  // https://etherscan.io/address/0xa25963b913D69574290aFaC4A8202d43060b826f
   ITakerPositionManager internal constant TAKER_POSITION_MANAGER =
-    ITakerPositionManager(0x0000000000000000000000000000000000001018);
+    ITakerPositionManager(0xa25963b913D69574290aFaC4A8202d43060b826f);
 
-  // https://etherscan.io/address/0x0000000000000000000000000000000000001019
+  // https://etherscan.io/address/0xcf423Ce5A423baCBF3dd4CcC9a8Db30aD3b8775b
   IConfigPositionManager internal constant CONFIG_POSITION_MANAGER =
-    IConfigPositionManager(0x0000000000000000000000000000000000001019);
+    IConfigPositionManager(0xcf423Ce5A423baCBF3dd4CcC9a8Db30aD3b8775b);
 
-  // https://etherscan.io/address/0x0000000000000000000000000000000000001020
+  // https://etherscan.io/address/0x5e4331d626A0eCbAfe9AffE68DE2376CfF1b5ff4
   INativeTokenGateway internal constant NATIVE_TOKEN_GATEWAY =
-    INativeTokenGateway(0x0000000000000000000000000000000000001020);
+    INativeTokenGateway(0x5e4331d626A0eCbAfe9AffE68DE2376CfF1b5ff4);
 
-  // https://etherscan.io/address/0x0000000000000000000000000000000000001021
+  // https://etherscan.io/address/0xE48500D7c81135d0207df7bC6d03A082Eb6B7d2F
   ISignatureGateway internal constant SIGNATURE_GATEWAY =
-    ISignatureGateway(0x0000000000000000000000000000000000001021);
+    ISignatureGateway(0xE48500D7c81135d0207df7bC6d03A082Eb6B7d2F);
 }
 library AaveV4EthereumSentoraCuratedExternalLibraries {
   // https://etherscan.io/address/0x88dF535473C5adf1f57789734A05E555F7Deb8DB
