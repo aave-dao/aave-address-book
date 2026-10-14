@@ -18853,6 +18853,12 @@
     },
     "0x80e8F4b3698A079d7f2397cd71ab4bb17a12924e": {
       "name": "FixedPriceAdapter"
+    },
+    "0xaf22446124e566e54845f65b722E4dCbf12b650A": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0xc918CC59E268000e93F63c5AFff3E3ceF98C6E97": {
+      "name": "AaveOracle"
     }
   },
   "57073": {
