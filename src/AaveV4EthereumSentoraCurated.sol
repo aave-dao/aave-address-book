@@ -41,6 +41,15 @@ library AaveV4EthereumSentoraCurated {
 
   // https://etherscan.io/address/0xFA13FCaf38bf5257DaFDB3C9d268F514eDDe46fe
   address internal constant POOL_ADDRESSES_PROVIDER = 0xFA13FCaf38bf5257DaFDB3C9d268F514eDDe46fe;
+
+  // https://etherscan.io/address/0x37409c868BA42B91ff7E7b64D5BC020897444fAf
+  address internal constant SENTORA_EMERGENCY_ADMIN = 0x37409c868BA42B91ff7E7b64D5BC020897444fAf;
+
+  // https://etherscan.io/address/0x6748f83C1d1F49Dffb715078B68180536aE7F40F
+  address internal constant SENTORA_OPERATOR = 0x6748f83C1d1F49Dffb715078B68180536aE7F40F;
+
+  // https://etherscan.io/address/0x769C952ac9Bbb45524790B658fd70938a8A5d19E
+  address internal constant SENTORA_FEE_ADMIN = 0x769C952ac9Bbb45524790B658fd70938a8A5d19E;
 }
 library AaveV4EthereumSentoraCuratedHubs {
   // https://etherscan.io/address/0xD138FcB0E8C52fDbB2Ac4573FA4d8925cf11e9c2
