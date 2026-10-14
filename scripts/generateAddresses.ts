@@ -41,6 +41,7 @@ import { avalancheV4Config } from 'scripts/configs/v4/avalanche';
 import { arcV4Config } from 'scripts/configs/v4/arc';
 import { baseV4Config } from 'scripts/configs/v4/base';
 import { etherFiOptimismWhitelabelV4Config } from 'scripts/configs/v4/etherFiOptimism';
+import { ethereumSentoraCuratedV4Config } from 'scripts/configs/v4/ethereumSentoraCurated';
 import { generateProtocolV4Library } from 'scripts/generator/protocolV4Generator';
 import { generateGovernanceLibrary } from 'scripts/generator/governanceV3Generator';
 import { generateProtocolV2Library } from 'scripts/generator/protocolV2Generator';
@@ -212,6 +213,7 @@ async function main() {
       arcV4Config,
       baseV4Config,
       etherFiOptimismWhitelabelV4Config,
+      ethereumSentoraCuratedV4Config,
     ].map((config) => generateProtocolV4Library(config)),
   );
 

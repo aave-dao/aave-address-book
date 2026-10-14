@@ -1,7 +1,6 @@
 import {ChainId} from '@aave-dao/toolbox';
 import {V4Config} from 'scripts/configs/types';
 
-// Not wired into generateAddresses.ts yet; src/AaveV4EthereumSentoraCurated.sol is written by hand.
 export const ethereumSentoraCuratedV4Config: V4Config = {
   name: 'EthereumSentoraCurated',
   chainId: ChainId.mainnet,
@@ -12,7 +11,7 @@ export const ethereumSentoraCuratedV4Config: V4Config = {
     TREASURY_SPOKE: '0xcCC6579021A8309E3f75a8147304f04f7f7D29B7',
     CONFIG_ENGINE: '0xa1673fbD457747A05e91D9ef904Cb12827916B1E',
     RISK_STEWARD: '0x0e0D14B3A52E5E3548B0C530b4C5207d7fD01785',
-    REDUCE_RISK_STEWARD_WRAPPER: '0x148391a719ff853d7E3C718a09e2Ad00659250A0',
+    RISK_COUNCIL: '0x148391a719ff853d7E3C718a09e2Ad00659250A0',
     PERMISSIONED_PAYLOADS_CONTROLLER: '0x6f93372d694beB1B6398Eb70Ab736Edb2e89d2d6',
     PERMISSIONED_PAYLOADS_CONTROLLER_EXECUTOR: '0x59D15D3f4e86499d64f68ad7096a8D0939dA8343',
     ACL_MANAGER: '0xc7a5bf5fED269408d9c2250462910dA32d83f043',

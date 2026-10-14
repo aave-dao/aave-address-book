@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.6.0;
 
-// Written by hand until the Sentora market is wired into the generator
 import {IHub, IHubConfigurator, ISpoke, ISpokeConfigurator, ITokenizationSpoke, ITreasurySpoke, IAaveOracle, IConfigPositionManager, IGiverPositionManager, ITakerPositionManager, INativeTokenGateway, ISignatureGateway, IAaveV4ConfigEngine, IAccessManagerEnumerable, IBasicInterestRateStrategy, PositionManagers} from './AaveV4.sol';
 library AaveV4EthereumSentoraCurated {
   // https://etherscan.io/address/0xbb8C3EF59895B48037C42c57e6E6840A902af7A2
@@ -29,8 +28,7 @@ library AaveV4EthereumSentoraCurated {
   address internal constant RISK_STEWARD = 0x0e0D14B3A52E5E3548B0C530b4C5207d7fD01785;
 
   // https://etherscan.io/address/0x148391a719ff853d7E3C718a09e2Ad00659250A0
-  address internal constant REDUCE_RISK_STEWARD_WRAPPER =
-    0x148391a719ff853d7E3C718a09e2Ad00659250A0;
+  address internal constant RISK_COUNCIL = 0x148391a719ff853d7E3C718a09e2Ad00659250A0;
 
   // https://etherscan.io/address/0x6f93372d694beB1B6398Eb70Ab736Edb2e89d2d6
   address internal constant PERMISSIONED_PAYLOADS_CONTROLLER =
@@ -141,6 +139,39 @@ library AaveV4EthereumSentoraCuratedSpokePriceFeeds {
   // https://etherscan.io/address/0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c
   address internal constant BLUECHIP_SPOKE_kBTC_PRICE_FEED =
     0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c;
+}
+library AaveV4EthereumSentoraCuratedIRStrategies {
+  // https://etherscan.io/address/0x4b0DbCeC66734bE01A14Ad1E4dD849fA6FCD4191
+  IBasicInterestRateStrategy internal constant SENTORA_RLUSD_IR_STRATEGY =
+    IBasicInterestRateStrategy(0x4b0DbCeC66734bE01A14Ad1E4dD849fA6FCD4191);
+
+  // https://etherscan.io/address/0x4b0DbCeC66734bE01A14Ad1E4dD849fA6FCD4191
+  IBasicInterestRateStrategy internal constant SENTORA_PYUSD_IR_STRATEGY =
+    IBasicInterestRateStrategy(0x4b0DbCeC66734bE01A14Ad1E4dD849fA6FCD4191);
+
+  // https://etherscan.io/address/0x4b0DbCeC66734bE01A14Ad1E4dD849fA6FCD4191
+  IBasicInterestRateStrategy internal constant SENTORA_OUSD_IR_STRATEGY =
+    IBasicInterestRateStrategy(0x4b0DbCeC66734bE01A14Ad1E4dD849fA6FCD4191);
+
+  // https://etherscan.io/address/0x4b0DbCeC66734bE01A14Ad1E4dD849fA6FCD4191
+  IBasicInterestRateStrategy internal constant SENTORA_USDe_IR_STRATEGY =
+    IBasicInterestRateStrategy(0x4b0DbCeC66734bE01A14Ad1E4dD849fA6FCD4191);
+
+  // https://etherscan.io/address/0x4b0DbCeC66734bE01A14Ad1E4dD849fA6FCD4191
+  IBasicInterestRateStrategy internal constant SENTORA_PRIME_IR_STRATEGY =
+    IBasicInterestRateStrategy(0x4b0DbCeC66734bE01A14Ad1E4dD849fA6FCD4191);
+
+  // https://etherscan.io/address/0x4b0DbCeC66734bE01A14Ad1E4dD849fA6FCD4191
+  IBasicInterestRateStrategy internal constant SENTORA_mWIN_IR_STRATEGY =
+    IBasicInterestRateStrategy(0x4b0DbCeC66734bE01A14Ad1E4dD849fA6FCD4191);
+
+  // https://etherscan.io/address/0x4b0DbCeC66734bE01A14Ad1E4dD849fA6FCD4191
+  IBasicInterestRateStrategy internal constant SENTORA_PST_IR_STRATEGY =
+    IBasicInterestRateStrategy(0x4b0DbCeC66734bE01A14Ad1E4dD849fA6FCD4191);
+
+  // https://etherscan.io/address/0x4b0DbCeC66734bE01A14Ad1E4dD849fA6FCD4191
+  IBasicInterestRateStrategy internal constant SENTORA_kBTC_IR_STRATEGY =
+    IBasicInterestRateStrategy(0x4b0DbCeC66734bE01A14Ad1E4dD849fA6FCD4191);
 }
 library AaveV4EthereumSentoraCuratedPositionManagers {
   // https://etherscan.io/address/0x4CF59b43ADC4A183d3f7ED5Ec9c0Aca1ce3f25A4
