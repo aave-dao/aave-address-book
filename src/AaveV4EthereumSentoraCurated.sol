@@ -30,6 +30,10 @@ library AaveV4EthereumSentoraCurated {
   // https://etherscan.io/address/0x148391a719ff853d7E3C718a09e2Ad00659250A0
   address internal constant RISK_COUNCIL = 0x148391a719ff853d7E3C718a09e2Ad00659250A0;
 
+  // https://etherscan.io/address/0x148391a719ff853d7E3C718a09e2Ad00659250A0
+  address internal constant REDUCE_RISK_STEWARD_WRAPPER =
+    0x148391a719ff853d7E3C718a09e2Ad00659250A0;
+
   // https://etherscan.io/address/0x6f93372d694beB1B6398Eb70Ab736Edb2e89d2d6
   address internal constant PERMISSIONED_PAYLOADS_CONTROLLER =
     0x6f93372d694beB1B6398Eb70Ab736Edb2e89d2d6;
