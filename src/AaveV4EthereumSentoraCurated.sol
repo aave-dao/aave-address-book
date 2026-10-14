@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.6.0;
 
-// WIP: written by hand; RISK_STEWARD is a placeholder (0x...1005) until the steward is deployed
+// Written by hand until the Sentora market is wired into the generator
 import {IHub, IHubConfigurator, ISpoke, ISpokeConfigurator, ITokenizationSpoke, ITreasurySpoke, IAaveOracle, IConfigPositionManager, IGiverPositionManager, ITakerPositionManager, INativeTokenGateway, ISignatureGateway, IAaveV4ConfigEngine, IAccessManagerEnumerable, IBasicInterestRateStrategy, PositionManagers} from './AaveV4.sol';
 library AaveV4EthereumSentoraCurated {
   // https://etherscan.io/address/0xbb8C3EF59895B48037C42c57e6E6840A902af7A2
@@ -25,8 +25,12 @@ library AaveV4EthereumSentoraCurated {
   IAaveV4ConfigEngine internal constant CONFIG_ENGINE =
     IAaveV4ConfigEngine(0xa1673fbD457747A05e91D9ef904Cb12827916B1E);
 
-  // https://etherscan.io/address/0x0000000000000000000000000000000000001005
-  address internal constant RISK_STEWARD = 0x0000000000000000000000000000000000001005;
+  // https://etherscan.io/address/0x0e0D14B3A52E5E3548B0C530b4C5207d7fD01785
+  address internal constant RISK_STEWARD = 0x0e0D14B3A52E5E3548B0C530b4C5207d7fD01785;
+
+  // https://etherscan.io/address/0x148391a719ff853d7E3C718a09e2Ad00659250A0
+  address internal constant REDUCE_RISK_STEWARD_WRAPPER =
+    0x148391a719ff853d7E3C718a09e2Ad00659250A0;
 
   // https://etherscan.io/address/0x6f93372d694beB1B6398Eb70Ab736Edb2e89d2d6
   address internal constant PERMISSIONED_PAYLOADS_CONTROLLER =
