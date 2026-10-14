@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.74.0](https://github.com/aave-dao/aave-address-book/compare/v4.73.6...v4.74.0) (2026-10-14)
+
+
+### Features
+
+* V4 Sentora curated market  ([#1620](https://github.com/aave-dao/aave-address-book/issues/1620)) ([c1060f3](https://github.com/aave-dao/aave-address-book/commit/c1060f324df69dafe1a06095b679ab31156ec8d3))
+
 ## [4.73.6](https://github.com/aave-dao/aave-address-book/compare/v4.73.5...v4.73.6) (2026-10-14)
 
 
