@@ -4841,6 +4841,93 @@
     },
     "0x6f48d9Cdb8EE6E17c96B2d8Aec128af426A295c1": {
       "name": "RiskSteward"
+    },
+    "0xE6ec1f0Ae6Cd023bd0a9B4d0253BDC755103253c": {
+      "name": "SafeProxy"
+    },
+    "0x5C905d62B22e4DAa4967E517C4a047Ff6026C731": {
+      "name": "GhoAaveSteward"
+    },
+    "0x949E6a1C7c20409b20faa3eA20cEf8ceC16B41F5": {
+      "name": "CLSynchronicityPriceAdapterBaseToPeg"
+    },
+    "0x6d457dbeEeF5512EaED999A89091a47aFDe93DE8": {
+      "name": "DefaultReserveInterestRateStrategy"
+    },
+    "0xb7C850e4AfCeCbf4532A44AE610156E346CFa209": {
+      "name": "CLSynchronicityPriceAdapterBaseToPeg"
+    },
+    "0xB0bC8B96Ac67E00CD652021647AFa6Ef9ACA9b6D": {
+      "name": "DefaultReserveInterestRateStrategy"
+    },
+    "0x67E0E09914089d7F50D0dCb55A85C9606A29008e": {
+      "name": "CLSynchronicityPriceAdapterBaseToPeg"
+    },
+    "0x2178B420243Fd8934a500f915112dbF07C4356FA": {
+      "name": "CLSynchronicityPriceAdapterBaseToPeg"
+    },
+    "0x054B1406B06A5FA6eCcfa04f2EFB9F621d454089": {
+      "name": "CLSynchronicityPriceAdapterBaseToPeg"
+    },
+    "0x1dbdD67B0EfD9C9C03bD6d2b8B3fD8191481d929": {
+      "name": "DefaultReserveInterestRateStrategy"
+    },
+    "0xf05d9e94AF7eB79cE6123aF8034b53a0751222d2": {
+      "name": "CLSynchronicityPriceAdapterBaseToPeg"
+    },
+    "0xa7f107CEB25bd5bB8f6C91451c4d3f728bdAb40e": {
+      "name": "DefaultReserveInterestRateStrategy"
+    },
+    "0xA7572674a3f2fD8045A6A3F6ffd4Bab40FC693be": {
+      "name": "CLSynchronicityPriceAdapterBaseToPeg"
+    },
+    "0xB9ef53a48b1baD6415144262bB41F4a4EE2CD3F3": {
+      "name": "DefaultReserveInterestRateStrategy"
+    },
+    "0x6215b7ee67f85B7DFe569F077a0D20dEd13a49c3": {
+      "name": "CLSynchronicityPriceAdapterBaseToPeg"
+    },
+    "0xf8B9bD396f990780c5Fae80D97a83c31C799069D": {
+      "name": "CLSynchronicityPriceAdapterBaseToPeg"
+    },
+    "0x37C6089246750CEad02C0140999cefA063283D4c": {
+      "name": "CLSynchronicityPriceAdapterBaseToPeg"
+    },
+    "0xa8FAE5a2f034c2EBDb06BFCc6CEE5CC61644A242": {
+      "name": "CLSynchronicityPriceAdapterBaseToPeg"
+    },
+    "0x4d8725f7e86475fa91BDFD17828dB6800A67f4d1": {
+      "name": "CLSynchronicityPriceAdapterBaseToPeg"
+    },
+    "0xD1A5d3eBf991293f0558268b03bca40976636DF4": {
+      "name": "DefaultReserveInterestRateStrategy"
+    },
+    "0x11F6f9b366C27819C3552009bcA9EEAd8d5D8FD7": {
+      "name": "CLSynchronicityPriceAdapterBaseToPeg"
+    },
+    "0xc6E7e1ff334313CeBDe98b7a8A487119CFb6e654": {
+      "name": "FixedPriceAdapter"
+    },
+    "0xfFa88E79E6be7AB1048F44112f56C8F1Cfc33F66": {
+      "name": "FixedPriceAdapter"
+    },
+    "0xE7A4a6fCB1E7d5052e64E70aEd37b0fD2548bAE7": {
+      "name": "FixedPriceAdapter"
+    },
+    "0x3455c45D29f022Ba9367c2c2Ad95432A5d1E9Ed0": {
+      "name": "FixedPriceAdapter"
+    },
+    "0x30efE459B6A08a8E92b41e0563bdB15a29DA377e": {
+      "name": "FixedPriceAdapter"
+    },
+    "0xfbBa1Fd5dFce36860e46738dc9b83bb0A99551e2": {
+      "name": "FixedPriceAdapter"
+    },
+    "0x4124b23341FcEa31CF098FE9d801D59BB9F4B3F7": {
+      "name": "FixedPriceAdapter"
+    },
+    "0x4501b17229a27eE82F364172928e30526D2215E8": {
+      "name": "FixedPriceAdapter"
     }
   },
   "10": {
@@ -6250,6 +6337,15 @@
     },
     "0xD4dD9e2F021BB459D5A5f6c24C12fE09c5D45553": {
       "name": "BridgedFrankencoin"
+    },
+    "0x70371a0c40e8497Ce491f889D546AB760d644Eec": {
+      "name": "FixedPriceAdapter"
+    },
+    "0x0EB34b917D500a7736555f4508BFE77452cb261d": {
+      "name": "FixedPriceAdapter"
+    },
+    "0x80e8F4b3698A079d7f2397cd71ab4bb17a12924e": {
+      "name": "FixedPriceAdapter"
     }
   },
   "56": {
@@ -9814,6 +9910,27 @@
     },
     "0xdeadD8aB03075b7FBA81864202a2f59EE25B312b": {
       "name": "GnosisSafeProxy"
+    },
+    "0xF83D860A7a038592Ab028F812b93FE3cEe93a286": {
+      "name": "DefaultReserveInterestRateStrategy"
+    },
+    "0x97F28Df431E02ff4f3A23d9b0b55F4A9F0d3E08b": {
+      "name": "CLSynchronicityPriceAdapterBaseToPeg"
+    },
+    "0xc48c7B21Ba4dd93aA44665A43Ea4bDF7A15ddaD7": {
+      "name": "DefaultReserveInterestRateStrategy"
+    },
+    "0x540FBdE71C7c004Fa9eB4Dd712b5F3fa4C0deD72": {
+      "name": "CLSynchronicityPriceAdapterBaseToPeg"
+    },
+    "0x61c417D189A9983B3eD9054692c16451E5391058": {
+      "name": "FixedPriceAdapter"
+    },
+    "0x55Eb6D9432a9842844b60Cd9D38497c0be7E623D": {
+      "name": "FixedPriceAdapter"
+    },
+    "0xe756E3e985Bb5666ce7CE07d47EA97E1Fd33B834": {
+      "name": "FixedPriceAdapter"
     }
   },
   "143": {
@@ -16792,6 +16909,27 @@
     },
     "0x3Be327F22eB4BD8042e6944073b8826dCf357Aa2": {
       "name": "GnosisSafeProxy"
+    },
+    "0x2Be58aD215AA8552CB5BD038a88d0dE39d2427BB": {
+      "name": "GsmRegistry"
+    },
+    "0xF5F579926e704C01Bb6e51e18751F5E2b17B0cCC": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x1aEe7A618B0CC687cCED9aB796e464062f1508CA": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x4daF7FCe9EfcA48e9274b35b5A7B4639b0DdFCCa": {
+      "name": "ChainlinkOracleSwapFreezer"
+    },
+    "0x80e8F4b3698A079d7f2397cd71ab4bb17a12924e": {
+      "name": "FixedPriceAdapter"
+    },
+    "0x0EB34b917D500a7736555f4508BFE77452cb261d": {
+      "name": "FixedPriceAdapter"
+    },
+    "0xC3B102d52dB93fE3B22B356085C5854c6Bcc2091": {
+      "name": "FixedPriceAdapter"
     }
   },
   "42220": {
@@ -17205,6 +17343,9 @@
     },
     "0xd85786B5FC61E2A0c0a3144a33A0fC70646a99f6": {
       "name": "SafeProxy"
+    },
+    "0x1E1Ef58d6286739a666C9E0eA98af77e65c5f1C1": {
+      "name": "FixedPriceAdapter"
     }
   },
   "43113": {
@@ -18706,6 +18847,12 @@
     },
     "0xd8d7AbC42c1c938BdEC94fF8da1b3cd5b7e3b107": {
       "name": "RiskSteward"
+    },
+    "0xC3B102d52dB93fE3B22B356085C5854c6Bcc2091": {
+      "name": "FixedPriceAdapter"
+    },
+    "0x80e8F4b3698A079d7f2397cd71ab4bb17a12924e": {
+      "name": "FixedPriceAdapter"
     }
   },
   "57073": {
@@ -20500,6 +20647,9 @@
     },
     "0x611439a74546888c3535B4dd119A5Cbb9f5332EA": {
       "name": "GnosisSafeProxy"
+    },
+    "0xe90AA642db69c78959aFF4FC7d0E47866233BF43": {
+      "name": "FixedPriceAdapter"
     }
   }
 }

@@ -2,6 +2,43 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.73.5](https://github.com/aave-dao/aave-address-book/compare/v4.73.4...v4.73.5) (2026-10-13)
+
+
+### Bug Fixes
+
+* add horizon risk admin and prime GHO Aave steward ([#1567](https://github.com/aave-dao/aave-address-book/issues/1567)) ([5ed601e](https://github.com/aave-dao/aave-address-book/commit/5ed601e75ba56ae780fc3a7c0c64c5704f94c810))
+
+## [4.73.4](https://github.com/aave-dao/aave-address-book/compare/v4.73.3...v4.73.4) (2026-10-12)
+
+
+### Bug Fixes
+
+* **cache:** automated cache update - updated addresses ([#1617](https://github.com/aave-dao/aave-address-book/issues/1617)) ([f866292](https://github.com/aave-dao/aave-address-book/commit/f86629206a946fbe8db43cc6a8012a1bf403f0e8))
+* **cache:** automated cache update - updated addresses ([#1618](https://github.com/aave-dao/aave-address-book/issues/1618)) ([95f2354](https://github.com/aave-dao/aave-address-book/commit/95f2354c5e6293760b2cd86a7e70e7548438e9f8))
+
+## [4.73.3](https://github.com/aave-dao/aave-address-book/compare/v4.73.2...v4.73.3) (2026-10-12)
+
+
+### Bug Fixes
+
+* **cache:** automated cache update - updated addresses ([#1614](https://github.com/aave-dao/aave-address-book/issues/1614)) ([73676d4](https://github.com/aave-dao/aave-address-book/commit/73676d409a24eb33d04687f28287f23a40f2afd9))
+* **cache:** automated cache update - updated addresses ([#1615](https://github.com/aave-dao/aave-address-book/issues/1615)) ([38f5796](https://github.com/aave-dao/aave-address-book/commit/38f57964f2ae776b371b1d7115c901136edb38ca))
+
+## [4.73.2](https://github.com/aave-dao/aave-address-book/compare/v4.73.1...v4.73.2) (2026-10-11)
+
+
+### Bug Fixes
+
+* **cache:** automated cache update - updated addresses ([#1612](https://github.com/aave-dao/aave-address-book/issues/1612)) ([c4d9c98](https://github.com/aave-dao/aave-address-book/commit/c4d9c98e84c0426f398b7cc230dd6706f14a1671))
+
+## [4.73.1](https://github.com/aave-dao/aave-address-book/compare/v4.73.0...v4.73.1) (2026-10-09)
+
+
+### Bug Fixes
+
+* add Arbitrum GSM registry/fee factory and rename bridged USDC to USDCe ([#1524](https://github.com/aave-dao/aave-address-book/issues/1524)) ([4250a79](https://github.com/aave-dao/aave-address-book/commit/4250a79306a1de2a98aa3f60bb42fbfcfc612ec7))
+
 ## [4.73.0](https://github.com/aave-dao/aave-address-book/compare/v4.72.3...v4.73.0) (2026-10-09)
 
 

@@ -27,16 +27,22 @@ library GhoArbitrum {
   // https://arbiscan.io/address/0xC912D64F9F649897dC0244da3835869d410d053e
   address internal constant GHO_RESERVE = 0xC912D64F9F649897dC0244da3835869d410d053e;
 
-  // https://arbiscan.io/address/0x53E0cE250d06043414070100458546AaF4e284eD
-  address internal constant GSM_USDC = 0x53E0cE250d06043414070100458546AaF4e284eD;
+  // https://arbiscan.io/address/0x1aEe7A618B0CC687cCED9aB796e464062f1508CA
+  address internal constant GSM_USDCn = 0x1aEe7A618B0CC687cCED9aB796e464062f1508CA;
 
   // https://arbiscan.io/address/0x2169Bf2084bDb881587b3Cf6B24011E6AA091FdE
-  address internal constant GSM_USDC_FEE_STRATEGY = 0x2169Bf2084bDb881587b3Cf6B24011E6AA091FdE;
+  address internal constant GSM_USDCn_FEE_STRATEGY = 0x2169Bf2084bDb881587b3Cf6B24011E6AA091FdE;
 
-  // https://arbiscan.io/address/0xC5aF63c233eA19cB191b36D16C1e25cDA08409E7
-  address internal constant GSM_USDC_ORACLE_SWAP_FREEZER =
-    0xC5aF63c233eA19cB191b36D16C1e25cDA08409E7;
+  // https://arbiscan.io/address/0x4daF7FCe9EfcA48e9274b35b5A7B4639b0DdFCCa
+  address internal constant GSM_USDCn_ORACLE_SWAP_FREEZER =
+    0x4daF7FCe9EfcA48e9274b35b5A7B4639b0DdFCCa;
 
   // https://arbiscan.io/address/0x8513e6F37dBc52De87b166980Fa3F50639694B60
   address internal constant RISK_COUNCIL = 0x8513e6F37dBc52De87b166980Fa3F50639694B60;
+
+  // https://arbiscan.io/address/0x2Be58aD215AA8552CB5BD038a88d0dE39d2427BB
+  address internal constant GSM_REGISTRY = 0x2Be58aD215AA8552CB5BD038a88d0dE39d2427BB;
+
+  // https://arbiscan.io/address/0xF5F579926e704C01Bb6e51e18751F5E2b17B0cCC
+  address internal constant FEE_STRATEGY_FACTORY = 0xF5F579926e704C01Bb6e51e18751F5E2b17B0cCC;
 }

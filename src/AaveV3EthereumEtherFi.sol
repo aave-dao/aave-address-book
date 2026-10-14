@@ -159,8 +159,8 @@ library AaveV3EthereumEtherFiAssets {
   // https://etherscan.io/address/0xfd3aDA5AAbdc6531C7C2AC46c00eBf870f5a0E6B
   address internal constant FRAX_V_TOKEN = 0xfd3aDA5AAbdc6531C7C2AC46c00eBf870f5a0E6B;
 
-  // https://etherscan.io/address/0xeF50f8DC65402c3019586bc8725fCD0b99B8AAd7
-  address internal constant FRAX_ORACLE = 0xeF50f8DC65402c3019586bc8725fCD0b99B8AAd7;
+  // https://etherscan.io/address/0x4501b17229a27eE82F364172928e30526D2215E8
+  address internal constant FRAX_ORACLE = 0x4501b17229a27eE82F364172928e30526D2215E8;
 
   // https://etherscan.io/address/0xC16666b7FF197427BD255E6961A5F99cfb3A6059
   address internal constant FRAX_INTEREST_RATE_STRATEGY =
