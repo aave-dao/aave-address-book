@@ -77,9 +77,9 @@ library AaveV4EthereumSentoraCuratedSpokePriceFeeds {
   address internal constant RLUSD_YIELD_SPOKE_RLUSD_PRICE_FEED =
     0x5120deb18Ca5545B056D9eb2fB368811162F737a;
 
-  // https://etherscan.io/address/0x40DB5Fc54e3E47295Bd013f202edb66E60C0ECFb
+  // https://etherscan.io/address/0x8004d13AF906d85997106D92Cec947880191e7Cc
   address internal constant RLUSD_YIELD_SPOKE_USDe_PRICE_FEED =
-    0x40DB5Fc54e3E47295Bd013f202edb66E60C0ECFb;
+    0x8004d13AF906d85997106D92Cec947880191e7Cc;
 
   // https://etherscan.io/address/0x0abD10103b878d8D6Ac9708a0B8798459199174B
   address internal constant RLUSD_YIELD_SPOKE_PRIME_PRICE_FEED =
@@ -97,9 +97,9 @@ library AaveV4EthereumSentoraCuratedSpokePriceFeeds {
   address internal constant OUSD_YIELD_SPOKE_OUSD_PRICE_FEED =
     0x6f7bd8F596E66317D6323A6D61460f00d325823E;
 
-  // https://etherscan.io/address/0x40DB5Fc54e3E47295Bd013f202edb66E60C0ECFb
+  // https://etherscan.io/address/0x8004d13AF906d85997106D92Cec947880191e7Cc
   address internal constant OUSD_YIELD_SPOKE_USDe_PRICE_FEED =
-    0x40DB5Fc54e3E47295Bd013f202edb66E60C0ECFb;
+    0x8004d13AF906d85997106D92Cec947880191e7Cc;
 
   // https://etherscan.io/address/0x0abD10103b878d8D6Ac9708a0B8798459199174B
   address internal constant OUSD_YIELD_SPOKE_PRIME_PRICE_FEED =
