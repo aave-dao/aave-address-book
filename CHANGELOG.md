@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.74.1](https://github.com/aave-dao/aave-address-book/compare/v4.74.0...v4.74.1) (2026-10-15)
+
+
+### Bug Fixes
+
+* **cache:** automated cache update - updated addresses ([#1627](https://github.com/aave-dao/aave-address-book/issues/1627)) ([10f71e5](https://github.com/aave-dao/aave-address-book/commit/10f71e523f4a68a1f20977eebfd6e4a7463e6715))
+
+## [4.74.0](https://github.com/aave-dao/aave-address-book/compare/v4.73.6...v4.74.0) (2026-10-14)
+
+
+### Features
+
+* V4 Sentora curated market  ([#1620](https://github.com/aave-dao/aave-address-book/issues/1620)) ([c1060f3](https://github.com/aave-dao/aave-address-book/commit/c1060f324df69dafe1a06095b679ab31156ec8d3))
+
+## [4.73.6](https://github.com/aave-dao/aave-address-book/compare/v4.73.5...v4.73.6) (2026-10-14)
+
+
+### Bug Fixes
+
+* **cache:** automated cache update - updated addresses ([#1624](https://github.com/aave-dao/aave-address-book/issues/1624)) ([f227a57](https://github.com/aave-dao/aave-address-book/commit/f227a57124bd43cb0e2a8bdd0c4db569e7865d22))
+
 ## [4.73.5](https://github.com/aave-dao/aave-address-book/compare/v4.73.4...v4.73.5) (2026-10-13)
 
 

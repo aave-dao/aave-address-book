@@ -66,6 +66,7 @@ export * as AaveV4Avalanche from './AaveV4Avalanche';
 export * as AaveV4Arc from './AaveV4Arc';
 export * as AaveV4Base from './AaveV4Base';
 export * as AaveV4EtherFiOptimismWhitelabel from './AaveV4EtherFiOptimismWhitelabel';
+export * as AaveV4EthereumSentoraCurated from './AaveV4EthereumSentoraCurated';
 export * as MiscArbitrum from './MiscArbitrum';
 export * as MiscArbitrumSepolia from './MiscArbitrumSepolia';
 export * as MiscAvalanche from './MiscAvalanche';
