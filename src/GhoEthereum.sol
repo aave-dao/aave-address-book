@@ -9,6 +9,9 @@ library GhoEthereum {
   // https://etherscan.io/address/0x06179f7C1be40863405f374E7f5F8806c728660A
   address internal constant GHO_CCIP_TOKEN_POOL = 0x06179f7C1be40863405f374E7f5F8806c728660A;
 
+  // https://etherscan.io/address/0x7F2f96fcdC3A29Be75938d2aC3D92E7006919fe6
+  address internal constant GHO_CCIP_BRIDGE = 0x7F2f96fcdC3A29Be75938d2aC3D92E7006919fe6;
+
   // https://etherscan.io/address/0xb639D208Bcf0589D54FaC24E655C79EC529762B8
   address internal constant GHO_FLASHMINTER_FACILITATOR =
     0xb639D208Bcf0589D54FaC24E655C79EC529762B8;

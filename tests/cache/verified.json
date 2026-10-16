@@ -4929,6 +4929,9 @@
     "0x4501b17229a27eE82F364172928e30526D2215E8": {
       "name": "FixedPriceAdapter"
     },
+    "0x7F2f96fcdC3A29Be75938d2aC3D92E7006919fe6": {
+      "name": "AaveGhoCcipBridge"
+    },
     "0xbb8C3EF59895B48037C42c57e6E6840A902af7A2": {
       "name": "AccessManagerEnumerable"
     },
@@ -11305,6 +11308,9 @@
     },
     "0x26AD1207EAA39F74FAC725599ce1c431C80eF6cC": {
       "name": "PriceCapAdapterStable"
+    },
+    "0x49a6105F195460140C22a1Be7A2b1A7Bd7C7faf8": {
+      "name": "AaveGhoCcipBridge"
     }
   },
   "324": {
@@ -18958,6 +18964,9 @@
     },
     "0x80e8F4b3698A079d7f2397cd71ab4bb17a12924e": {
       "name": "FixedPriceAdapter"
+    },
+    "0xaf9F841De7477F35D6339943C1E6f0c101bcA621": {
+      "name": "AaveGhoCcipBridge"
     },
     "0xaf22446124e566e54845f65b722E4dCbf12b650A": {
       "name": "TransparentUpgradeableProxy"
