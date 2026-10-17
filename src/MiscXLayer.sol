@@ -9,6 +9,34 @@ library MiscXLayer {
   // https://www.oklink.com/xlayer/address/0xD0D1CcB0391aADF1EaD96814ce7ab4008Ebdb336
   address internal constant PROTOCOL_GUARDIAN = 0xD0D1CcB0391aADF1EaD96814ce7ab4008Ebdb336;
 
+  // https://www.oklink.com/xlayer/address/0x7532F38Be8AB746DD6c1B686A9aAED3400eD35a0
+  address internal constant AGENT_HUB = 0x7532F38Be8AB746DD6c1B686A9aAED3400eD35a0;
+
+  // https://www.oklink.com/xlayer/address/0x863D5B3f24E6b84564432dd20606a82bB1C61dC5
+  address internal constant RANGE_VALIDATION_MODULE = 0x863D5B3f24E6b84564432dd20606a82bB1C61dC5;
+
+  // https://www.oklink.com/xlayer/address/0x1a0267E9E5929a5914Ae9DbBf23Bc07B14365471
+  address internal constant LLAMARISK_RISK_ORACLE_ADMIN_SAFE =
+    0x1a0267E9E5929a5914Ae9DbBf23Bc07B14365471;
+
+  // https://www.oklink.com/xlayer/address/0x3e0C920C2bdDF6DF87f9A39Ea4db9CF65Cec1EDE
+  address internal constant LLAMARISK_RISK_ORACLE = 0x3e0C920C2bdDF6DF87f9A39Ea4db9CF65Cec1EDE;
+
+  // https://www.oklink.com/xlayer/address/0x101D7eA4D0F8Ab848D3CC24e7b391F19DaaF6a2d
+  address internal constant LLAMARISK_PT_PARAMETER_REGISTRY =
+    0x101D7eA4D0F8Ab848D3CC24e7b391F19DaaF6a2d;
+
+  // https://www.oklink.com/xlayer/address/0xfC354324B152E2A358A17182d2AF0d3f882c27D2
+  address internal constant LLAMARISK_RISK_ORACLE_ROUTER =
+    0xfC354324B152E2A358A17182d2AF0d3f882c27D2;
+
+  // https://www.oklink.com/xlayer/address/0xb00251C67dB290D0AD779903bfFeB092DAE76fFa
+  address internal constant LLAMARISK_PT_DISCOUNT_RATE_AGENT =
+    0xb00251C67dB290D0AD779903bfFeB092DAE76fFa;
+
+  // https://www.oklink.com/xlayer/address/0x19ae7c91dfd35a4515595cEd305d2102C3b1B02D
+  address internal constant LLAMARISK_PT_EMODE_AGENT = 0x19ae7c91dfd35a4515595cEd305d2102C3b1B02D;
+
   // https://www.oklink.com/xlayer/address/0x66Ac7223048037826e12cef9a848199e31AEFabE
   address internal constant BUDGET_INCENTIVE_SAFE = 0x66Ac7223048037826e12cef9a848199e31AEFabE;
 

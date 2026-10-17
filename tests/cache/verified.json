@@ -11305,6 +11305,30 @@
     },
     "0x26AD1207EAA39F74FAC725599ce1c431C80eF6cC": {
       "name": "PriceCapAdapterStable"
+    },
+    "0x7532F38Be8AB746DD6c1B686A9aAED3400eD35a0": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x863D5B3f24E6b84564432dd20606a82bB1C61dC5": {
+      "name": "RangeValidationModule"
+    },
+    "0x1a0267E9E5929a5914Ae9DbBf23Bc07B14365471": {
+      "name": "SafeProxy"
+    },
+    "0x3e0C920C2bdDF6DF87f9A39Ea4db9CF65Cec1EDE": {
+      "name": "RiskOracle"
+    },
+    "0x101D7eA4D0F8Ab848D3CC24e7b391F19DaaF6a2d": {
+      "name": "PTParameterRegistry"
+    },
+    "0xfC354324B152E2A358A17182d2AF0d3f882c27D2": {
+      "name": "LlamaguardRiskOracleRouter"
+    },
+    "0xb00251C67dB290D0AD779903bfFeB092DAE76fFa": {
+      "name": "AaveDiscountRateAgent"
+    },
+    "0x19ae7c91dfd35a4515595cEd305d2102C3b1B02D": {
+      "name": "AaveEModeAgent"
     }
   },
   "324": {
