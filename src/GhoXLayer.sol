@@ -9,6 +9,9 @@ library GhoXLayer {
   // https://www.oklink.com/xlayer/address/0xA5Ba213867E175A182a5dd6A9193C6158738105A
   address internal constant GHO_CCIP_TOKEN_POOL = 0xA5Ba213867E175A182a5dd6A9193C6158738105A;
 
+  // https://www.oklink.com/xlayer/address/0x49a6105F195460140C22a1Be7A2b1A7Bd7C7faf8
+  address internal constant GHO_CCIP_BRIDGE = 0x49a6105F195460140C22a1Be7A2b1A7Bd7C7faf8;
+
   // https://www.oklink.com/xlayer/address/0x20fd5f3FCac8883a3A0A2bBcD658A2d2c6EFa6B6
   address internal constant GHO_BUCKET_STEWARD = 0x20fd5f3FCac8883a3A0A2bBcD658A2d2c6EFa6B6;
 

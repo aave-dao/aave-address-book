@@ -9,6 +9,9 @@ library GhoAvalanche {
   // https://snowscan.xyz/address/0xDe6539018B095353A40753Dc54C91C68c9487D4E
   address internal constant GHO_CCIP_TOKEN_POOL = 0xDe6539018B095353A40753Dc54C91C68c9487D4E;
 
+  // https://snowscan.xyz/address/0xaf9F841De7477F35D6339943C1E6f0c101bcA621
+  address internal constant GHO_CCIP_BRIDGE = 0xaf9F841De7477F35D6339943C1E6f0c101bcA621;
+
   // https://snowscan.xyz/address/0xA5Ba213867E175A182a5dd6A9193C6158738105A
   address internal constant GHO_AAVE_CORE_STEWARD = 0xA5Ba213867E175A182a5dd6A9193C6158738105A;
 
