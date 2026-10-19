@@ -2,7 +2,7 @@
   "name": "ui",
   "version": "0.1.0",
   "private": true,
-  "author": "BGD Labs",
+  "author": "Aave",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

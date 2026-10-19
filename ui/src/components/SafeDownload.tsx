@@ -2,7 +2,7 @@ export const SafeDownload = () => {
   return (
     <a
       target="_blank"
-      href="https://raw.githubusercontent.com/bgd-labs/aave-address-book/main/safe.csv"
+      href="https://raw.githubusercontent.com/aave-dao/aave-address-book/main/safe.csv"
       className="mt-auto mb-4 group flex items-center gap-1 text-brand-900/60 text-[10px] tracking-wide rounded-full bg-brand-100 border px-3 py-0.5 uppercase font-semibold hover:bg-brand-900 hover:text-white hover:border-brand-900"
     >
       <span>Download</span>
