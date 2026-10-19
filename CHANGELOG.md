@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.74.2](https://github.com/aave-dao/aave-address-book/compare/v4.74.1...v4.74.2) (2026-10-19)
+
+
+### Bug Fixes
+
+* add ethena spoke on avalanche ([#1623](https://github.com/aave-dao/aave-address-book/issues/1623)) ([3cd6803](https://github.com/aave-dao/aave-address-book/commit/3cd68031dad4e2fe0c8e8610e747b6083c2fc561))
+* **cache:** automated cache update - updated addresses ([#1631](https://github.com/aave-dao/aave-address-book/issues/1631)) ([cb7f8fa](https://github.com/aave-dao/aave-address-book/commit/cb7f8fa5dc8c12b0646ae0495daf105a59066a13))
+
 ## [4.74.1](https://github.com/aave-dao/aave-address-book/compare/v4.74.0...v4.74.1) (2026-10-15)
 
 
