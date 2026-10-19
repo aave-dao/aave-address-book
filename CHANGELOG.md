@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.74.4](https://github.com/aave-dao/aave-address-book/compare/v4.74.3...v4.74.4) (2026-10-19)
+
+
+### Bug Fixes
+
+* replace BGD Labs branding with Aave DAO ([#1634](https://github.com/aave-dao/aave-address-book/issues/1634)) ([e55e233](https://github.com/aave-dao/aave-address-book/commit/e55e2333202862ddb52a4712f1cc9949d4212ae5))
+
 ## [4.74.3](https://github.com/aave-dao/aave-address-book/compare/v4.74.2...v4.74.3) (2026-10-19)
 
 
