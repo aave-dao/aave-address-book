@@ -11051,6 +11051,26 @@
       }
     },
     {
+      "chainId": 196,
+      "address": "0x5eA1F184af5Ced57725213D8267B5c4C834557D4",
+      "name": "PT Global Dollar 25FEB2027",
+      "decimals": 6,
+      "symbol": "PT-USDG-25FEB2027",
+      "tags": ["underlying"]
+    },
+    {
+      "chainId": 196,
+      "address": "0xc6f45a13d8307a6a35a147a31DdA4ce370ee33B4",
+      "name": "Aave XLayer PT_USDG_25FEB2027",
+      "decimals": 6,
+      "symbol": "aXlrPT_USDG_25FEB2027",
+      "tags": ["aTokenV3", "aaveV3"],
+      "extensions": {
+        "pool": "0xE3F3Caefdd7180F884c01E57f65Df979Af84f116",
+        "underlying": "0x5eA1F184af5Ced57725213D8267B5c4C834557D4"
+      }
+    },
+    {
       "chainId": 143,
       "address": "0xe7cd86e13AC4309349F30B3435a9d337750fC82D",
       "name": "USDT0",
@@ -11572,6 +11592,6 @@
       }
     }
   ],
-  "version": { "major": 3, "minor": 0, "patch": 191 },
-  "timestamp": "2026-10-09T00:25:45.350Z"
+  "version": { "major": 3, "minor": 0, "patch": 192 },
+  "timestamp": "2026-10-20T00:21:19.105Z"
 }
