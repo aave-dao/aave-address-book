@@ -11323,6 +11323,9 @@
     },
     "0xB81f0B2cCAC262288fED924DA750CFc7CC450530": {
       "name": "PendlePriceCapAdapter"
+    },
+    "0x5eA1F184af5Ced57725213D8267B5c4C834557D4": {
+      "name": "PendlePrincipalToken"
     }
   },
   "324": {
