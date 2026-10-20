@@ -11314,6 +11314,18 @@
     },
     "0x49a6105F195460140C22a1Be7A2b1A7Bd7C7faf8": {
       "name": "AaveGhoCcipBridge"
+    },
+    "0xc6f45a13d8307a6a35a147a31DdA4ce370ee33B4": {
+      "name": "InitializableImmutableAdminUpgradeabilityProxy"
+    },
+    "0x4b9B45801E51fDf74E081897ce2eF141986122Dd": {
+      "name": "InitializableImmutableAdminUpgradeabilityProxy"
+    },
+    "0xB81f0B2cCAC262288fED924DA750CFc7CC450530": {
+      "name": "PendlePriceCapAdapter"
+    },
+    "0x5eA1F184af5Ced57725213D8267B5c4C834557D4": {
+      "name": "PendlePrincipalToken"
     }
   },
   "324": {
