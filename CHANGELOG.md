@@ -2,6 +2,43 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.74.6](https://github.com/aave-dao/aave-address-book/compare/v4.74.5...v4.74.6) (2026-10-21)
+
+
+### Bug Fixes
+
+* **cache:** automated cache update - updated addresses ([#1638](https://github.com/aave-dao/aave-address-book/issues/1638)) ([86dec5a](https://github.com/aave-dao/aave-address-book/commit/86dec5a9b1ce5e162abbffce730acb7baa49ff25))
+
+## [4.74.5](https://github.com/aave-dao/aave-address-book/compare/v4.74.4...v4.74.5) (2026-10-20)
+
+
+### Bug Fixes
+
+* **cache:** automated cache update - updated addresses ([#1636](https://github.com/aave-dao/aave-address-book/issues/1636)) ([8221e6f](https://github.com/aave-dao/aave-address-book/commit/8221e6fdf53fe4461c79c959ac226cc2e1dbd2a0))
+
+## [4.74.4](https://github.com/aave-dao/aave-address-book/compare/v4.74.3...v4.74.4) (2026-10-19)
+
+
+### Bug Fixes
+
+* replace BGD Labs branding with Aave DAO ([#1634](https://github.com/aave-dao/aave-address-book/issues/1634)) ([e55e233](https://github.com/aave-dao/aave-address-book/commit/e55e2333202862ddb52a4712f1cc9949d4212ae5))
+
+## [4.74.3](https://github.com/aave-dao/aave-address-book/compare/v4.74.2...v4.74.3) (2026-10-19)
+
+
+### Bug Fixes
+
+* Add `AaveGhoCcipBridge` missing addresses ([#1629](https://github.com/aave-dao/aave-address-book/issues/1629)) ([d24749a](https://github.com/aave-dao/aave-address-book/commit/d24749ac746872981cec4f7d862ac0d301a05462))
+* add StkGhoMigrator to GhoEthereum ([#1621](https://github.com/aave-dao/aave-address-book/issues/1621)) ([db578fa](https://github.com/aave-dao/aave-address-book/commit/db578faa90d89a74200eb1e48ab3d25d44b98cbc))
+
+## [4.74.2](https://github.com/aave-dao/aave-address-book/compare/v4.74.1...v4.74.2) (2026-10-19)
+
+
+### Bug Fixes
+
+* add ethena spoke on avalanche ([#1623](https://github.com/aave-dao/aave-address-book/issues/1623)) ([3cd6803](https://github.com/aave-dao/aave-address-book/commit/3cd68031dad4e2fe0c8e8610e747b6083c2fc561))
+* **cache:** automated cache update - updated addresses ([#1631](https://github.com/aave-dao/aave-address-book/issues/1631)) ([cb7f8fa](https://github.com/aave-dao/aave-address-book/commit/cb7f8fa5dc8c12b0646ae0495daf105a59066a13))
+
 ## [4.74.1](https://github.com/aave-dao/aave-address-book/compare/v4.74.0...v4.74.1) (2026-10-15)
 
 

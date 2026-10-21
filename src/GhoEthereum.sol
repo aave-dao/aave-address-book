@@ -9,6 +9,9 @@ library GhoEthereum {
   // https://etherscan.io/address/0x06179f7C1be40863405f374E7f5F8806c728660A
   address internal constant GHO_CCIP_TOKEN_POOL = 0x06179f7C1be40863405f374E7f5F8806c728660A;
 
+  // https://etherscan.io/address/0x7F2f96fcdC3A29Be75938d2aC3D92E7006919fe6
+  address internal constant GHO_CCIP_BRIDGE = 0x7F2f96fcdC3A29Be75938d2aC3D92E7006919fe6;
+
   // https://etherscan.io/address/0xb639D208Bcf0589D54FaC24E655C79EC529762B8
   address internal constant GHO_FLASHMINTER_FACILITATOR =
     0xb639D208Bcf0589D54FaC24E655C79EC529762B8;
@@ -21,6 +24,9 @@ library GhoEthereum {
 
   // https://etherscan.io/address/0x60Bf2DF49F17529Cf956D57848ebEB8a0d0a2757
   address internal constant SGHO_STEWARD = 0x60Bf2DF49F17529Cf956D57848ebEB8a0d0a2757;
+
+  // https://etherscan.io/address/0x4C728397b9d5C8071d46229DF8823Ea2782124fb
+  address internal constant STK_GHO_MIGRATOR = 0x4C728397b9d5C8071d46229DF8823Ea2782124fb;
 
   // https://etherscan.io/address/0xD1E856a947CdF56b4f000ee29d34F5808E0A6848
   address internal constant GHO_GSM_STEWARD = 0xD1E856a947CdF56b4f000ee29d34F5808E0A6848;
