@@ -5039,6 +5039,9 @@
     },
     "0x73E0C0d45E048D25Fc26Fa3159b0aA04BfA4Db98": {
       "name": "KBTCProxy"
+    },
+    "0xFB36A571995C04E6FcbC7611450E805c79535174": {
+      "name": "AaveV3ConfigEngine"
     }
   },
   "10": {
