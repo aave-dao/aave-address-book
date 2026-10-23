@@ -11371,6 +11371,12 @@
     },
     "0x19ae7c91dfd35a4515595cEd305d2102C3b1B02D": {
       "name": "AaveEModeAgent"
+    },
+    "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34": {
+      "name": "USDeOFT"
+    },
+    "0x1d919Fb33D8A3B5a0235e5d6F608bC53B9e87412": {
+      "name": "InitializableImmutableAdminUpgradeabilityProxy"
     }
   },
   "324": {
