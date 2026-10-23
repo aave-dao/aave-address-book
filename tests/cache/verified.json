@@ -5042,6 +5042,9 @@
     },
     "0xFB36A571995C04E6FcbC7611450E805c79535174": {
       "name": "AaveV3ConfigEngine"
+    },
+    "0x5148d810B1DaE509d68f9d9219AD1d004EA32545": {
+      "name": "RwaATokenInstance"
     }
   },
   "10": {
