@@ -285,6 +285,9 @@ library AaveV3XLayerAssets {
   address internal constant USDC_INTEREST_RATE_STRATEGY =
     0x3eFfeBDD435217A8B485dfaEFDecf766F2a3c05B;
 
+  // https://www.oklink.com/xlayer/address/0xEB809A8F20C210C6aaF0015926ab8d89F1742681
+  address internal constant USDC_STATA_TOKEN = 0xEB809A8F20C210C6aaF0015926ab8d89F1742681;
+
   // https://www.oklink.com/xlayer/address/0x5eA1F184af5Ced57725213D8267B5c4C834557D4
   address internal constant PT_USDG_25FEB2027_UNDERLYING =
     0x5eA1F184af5Ced57725213D8267B5c4C834557D4;
