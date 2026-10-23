@@ -6457,6 +6457,24 @@
     },
     "0x80e8F4b3698A079d7f2397cd71ab4bb17a12924e": {
       "name": "FixedPriceAdapter"
+    },
+    "0xCC69Be955A3B76EDf3ef882563a5958Bc369e775": {
+      "name": "ERC4626RatePriceFeed"
+    },
+    "0xEE10AC041AD60e3db1a3DfbDa36dE6AEE8765135": {
+      "name": "ERC4626RatePriceFeed"
+    },
+    "0xB52601150b362cd78c3eA63BA1b565E7727fFbfC": {
+      "name": "ERC4626RatePriceFeed"
+    },
+    "0xE7E553Cd128F0011777323A0b44a7b96EA1CB540": {
+      "name": "WrappedBackedTokenProxy"
+    },
+    "0x4C1AE29c159838fC1b224636E28E086EB69101f7": {
+      "name": "WrappedBackedTokenProxy"
+    },
+    "0x461b25b99606Fe169D6F0dD6816650eF6536403E": {
+      "name": "WrappedBackedTokenProxy"
     }
   },
   "56": {
