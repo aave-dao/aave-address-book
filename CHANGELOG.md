@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.75.0](https://github.com/aave-dao/aave-address-book/compare/v4.74.7...v4.75.0) (2026-10-23)
+
+
+### Features
+
+* add the AgentHub and LlamaRisk PT oracle addresses on X Layer ([#1630](https://github.com/aave-dao/aave-address-book/issues/1630)) ([c6f4699](https://github.com/aave-dao/aave-address-book/commit/c6f469947b79e1176fadb0dc37ba76f216472d9e))
+
+
+### Bug Fixes
+
+* **cache:** automated cache update - updated addresses ([#1643](https://github.com/aave-dao/aave-address-book/issues/1643)) ([dfe74c1](https://github.com/aave-dao/aave-address-book/commit/dfe74c129cbf5cbb7cc124d4177f0fbb50215014))
+* **cache:** automated cache update - updated addresses ([#1645](https://github.com/aave-dao/aave-address-book/issues/1645)) ([ce652cc](https://github.com/aave-dao/aave-address-book/commit/ce652ccabf84a47f2fb7f400690288c62f81d261))
+
 ## [4.74.7](https://github.com/aave-dao/aave-address-book/compare/v4.74.6...v4.74.7) (2026-10-23)
 
 
