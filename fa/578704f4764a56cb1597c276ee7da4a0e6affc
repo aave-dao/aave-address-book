@@ -1,0 +1,32 @@
+scripts/configs/pools/ethereum.ts
+  s_2bc10e7d26489f::t_1af0bd0953be36 163
+src/AaveV3EthereumHorizon.sol
+  s_2bc10e7d26489f::t_948ea83ea1107d 79-81
+tests/cache/verified.json
+  s_2bc10e7d26489f::t_87605f3ee761bd 5042-5044
+src/ts/AaveV3EthereumHorizon.ts
+  s_2bc10e7d26489f::t_948ea83ea1107d 68-70
+safe.csv
+  s_2bc10e7d26489f::t_948ea83ea1107d 932
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "fa578704f4764a56cb1597c276ee7da4a0e6affc",
+  "prompts": {},
+  "humans": {
+    "h_0f977de3f043fc": {
+      "author": "Alexandru Niculae <43644109+avniculae@users.noreply.github.com>"
+    }
+  },
+  "sessions": {
+    "s_2bc10e7d26489f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c17fbce8-c529-4890-a816-221a667180e8",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Alexandru Niculae <43644109+avniculae@users.noreply.github.com>"
+    }
+  }
+}
