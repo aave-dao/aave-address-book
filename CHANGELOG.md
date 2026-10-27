@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.75.3](https://github.com/aave-dao/aave-address-book/compare/v4.75.2...v4.75.3) (2026-10-27)
+
+
+### Bug Fixes
+
+* Add horizon config engine and RWA aToken impl ([#1641](https://github.com/aave-dao/aave-address-book/issues/1641)) ([7389dfa](https://github.com/aave-dao/aave-address-book/commit/7389dfa30d4445039e9206a6c20afbcb8e7288f8))
+* **cache:** automated cache update - updated addresses ([#1651](https://github.com/aave-dao/aave-address-book/issues/1651)) ([6b7485b](https://github.com/aave-dao/aave-address-book/commit/6b7485b9e74ec47dedddde00c5661f30e45fecb0))
+
 ## [4.75.2](https://github.com/aave-dao/aave-address-book/compare/v4.75.1...v4.75.2) (2026-10-27)
 
 
