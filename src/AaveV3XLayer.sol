@@ -306,17 +306,35 @@ library AaveV3XLayerAssets {
   // https://www.oklink.com/xlayer/address/0x3eFfeBDD435217A8B485dfaEFDecf766F2a3c05B
   address internal constant PT_USDG_25FEB2027_INTEREST_RATE_STRATEGY =
     0x3eFfeBDD435217A8B485dfaEFDecf766F2a3c05B;
+
+  // https://www.oklink.com/xlayer/address/0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34
+  address internal constant USDe_UNDERLYING = 0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34;
+
+  uint8 internal constant USDe_DECIMALS = 18;
+
+  // https://www.oklink.com/xlayer/address/0x1d919Fb33D8A3B5a0235e5d6F608bC53B9e87412
+  address internal constant USDe_A_TOKEN = 0x1d919Fb33D8A3B5a0235e5d6F608bC53B9e87412;
+
+  // https://www.oklink.com/xlayer/address/0xF34e9193BAcd622161D8D16C35f3F66d928cc549
+  address internal constant USDe_V_TOKEN = 0xF34e9193BAcd622161D8D16C35f3F66d928cc549;
+
+  // https://www.oklink.com/xlayer/address/0x7ec7E5497EAf312FE82F8307D05eb0E5f0f157D3
+  address internal constant USDe_ORACLE = 0x7ec7E5497EAf312FE82F8307D05eb0E5f0f157D3;
+
+  // https://www.oklink.com/xlayer/address/0x3eFfeBDD435217A8B485dfaEFDecf766F2a3c05B
+  address internal constant USDe_INTEREST_RATE_STRATEGY =
+    0x3eFfeBDD435217A8B485dfaEFDecf766F2a3c05B;
 }
 library AaveV3XLayerEModes {
   uint8 internal constant NONE = 0;
 
-  uint8 internal constant xBTC__USDT_USDG_GHO_USDC = 1;
+  uint8 internal constant xBTC__USDT_USDG_GHO_USDC_USDe = 1;
 
-  uint8 internal constant xETH__USDT_USDG_GHO_USDC = 2;
+  uint8 internal constant xETH__USDT_USDG_GHO_USDC_USDe = 2;
 
-  uint8 internal constant xSOL__USDT_USDG_GHO_USDC = 3;
+  uint8 internal constant xSOL__USDT_USDG_GHO_USDC_USDe = 3;
 
-  uint8 internal constant WOKB__USDT_USDG_GHO_USDC = 4;
+  uint8 internal constant WOKB__USDT_USDG_GHO_USDC_USDe = 4;
 
   uint8 internal constant xBETH__xETH = 5;
 
@@ -327,6 +345,8 @@ library AaveV3XLayerEModes {
   uint8 internal constant PT_USDG_29OCT2026__USDG = 8;
 
   uint8 internal constant PT_USDG_29OCT2026_PT_USDG_25FEB2027__USDT_GHO_USDC = 9;
+
+  uint8 internal constant USDe__USDT_USDG_GHO_USDC = 10;
 }
 library AaveV3XLayerExternalLibraries {
   // https://www.oklink.com/xlayer/address/0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6
