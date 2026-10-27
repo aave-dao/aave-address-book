@@ -109,6 +109,18 @@ library AaveV4AvalancheSpokePriceFeeds {
   // https://snowscan.xyz/address/0x0A77230d17318075983913bC2145DB16C7366156
   address internal constant AVAX_CORRELATED_SPOKE_WAVAX_PRICE_FEED =
     0x0A77230d17318075983913bC2145DB16C7366156;
+
+  // https://snowscan.xyz/address/0x5b7810a910B4a878AaA4800a824E5E5796838009
+  address internal constant ETHENA_ECOSYSTEM_SPOKE_USDe_PRICE_FEED =
+    0x5b7810a910B4a878AaA4800a824E5E5796838009;
+
+  // https://snowscan.xyz/address/0x5b7810a910B4a878AaA4800a824E5E5796838009
+  address internal constant ETHENA_ECOSYSTEM_SPOKE_USDt_PRICE_FEED =
+    0x5b7810a910B4a878AaA4800a824E5E5796838009;
+
+  // https://snowscan.xyz/address/0xb0D7A8bbDcdb1203850b742bB4d7f57a1F1C8483
+  address internal constant ETHENA_ECOSYSTEM_SPOKE_USDC_PRICE_FEED =
+    0xb0D7A8bbDcdb1203850b742bB4d7f57a1F1C8483;
 }
 library AaveV4AvalancheTokenizationSpokes {
   // https://snowscan.xyz/address/0x1604D602f8A05CBA2d8Ff5d14DE4C3498f15B6B4
@@ -166,6 +178,10 @@ library AaveV4AvalancheIRStrategies {
 
   // https://snowscan.xyz/address/0x446eb3913b3fd3a9219A07B0f6AbE98BD0fAeed4
   IBasicInterestRateStrategy internal constant CORE_sAVAX_IR_STRATEGY =
+    IBasicInterestRateStrategy(0x446eb3913b3fd3a9219A07B0f6AbE98BD0fAeed4);
+
+  // https://snowscan.xyz/address/0x446eb3913b3fd3a9219A07B0f6AbE98BD0fAeed4
+  IBasicInterestRateStrategy internal constant CORE_USDe_IR_STRATEGY =
     IBasicInterestRateStrategy(0x446eb3913b3fd3a9219A07B0f6AbE98BD0fAeed4);
 }
 library AaveV4AvalanchePositionManagers {
@@ -228,6 +244,11 @@ library AaveV4AvalancheAssets {
   address internal constant sAVAX_UNDERLYING = 0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE;
 
   uint8 internal constant sAVAX_DECIMALS = 18;
+
+  // https://snowscan.xyz/address/0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34
+  address internal constant USDe_UNDERLYING = 0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34;
+
+  uint8 internal constant USDe_DECIMALS = 18;
 }
 library AaveV4AvalancheGetters {
   function getAllHubs() internal pure returns (IHub[] memory) {
