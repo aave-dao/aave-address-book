@@ -5039,6 +5039,12 @@
     },
     "0x73E0C0d45E048D25Fc26Fa3159b0aA04BfA4Db98": {
       "name": "KBTCProxy"
+    },
+    "0x115aF1C2db26cD8ECa3f29055E4E424AF4edF616": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x6b3800e96Bb4AA38a879b2c143B6E2f5f2687b77": {
+      "name": "AaveOracle"
     }
   },
   "10": {
