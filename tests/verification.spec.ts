@@ -167,9 +167,8 @@ describe('verification', {timeout: 500_000}, () => {
         checked.add(key);
         const client = getClient(item.chainId) as PublicClient;
         const hasCode = await getCode(client, {address: item.value as Hex});
-        // B20 tokenized equities on Base are native precompile tokens whose code is a single
-        // 0xef byte, so there is no verifiable source and there never will be. We assert their
-        // registration on the B20 factory separately in tests/sanity/b20Equities.spec.ts.
+        // B20 equities are native Base tokens (code 0xef) with no source to verify;
+        // tests/sanity/b20Equities.spec.ts checks their factory registration instead
         if (
           item.chainId === ChainId.base &&
           item.value.toLowerCase().startsWith('0xb2') &&
