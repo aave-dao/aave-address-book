@@ -17,6 +17,7 @@ export const gnosisAddresses: NetworkAddresses<{
   MERKL_DISTRIBUTION_SAFE: Hex;
   ALC_SAFE: Hex;
   TOKENLOGIC_EXECUTION_SAFE: Hex;
+  V4_SECURITY_COUNCIL: Hex;
 }> = {
   name: 'Gnosis',
   chainId: ChainId.gnosis,
@@ -43,5 +44,6 @@ export const gnosisAddresses: NetworkAddresses<{
     ROBOT_GUARDIAN: '0x441E4053fDDF1e1a77a39d00309Af389096d4124',
     ALC_SAFE: '0xa1c93d2687f7014aaf588c764e3ce80af016229b',
     TOKENLOGIC_EXECUTION_SAFE: '0x9DE1d45e2786b03498289959203F25b29B4D1193',
+    V4_SECURITY_COUNCIL: '0x187AAE17d4931310B3fc75743e7F16Bdc9eD77e9',
   },
 };

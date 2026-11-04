@@ -66,4 +66,7 @@ library MiscPlasma {
 
   // https://plasmascan.to/address/0xA1c93D2687f7014Aaf588c764E3Ce80aF016229b
   address internal constant ALC_SAFE = 0xA1c93D2687f7014Aaf588c764E3Ce80aF016229b;
+
+  // https://plasmascan.to/address/0x187AAE17d4931310B3fc75743e7F16Bdc9eD77e9
+  address internal constant V4_SECURITY_COUNCIL = 0x187AAE17d4931310B3fc75743e7F16Bdc9eD77e9;
 }
