@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.76.0](https://github.com/aave-dao/aave-address-book/compare/v4.75.8...v4.76.0) (2026-11-04)
+
+
+### Features
+
+* add new Security Council address for all deployed networks ([#1667](https://github.com/aave-dao/aave-address-book/issues/1667)) ([69b0c5d](https://github.com/aave-dao/aave-address-book/commit/69b0c5d54e60a22f7a98ca1bf1e43cfc9b7e5421))
+
 ## [4.75.8](https://github.com/aave-dao/aave-address-book/compare/v4.75.7...v4.75.8) (2026-11-03)
 
 
