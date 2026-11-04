@@ -77,6 +77,10 @@ library AaveV4BaseSpokePriceFeeds {
 
   // https://basescan.org/address/0xC7d0f8dCC1F860ca752054c59Ea82Ba2A5AaB50c
   address internal constant MAG7_SPOKE_USDC_PRICE_FEED = 0xC7d0f8dCC1F860ca752054c59Ea82Ba2A5AaB50c;
+
+  // https://basescan.org/address/0x6A634B235903C4ad6376892180d6fF8612e3Fa68
+  address internal constant MAG7_SPOKE_SPCXc_PRICE_FEED =
+    0x6A634B235903C4ad6376892180d6fF8612e3Fa68;
 }
 library AaveV4BaseTokenizationSpokes {
   // https://basescan.org/address/0x7081CE7EB1282c53CF38EA9B622f6269cb8FeFDc
@@ -114,6 +118,10 @@ library AaveV4BaseIRStrategies {
 
   // https://basescan.org/address/0x3b0c5FbEff9d32fB6bB706bACc988c88b1871770
   IBasicInterestRateStrategy internal constant EQUITIES_USDC_IR_STRATEGY =
+    IBasicInterestRateStrategy(0x3b0c5FbEff9d32fB6bB706bACc988c88b1871770);
+
+  // https://basescan.org/address/0x3b0c5FbEff9d32fB6bB706bACc988c88b1871770
+  IBasicInterestRateStrategy internal constant EQUITIES_SPCXc_IR_STRATEGY =
     IBasicInterestRateStrategy(0x3b0c5FbEff9d32fB6bB706bACc988c88b1871770);
 }
 library AaveV4BasePositionManagers {
@@ -181,6 +189,11 @@ library AaveV4BaseAssets {
   address internal constant USDC_UNDERLYING = 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913;
 
   uint8 internal constant USDC_DECIMALS = 6;
+
+  // https://basescan.org/address/0xb2000000000000000000007b9fcbd005511aCBd5
+  address internal constant SPCXc_UNDERLYING = 0xb2000000000000000000007b9fcbd005511aCBd5;
+
+  uint8 internal constant SPCXc_DECIMALS = 8;
 }
 library AaveV4BaseGetters {
   function getAllHubs() internal pure returns (IHub[] memory) {

@@ -5040,6 +5040,12 @@
     "0x73E0C0d45E048D25Fc26Fa3159b0aA04BfA4Db98": {
       "name": "KBTCProxy"
     },
+    "0xFB36A571995C04E6FcbC7611450E805c79535174": {
+      "name": "AaveV3ConfigEngine"
+    },
+    "0x5148d810B1DaE509d68f9d9219AD1d004EA32545": {
+      "name": "RwaATokenInstance"
+    },
     "0x115aF1C2db26cD8ECa3f29055E4E424AF4edF616": {
       "name": "TransparentUpgradeableProxy"
     },
@@ -14793,6 +14799,9 @@
     },
     "0x577dD4c67d4c7278CdF3bC03aE9a391C4C72DB4f": {
       "name": "RiskSteward"
+    },
+    "0x6A634B235903C4ad6376892180d6fF8612e3Fa68": {
+      "name": "EACAggregatorProxy"
     }
   },
   "9745": {

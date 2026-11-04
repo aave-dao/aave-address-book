@@ -2,10 +2,15 @@ import {describe, it, expect} from 'vitest';
 import * as addressBook from 'src/ts/AaveAddressBook';
 import {getContract, keccak256, toBytes} from 'viem';
 import {getClient} from 'scripts/clients';
+import {bytes32toAddress, getImplementationStorageSlot} from 'scripts/generator/utils';
 
 // roles as defined in RwaAToken and RwaATokenManager of aave-v3-horizon
 const ATOKEN_ADMIN_ROLE = keccak256(toBytes('ATOKEN_ADMIN'));
 const AUTHORIZED_TRANSFER_ROLE = keccak256(toBytes('AUTHORIZED_TRANSFER'));
+
+// every reserve must be classified, so a new listing fails until it is added to one list
+const RWA_ASSETS = ['USTB', 'USCC', 'USYC', 'JTRSY', 'JAAA', 'VBILL', 'ACRED', 'mGLOBAL'];
+const NON_RWA_ASSETS = ['GHO', 'USDC', 'RLUSD'];
 
 const aclManagerAbi = [
   {
@@ -52,6 +57,21 @@ async function check(addresses: Record<string, any>) {
   expect(authorizedTransferRole).toBe(AUTHORIZED_TRANSFER_ROLE);
 }
 
+async function checkImpl(addresses: Record<string, any>) {
+  expect(Object.keys(addresses.ASSETS).sort()).toEqual([...RWA_ASSETS, ...NON_RWA_ASSETS].sort());
+
+  const client = getClient(addresses.CHAIN_ID);
+  for (const asset of Object.keys(addresses.ASSETS)) {
+    const impl = bytes32toAddress(
+      await getImplementationStorageSlot(client, addresses.ASSETS[asset].A_TOKEN),
+    );
+    const expectedImpl = RWA_ASSETS.includes(asset)
+      ? addresses.RWA_A_TOKEN_IMPL
+      : addresses.DEFAULT_A_TOKEN_IMPL;
+    expect(impl, asset).toBe(expectedImpl);
+  }
+}
+
 describe('rwa aToken manager', () => {
   Object.keys(addressBook).forEach((library) => {
     const addresses = addressBook[library];
@@ -59,6 +79,18 @@ describe('rwa aToken manager', () => {
       const client = getClient(addresses.CHAIN_ID);
       it.concurrent(`should hold the ATokenAdmin role: ${client.chain!.name}`, async () => {
         return check(addresses);
+      });
+    }
+  });
+});
+
+describe('horizon aToken impls', () => {
+  Object.keys(addressBook).forEach((library) => {
+    const addresses = addressBook[library];
+    if (addresses.RWA_A_TOKEN_IMPL) {
+      const client = getClient(addresses.CHAIN_ID);
+      it.concurrent(`should match the impl of every aToken: ${client.chain!.name}`, async () => {
+        return checkImpl(addresses);
       });
     }
   });
