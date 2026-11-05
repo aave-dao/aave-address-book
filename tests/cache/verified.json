@@ -6481,6 +6481,12 @@
     },
     "0x461b25b99606Fe169D6F0dD6816650eF6536403E": {
       "name": "WrappedBackedTokenProxy"
+    },
+    "0x71CDe3FA526ac8CaF6659bCB236730F0c7e7dA4a": {
+      "name": "CLRatePriceCapAdapter"
+    },
+    "0x4299b11815F25DB50fC56CD8a1C24cCCDD2AEECe": {
+      "name": "TransparentUpgradeableProxy"
     }
   },
   "56": {
