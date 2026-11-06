@@ -5045,6 +5045,12 @@
     },
     "0x5148d810B1DaE509d68f9d9219AD1d004EA32545": {
       "name": "RwaATokenInstance"
+    },
+    "0x115aF1C2db26cD8ECa3f29055E4E424AF4edF616": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x6b3800e96Bb4AA38a879b2c143B6E2f5f2687b77": {
+      "name": "AaveOracle"
     }
   },
   "10": {
