@@ -166,7 +166,13 @@ export interface V4Config {
   eSpokes?: Record<string, Hex>;
   positionManagers?: Record<string, Hex>;
   externalLibraries: Record<string, Hex>;
-  additionalAddresses?: Record<string, Hex>;
+  additionalAddresses?: {
+    COW_ADAPTER_FACTORY?: Hex;
+    COW_COLLATERAL_SWAP_ADAPTER?: Hex;
+    COW_DEBT_SWAP_ADAPTER?: Hex;
+    COW_REPAY_WITH_COLLATERAL_ADAPTER?: Hex;
+    COW_LEVERAGE_ADAPTER?: Hex;
+  };
 }
 
 export interface UmbrellaConfig {
