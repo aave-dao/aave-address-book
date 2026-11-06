@@ -40,7 +40,7 @@ function buildMainLibraryAddresses(config: V4Config): Addresses {
     const interfaceType = V4_INTERFACE_REGISTRY[key];
     addresses[key] = interfaceType ? {value, type: interfaceType} : value;
   }
-  return addresses;
+  return {...addresses, ...config.additionalAddresses};
 }
 
 function buildHubsAddresses(

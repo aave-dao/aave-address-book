@@ -63,38 +63,4 @@ library MiscAvalanche {
   // https://snowscan.xyz/address/0xb619fA61e795D47f517702e63ce50292370561F1
   address internal constant V4_SECURITY_COUNCIL_EXECUTOR =
     0xb619fA61e795D47f517702e63ce50292370561F1;
-
-  // https://snowscan.xyz/address/0xD2CC30cB0e77B80a34b879ccB6da67799e4ecD83
-  address internal constant COW_ADAPTER_V3_FACTORY = 0xD2CC30cB0e77B80a34b879ccB6da67799e4ecD83;
-
-  // https://snowscan.xyz/address/0xa1138627412212e53C208e220696f14b0185a82c
-  address internal constant COW_COLLATERAL_SWAP_ADAPTER_V3 =
-    0xa1138627412212e53C208e220696f14b0185a82c;
-
-  // https://snowscan.xyz/address/0xC898f87b572018ED25F501FFD620894a32dCa1AC
-  address internal constant COW_DEBT_SWAP_ADAPTER_V3 = 0xC898f87b572018ED25F501FFD620894a32dCa1AC;
-
-  // https://snowscan.xyz/address/0x4AE46995af9ED4f4EdFC6FF1523b114EE4D7053a
-  address internal constant COW_REPAY_WITH_COLLATERAL_ADAPTER_V3 =
-    0x4AE46995af9ED4f4EdFC6FF1523b114EE4D7053a;
-
-  // https://snowscan.xyz/address/0xaEE8B0666BF8a584e9D67bFaa65007E74c70b26a
-  address internal constant COW_LEVERAGE_ADAPTER_V3 = 0xaEE8B0666BF8a584e9D67bFaa65007E74c70b26a;
-
-  // https://snowscan.xyz/address/0x0C6F0D008B5Ee6CdFbb8BF1CFB0148052e96ac14
-  address internal constant COW_ADAPTER_V4_FACTORY = 0x0C6F0D008B5Ee6CdFbb8BF1CFB0148052e96ac14;
-
-  // https://snowscan.xyz/address/0xe8a2b6De869Ef989aA0F0f670A2Dd4064ED0A9a1
-  address internal constant COW_COLLATERAL_SWAP_ADAPTER_V4 =
-    0xe8a2b6De869Ef989aA0F0f670A2Dd4064ED0A9a1;
-
-  // https://snowscan.xyz/address/0xe5E33497442Bc4042EB4c440C296dCcFBE2E831f
-  address internal constant COW_DEBT_SWAP_ADAPTER_V4 = 0xe5E33497442Bc4042EB4c440C296dCcFBE2E831f;
-
-  // https://snowscan.xyz/address/0x9629C6BA202224537cAbb1C9265e035906f3Cb68
-  address internal constant COW_REPAY_WITH_COLLATERAL_ADAPTER_V4 =
-    0x9629C6BA202224537cAbb1C9265e035906f3Cb68;
-
-  // https://snowscan.xyz/address/0x5Eba6D3678BBc815Be00B8A6F19BeefA6fCD0621
-  address internal constant COW_LEVERAGE_ADAPTER_V4 = 0x5Eba6D3678BBc815Be00B8A6F19BeefA6fCD0621;
 }

@@ -29,6 +29,23 @@ library AaveV4Base {
 
   // https://basescan.org/address/0xfbeB4AcB31340bA4de9C87B11dfBf7e2bc8C0bF1
   address internal constant RISK_COUNCIL = 0xfbeB4AcB31340bA4de9C87B11dfBf7e2bc8C0bF1;
+
+  // https://basescan.org/address/0x0C6F0D008B5Ee6CdFbb8BF1CFB0148052e96ac14
+  address internal constant COW_ADAPTER_FACTORY = 0x0C6F0D008B5Ee6CdFbb8BF1CFB0148052e96ac14;
+
+  // https://basescan.org/address/0xe8a2b6De869Ef989aA0F0f670A2Dd4064ED0A9a1
+  address internal constant COW_COLLATERAL_SWAP_ADAPTER =
+    0xe8a2b6De869Ef989aA0F0f670A2Dd4064ED0A9a1;
+
+  // https://basescan.org/address/0xe5E33497442Bc4042EB4c440C296dCcFBE2E831f
+  address internal constant COW_DEBT_SWAP_ADAPTER = 0xe5E33497442Bc4042EB4c440C296dCcFBE2E831f;
+
+  // https://basescan.org/address/0x9629C6BA202224537cAbb1C9265e035906f3Cb68
+  address internal constant COW_REPAY_WITH_COLLATERAL_ADAPTER =
+    0x9629C6BA202224537cAbb1C9265e035906f3Cb68;
+
+  // https://basescan.org/address/0x5Eba6D3678BBc815Be00B8A6F19BeefA6fCD0621
+  address internal constant COW_LEVERAGE_ADAPTER = 0x5Eba6D3678BBc815Be00B8A6F19BeefA6fCD0621;
 }
 library AaveV4BaseHubs {
   // https://basescan.org/address/0xa4d5947Eb727A052bae69C593FfC84247EC9864E
