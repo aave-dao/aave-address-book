@@ -114,6 +114,23 @@ library AaveV3BNB {
 
   // https://bscscan.com/address/0x54714FAc85b0bf627288CC3a186dE81A42f1D635
   address internal constant EDGE_INJECTOR_CAPS = 0x54714FAc85b0bf627288CC3a186dE81A42f1D635;
+
+  // https://bscscan.com/address/0xD2CC30cB0e77B80a34b879ccB6da67799e4ecD83
+  address internal constant COW_ADAPTER_FACTORY = 0xD2CC30cB0e77B80a34b879ccB6da67799e4ecD83;
+
+  // https://bscscan.com/address/0xa1138627412212e53C208e220696f14b0185a82c
+  address internal constant COW_COLLATERAL_SWAP_ADAPTER =
+    0xa1138627412212e53C208e220696f14b0185a82c;
+
+  // https://bscscan.com/address/0xC898f87b572018ED25F501FFD620894a32dCa1AC
+  address internal constant COW_DEBT_SWAP_ADAPTER = 0xC898f87b572018ED25F501FFD620894a32dCa1AC;
+
+  // https://bscscan.com/address/0x4AE46995af9ED4f4EdFC6FF1523b114EE4D7053a
+  address internal constant COW_REPAY_WITH_COLLATERAL_ADAPTER =
+    0x4AE46995af9ED4f4EdFC6FF1523b114EE4D7053a;
+
+  // https://bscscan.com/address/0xaEE8B0666BF8a584e9D67bFaa65007E74c70b26a
+  address internal constant COW_LEVERAGE_ADAPTER = 0xaEE8B0666BF8a584e9D67bFaa65007E74c70b26a;
 }
 library AaveV3BNBAssets {
   // https://bscscan.com/address/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82

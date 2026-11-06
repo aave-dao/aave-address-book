@@ -85,6 +85,11 @@ export interface PoolConfig {
     SVR_STEWARD?: Hex;
     POOL_EXPOSURE_STEWARD?: Hex;
     COLLECTOR_SWAP_STEWARD?: Hex;
+    COW_ADAPTER_FACTORY?: Hex;
+    COW_COLLATERAL_SWAP_ADAPTER?: Hex;
+    COW_DEBT_SWAP_ADAPTER?: Hex;
+    COW_REPAY_WITH_COLLATERAL_ADAPTER?: Hex;
+    COW_LEVERAGE_ADAPTER?: Hex;
   };
   // will be used for pending pools where the impls can't be fetched yet
   initial?: {
@@ -161,7 +166,13 @@ export interface V4Config {
   eSpokes?: Record<string, Hex>;
   positionManagers?: Record<string, Hex>;
   externalLibraries: Record<string, Hex>;
-  additionalAddresses?: Record<string, Hex>;
+  additionalAddresses?: {
+    COW_ADAPTER_FACTORY?: Hex;
+    COW_COLLATERAL_SWAP_ADAPTER?: Hex;
+    COW_DEBT_SWAP_ADAPTER?: Hex;
+    COW_REPAY_WITH_COLLATERAL_ADAPTER?: Hex;
+    COW_LEVERAGE_ADAPTER?: Hex;
+  };
 }
 
 export interface UmbrellaConfig {

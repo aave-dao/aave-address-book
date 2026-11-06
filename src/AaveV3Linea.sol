@@ -97,6 +97,23 @@ library AaveV3Linea {
 
   // https://lineascan.build/address/0x55510C6fD37bcb9398260E49e57b63B31a5E9066
   address internal constant EDGE_INJECTOR_RATES = 0x55510C6fD37bcb9398260E49e57b63B31a5E9066;
+
+  // https://lineascan.build/address/0x3171FC716942a40DEDe8dD0B7885dd9f44eca176
+  address internal constant COW_ADAPTER_FACTORY = 0x3171FC716942a40DEDe8dD0B7885dd9f44eca176;
+
+  // https://lineascan.build/address/0xa1138627412212e53C208e220696f14b0185a82c
+  address internal constant COW_COLLATERAL_SWAP_ADAPTER =
+    0xa1138627412212e53C208e220696f14b0185a82c;
+
+  // https://lineascan.build/address/0xC898f87b572018ED25F501FFD620894a32dCa1AC
+  address internal constant COW_DEBT_SWAP_ADAPTER = 0xC898f87b572018ED25F501FFD620894a32dCa1AC;
+
+  // https://lineascan.build/address/0x4AE46995af9ED4f4EdFC6FF1523b114EE4D7053a
+  address internal constant COW_REPAY_WITH_COLLATERAL_ADAPTER =
+    0x4AE46995af9ED4f4EdFC6FF1523b114EE4D7053a;
+
+  // https://lineascan.build/address/0xaEE8B0666BF8a584e9D67bFaa65007E74c70b26a
+  address internal constant COW_LEVERAGE_ADAPTER = 0xaEE8B0666BF8a584e9D67bFaa65007E74c70b26a;
 }
 library AaveV3LineaAssets {
   // https://lineascan.build/address/0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f
