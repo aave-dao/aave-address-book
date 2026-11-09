@@ -308,7 +308,7 @@ export const E_MODES = {
     ltvzeroAssets: [],
     ltv: 9300,
     liquidationThreshold: 9500,
-    liquidationBonus: 10234,
+    liquidationBonus: 10231,
   },
 } as const;
 export const EXTERNAL_LIBRARIES = {
