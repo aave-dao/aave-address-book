@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.77.0](https://github.com/aave-dao/aave-address-book/compare/v4.76.2...v4.77.0) (2026-11-09)
+
+
+### Features
+
+* add CoW Adapter contracts ([#1672](https://github.com/aave-dao/aave-address-book/issues/1672)) ([cc662ae](https://github.com/aave-dao/aave-address-book/commit/cc662ae5377fcb47ffe988115b58209a8f78ca1e))
+
+
+### Bug Fixes
+
+* **cache:** automated cache update - updated addresses ([#1677](https://github.com/aave-dao/aave-address-book/issues/1677)) ([d121216](https://github.com/aave-dao/aave-address-book/commit/d121216c60dbcc1531f083953e3114c17d336c1e))
+
 ## [4.76.2](https://github.com/aave-dao/aave-address-book/compare/v4.76.1...v4.76.2) (2026-11-08)
 
 
