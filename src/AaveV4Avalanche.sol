@@ -29,6 +29,23 @@ library AaveV4Avalanche {
 
   // https://snowscan.xyz/address/0xCa66149425E7DC8f81276F6D80C4b486B9503D1a
   address internal constant RISK_COUNCIL = 0xCa66149425E7DC8f81276F6D80C4b486B9503D1a;
+
+  // https://snowscan.xyz/address/0x0C6F0D008B5Ee6CdFbb8BF1CFB0148052e96ac14
+  address internal constant COW_ADAPTER_FACTORY = 0x0C6F0D008B5Ee6CdFbb8BF1CFB0148052e96ac14;
+
+  // https://snowscan.xyz/address/0xe8a2b6De869Ef989aA0F0f670A2Dd4064ED0A9a1
+  address internal constant COW_COLLATERAL_SWAP_ADAPTER =
+    0xe8a2b6De869Ef989aA0F0f670A2Dd4064ED0A9a1;
+
+  // https://snowscan.xyz/address/0xe5E33497442Bc4042EB4c440C296dCcFBE2E831f
+  address internal constant COW_DEBT_SWAP_ADAPTER = 0xe5E33497442Bc4042EB4c440C296dCcFBE2E831f;
+
+  // https://snowscan.xyz/address/0x9629C6BA202224537cAbb1C9265e035906f3Cb68
+  address internal constant COW_REPAY_WITH_COLLATERAL_ADAPTER =
+    0x9629C6BA202224537cAbb1C9265e035906f3Cb68;
+
+  // https://snowscan.xyz/address/0x5Eba6D3678BBc815Be00B8A6F19BeefA6fCD0621
+  address internal constant COW_LEVERAGE_ADAPTER = 0x5Eba6D3678BBc815Be00B8A6F19BeefA6fCD0621;
 }
 library AaveV4AvalancheHubs {
   // https://snowscan.xyz/address/0xd07369fAE4A5BB13c9Ce446B052c7867B1AbDf6e

@@ -5045,6 +5045,51 @@
     },
     "0x5148d810B1DaE509d68f9d9219AD1d004EA32545": {
       "name": "RwaATokenInstance"
+    },
+    "0xD2CC30cB0e77B80a34b879ccB6da67799e4ecD83": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0xa1138627412212e53C208e220696f14b0185a82c": {
+      "name": "CollateralSwapAaveV3Adapter"
+    },
+    "0xC898f87b572018ED25F501FFD620894a32dCa1AC": {
+      "name": "DebtSwapAaveV3Adapter"
+    },
+    "0x4AE46995af9ED4f4EdFC6FF1523b114EE4D7053a": {
+      "name": "RepayWithCollateralAaveV3Adapter"
+    },
+    "0xaEE8B0666BF8a584e9D67bFaa65007E74c70b26a": {
+      "name": "LeverageAaveV3Adapter"
+    },
+    "0x0C6F0D008B5Ee6CdFbb8BF1CFB0148052e96ac14": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0xe8a2b6De869Ef989aA0F0f670A2Dd4064ED0A9a1": {
+      "name": "CollateralSwapAaveV4Adapter"
+    },
+    "0xe5E33497442Bc4042EB4c440C296dCcFBE2E831f": {
+      "name": "DebtSwapAaveV4Adapter"
+    },
+    "0x9629C6BA202224537cAbb1C9265e035906f3Cb68": {
+      "name": "RepayWithCollateralAaveV4Adapter"
+    },
+    "0x5Eba6D3678BBc815Be00B8A6F19BeefA6fCD0621": {
+      "name": "LeverageAaveV4Adapter"
+    },
+    "0xFdFA036213C375808135744E865767FD90897F0A": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0xdf36e299a5326dd284E3E7b5AD891b4262e32f0a": {
+      "name": "CollateralSwapAaveV3Adapter"
+    },
+    "0xC654F2E06448f1E0912B0b0Da5B32a98e4c32919": {
+      "name": "DebtSwapAaveV3Adapter"
+    },
+    "0xF04f7527C082be4F3802f26cC769d40da9a84e66": {
+      "name": "RepayWithCollateralAaveV3Adapter"
+    },
+    "0xbE1131cD9df966Dd622532f9fFddE0644457C840": {
+      "name": "LeverageAaveV3Adapter"
     }
   },
   "10": {
@@ -7767,6 +7812,21 @@
     },
     "0x187AAE17d4931310B3fc75743e7F16Bdc9eD77e9": {
       "name": "SafeProxy"
+    },
+    "0xD2CC30cB0e77B80a34b879ccB6da67799e4ecD83": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0xa1138627412212e53C208e220696f14b0185a82c": {
+      "name": "CollateralSwapAaveV3Adapter"
+    },
+    "0xC898f87b572018ED25F501FFD620894a32dCa1AC": {
+      "name": "DebtSwapAaveV3Adapter"
+    },
+    "0x4AE46995af9ED4f4EdFC6FF1523b114EE4D7053a": {
+      "name": "RepayWithCollateralAaveV3Adapter"
+    },
+    "0xaEE8B0666BF8a584e9D67bFaa65007E74c70b26a": {
+      "name": "LeverageAaveV3Adapter"
     }
   },
   "100": {
@@ -8462,6 +8522,21 @@
     },
     "0x187AAE17d4931310B3fc75743e7F16Bdc9eD77e9": {
       "name": "SafeProxy"
+    },
+    "0xD2CC30cB0e77B80a34b879ccB6da67799e4ecD83": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0xa1138627412212e53C208e220696f14b0185a82c": {
+      "name": "CollateralSwapAaveV3Adapter"
+    },
+    "0xC898f87b572018ED25F501FFD620894a32dCa1AC": {
+      "name": "DebtSwapAaveV3Adapter"
+    },
+    "0x4AE46995af9ED4f4EdFC6FF1523b114EE4D7053a": {
+      "name": "RepayWithCollateralAaveV3Adapter"
+    },
+    "0xaEE8B0666BF8a584e9D67bFaa65007E74c70b26a": {
+      "name": "LeverageAaveV3Adapter"
     }
   },
   "137": {
@@ -10081,6 +10156,21 @@
     },
     "0x187AAE17d4931310B3fc75743e7F16Bdc9eD77e9": {
       "name": "SafeProxy"
+    },
+    "0xD2CC30cB0e77B80a34b879ccB6da67799e4ecD83": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0xa1138627412212e53C208e220696f14b0185a82c": {
+      "name": "CollateralSwapAaveV3Adapter"
+    },
+    "0xC898f87b572018ED25F501FFD620894a32dCa1AC": {
+      "name": "DebtSwapAaveV3Adapter"
+    },
+    "0x4AE46995af9ED4f4EdFC6FF1523b114EE4D7053a": {
+      "name": "RepayWithCollateralAaveV3Adapter"
+    },
+    "0xaEE8B0666BF8a584e9D67bFaa65007E74c70b26a": {
+      "name": "LeverageAaveV3Adapter"
     }
   },
   "143": {
@@ -14811,6 +14901,36 @@
     },
     "0x6A634B235903C4ad6376892180d6fF8612e3Fa68": {
       "name": "EACAggregatorProxy"
+    },
+    "0xD2CC30cB0e77B80a34b879ccB6da67799e4ecD83": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0xa1138627412212e53C208e220696f14b0185a82c": {
+      "name": "CollateralSwapAaveV3Adapter"
+    },
+    "0xC898f87b572018ED25F501FFD620894a32dCa1AC": {
+      "name": "DebtSwapAaveV3Adapter"
+    },
+    "0x4AE46995af9ED4f4EdFC6FF1523b114EE4D7053a": {
+      "name": "RepayWithCollateralAaveV3Adapter"
+    },
+    "0xaEE8B0666BF8a584e9D67bFaa65007E74c70b26a": {
+      "name": "LeverageAaveV3Adapter"
+    },
+    "0x0C6F0D008B5Ee6CdFbb8BF1CFB0148052e96ac14": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0xe8a2b6De869Ef989aA0F0f670A2Dd4064ED0A9a1": {
+      "name": "CollateralSwapAaveV4Adapter"
+    },
+    "0xe5E33497442Bc4042EB4c440C296dCcFBE2E831f": {
+      "name": "DebtSwapAaveV4Adapter"
+    },
+    "0x9629C6BA202224537cAbb1C9265e035906f3Cb68": {
+      "name": "RepayWithCollateralAaveV4Adapter"
+    },
+    "0x5Eba6D3678BBc815Be00B8A6F19BeefA6fCD0621": {
+      "name": "LeverageAaveV4Adapter"
     }
   },
   "9745": {
@@ -15329,6 +15449,21 @@
     },
     "0x187AAE17d4931310B3fc75743e7F16Bdc9eD77e9": {
       "name": "SafeProxy"
+    },
+    "0xD2CC30cB0e77B80a34b879ccB6da67799e4ecD83": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0xa1138627412212e53C208e220696f14b0185a82c": {
+      "name": "CollateralSwapAaveV3Adapter"
+    },
+    "0xC898f87b572018ED25F501FFD620894a32dCa1AC": {
+      "name": "DebtSwapAaveV3Adapter"
+    },
+    "0x4AE46995af9ED4f4EdFC6FF1523b114EE4D7053a": {
+      "name": "RepayWithCollateralAaveV3Adapter"
+    },
+    "0xaEE8B0666BF8a584e9D67bFaa65007E74c70b26a": {
+      "name": "LeverageAaveV3Adapter"
     }
   },
   "42161": {
@@ -17140,6 +17275,21 @@
     },
     "0x187AAE17d4931310B3fc75743e7F16Bdc9eD77e9": {
       "name": "SafeProxy"
+    },
+    "0xD2CC30cB0e77B80a34b879ccB6da67799e4ecD83": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0xa1138627412212e53C208e220696f14b0185a82c": {
+      "name": "CollateralSwapAaveV3Adapter"
+    },
+    "0xC898f87b572018ED25F501FFD620894a32dCa1AC": {
+      "name": "DebtSwapAaveV3Adapter"
+    },
+    "0x4AE46995af9ED4f4EdFC6FF1523b114EE4D7053a": {
+      "name": "RepayWithCollateralAaveV3Adapter"
+    },
+    "0xaEE8B0666BF8a584e9D67bFaa65007E74c70b26a": {
+      "name": "LeverageAaveV3Adapter"
     }
   },
   "42220": {
@@ -19072,6 +19222,36 @@
     },
     "0xc918CC59E268000e93F63c5AFff3E3ceF98C6E97": {
       "name": "AaveOracle"
+    },
+    "0xD2CC30cB0e77B80a34b879ccB6da67799e4ecD83": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0xa1138627412212e53C208e220696f14b0185a82c": {
+      "name": "CollateralSwapAaveV3Adapter"
+    },
+    "0xC898f87b572018ED25F501FFD620894a32dCa1AC": {
+      "name": "DebtSwapAaveV3Adapter"
+    },
+    "0x4AE46995af9ED4f4EdFC6FF1523b114EE4D7053a": {
+      "name": "RepayWithCollateralAaveV3Adapter"
+    },
+    "0xaEE8B0666BF8a584e9D67bFaa65007E74c70b26a": {
+      "name": "LeverageAaveV3Adapter"
+    },
+    "0x0C6F0D008B5Ee6CdFbb8BF1CFB0148052e96ac14": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0xe8a2b6De869Ef989aA0F0f670A2Dd4064ED0A9a1": {
+      "name": "CollateralSwapAaveV4Adapter"
+    },
+    "0xe5E33497442Bc4042EB4c440C296dCcFBE2E831f": {
+      "name": "DebtSwapAaveV4Adapter"
+    },
+    "0x9629C6BA202224537cAbb1C9265e035906f3Cb68": {
+      "name": "RepayWithCollateralAaveV4Adapter"
+    },
+    "0x5Eba6D3678BBc815Be00B8A6F19BeefA6fCD0621": {
+      "name": "LeverageAaveV4Adapter"
     }
   },
   "57073": {
@@ -20102,6 +20282,21 @@
     },
     "0x187AAE17d4931310B3fc75743e7F16Bdc9eD77e9": {
       "name": "SafeProxy"
+    },
+    "0x3171FC716942a40DEDe8dD0B7885dd9f44eca176": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0xa1138627412212e53C208e220696f14b0185a82c": {
+      "name": "CollateralSwapAaveV3Adapter"
+    },
+    "0xC898f87b572018ED25F501FFD620894a32dCa1AC": {
+      "name": "DebtSwapAaveV3Adapter"
+    },
+    "0x4AE46995af9ED4f4EdFC6FF1523b114EE4D7053a": {
+      "name": "RepayWithCollateralAaveV3Adapter"
+    },
+    "0xaEE8B0666BF8a584e9D67bFaa65007E74c70b26a": {
+      "name": "LeverageAaveV3Adapter"
     }
   },
   "60808": {

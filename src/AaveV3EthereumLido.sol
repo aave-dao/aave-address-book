@@ -110,6 +110,23 @@ library AaveV3EthereumLido {
 
   // https://etherscan.io/address/0x84f2C90f2D66E700baA4CF3cbF66bE7D8f21Bd87
   address internal constant SVR_STEWARD = 0x84f2C90f2D66E700baA4CF3cbF66bE7D8f21Bd87;
+
+  // https://etherscan.io/address/0xFdFA036213C375808135744E865767FD90897F0A
+  address internal constant COW_ADAPTER_FACTORY = 0xFdFA036213C375808135744E865767FD90897F0A;
+
+  // https://etherscan.io/address/0xdf36e299a5326dd284E3E7b5AD891b4262e32f0a
+  address internal constant COW_COLLATERAL_SWAP_ADAPTER =
+    0xdf36e299a5326dd284E3E7b5AD891b4262e32f0a;
+
+  // https://etherscan.io/address/0xC654F2E06448f1E0912B0b0Da5B32a98e4c32919
+  address internal constant COW_DEBT_SWAP_ADAPTER = 0xC654F2E06448f1E0912B0b0Da5B32a98e4c32919;
+
+  // https://etherscan.io/address/0xF04f7527C082be4F3802f26cC769d40da9a84e66
+  address internal constant COW_REPAY_WITH_COLLATERAL_ADAPTER =
+    0xF04f7527C082be4F3802f26cC769d40da9a84e66;
+
+  // https://etherscan.io/address/0xbE1131cD9df966Dd622532f9fFddE0644457C840
+  address internal constant COW_LEVERAGE_ADAPTER = 0xbE1131cD9df966Dd622532f9fFddE0644457C840;
 }
 library AaveV3EthereumLidoAssets {
   // https://etherscan.io/address/0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0
