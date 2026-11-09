@@ -5090,6 +5090,27 @@
     },
     "0xbE1131cD9df966Dd622532f9fFddE0644457C840": {
       "name": "LeverageAaveV3Adapter"
+    },
+    "0x72DFB2E44f59C5AD2bAFE84314E5b99a7cd5075E": {
+      "name": "FiatTokenProxy"
+    },
+    "0x0914FC8025D04739AA9BF2FA6c454DB159E78e35": {
+      "name": "InitializableImmutableAdminUpgradeabilityProxy"
+    },
+    "0xE5E56b2Db3d13687b791004004F3C29776d97816": {
+      "name": "InitializableImmutableAdminUpgradeabilityProxy"
+    },
+    "0x8E39De6366AB0bc3e9FF6a116f366736bf0D8A9e": {
+      "name": "PAXGyPriceCapAdapter"
+    },
+    "0x092508a2Eb395cb3861a3fdB65405744d706476f": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x115aF1C2db26cD8ECa3f29055E4E424AF4edF616": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x6c6494Fd9962eB98B94ffA48F6679058F820700e": {
+      "name": "BoringVault"
     }
   },
   "10": {
