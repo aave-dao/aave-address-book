@@ -3662,6 +3662,26 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x72DFB2E44f59C5AD2bAFE84314E5b99a7cd5075E",
+      "name": "Circle Wrapped Bitcoin",
+      "decimals": 8,
+      "symbol": "cirBTC",
+      "tags": ["underlying"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x0914FC8025D04739AA9BF2FA6c454DB159E78e35",
+      "name": "Aave Ethereum cirBTC",
+      "decimals": 8,
+      "symbol": "aEthcirBTC",
+      "tags": ["aTokenV3", "aaveV3"],
+      "extensions": {
+        "pool": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2",
+        "underlying": "0x72DFB2E44f59C5AD2bAFE84314E5b99a7cd5075E"
+      }
+    },
+    {
       "chainId": 137,
       "address": "0x82E64f49Ed5EC1bC6e43DAD4FC8Af9bb3A2312EE",
       "name": "Aave Polygon DAI",
@@ -11628,6 +11648,6 @@
       }
     }
   ],
-  "version": { "major": 3, "minor": 0, "patch": 194 },
-  "timestamp": "2026-10-23T16:36:52.100Z"
+  "version": { "major": 3, "minor": 0, "patch": 195 },
+  "timestamp": "2026-11-09T19:44:12.839Z"
 }

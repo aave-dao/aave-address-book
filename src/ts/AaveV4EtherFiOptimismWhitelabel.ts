@@ -11,8 +11,8 @@ export const SPOKE_CONFIGURATOR = '0xFEe9E8cCE1c40D3bd9F025437D3A11cA0DAe9f8b';
 // ITreasurySpoke https://optimistic.etherscan.io/address/0x7EB4d25F137868662350603A2863F682287b0768
 export const TREASURY_SPOKE = '0x7EB4d25F137868662350603A2863F682287b0768';
 
-// IAaveV4ConfigEngine https://optimistic.etherscan.io/address/0x84210b3087E952Be0f3610fD75f0f045995eAF22
-export const CONFIG_ENGINE = '0x84210b3087E952Be0f3610fD75f0f045995eAF22';
+// IAaveV4ConfigEngine https://optimistic.etherscan.io/address/0xef1741250D21343879dE836672aE5cc88e4026b8
+export const CONFIG_ENGINE = '0xef1741250D21343879dE836672aE5cc88e4026b8';
 
 export const CHAIN_ID = 10;
 

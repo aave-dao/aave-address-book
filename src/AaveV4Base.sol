@@ -20,9 +20,9 @@ library AaveV4Base {
   ITreasurySpoke internal constant TREASURY_SPOKE =
     ITreasurySpoke(0x5F8d0102F5B51Fae6DE9d2F2561bda63Fb5Db674);
 
-  // https://basescan.org/address/0x8753d579B592f3F45902b4Dc13B547B8E8BD03c4
+  // https://basescan.org/address/0xef1741250D21343879dE836672aE5cc88e4026b8
   IAaveV4ConfigEngine internal constant CONFIG_ENGINE =
-    IAaveV4ConfigEngine(0x8753d579B592f3F45902b4Dc13B547B8E8BD03c4);
+    IAaveV4ConfigEngine(0xef1741250D21343879dE836672aE5cc88e4026b8);
 
   // https://basescan.org/address/0x577dD4c67d4c7278CdF3bC03aE9a391C4C72DB4f
   address internal constant RISK_STEWARD = 0x577dD4c67d4c7278CdF3bC03aE9a391C4C72DB4f;

@@ -1499,6 +1499,24 @@ library AaveV3EthereumAssets {
   // https://etherscan.io/address/0x9ec6F08190DeA04A54f8Afc53Db96134e5E3FdFB
   address internal constant PT_srUSDe_22OCT2026_INTEREST_RATE_STRATEGY =
     0x9ec6F08190DeA04A54f8Afc53Db96134e5E3FdFB;
+
+  // https://etherscan.io/address/0x72DFB2E44f59C5AD2bAFE84314E5b99a7cd5075E
+  address internal constant cirBTC_UNDERLYING = 0x72DFB2E44f59C5AD2bAFE84314E5b99a7cd5075E;
+
+  uint8 internal constant cirBTC_DECIMALS = 8;
+
+  // https://etherscan.io/address/0x0914FC8025D04739AA9BF2FA6c454DB159E78e35
+  address internal constant cirBTC_A_TOKEN = 0x0914FC8025D04739AA9BF2FA6c454DB159E78e35;
+
+  // https://etherscan.io/address/0xE5E56b2Db3d13687b791004004F3C29776d97816
+  address internal constant cirBTC_V_TOKEN = 0xE5E56b2Db3d13687b791004004F3C29776d97816;
+
+  // https://etherscan.io/address/0xb41E773f507F7a7EA890b1afB7d2b660c30C8B0A
+  address internal constant cirBTC_ORACLE = 0xb41E773f507F7a7EA890b1afB7d2b660c30C8B0A;
+
+  // https://etherscan.io/address/0x9ec6F08190DeA04A54f8Afc53Db96134e5E3FdFB
+  address internal constant cirBTC_INTEREST_RATE_STRATEGY =
+    0x9ec6F08190DeA04A54f8Afc53Db96134e5E3FdFB;
 }
 library AaveV3EthereumEModes {
   uint8 internal constant NONE = 0;
