@@ -1,0 +1,161 @@
+src/ts/UmbrellaEthereum.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2
+src/ts/GovernanceV3Base.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 4
+src/ts/AaveV3Arbitrum.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/AaveV3MegaEth.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/AaveV3OptimismSepolia.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/AaveV2Polygon.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,11,17,20,23,35
+src/ts/AaveV3Harmony.ts
+  s_6c35eaf99701c1::t_f22a38976e864e 2,5,8,11,17,20,35
+src/ts/AaveV3Plasma.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/AaveV3Base.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/GovernanceV3Avalanche.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 10,28,31
+src/ts/AaveV2EthereumAMM.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,11,17,20,23,35
+src/ts/GovernanceV3Bob.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 4
+src/ts/AaveV3InkSepolia.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/AaveV3Mantle.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/AaveV3EthereumEtherFi.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/AaveV3XLayer.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/AaveV2Avalanche.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,11,17,20,23,35
+src/ts/GovernanceV3MegaEth.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 4
+src/ts/GovernanceV3Plasma.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 4
+src/ts/AaveV3Ethereum.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/AaveV3Optimism.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/GovernanceV3Soneium.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 4
+src/ts/AaveV3ArbitrumSepolia.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/GovernanceV3Optimism.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 4
+src/ts/AaveV3BNB.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/AaveV3Celo.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/GovernanceV3ZkSync.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 4
+src/ts/AaveV3InkWhitelabel.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+scripts/generator/utils.ts
+  s_6c35eaf99701c1::t_604aca06368330 97-99
+src/ts/AaveV4EthereumSentoraCurated.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,14
+src/ts/GovernanceV3BNB.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 7
+src/ts/GovernanceV3Linea.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 4
+src/ts/AaveV3Gnosis.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/AaveV2Ethereum.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,11,17,20,23,35
+src/ts/AaveV4Arc.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,14
+src/ts/AaveV3Soneium.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,20,23,38
+src/ts/GovernanceV3Polygon.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 10,28,31
+src/ts/GovernanceV3Scroll.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 4
+src/ts/GovernanceV3InkWhitelabel.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 1
+src/ts/GovernanceV3Sonic.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 4
+src/ts/GovernanceV3Gnosis.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 7
+src/ts/AaveV2Fuji.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,11,17,20,23,35
+src/ts/MiscEthereum.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2
+src/ts/AaveV3BaseSepoliaLido.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/AaveV4Avalanche.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,14
+src/ts/AaveV3Sepolia.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/GovernanceV3XLayer.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 4
+src/ts/AaveV3Sonic.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/AaveV3EthereumHorizon.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/AaveV3Fuji.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/GovernanceV3Ethereum.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 4,7,52,55
+src/ts/AaveV4Base.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,14
+src/ts/UmbrellaBaseSepolia.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2
+src/ts/GovernanceV3Arbitrum.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 4
+src/ts/AaveV4Ethereum.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,14
+src/ts/GovernanceV3Ink.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 4
+src/ts/AaveV3Avalanche.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/AaveV3Polygon.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/AaveV3Scroll.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/GovernanceV3Metis.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 4
+src/ts/AaveV3Linea.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/GovernanceV3Monad.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 4
+src/ts/AaveV3Monad.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/GovernanceV3Mantle.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 4
+src/ts/AaveV2EthereumArc.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,11,17,20,23,35
+src/ts/AaveV3ZkSync.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/AaveV4EtherFiOptimismWhitelabel.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,14
+src/ts/GovernanceV3Fuji.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 7,13,16
+src/ts/AaveV3BaseSepolia.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/GovernanceV3Celo.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 7
+src/ts/AaveV3EthereumLido.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,17,20,35
+src/ts/AaveV3Metis.ts
+  s_6c35eaf99701c1::t_59d85aa8e97f5f 2,5,8,11,20,23,38
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "998b8487e0fd0ca8d498c80732d2708739dfc284",
+  "prompts": {},
+  "sessions": {
+    "s_6c35eaf99701c1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5b6d8e08-5620-482f-a7c0-cbde53621803",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "DhairyaSethi <55102840+DhairyaSethi@users.noreply.github.com>"
+    }
+  }
+}
