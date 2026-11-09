@@ -1,7 +1,7 @@
 // https://monadscan.com/address/0x8dd5b84b26ae3916A5Fb34C8968F93d206216b63
 export const CROSS_CHAIN_CONTROLLER = '0x8dd5b84b26ae3916A5Fb34C8968F93d206216b63';
 
-// IPayloadsControllerCore https://monadscan.com/address/0x442CA936e5E6Db875357d0A16481145c96dd9a82
+// https://monadscan.com/address/0x442CA936e5E6Db875357d0A16481145c96dd9a82
 export const PAYLOADS_CONTROLLER = '0x442CA936e5E6Db875357d0A16481145c96dd9a82';
 
 // https://monadscan.com/address/0xFBEa38C851B7B5A4626b0348aa2Db70921Cd3f92

@@ -1,7 +1,7 @@
 // https://explorer.inkonchain.com/address/0x990B75fD1a2345D905a385dBC6e17BEe0Cb2f505
 export const CROSS_CHAIN_CONTROLLER = '0x990B75fD1a2345D905a385dBC6e17BEe0Cb2f505';
 
-// IPayloadsControllerCore https://explorer.inkonchain.com/address/0x44D73D7C4b2f98F426Bf8B5e87628d9eE38ef0Cf
+// https://explorer.inkonchain.com/address/0x44D73D7C4b2f98F426Bf8B5e87628d9eE38ef0Cf
 export const PAYLOADS_CONTROLLER = '0x44D73D7C4b2f98F426Bf8B5e87628d9eE38ef0Cf';
 
 // https://explorer.inkonchain.com/address/0xd0929668178973d5994D5654929aCB3d6c2b9949

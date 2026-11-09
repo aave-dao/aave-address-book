@@ -7,7 +7,7 @@ export const CL_EMERGENCY_ORACLE = '0x41185495Bc8297a65DC46f94001DC7233775EbEe';
 // https://snowscan.xyz/address/0x4D1863d22D0ED8579f8999388BCC833CB057C2d6
 export const VOTING_MACHINE = '0x4D1863d22D0ED8579f8999388BCC833CB057C2d6';
 
-// IPayloadsControllerCore https://snowscan.xyz/address/0x1140CB7CAfAcC745771C2Ea31e7B5C653c5d0B80
+// https://snowscan.xyz/address/0x1140CB7CAfAcC745771C2Ea31e7B5C653c5d0B80
 export const PAYLOADS_CONTROLLER = '0x1140CB7CAfAcC745771C2Ea31e7B5C653c5d0B80';
 
 // https://snowscan.xyz/address/0xE3B770Dc4ae3f8bECaB3Ed12dE692c741603e16A
@@ -25,10 +25,10 @@ export const GOVERNANCE_GUARDIAN = '0x360c0a69Ed2912351227a0b745f890CB2eBDbcFe';
 // https://snowscan.xyz/address/0x3C06dce358add17aAf230f2234bCCC4afd50d090
 export const EXECUTOR_LVL_1 = '0x3C06dce358add17aAf230f2234bCCC4afd50d090';
 
-// IVotingStrategy https://snowscan.xyz/address/0x6771B74568181f6042C9e5CFF98f62e7Ce40482e
+// https://snowscan.xyz/address/0x6771B74568181f6042C9e5CFF98f62e7Ce40482e
 export const VOTING_STRATEGY = '0x6771B74568181f6042C9e5CFF98f62e7Ce40482e';
 
-// IDataWarehouse https://snowscan.xyz/address/0x450820e342B731b542caA5328d06F26528914dDd
+// https://snowscan.xyz/address/0x450820e342B731b542caA5328d06F26528914dDd
 export const DATA_WAREHOUSE = '0x450820e342B731b542caA5328d06F26528914dDd';
 
 export const CHAIN_ID = 43114;

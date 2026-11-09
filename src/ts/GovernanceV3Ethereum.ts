@@ -1,10 +1,10 @@
 // https://etherscan.io/address/0xEd42a7D8559a463722Ca4beD50E0Cc05a386b0e1
 export const CROSS_CHAIN_CONTROLLER = '0xEd42a7D8559a463722Ca4beD50E0Cc05a386b0e1';
 
-// IGovernanceCore https://etherscan.io/address/0x9AEE0B04504CeF83A65AC3f0e838D0593BCb2BC7
+// https://etherscan.io/address/0x9AEE0B04504CeF83A65AC3f0e838D0593BCb2BC7
 export const GOVERNANCE = '0x9AEE0B04504CeF83A65AC3f0e838D0593BCb2BC7';
 
-// IPayloadsControllerCore https://etherscan.io/address/0xdAbad81aF85554E9ae636395611C58F7eC1aAEc5
+// https://etherscan.io/address/0xdAbad81aF85554E9ae636395611C58F7eC1aAEc5
 export const PAYLOADS_CONTROLLER = '0xdAbad81aF85554E9ae636395611C58F7eC1aAEc5';
 
 // https://etherscan.io/address/0x06a1795a88b82700896583e123F46BE43877bFb6
@@ -49,10 +49,10 @@ export const EXECUTOR_LVL_1 = '0x5300A1a15135EA4dc7aD5a167152C01EFc9b192A';
 // https://etherscan.io/address/0x17Dd33Ed0e3dD2a80E37489B8A63063161BE6957
 export const EXECUTOR_LVL_2 = '0x17Dd33Ed0e3dD2a80E37489B8A63063161BE6957';
 
-// IVotingStrategy https://etherscan.io/address/0xA16044F268d84599e58E851b25f4DBA061DC6088
+// https://etherscan.io/address/0xA16044F268d84599e58E851b25f4DBA061DC6088
 export const VOTING_STRATEGY = '0xA16044F268d84599e58E851b25f4DBA061DC6088';
 
-// IDataWarehouse https://etherscan.io/address/0xa638c14525CAEE8e498A67b409CCb1B7b34c3981
+// https://etherscan.io/address/0xa638c14525CAEE8e498A67b409CCb1B7b34c3981
 export const DATA_WAREHOUSE = '0xa638c14525CAEE8e498A67b409CCb1B7b34c3981';
 
 export const CHAIN_ID = 1;
