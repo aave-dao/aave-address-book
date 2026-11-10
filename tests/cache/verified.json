@@ -5046,6 +5046,9 @@
     "0x5148d810B1DaE509d68f9d9219AD1d004EA32545": {
       "name": "RwaATokenInstance"
     },
+    "0x6b3800e96Bb4AA38a879b2c143B6E2f5f2687b77": {
+      "name": "AaveOracle"
+    },
     "0xD2CC30cB0e77B80a34b879ccB6da67799e4ecD83": {
       "name": "TransparentUpgradeableProxy"
     },
