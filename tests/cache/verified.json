@@ -5103,9 +5103,6 @@
     "0xE5E56b2Db3d13687b791004004F3C29776d97816": {
       "name": "InitializableImmutableAdminUpgradeabilityProxy"
     },
-    "0xef1741250D21343879dE836672aE5cc88e4026b8": {
-      "name": "AaveV4ConfigEngine"
-    },
     "0x8E39De6366AB0bc3e9FF6a116f366736bf0D8A9e": {
       "name": "PAXGyPriceCapAdapter"
     },
@@ -6574,9 +6571,6 @@
     },
     "0x4299b11815F25DB50fC56CD8a1C24cCCDD2AEECe": {
       "name": "TransparentUpgradeableProxy"
-    },
-    "0xef1741250D21343879dE836672aE5cc88e4026b8": {
-      "name": "AaveV4ConfigEngine"
     },
     "0x17a200Af33bb06511b1F89709659E1807BD13957": {
       "name": "AaveV4ConfigEngine"
@@ -14980,9 +14974,6 @@
     "0x5Eba6D3678BBc815Be00B8A6F19BeefA6fCD0621": {
       "name": "LeverageAaveV4Adapter"
     },
-    "0xef1741250D21343879dE836672aE5cc88e4026b8": {
-      "name": "AaveV4ConfigEngine"
-    },
     "0x17a200Af33bb06511b1F89709659E1807BD13957": {
       "name": "AaveV4ConfigEngine"
     }
@@ -19306,9 +19297,6 @@
     },
     "0x5Eba6D3678BBc815Be00B8A6F19BeefA6fCD0621": {
       "name": "LeverageAaveV4Adapter"
-    },
-    "0xef1741250D21343879dE836672aE5cc88e4026b8": {
-      "name": "AaveV4ConfigEngine"
     },
     "0x17a200Af33bb06511b1F89709659E1807BD13957": {
       "name": "AaveV4ConfigEngine"
