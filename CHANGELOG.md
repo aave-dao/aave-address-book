@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.77.3](https://github.com/aave-dao/aave-address-book/compare/v4.77.2...v4.77.3) (2026-11-10)
+
+
+### Bug Fixes
+
+* Add Horizon periphery addresses ([#1655](https://github.com/aave-dao/aave-address-book/issues/1655)) ([bf23498](https://github.com/aave-dao/aave-address-book/commit/bf23498b2f503a75842e244c3403d73fc3fdae2b))
+
+## [4.77.2](https://github.com/aave-dao/aave-address-book/compare/v4.77.1...v4.77.2) (2026-11-10)
+
+
+### Bug Fixes
+
+* add PAXG Paxos eSpoke ([#1650](https://github.com/aave-dao/aave-address-book/issues/1650)) ([fa7c170](https://github.com/aave-dao/aave-address-book/commit/fa7c170add250b29fb81c2cfa8dd5d3ce36c4743))
+
 ## [4.77.1](https://github.com/aave-dao/aave-address-book/compare/v4.77.0...v4.77.1) (2026-11-09)
 
 

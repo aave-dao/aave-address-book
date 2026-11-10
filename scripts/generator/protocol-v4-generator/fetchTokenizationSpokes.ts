@@ -37,12 +37,8 @@ export async function fetchTokenizationSpokes(
         addr.toLowerCase() !== asset.feeReceiver.toLowerCase(),
     );
 
-    if (candidates.length === 1) {
-      results.set(asset.assetId, getAddress(candidates[0]));
-    } else if (candidates.length > 1) {
-      for (const candidate of candidates) {
-        pendingCandidates.push({asset, candidate});
-      }
+    for (const candidate of candidates) {
+      pendingCandidates.push({asset, candidate});
     }
   }
 
@@ -87,8 +83,13 @@ export async function fetchTokenizationSpokes(
     }
   }
 
+  // A lone candidate failing validation is an unregistered regular spoke; it stays in ALL_SPOKES_RAW.
+  const candidateCounts = new Map<number, number>();
   for (const {asset} of pendingCandidates) {
-    if (!results.has(asset.assetId)) {
+    candidateCounts.set(asset.assetId, (candidateCounts.get(asset.assetId) ?? 0) + 1);
+  }
+  for (const {asset} of pendingCandidates) {
+    if (!results.has(asset.assetId) && candidateCounts.get(asset.assetId)! > 1) {
       throw new Error(
         `Could not identify tokenization spoke for asset ${asset.symbol} (id=${asset.assetId}) on hub ${hubAddress}`,
       );

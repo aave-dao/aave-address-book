@@ -5046,6 +5046,9 @@
     "0x5148d810B1DaE509d68f9d9219AD1d004EA32545": {
       "name": "RwaATokenInstance"
     },
+    "0x6b3800e96Bb4AA38a879b2c143B6E2f5f2687b77": {
+      "name": "AaveOracle"
+    },
     "0xD2CC30cB0e77B80a34b879ccB6da67799e4ecD83": {
       "name": "TransparentUpgradeableProxy"
     },
@@ -5117,6 +5120,18 @@
     },
     "0x17a200Af33bb06511b1F89709659E1807BD13957": {
       "name": "AaveV4ConfigEngine"
+    },
+    "0xE35Ee1C82fdf6524834e1Ef6Af7820bf6B1fbf0D": {
+      "name": "PoolAddressesProviderRegistry"
+    },
+    "0x3e487eEC06FEf41ee37fd7Fc284bEDacE962c632": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x0a848De7aCd36F42D13E798a10b891dA2FD310A4": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x973195fB8F67F5B0afe7beDB2A02cec829d89991": {
+      "name": "WrappedTokenGatewayV3"
     }
   },
   "10": {
