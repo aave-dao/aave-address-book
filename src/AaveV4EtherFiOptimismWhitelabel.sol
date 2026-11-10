@@ -20,9 +20,9 @@ library AaveV4EtherFiOptimismWhitelabel {
   ITreasurySpoke internal constant TREASURY_SPOKE =
     ITreasurySpoke(0x7EB4d25F137868662350603A2863F682287b0768);
 
-  // https://optimistic.etherscan.io/address/0xef1741250D21343879dE836672aE5cc88e4026b8
+  // https://optimistic.etherscan.io/address/0x17a200Af33bb06511b1F89709659E1807BD13957
   IAaveV4ConfigEngine internal constant CONFIG_ENGINE =
-    IAaveV4ConfigEngine(0xef1741250D21343879dE836672aE5cc88e4026b8);
+    IAaveV4ConfigEngine(0x17a200Af33bb06511b1F89709659E1807BD13957);
 }
 library AaveV4EtherFiOptimismWhitelabelHubs {
   // https://optimistic.etherscan.io/address/0x66753c4e3fC84f1eD0e3C267C927284E9d90C572

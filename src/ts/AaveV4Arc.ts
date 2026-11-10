@@ -11,8 +11,8 @@ export const SPOKE_CONFIGURATOR = '0x102610d2A7Fd87A85ad8fdCfC78879be8Fd40576';
 // ITreasurySpoke https://explorer.arc.io/address/0xcbd466CB8709D9f6dd8312668B4dbef394cE0e15
 export const TREASURY_SPOKE = '0xcbd466CB8709D9f6dd8312668B4dbef394cE0e15';
 
-// IAaveV4ConfigEngine https://explorer.arc.io/address/0xef1741250D21343879dE836672aE5cc88e4026b8
-export const CONFIG_ENGINE = '0xef1741250D21343879dE836672aE5cc88e4026b8';
+// IAaveV4ConfigEngine https://explorer.arc.io/address/0x17a200Af33bb06511b1F89709659E1807BD13957
+export const CONFIG_ENGINE = '0x17a200Af33bb06511b1F89709659E1807BD13957';
 
 // https://explorer.arc.io/address/0x73adb67D5De247D40152Cf06aC16174b3d87D2c8
 export const RISK_STEWARD = '0x73adb67D5De247D40152Cf06aC16174b3d87D2c8';

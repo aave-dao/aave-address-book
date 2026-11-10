@@ -20,9 +20,9 @@ library AaveV4Ethereum {
   ITreasurySpoke internal constant TREASURY_SPOKE =
     ITreasurySpoke(0xB9B0b8616f6Bf6841972a52058132BE08d723155);
 
-  // https://etherscan.io/address/0xef1741250D21343879dE836672aE5cc88e4026b8
+  // https://etherscan.io/address/0x17a200Af33bb06511b1F89709659E1807BD13957
   IAaveV4ConfigEngine internal constant CONFIG_ENGINE =
-    IAaveV4ConfigEngine(0xef1741250D21343879dE836672aE5cc88e4026b8);
+    IAaveV4ConfigEngine(0x17a200Af33bb06511b1F89709659E1807BD13957);
 
   // https://etherscan.io/address/0x6f48d9Cdb8EE6E17c96B2d8Aec128af426A295c1
   address internal constant RISK_STEWARD = 0x6f48d9Cdb8EE6E17c96B2d8Aec128af426A295c1;

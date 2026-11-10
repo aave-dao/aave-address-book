@@ -20,9 +20,9 @@ library AaveV4Arc {
   ITreasurySpoke internal constant TREASURY_SPOKE =
     ITreasurySpoke(0xcbd466CB8709D9f6dd8312668B4dbef394cE0e15);
 
-  // https://explorer.arc.io/address/0xef1741250D21343879dE836672aE5cc88e4026b8
+  // https://explorer.arc.io/address/0x17a200Af33bb06511b1F89709659E1807BD13957
   IAaveV4ConfigEngine internal constant CONFIG_ENGINE =
-    IAaveV4ConfigEngine(0xef1741250D21343879dE836672aE5cc88e4026b8);
+    IAaveV4ConfigEngine(0x17a200Af33bb06511b1F89709659E1807BD13957);
 
   // https://explorer.arc.io/address/0x73adb67D5De247D40152Cf06aC16174b3d87D2c8
   address internal constant RISK_STEWARD = 0x73adb67D5De247D40152Cf06aC16174b3d87D2c8;

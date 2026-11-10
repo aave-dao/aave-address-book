@@ -11,8 +11,8 @@ export const SPOKE_CONFIGURATOR = '0x8F72573F1Aa0A1e39fFD2a2A69e9EDAa8B982642';
 // ITreasurySpoke https://snowscan.xyz/address/0x2C4Aea1A5F000889c6DfFE8f52377aFc2CB113a6
 export const TREASURY_SPOKE = '0x2C4Aea1A5F000889c6DfFE8f52377aFc2CB113a6';
 
-// IAaveV4ConfigEngine https://snowscan.xyz/address/0xef1741250D21343879dE836672aE5cc88e4026b8
-export const CONFIG_ENGINE = '0xef1741250D21343879dE836672aE5cc88e4026b8';
+// IAaveV4ConfigEngine https://snowscan.xyz/address/0x17a200Af33bb06511b1F89709659E1807BD13957
+export const CONFIG_ENGINE = '0x17a200Af33bb06511b1F89709659E1807BD13957';
 
 // https://snowscan.xyz/address/0xd8d7AbC42c1c938BdEC94fF8da1b3cd5b7e3b107
 export const RISK_STEWARD = '0xd8d7AbC42c1c938BdEC94fF8da1b3cd5b7e3b107';
