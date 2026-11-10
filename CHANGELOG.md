@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.77.5](https://github.com/aave-dao/aave-address-book/compare/v4.77.4...v4.77.5) (2026-11-10)
+
+
+### Bug Fixes
+
+* add CL_EMERGENCY_ORACLE for Monad and MegaETH ([#1688](https://github.com/aave-dao/aave-address-book/issues/1688)) ([0687fbc](https://github.com/aave-dao/aave-address-book/commit/0687fbc67392d6bbbb8e055a8f94a0637098fa64))
+
 ## [4.77.4](https://github.com/aave-dao/aave-address-book/compare/v4.77.3...v4.77.4) (2026-11-10)
 
 
