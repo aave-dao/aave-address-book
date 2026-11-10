@@ -1,0 +1,55 @@
+safe.csv
+  s_bb69779f488272::t_245907522d83ce 1192,1412,2040,4162,4370,5668
+scripts/configs/v4/arc.ts
+  s_bb69779f488272::t_b22a26bb79ff03 12
+scripts/configs/v4/avalanche.ts
+  s_bb69779f488272::t_06348a4180c4b7 12
+scripts/configs/v4/base.ts
+  s_bb69779f488272::t_d0959c0c2090bb 12
+scripts/configs/v4/etherFiOptimism.ts
+  s_bb69779f488272::t_88ce87b3424db2 12
+scripts/configs/v4/ethereum.ts
+  s_bb69779f488272::t_9409df0b312410 12
+scripts/configs/v4/ethereumSentoraCurated.ts
+  s_bb69779f488272::t_31576194a4d047 12
+src/AaveV4Arc.sol
+  s_bb69779f488272::t_7063d0e4c5b459 23,25
+src/AaveV4Avalanche.sol
+  s_bb69779f488272::t_857d9afbe7a012 23,25
+src/AaveV4Base.sol
+  s_bb69779f488272::t_18eef2978de021 23,25
+src/AaveV4EtherFiOptimismWhitelabel.sol
+  s_bb69779f488272::t_dae3d1b10c5ccf 23,25
+src/AaveV4Ethereum.sol
+  s_bb69779f488272::t_8a5469e37c23b1 23,25
+src/AaveV4EthereumSentoraCurated.sol
+  s_bb69779f488272::t_6165728f2429fc 23,25
+src/ts/AaveV4Arc.ts
+  s_bb69779f488272::t_d4561cb5b0b493 14-15
+src/ts/AaveV4Avalanche.ts
+  s_bb69779f488272::t_e4cfdc8fe35c73 14-15
+src/ts/AaveV4Base.ts
+  s_bb69779f488272::t_fb4b290fa80d8b 14-15
+src/ts/AaveV4EtherFiOptimismWhitelabel.ts
+  s_bb69779f488272::t_e3b659a6ba43cf 14-15
+src/ts/AaveV4Ethereum.ts
+  s_bb69779f488272::t_8cea13180a8b79 14-15
+src/ts/AaveV4EthereumSentoraCurated.ts
+  s_bb69779f488272::t_a919dc2115f9ad 14-15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d344e0fc117764b4cced4905b43e9a8c8d858d9e",
+  "prompts": {},
+  "sessions": {
+    "s_bb69779f488272": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e65a05c6-e8b9-4444-b725-b799001a8ea7",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "DhairyaSethi <55102840+DhairyaSethi@users.noreply.github.com>"
+    }
+  }
+}

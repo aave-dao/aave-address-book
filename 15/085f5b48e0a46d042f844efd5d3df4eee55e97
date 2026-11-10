@@ -1,0 +1,41 @@
+CHANGELOG.md
+  s_bb69779f488272::t_5881813354eee3 5-18
+package-lock.json
+  s_bb69779f488272::t_bba21817c221d9 3,9
+package.json
+  s_bb69779f488272::t_70157ab7d66dcc 3
+safe.csv
+  s_bb69779f488272::t_cad3387644129c 946,957,965,969,1078-1079,1093-1131,1278-1279,1356-1357
+scripts/configs/pools/ethereum.ts
+  s_bb69779f488272::t_2b667289d97dda 165,175-177
+scripts/configs/v4/ethereum.ts
+  s_bb69779f488272::t_389d5d44e54b89 37
+scripts/generator/protocol-v4-generator/fetchTokenizationSpokes.ts
+  s_bb69779f488272::t_6d85d5537f2b30 40-41,86-90,92
+src/AaveV3EthereumHorizon.sol
+  s_bb69779f488272::t_b26a89fd42450b 55,57,85-93
+src/AaveV4Ethereum.sol
+  s_bb69779f488272::t_b08250f726a054 154-160,445-452,945,958-959,964,1022-1042,1045-1058,1061-1064
+src/ts/AaveV3EthereumHorizon.ts
+  s_bb69779f488272::t_7eb1ef7cf29203 44-45,74-82
+src/ts/AaveV4Ethereum.ts
+  s_bb69779f488272::t_27f908dfd2064b 73-74,154-155,382,438
+tests/cache/verified.json
+  s_bb69779f488272::t_ad9f1932399956 5049-5051,5123-5134,21135
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "15085f5b48e0a46d042f844efd5d3df4eee55e97",
+  "prompts": {},
+  "sessions": {
+    "s_bb69779f488272": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e65a05c6-e8b9-4444-b725-b799001a8ea7",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "DhairyaSethi <55102840+DhairyaSethi@users.noreply.github.com>"
+    }
+  }
+}

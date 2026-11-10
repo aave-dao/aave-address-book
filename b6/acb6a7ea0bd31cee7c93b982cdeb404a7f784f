@@ -1,0 +1,75 @@
+CHANGELOG.md
+  s_2bc10e7d26489f::t_4fd1db5da145a0 5-82
+package-lock.json
+  s_2bc10e7d26489f::t_f1cd5ae050392b 3,9
+package.json
+  s_2bc10e7d26489f::t_ebf69d82b856b9 3
+scripts/configs/networks/arbitrum.ts
+  s_2bc10e7d26489f::t_c2f0422d5c698b 24,56
+scripts/configs/networks/bnb.ts
+  s_2bc10e7d26489f::t_90a7085a6667b1 24
+scripts/configs/networks/gnosis.ts
+  s_2bc10e7d26489f::t_e4503e31750cf4 20,47
+scripts/configs/networks/ink.ts
+  s_2bc10e7d26489f::t_485ba2bccdccaa 30
+scripts/configs/networks/linea.ts
+  s_2bc10e7d26489f::t_81291ce8b2fce5 20
+scripts/configs/networks/plasma.ts
+  s_2bc10e7d26489f::t_6e29af9cb1c7d8 28
+scripts/configs/networks/polygon.ts
+  s_2bc10e7d26489f::t_4eb0e1b973cdd6 20,49
+scripts/configs/pools/arbitrum.ts
+  s_2bc10e7d26489f::t_426c73d4b9f71e 32-36
+scripts/configs/pools/avalanche.ts
+  s_2bc10e7d26489f::t_205570112697ec 82-86
+scripts/configs/pools/base.ts
+  s_2bc10e7d26489f::t_c87a2aa691e632 31-35
+scripts/configs/pools/bnb.ts
+  s_2bc10e7d26489f::t_a9663ef2c99774 29-33
+scripts/configs/pools/ethereum.ts
+  s_2bc10e7d26489f::t_db76ef7c1b4eaa 99-103,131-135
+scripts/configs/pools/gnosis.ts
+  s_2bc10e7d26489f::t_43f99f128eb26b 29-33
+scripts/configs/pools/linea.ts
+  s_2bc10e7d26489f::t_b6557781872935 24-28
+scripts/configs/pools/plasma.ts
+  s_2bc10e7d26489f::t_b78c0ba5e9b2f4 24-28
+scripts/configs/pools/polygon.ts
+  s_2bc10e7d26489f::t_7819e34eaf1b79 49-53
+scripts/configs/types.ts
+  s_2bc10e7d26489f::t_c54ae2a6e5bfeb 88-92,169-175
+scripts/configs/v4/avalanche.ts
+  s_2bc10e7d26489f::t_25933944876118 35-41
+scripts/configs/v4/base.ts
+  s_2bc10e7d26489f::t_241294f34dcaf0 32-38
+scripts/configs/v4/ethereum.ts
+  s_2bc10e7d26489f::t_74229a4b4a1155 37,50-56
+scripts/generator/protocol-v4-generator/fetchTokenizationSpokes.ts
+  s_2bc10e7d26489f::t_548639dda4d84f 40-41,86-90,92
+scripts/generator/protocolV4Generator.ts
+  s_2bc10e7d26489f::t_80e44298dc4318 43-46
+tests/cache/verified.json
+  s_2bc10e7d26489f::t_20ecac240d1972 5049-5117,6565-6570,7848-7865,8558-8575,10192-10209,14937-14969,15485-15502,17311-17328,19261-19290,19767-19769,20318-20335,21111
+tests/sanity/b20Equities.spec.ts
+  s_2bc10e7d26489f::t_270369646361b6 1-50
+tests/sanity/cowAdapters.spec.ts
+  s_2bc10e7d26489f::t_fb2d95c714a6c3 1-61
+tests/verification.spec.ts
+  s_2bc10e7d26489f::t_9fa334d70d5511 170-178
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b6acb6a7ea0bd31cee7c93b982cdeb404a7f784f",
+  "prompts": {},
+  "sessions": {
+    "s_2bc10e7d26489f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c17fbce8-c529-4890-a816-221a667180e8",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Alexandru Niculae <43644109+avniculae@users.noreply.github.com>"
+    }
+  }
+}

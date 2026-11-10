@@ -1,0 +1,23 @@
+ui/package.json
+  s_4af5830fe058ed::t_af3e4f7857318e 5
+ui/src/components/Footer.tsx
+  s_4af5830fe058ed::t_af3e4f7857318e 11,14,21,24,28
+ui/src/components/SafeDownload.tsx
+  s_4af5830fe058ed::t_af3e4f7857318e 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "14703e43c5b603a62ec287264da112ac1c8811a8",
+  "prompts": {},
+  "sessions": {
+    "s_4af5830fe058ed": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ccf4bacd-ed7c-4ecc-843d-03edd4d0615d",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "DhairyaSethi <55102840+DhairyaSethi@users.noreply.github.com>"
+    }
+  }
+}

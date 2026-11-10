@@ -1,0 +1,33 @@
+safe.csv
+  s_a80cf68413cc62::t_951c3fce9a675a 3385,4004
+scripts/configs/governance/megaeth.ts
+  s_a80cf68413cc62::t_d5c393eba5e623 13
+scripts/configs/governance/monad.ts
+  s_a80cf68413cc62::t_dfd463f78efc50 13
+src/GovernanceV3MegaEth.sol
+  s_a80cf68413cc62::t_00ce22b095b5a0 24-26
+src/GovernanceV3Monad.sol
+  s_a80cf68413cc62::t_0a3c7541c2a84e 24-26
+src/ts/GovernanceV3MegaEth.ts
+  s_a80cf68413cc62::t_b99d961c011635 16-18
+src/ts/GovernanceV3Monad.ts
+  s_a80cf68413cc62::t_d22a1e0f9241f7 16-18
+tests/cache/verified.json
+  s_a80cf68413cc62::t_31218200e7dc98 10674-10676,13088-13090,21129
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "00994dabf7c37f79f5b29f6b26a4444ec94e4d0a",
+  "prompts": {},
+  "sessions": {
+    "s_a80cf68413cc62": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "348a9c7d-bdb4-4cbd-8adf-10718879ce09",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "DhairyaSethi <55102840+DhairyaSethi@users.noreply.github.com>"
+    }
+  }
+}

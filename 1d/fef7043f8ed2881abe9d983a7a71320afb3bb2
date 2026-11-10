@@ -1,0 +1,78 @@
+src/ts/AaveV3Plasma.ts
+  s_4fcc86bfcabf63::t_8379b01223dd68 655-657,672
+scripts/configs/v4/ethereumSentoraCurated.ts
+  s_4fcc86bfcabf63::t_8379b01223dd68 1-42
+src/AaveV4Avalanche.sol
+  s_4fcc86bfcabf63::t_8379b01223dd68 63-70,240,244,261,266-273
+src/GhoEthereum.sol
+  s_4fcc86bfcabf63::t_8379b01223dd68 12-14,77-78
+  s_4fcc86bfcabf63::t_33815a2dff9208 79
+tests/sanity/riskStewards.spec.ts
+  s_4fcc86bfcabf63::t_8379b01223dd68 93,126,140,156-160,163,165,177
+src/ts/AaveV3EthereumHorizon.ts
+  s_4fcc86bfcabf63::t_8379b01223dd68 65-67
+scripts/generateAddresses.ts
+  s_4fcc86bfcabf63::t_8379b01223dd68 44,216
+src/AaveV3EthereumHorizon.sol
+  s_4fcc86bfcabf63::t_8379b01223dd68 76-78
+src/ts/AaveV3Ethereum.ts
+  s_4fcc86bfcabf63::t_8379b01223dd68 1615,1630
+safe.csv
+  s_4fcc86bfcabf63::t_8379b01223dd68 949,1360-1426,1711,1713,3542,5527,5532-5539,5579-5580,5700
+src/AaveV4EthereumSentoraCurated.sol
+  s_4fcc86bfcabf63::t_8379b01223dd68 1-280
+src/ts/GhoEthereum.ts
+  s_4fcc86bfcabf63::t_8379b01223dd68 8-10,68-69
+  s_4fcc86bfcabf63::t_21ba9e68a20289 70
+src/ts/GhoXLayer.ts
+  s_4fcc86bfcabf63::t_8379b01223dd68 8-10
+src/ts/AaveAddressBook.ts
+  s_4fcc86bfcabf63::t_8379b01223dd68 69
+scripts/configs/gho/ethereum.ts
+  s_4fcc86bfcabf63::t_8379b01223dd68 10,31
+src/ts/AaveV4EthereumSentoraCurated.ts
+  s_4fcc86bfcabf63::t_8379b01223dd68 1-150
+src/ts/GhoAvalanche.ts
+  s_4fcc86bfcabf63::t_8379b01223dd68 8-10
+scripts/configs/v4/avalanche.ts
+  s_4fcc86bfcabf63::t_8379b01223dd68 23
+scripts/configs/pools/ethereum.ts
+  s_4fcc86bfcabf63::t_8379b01223dd68 162
+src/ts/AaveV4Avalanche.ts
+  s_4fcc86bfcabf63::t_8379b01223dd68 37-38,123,139
+tests/cache/verified.json
+  s_4fcc86bfcabf63::t_2e9d8f82666853 4934
+  s_4fcc86bfcabf63::t_8379b01223dd68 4845-4850,4935-5041,11314-11316,18970-18978
+package.json
+  s_4fcc86bfcabf63::t_8379b01223dd68 3
+src/ts/AaveV3Monad.ts
+  s_4fcc86bfcabf63::t_8379b01223dd68 311
+scripts/configs/gho/xlayer.ts
+  s_4fcc86bfcabf63::t_8379b01223dd68 10
+CHANGELOG.md
+  s_4fcc86bfcabf63::t_8379b01223dd68 5-40
+src/GhoAvalanche.sol
+  s_4fcc86bfcabf63::t_8379b01223dd68 12-14
+src/GhoXLayer.sol
+  s_4fcc86bfcabf63::t_8379b01223dd68 12-14
+scripts/configs/gho/avalanche.ts
+  s_4fcc86bfcabf63::t_8379b01223dd68 10
+package-lock.json
+  s_4fcc86bfcabf63::t_b46cbbe73ec858 3,9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1dfef7043f8ed2881abe9d983a7a71320afb3bb2",
+  "prompts": {},
+  "sessions": {
+    "s_4fcc86bfcabf63": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "48fabd1c-e434-444e-93d3-60338fc91246",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "DhairyaSethi <55102840+DhairyaSethi@users.noreply.github.com>"
+    }
+  }
+}

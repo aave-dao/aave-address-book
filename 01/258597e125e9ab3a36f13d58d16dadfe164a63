@@ -1,0 +1,169 @@
+CHANGELOG.md
+  s_2bc10e7d26489f::t_4c90d27e02d885 5-82
+package-lock.json
+  s_2bc10e7d26489f::t_ca9f6c95857e57 3,9
+package.json
+  s_2bc10e7d26489f::t_fb156882b85c45 3
+safe.csv
+  s_2bc10e7d26489f::t_6dbf99ad9bb4fa 776-780,785-789,1024-1028,1078-1079,1093-1131,1149-1168,1186,1194,1196-1200,1224,1245,1278-1279,1341,1344,1356-1357,1379,2045,2079,2114,2355-2359,2643,2709-2713,2820,3047-3051,3259,4320-4324,4375,4377-4381,4393,4413,4734-4738,4807,4944-4948,5311,5601-5605,5675-5679,6000,6061-6065,6156
+scripts/configs/networks/arbitrum.ts
+  s_2bc10e7d26489f::t_0e53cfc0b6009b 24,56
+scripts/configs/networks/bnb.ts
+  s_2bc10e7d26489f::t_c2ec410f6468e2 24
+scripts/configs/networks/gnosis.ts
+  s_2bc10e7d26489f::t_76a4ca826ef373 20,47
+scripts/configs/networks/ink.ts
+  s_2bc10e7d26489f::t_54837546c600c6 30
+scripts/configs/networks/linea.ts
+  s_2bc10e7d26489f::t_66d6acbb1c1f6c 20
+scripts/configs/networks/plasma.ts
+  s_2bc10e7d26489f::t_6506ea528b6d73 28
+scripts/configs/networks/polygon.ts
+  s_2bc10e7d26489f::t_21be27449ba959 20,49
+scripts/configs/pools/arbitrum.ts
+  s_2bc10e7d26489f::t_00ce60f804ba0d 32-36
+scripts/configs/pools/avalanche.ts
+  s_2bc10e7d26489f::t_49fe48ba3ea9ea 82-86
+scripts/configs/pools/base.ts
+  s_2bc10e7d26489f::t_d29f76374116d8 31-35
+scripts/configs/pools/bnb.ts
+  s_2bc10e7d26489f::t_8479077c060bed 29-33
+scripts/configs/pools/ethereum.ts
+  s_2bc10e7d26489f::t_cb2b628b4eadde 99-103,131-135
+scripts/configs/pools/gnosis.ts
+  s_2bc10e7d26489f::t_b5bd0b5677cd88 29-33
+scripts/configs/pools/linea.ts
+  s_2bc10e7d26489f::t_70cdcfbda7d2e6 24-28
+scripts/configs/pools/plasma.ts
+  s_2bc10e7d26489f::t_c50595873a14a3 24-28
+scripts/configs/pools/polygon.ts
+  s_2bc10e7d26489f::t_ebd8b522951432 49-53
+scripts/configs/types.ts
+  s_2bc10e7d26489f::t_19dabdf88bdfc4 88-92,169-175
+scripts/configs/v4/avalanche.ts
+  s_2bc10e7d26489f::t_4c6b207955106c 35-41
+scripts/configs/v4/base.ts
+  s_2bc10e7d26489f::t_d641ffe3443b5e 32-38
+scripts/configs/v4/ethereum.ts
+  s_2bc10e7d26489f::t_89f4b17551b3b5 37,50-56
+scripts/generator/protocol-v4-generator/fetchTokenizationSpokes.ts
+  s_2bc10e7d26489f::t_a1f86a57350eee 40-41,86-90,92
+scripts/generator/protocolV4Generator.ts
+  s_2bc10e7d26489f::t_9d72efd697e91d 43-46
+src/AaveV3Arbitrum.sol
+  s_2bc10e7d26489f::t_beeadf3d65ec69 127-143
+src/AaveV3Avalanche.sol
+  s_2bc10e7d26489f::t_8202db693181be 124-140
+src/AaveV3BNB.sol
+  s_2bc10e7d26489f::t_5a66f855932e2f 117-133
+src/AaveV3Base.sol
+  s_2bc10e7d26489f::t_e5f6a62c91942f 124-140
+src/AaveV3Ethereum.sol
+  s_2bc10e7d26489f::t_e01400d93df731 148-164,1502-1519
+src/AaveV3EthereumLido.sol
+  s_2bc10e7d26489f::t_5aee948bb20ea6 113-129
+src/AaveV3Gnosis.sol
+  s_2bc10e7d26489f::t_99231261df8f92 117-133
+src/AaveV3Linea.sol
+  s_2bc10e7d26489f::t_21f3286bbe5c6a 100-116
+src/AaveV3Plasma.sol
+  s_2bc10e7d26489f::t_9d40c30bb8c95a 103-119
+src/AaveV3Polygon.sol
+  s_2bc10e7d26489f::t_81c799363ca908 117-133
+src/AaveV4Avalanche.sol
+  s_2bc10e7d26489f::t_eb2e85420e2c32 32-48
+src/AaveV4Base.sol
+  s_2bc10e7d26489f::t_6f465884de3e3c 32-48,97-100,139-142,209-213
+src/AaveV4EtherFiOptimismWhitelabel.sol
+  s_2bc10e7d26489f::t_e8dffa9469062f 151-154,272-275,430-434
+src/AaveV4Ethereum.sol
+  s_2bc10e7d26489f::t_aead28acecc5c9 32-48,154-160,385-388,397-400,445-452,538-541,687-690,770-773,886-890,928-932,945,958-959,964,982-983,985-998,1000-1003,1008,1022-1042,1045-1058,1061-1064
+src/MiscArbitrum.sol
+  s_2bc10e7d26489f::t_fafa3442a1e296 87-89
+src/MiscBNB.sol
+  s_2bc10e7d26489f::t_4b36f98bd8d35b 53-55
+src/MiscGnosis.sol
+  s_2bc10e7d26489f::t_2b3e9c0fc54a5d 71-73
+src/MiscInk.sol
+  s_2bc10e7d26489f::t_73d09b36b6a568 29-31
+src/MiscLinea.sol
+  s_2bc10e7d26489f::t_2b8973380e6ecb 41-43
+src/MiscPlasma.sol
+  s_2bc10e7d26489f::t_50113551c168c4 69-71
+src/MiscPolygon.sol
+  s_2bc10e7d26489f::t_ec5e48bce14007 78-80
+src/ts/AaveV3Arbitrum.ts
+  s_2bc10e7d26489f::t_92169b3cd5d0e6 113-127,354,358,360
+src/ts/AaveV3Avalanche.ts
+  s_2bc10e7d26489f::t_0b4514aa2c8f04 110-124,327,330-331
+src/ts/AaveV3BNB.ts
+  s_2bc10e7d26489f::t_9972481b79bf96 104-118
+src/ts/AaveV3Base.ts
+  s_2bc10e7d26489f::t_efe096d65aa91e 110-124
+src/ts/AaveV3Ethereum.ts
+  s_2bc10e7d26489f::t_36f7778fe3062a 131-145,792-800
+src/ts/AaveV3EthereumLido.ts
+  s_2bc10e7d26489f::t_a096a0ec760eaa 101-115
+src/ts/AaveV3Gnosis.ts
+  s_2bc10e7d26489f::t_9dc0b9cf364c72 104-118
+src/ts/AaveV3Linea.ts
+  s_2bc10e7d26489f::t_cfef800b1b922c 89-103
+src/ts/AaveV3Monad.ts
+  s_2bc10e7d26489f::t_7519fd1d25c8ea 311
+src/ts/AaveV3Optimism.ts
+  s_2bc10e7d26489f::t_255bc1949ac6f2 276,280,282
+src/ts/AaveV3Plasma.ts
+  s_2bc10e7d26489f::t_c0ea471962ce42 89-103
+src/ts/AaveV3Polygon.ts
+  s_2bc10e7d26489f::t_3c3df2f01b7fb7 104-118,351,355,360
+src/ts/AaveV3XLayer.ts
+  s_2bc10e7d26489f::t_fbfbb618db4584 337-339
+src/ts/AaveV4Avalanche.ts
+  s_2bc10e7d26489f::t_4af921414c6ac4 23-37
+src/ts/AaveV4Base.ts
+  s_2bc10e7d26489f::t_9cdaedaeae77a8 23-37,59,75,123-126
+src/ts/AaveV4EtherFiOptimismWhitelabel.ts
+  s_2bc10e7d26489f::t_c774e4acfbe5df 59,92,220-223
+src/ts/AaveV4Ethereum.ts
+  s_2bc10e7d26489f::t_74cb183976204e 23-37,73-74,139,142,154-155,180,220,241,325-328,357-360,382,403,438,457
+src/ts/MiscArbitrum.ts
+  s_2bc10e7d26489f::t_b1d2fa45c1af5c 83-85
+src/ts/MiscBNB.ts
+  s_2bc10e7d26489f::t_7ad149ac343ad5 50-52
+src/ts/MiscGnosis.ts
+  s_2bc10e7d26489f::t_bb86b4dbb94945 68-70
+src/ts/MiscInk.ts
+  s_2bc10e7d26489f::t_f7fbde66ec5b43 26-28
+src/ts/MiscLinea.ts
+  s_2bc10e7d26489f::t_8407aaad704d05 38-40
+src/ts/MiscPlasma.ts
+  s_2bc10e7d26489f::t_582ab5cd6f4659 62-64
+src/ts/MiscPolygon.ts
+  s_2bc10e7d26489f::t_5119e4f21edff5 74-76
+tests/cache/verified.json
+  s_2bc10e7d26489f::t_b890ba4b629798 5049-5117,6565-6570,7848-7865,8558-8575,10192-10209,14937-14969,15485-15502,17311-17328,19261-19290,19767-19769,20318-20335,21111
+tests/sanity/b20Equities.spec.ts
+  s_2bc10e7d26489f::t_27e6b6821e4fd2 1-50
+tests/sanity/cowAdapters.spec.ts
+  s_2bc10e7d26489f::t_efc78eff8fc5a4 1-61
+tests/verification.spec.ts
+  s_2bc10e7d26489f::t_5808d78039122f 170-178
+tokenlist.json
+  s_2bc10e7d26489f::t_7053d1c9658e0d 3664-3683,11651-11652
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "01258597e125e9ab3a36f13d58d16dadfe164a63",
+  "prompts": {},
+  "sessions": {
+    "s_2bc10e7d26489f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c17fbce8-c529-4890-a816-221a667180e8",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Alexandru Niculae <43644109+avniculae@users.noreply.github.com>"
+    }
+  }
+}

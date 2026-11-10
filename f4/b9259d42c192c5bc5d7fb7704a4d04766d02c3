@@ -1,0 +1,19 @@
+tests/sanity/stkGhoMigrator.spec.ts
+  s_4fcc86bfcabf63::t_171d1b68ee96db 1-17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f4b9259d42c192c5bc5d7fb7704a4d04766d02c3",
+  "prompts": {},
+  "sessions": {
+    "s_4fcc86bfcabf63": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "48fabd1c-e434-444e-93d3-60338fc91246",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "DhairyaSethi <55102840+DhairyaSethi@users.noreply.github.com>"
+    }
+  }
+}

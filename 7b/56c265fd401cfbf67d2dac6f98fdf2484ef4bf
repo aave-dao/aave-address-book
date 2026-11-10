@@ -1,0 +1,28 @@
+tests/cache/verified.json
+  s_94aa91a40ba583::t_0b09c247ed75c5 4925-4927
+src/ts/GhoEthereum.ts
+  s_94aa91a40ba583::t_bdd3348baebd54 20-22
+src/GhoEthereum.sol
+  s_94aa91a40ba583::t_983200570b3abb 25-26
+  s_94aa91a40ba583::t_371fefa686d9da 27
+scripts/configs/gho/ethereum.ts
+  s_94aa91a40ba583::t_e8eac8d78ebeae 14
+safe.csv
+  s_94aa91a40ba583::t_64e6ff0c6a9b6f 1665
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7b56c265fd401cfbf67d2dac6f98fdf2484ef4bf",
+  "prompts": {},
+  "sessions": {
+    "s_94aa91a40ba583": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7626f193-bcd8-4dce-806f-66fa2f3610bd",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Alexandru Niculae <43644109+avniculae@users.noreply.github.com>"
+    }
+  }
+}

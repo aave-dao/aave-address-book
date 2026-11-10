@@ -1,0 +1,22 @@
+tests/verification.spec.ts
+  s_64c522b17e7f93::t_c8d4e669ef97bf 170-179
+tests/sanity/b20Equities.spec.ts
+  s_64c522b17e7f93::t_1ec2cc4f22f96a 33-35
+  s_64c522b17e7f93::t_0a9875930c88d4 1-32,36-54
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1c78d93c7d4c561e274dd23cbeea02de62b64899",
+  "prompts": {},
+  "sessions": {
+    "s_64c522b17e7f93": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "49bd7bc8-3734-471f-b2a5-d75b2a8374c3",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "DhairyaSethi <55102840+DhairyaSethi@users.noreply.github.com>"
+    }
+  }
+}
