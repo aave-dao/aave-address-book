@@ -48,6 +48,18 @@ console.log(AaveV3Ethereum.POOL); // "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2
 console.log(AaveV3Ethereum.CHAIN_ID); // 1
 ```
 
+### Rust
+
+The [`rust`](./rust) crate exports the same addresses as `alloy_primitives::Address` constants,
+plus alloy `sol!` bindings for the interfaces in `scripts/configs/abis.ts`.
+
+```rust
+use aave_address_book::{abis::IPool, AaveV3Ethereum};
+
+let pool = AaveV3Ethereum::POOL;
+let call = IPool::getReserveDataCall { asset: AaveV3Ethereum::ASSETS::USDC::UNDERLYING };
+```
+
 ### JSON API
 
 The latest address book is also published as static JSON alongside the search UI:

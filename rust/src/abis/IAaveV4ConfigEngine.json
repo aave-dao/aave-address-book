@@ -1,0 +1,1023 @@
+[
+  {
+    "type": "function",
+    "name": "executeHubAssetCapsResets",
+    "inputs": [
+      {
+        "name": "resets",
+        "type": "tuple[]",
+        "internalType": "struct IAaveV4ConfigEngine.AssetCapsReset[]",
+        "components": [
+          {
+            "name": "hubConfigurator",
+            "type": "address",
+            "internalType": "contract IHubConfigurator"
+          },
+          {
+            "name": "hub",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "underlying",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "executeHubAssetConfigUpdates",
+    "inputs": [
+      {
+        "name": "updates",
+        "type": "tuple[]",
+        "internalType": "struct IAaveV4ConfigEngine.AssetConfigUpdate[]",
+        "components": [
+          {
+            "name": "hubConfigurator",
+            "type": "address",
+            "internalType": "contract IHubConfigurator"
+          },
+          {
+            "name": "hub",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "underlying",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "liquidityFee",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "feeReceiver",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "irStrategy",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "irData",
+            "type": "tuple",
+            "internalType": "struct IAssetInterestRateStrategy.InterestRateData",
+            "components": [
+              {
+                "name": "optimalUsageRatio",
+                "type": "uint16",
+                "internalType": "uint16"
+              },
+              {
+                "name": "baseDrawnRate",
+                "type": "uint32",
+                "internalType": "uint32"
+              },
+              {
+                "name": "rateGrowthBeforeOptimal",
+                "type": "uint32",
+                "internalType": "uint32"
+              },
+              {
+                "name": "rateGrowthAfterOptimal",
+                "type": "uint32",
+                "internalType": "uint32"
+              }
+            ]
+          },
+          {
+            "name": "reinvestmentController",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "executeHubAssetDeactivations",
+    "inputs": [
+      {
+        "name": "deactivations",
+        "type": "tuple[]",
+        "internalType": "struct IAaveV4ConfigEngine.AssetDeactivation[]",
+        "components": [
+          {
+            "name": "hubConfigurator",
+            "type": "address",
+            "internalType": "contract IHubConfigurator"
+          },
+          {
+            "name": "hub",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "underlying",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "executeHubAssetHalts",
+    "inputs": [
+      {
+        "name": "halts",
+        "type": "tuple[]",
+        "internalType": "struct IAaveV4ConfigEngine.AssetHalt[]",
+        "components": [
+          {
+            "name": "hubConfigurator",
+            "type": "address",
+            "internalType": "contract IHubConfigurator"
+          },
+          {
+            "name": "hub",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "underlying",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "executeHubAssetListings",
+    "inputs": [
+      {
+        "name": "listings",
+        "type": "tuple[]",
+        "internalType": "struct IAaveV4ConfigEngine.AssetListing[]",
+        "components": [
+          {
+            "name": "hubConfigurator",
+            "type": "address",
+            "internalType": "contract IHubConfigurator"
+          },
+          {
+            "name": "hub",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "underlying",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "feeReceiver",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "liquidityFee",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "irStrategy",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "irData",
+            "type": "tuple",
+            "internalType": "struct IAssetInterestRateStrategy.InterestRateData",
+            "components": [
+              {
+                "name": "optimalUsageRatio",
+                "type": "uint16",
+                "internalType": "uint16"
+              },
+              {
+                "name": "baseDrawnRate",
+                "type": "uint32",
+                "internalType": "uint32"
+              },
+              {
+                "name": "rateGrowthBeforeOptimal",
+                "type": "uint32",
+                "internalType": "uint32"
+              },
+              {
+                "name": "rateGrowthAfterOptimal",
+                "type": "uint32",
+                "internalType": "uint32"
+              }
+            ]
+          },
+          {
+            "name": "tokenization",
+            "type": "tuple",
+            "internalType": "struct IAaveV4ConfigEngine.TokenizationSpokeConfig",
+            "components": [
+              {
+                "name": "addCap",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "proxyAdminOwner",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "name",
+                "type": "string",
+                "internalType": "string"
+              },
+              {
+                "name": "symbol",
+                "type": "string",
+                "internalType": "string"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "executeHubSpokeCapsResets",
+    "inputs": [
+      {
+        "name": "resets",
+        "type": "tuple[]",
+        "internalType": "struct IAaveV4ConfigEngine.SpokeCapsReset[]",
+        "components": [
+          {
+            "name": "hubConfigurator",
+            "type": "address",
+            "internalType": "contract IHubConfigurator"
+          },
+          {
+            "name": "hub",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "spoke",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "executeHubSpokeConfigUpdates",
+    "inputs": [
+      {
+        "name": "updates",
+        "type": "tuple[]",
+        "internalType": "struct IAaveV4ConfigEngine.SpokeConfigUpdate[]",
+        "components": [
+          {
+            "name": "hubConfigurator",
+            "type": "address",
+            "internalType": "contract IHubConfigurator"
+          },
+          {
+            "name": "hub",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "underlying",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "spoke",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "addCap",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "drawCap",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "riskPremiumThreshold",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "active",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "halted",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "executeHubSpokeDeactivations",
+    "inputs": [
+      {
+        "name": "deactivations",
+        "type": "tuple[]",
+        "internalType": "struct IAaveV4ConfigEngine.SpokeDeactivation[]",
+        "components": [
+          {
+            "name": "hubConfigurator",
+            "type": "address",
+            "internalType": "contract IHubConfigurator"
+          },
+          {
+            "name": "hub",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "spoke",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "executeHubSpokeToAssetsAdditions",
+    "inputs": [
+      {
+        "name": "additions",
+        "type": "tuple[]",
+        "internalType": "struct IAaveV4ConfigEngine.SpokeToAssetsAddition[]",
+        "components": [
+          {
+            "name": "hubConfigurator",
+            "type": "address",
+            "internalType": "contract IHubConfigurator"
+          },
+          {
+            "name": "hub",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "spoke",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "assets",
+            "type": "tuple[]",
+            "internalType": "struct IAaveV4ConfigEngine.SpokeAssetConfig[]",
+            "components": [
+              {
+                "name": "underlying",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "config",
+                "type": "tuple",
+                "internalType": "struct IHub.SpokeConfig",
+                "components": [
+                  {
+                    "name": "addCap",
+                    "type": "uint40",
+                    "internalType": "uint40"
+                  },
+                  {
+                    "name": "drawCap",
+                    "type": "uint40",
+                    "internalType": "uint40"
+                  },
+                  {
+                    "name": "riskPremiumThreshold",
+                    "type": "uint24",
+                    "internalType": "uint24"
+                  },
+                  {
+                    "name": "active",
+                    "type": "bool",
+                    "internalType": "bool"
+                  },
+                  {
+                    "name": "halted",
+                    "type": "bool",
+                    "internalType": "bool"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "executePositionManagerRoleRenouncements",
+    "inputs": [
+      {
+        "name": "renouncements",
+        "type": "tuple[]",
+        "internalType": "struct IAaveV4ConfigEngine.PositionManagerRoleRenouncement[]",
+        "components": [
+          {
+            "name": "positionManager",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "spoke",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "user",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "executePositionManagerSpokeRegistrations",
+    "inputs": [
+      {
+        "name": "registrations",
+        "type": "tuple[]",
+        "internalType": "struct IAaveV4ConfigEngine.SpokeRegistration[]",
+        "components": [
+          {
+            "name": "positionManager",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "spoke",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "registered",
+            "type": "bool",
+            "internalType": "bool"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "executeRoleMemberships",
+    "inputs": [
+      {
+        "name": "memberships",
+        "type": "tuple[]",
+        "internalType": "struct IAaveV4ConfigEngine.RoleMembership[]",
+        "components": [
+          {
+            "name": "authority",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "roleId",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "account",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "granted",
+            "type": "bool",
+            "internalType": "bool"
+          },
+          {
+            "name": "executionDelay",
+            "type": "uint32",
+            "internalType": "uint32"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "executeRoleUpdates",
+    "inputs": [
+      {
+        "name": "updates",
+        "type": "tuple[]",
+        "internalType": "struct IAaveV4ConfigEngine.RoleUpdate[]",
+        "components": [
+          {
+            "name": "authority",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "roleId",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "admin",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "guardian",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "grantDelay",
+            "type": "uint32",
+            "internalType": "uint32"
+          },
+          {
+            "name": "label",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "labelUpdate",
+            "type": "bool",
+            "internalType": "bool"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "executeSpokeDynamicReserveConfigAdditions",
+    "inputs": [
+      {
+        "name": "additions",
+        "type": "tuple[]",
+        "internalType": "struct IAaveV4ConfigEngine.DynamicReserveConfigAddition[]",
+        "components": [
+          {
+            "name": "spokeConfigurator",
+            "type": "address",
+            "internalType": "contract ISpokeConfigurator"
+          },
+          {
+            "name": "spoke",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "hub",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "underlying",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "dynamicConfig",
+            "type": "tuple",
+            "internalType": "struct ISpoke.DynamicReserveConfig",
+            "components": [
+              {
+                "name": "collateralFactor",
+                "type": "uint16",
+                "internalType": "uint16"
+              },
+              {
+                "name": "maxLiquidationBonus",
+                "type": "uint32",
+                "internalType": "uint32"
+              },
+              {
+                "name": "liquidationFee",
+                "type": "uint16",
+                "internalType": "uint16"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "executeSpokeDynamicReserveConfigUpdates",
+    "inputs": [
+      {
+        "name": "updates",
+        "type": "tuple[]",
+        "internalType": "struct IAaveV4ConfigEngine.DynamicReserveConfigUpdate[]",
+        "components": [
+          {
+            "name": "spokeConfigurator",
+            "type": "address",
+            "internalType": "contract ISpokeConfigurator"
+          },
+          {
+            "name": "spoke",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "hub",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "underlying",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "dynamicConfigKey",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "collateralFactor",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "maxLiquidationBonus",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "liquidationFee",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "executeSpokeLiquidationConfigUpdates",
+    "inputs": [
+      {
+        "name": "updates",
+        "type": "tuple[]",
+        "internalType": "struct IAaveV4ConfigEngine.LiquidationConfigUpdate[]",
+        "components": [
+          {
+            "name": "spokeConfigurator",
+            "type": "address",
+            "internalType": "contract ISpokeConfigurator"
+          },
+          {
+            "name": "spoke",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "targetHealthFactor",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "healthFactorForMaxBonus",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "liquidationBonusFactor",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "executeSpokePositionManagerUpdates",
+    "inputs": [
+      {
+        "name": "updates",
+        "type": "tuple[]",
+        "internalType": "struct IAaveV4ConfigEngine.PositionManagerUpdate[]",
+        "components": [
+          {
+            "name": "spokeConfigurator",
+            "type": "address",
+            "internalType": "contract ISpokeConfigurator"
+          },
+          {
+            "name": "spoke",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "positionManager",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "active",
+            "type": "bool",
+            "internalType": "bool"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "executeSpokeReserveConfigUpdates",
+    "inputs": [
+      {
+        "name": "updates",
+        "type": "tuple[]",
+        "internalType": "struct IAaveV4ConfigEngine.ReserveConfigUpdate[]",
+        "components": [
+          {
+            "name": "spokeConfigurator",
+            "type": "address",
+            "internalType": "contract ISpokeConfigurator"
+          },
+          {
+            "name": "spoke",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "hub",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "underlying",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "priceSource",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "collateralRisk",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "paused",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "frozen",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "borrowable",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "receiveSharesEnabled",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "executeSpokeReserveListings",
+    "inputs": [
+      {
+        "name": "listings",
+        "type": "tuple[]",
+        "internalType": "struct IAaveV4ConfigEngine.ReserveListing[]",
+        "components": [
+          {
+            "name": "spokeConfigurator",
+            "type": "address",
+            "internalType": "contract ISpokeConfigurator"
+          },
+          {
+            "name": "spoke",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "hub",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "underlying",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "priceSource",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "config",
+            "type": "tuple",
+            "internalType": "struct ISpoke.ReserveConfig",
+            "components": [
+              {
+                "name": "collateralRisk",
+                "type": "uint24",
+                "internalType": "uint24"
+              },
+              {
+                "name": "paused",
+                "type": "bool",
+                "internalType": "bool"
+              },
+              {
+                "name": "frozen",
+                "type": "bool",
+                "internalType": "bool"
+              },
+              {
+                "name": "borrowable",
+                "type": "bool",
+                "internalType": "bool"
+              },
+              {
+                "name": "receiveSharesEnabled",
+                "type": "bool",
+                "internalType": "bool"
+              }
+            ]
+          },
+          {
+            "name": "dynamicConfig",
+            "type": "tuple",
+            "internalType": "struct ISpoke.DynamicReserveConfig",
+            "components": [
+              {
+                "name": "collateralFactor",
+                "type": "uint16",
+                "internalType": "uint16"
+              },
+              {
+                "name": "maxLiquidationBonus",
+                "type": "uint32",
+                "internalType": "uint32"
+              },
+              {
+                "name": "liquidationFee",
+                "type": "uint16",
+                "internalType": "uint16"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "executeTargetAdminDelayUpdates",
+    "inputs": [
+      {
+        "name": "updates",
+        "type": "tuple[]",
+        "internalType": "struct IAaveV4ConfigEngine.TargetAdminDelayUpdate[]",
+        "components": [
+          {
+            "name": "authority",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "target",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "newDelay",
+            "type": "uint32",
+            "internalType": "uint32"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "executeTargetFunctionRoleUpdates",
+    "inputs": [
+      {
+        "name": "updates",
+        "type": "tuple[]",
+        "internalType": "struct IAaveV4ConfigEngine.TargetFunctionRoleUpdate[]",
+        "components": [
+          {
+            "name": "authority",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "target",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "selectors",
+            "type": "bytes4[]",
+            "internalType": "bytes4[]"
+          },
+          {
+            "name": "roleId",
+            "type": "uint64",
+            "internalType": "uint64"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]
