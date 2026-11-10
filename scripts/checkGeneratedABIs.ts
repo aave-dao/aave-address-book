@@ -1,38 +1,34 @@
 import {execFileSync} from 'node:child_process';
-import {mkdtempSync, readFileSync, readdirSync, rmSync} from 'node:fs';
+import {mkdtempSync, rmSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
-import {generateABIs} from 'scripts/generateABIs';
+import {ABI_DIRECTORY, generateABIs} from 'scripts/generateABIs';
+import {RUST_ABI_DIRECTORY, diffDirectories} from 'scripts/generator/rust';
 
-const ABI_DIRECTORY = './src/ts/abis';
 const generatedDirectory = mkdtempSync(join(tmpdir(), 'aave-address-book-abis-'));
+const tsDirectory = join(generatedDirectory, 'ts');
+const rustDirectory = join(generatedDirectory, 'rust');
 
 async function checkGeneratedABIs() {
   try {
-    await generateABIs(generatedDirectory);
+    await generateABIs(tsDirectory, rustDirectory);
     execFileSync('npx', [
       'prettier',
       '--config',
       '.prettierrc',
       '--write',
-      join(generatedDirectory, '*.ts'),
+      join(tsDirectory, '*.ts'),
     ]);
 
-    const currentFiles = readdirSync(ABI_DIRECTORY).sort();
-    const generatedFiles = readdirSync(generatedDirectory).sort();
-    const changedFiles = generatedFiles.filter(
-      (file) =>
-        !currentFiles.includes(file) ||
-        readFileSync(join(ABI_DIRECTORY, file), 'utf8') !==
-          readFileSync(join(generatedDirectory, file), 'utf8'),
-    );
-    const extraFiles = currentFiles.filter((file) => !generatedFiles.includes(file));
-    const differences = [...changedFiles, ...extraFiles];
+    const differences = [
+      ...diffDirectories(ABI_DIRECTORY, tsDirectory).map((file) => join(ABI_DIRECTORY, file)),
+      ...diffDirectories(RUST_ABI_DIRECTORY, rustDirectory).map((file) =>
+        join(RUST_ABI_DIRECTORY, file),
+      ),
+    ];
 
     if (differences.length) {
-      throw new Error(
-        `Generated TypeScript ABIs are out of sync: ${differences.sort().join(', ')}`,
-      );
+      throw new Error(`Generated ABIs are out of sync: ${differences.join(', ')}`);
     }
   } finally {
     rmSync(generatedDirectory, {recursive: true, force: true});

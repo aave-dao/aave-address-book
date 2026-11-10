@@ -1,0 +1,23 @@
+[package]
+name = "aave-address-book"
+version = "4.66.3"
+edition = "2021"
+rust-version = "1.94"
+description = "Addresses and alloy bindings for the Aave ecosystem, generated from the Aave Address Book."
+license = "MIT"
+repository = "https://github.com/aave-dao/aave-address-book"
+readme = "README.md"
+keywords = ["aave", "ethereum", "alloy", "defi"]
+categories = ["cryptography::cryptocurrencies"]
+# Not wired into release-please yet.
+publish = false
+
+[features]
+default = []
+# Adds `#[sol(rpc)]` contract instances to every interface (pulls in alloy-contract).
+rpc = ["dep:alloy-contract"]
+
+[dependencies]
+alloy-primitives = { version = "1.7", default-features = false }
+alloy-sol-types = { version = "1.7", features = ["json"] }
+alloy-contract = { version = "2.5", optional = true }
