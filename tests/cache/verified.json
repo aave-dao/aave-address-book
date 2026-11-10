@@ -10671,6 +10671,9 @@
     },
     "0x4dc9Ee8d739411242303f7F78C6610d5B0371a2C": {
       "name": "PendlePriceCapAdapter"
+    },
+    "0x4C24fFe2Cb6dE5C55ef0cA8905c13b8508994D4b": {
+      "name": "EACAggregatorProxy"
     }
   },
   "146": {
@@ -13082,6 +13085,9 @@
     },
     "0x89587ebe7cFF64c6527fE2Deccc3521D75763E8D": {
       "name": "SafeProxy"
+    },
+    "0x4978E504322a18204bd3F90Af4f9C351741a8FF4": {
+      "name": "EACAggregatorProxy"
     }
   },
   "5000": {
