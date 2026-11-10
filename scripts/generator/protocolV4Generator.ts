@@ -40,6 +40,10 @@ function buildMainLibraryAddresses(config: V4Config): Addresses {
     const interfaceType = V4_INTERFACE_REGISTRY[key];
     addresses[key] = interfaceType ? {value, type: interfaceType} : value;
   }
+  for (const [key, value] of Object.entries(config.additionalAddresses ?? {})) {
+    if (key in addresses) throw new Error(`duplicate key in additionalAddresses: ${key}`);
+    addresses[key] = value;
+  }
   return addresses;
 }
 

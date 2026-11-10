@@ -26,4 +26,7 @@ library MiscInk {
 
   // https://explorer.inkonchain.com/address/0x9DE1d45e2786b03498289959203F25b29B4D1193
   address internal constant TOKENLOGIC_EXECUTION_SAFE = 0x9DE1d45e2786b03498289959203F25b29B4D1193;
+
+  // https://explorer.inkonchain.com/address/0x187AAE17d4931310B3fc75743e7F16Bdc9eD77e9
+  address internal constant V4_SECURITY_COUNCIL = 0x187AAE17d4931310B3fc75743e7F16Bdc9eD77e9;
 }

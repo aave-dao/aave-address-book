@@ -148,6 +148,10 @@ library AaveV4EtherFiOptimismWhitelabelSpokePriceFeeds {
   // https://optimistic.etherscan.io/address/0xB52601150b362cd78c3eA63BA1b565E7727fFbfC
   address internal constant CASH_SPOKE_wTBLLx_PRICE_FEED =
     0xB52601150b362cd78c3eA63BA1b565E7727fFbfC;
+
+  // https://optimistic.etherscan.io/address/0x71CDe3FA526ac8CaF6659bCB236730F0c7e7dA4a
+  address internal constant CASH_SPOKE_liquidDeFi_PRICE_FEED =
+    0x71CDe3FA526ac8CaF6659bCB236730F0c7e7dA4a;
 }
 library AaveV4EtherFiOptimismWhitelabelIRStrategies {
   // https://optimistic.etherscan.io/address/0x51d07C362f9c4716F96EbEB63DB985EF9D2aCd7C
@@ -264,6 +268,10 @@ library AaveV4EtherFiOptimismWhitelabelIRStrategies {
 
   // https://optimistic.etherscan.io/address/0x51d07C362f9c4716F96EbEB63DB985EF9D2aCd7C
   IBasicInterestRateStrategy internal constant CASH_wTBLLx_IR_STRATEGY =
+    IBasicInterestRateStrategy(0x51d07C362f9c4716F96EbEB63DB985EF9D2aCd7C);
+
+  // https://optimistic.etherscan.io/address/0x51d07C362f9c4716F96EbEB63DB985EF9D2aCd7C
+  IBasicInterestRateStrategy internal constant CASH_liquidDeFi_IR_STRATEGY =
     IBasicInterestRateStrategy(0x51d07C362f9c4716F96EbEB63DB985EF9D2aCd7C);
 }
 library AaveV4EtherFiOptimismWhitelabelPositionManagers {
@@ -419,6 +427,11 @@ library AaveV4EtherFiOptimismWhitelabelAssets {
   address internal constant wTBLLx_UNDERLYING = 0x461b25b99606Fe169D6F0dD6816650eF6536403E;
 
   uint8 internal constant wTBLLx_DECIMALS = 18;
+
+  // https://optimistic.etherscan.io/address/0x4299b11815F25DB50fC56CD8a1C24cCCDD2AEECe
+  address internal constant liquidDeFi_UNDERLYING = 0x4299b11815F25DB50fC56CD8a1C24cCCDD2AEECe;
+
+  uint8 internal constant liquidDeFi_DECIMALS = 18;
 }
 library AaveV4EtherFiOptimismWhitelabelGetters {
   function getAllHubs() internal pure returns (IHub[] memory) {
