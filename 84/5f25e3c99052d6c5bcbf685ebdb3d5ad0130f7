@@ -1,0 +1,19 @@
+tests/verification.spec.ts
+  s_64c522b17e7f93::t_adca8c5c573762 152
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "845f25e3c99052d6c5bcbf685ebdb3d5ad0130f7",
+  "prompts": {},
+  "sessions": {
+    "s_64c522b17e7f93": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "49bd7bc8-3734-471f-b2a5-d75b2a8374c3",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "DhairyaSethi <55102840+DhairyaSethi@users.noreply.github.com>"
+    }
+  }
+}
