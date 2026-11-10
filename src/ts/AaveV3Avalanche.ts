@@ -107,6 +107,21 @@ export const STATA_FACTORY = '0xC2E7A608d868817dd58438913Ed72955a0567561';
 // https://snowscan.xyz/address/0x0d68D50DB848dfE6012456781c1D79A11eD12a2e
 export const POOL_EXPOSURE_STEWARD = '0x0d68D50DB848dfE6012456781c1D79A11eD12a2e';
 
+// https://snowscan.xyz/address/0xD2CC30cB0e77B80a34b879ccB6da67799e4ecD83
+export const COW_ADAPTER_FACTORY = '0xD2CC30cB0e77B80a34b879ccB6da67799e4ecD83';
+
+// https://snowscan.xyz/address/0xa1138627412212e53C208e220696f14b0185a82c
+export const COW_COLLATERAL_SWAP_ADAPTER = '0xa1138627412212e53C208e220696f14b0185a82c';
+
+// https://snowscan.xyz/address/0xC898f87b572018ED25F501FFD620894a32dCa1AC
+export const COW_DEBT_SWAP_ADAPTER = '0xC898f87b572018ED25F501FFD620894a32dCa1AC';
+
+// https://snowscan.xyz/address/0x4AE46995af9ED4f4EdFC6FF1523b114EE4D7053a
+export const COW_REPAY_WITH_COLLATERAL_ADAPTER = '0x4AE46995af9ED4f4EdFC6FF1523b114EE4D7053a';
+
+// https://snowscan.xyz/address/0xaEE8B0666BF8a584e9D67bFaa65007E74c70b26a
+export const COW_LEVERAGE_ADAPTER = '0xaEE8B0666BF8a584e9D67bFaa65007E74c70b26a';
+
 export const CHAIN_ID = 43114;
 export const ASSETS = {
   DAIe: {
@@ -309,9 +324,11 @@ export const E_MODES = {
     ],
     borrowableBitmap: '0',
     borrowableAssets: [],
-    ltvzeroBitmap: '1537',
+    ltvzeroBitmap: '1573',
     ltvzeroAssets: [
       '0xd586E7F844cEa2F87f50152665BCbc2C279D8d70',
+      '0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E',
+      '0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7',
       '0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64',
       '0x5c49b268c9841AFF1Cc3B0a418ff5c3442eE3F3b',
     ],

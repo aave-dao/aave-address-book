@@ -50,4 +50,7 @@ library MiscBNB {
 
   // https://bscscan.com/address/0xAA12BAd4a501d45A5b771e49C2Fd415BA8BFc79d
   address internal constant AFC_CEX_EARN_SAFE = 0xAA12BAd4a501d45A5b771e49C2Fd415BA8BFc79d;
+
+  // https://bscscan.com/address/0x187AAE17d4931310B3fc75743e7F16Bdc9eD77e9
+  address internal constant V4_SECURITY_COUNCIL = 0x187AAE17d4931310B3fc75743e7F16Bdc9eD77e9;
 }

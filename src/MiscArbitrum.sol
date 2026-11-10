@@ -84,4 +84,7 @@ library MiscArbitrum {
   // https://arbiscan.io/address/0x4cc755fBFAE135933b64865E7D7Ea6ae778A4D43
   address internal constant STABLE_VAULT_DAO_WALLET_INCENTIVES =
     0x4cc755fBFAE135933b64865E7D7Ea6ae778A4D43;
+
+  // https://arbiscan.io/address/0x187AAE17d4931310B3fc75743e7F16Bdc9eD77e9
+  address internal constant V4_SECURITY_COUNCIL = 0x187AAE17d4931310B3fc75743e7F16Bdc9eD77e9;
 }
