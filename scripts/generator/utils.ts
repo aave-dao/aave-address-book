@@ -94,9 +94,9 @@ export function addressToJsConstant(chainId: number, key: string, entry: Address
       return `export const ${key} = ${entry.value};\n`;
     }
     const blockExplorerLinkComment = getExplorerLink(entry.chainId || chainId, entry.value);
-    return `// ${entry.type} ${blockExplorerLinkComment}\n export const ${keyToVar(
-      key,
-    )} = '${getAddress(entry.value)}';\n`;
+    return `// ${blockExplorerLinkComment}\nexport const ${keyToVar(key)} = '${getAddress(
+      entry.value,
+    )}';\n`;
   }
 
   const blockExplorerLinkComment = getExplorerLink(chainId, entry);

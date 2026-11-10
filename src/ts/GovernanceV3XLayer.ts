@@ -1,7 +1,7 @@
 // https://www.oklink.com/xlayer/address/0xFdd46155fD3DA5B907AD3B9f9395366290f58097
 export const CROSS_CHAIN_CONTROLLER = '0xFdd46155fD3DA5B907AD3B9f9395366290f58097';
 
-// IPayloadsControllerCore https://www.oklink.com/xlayer/address/0x80e11cB895a23C901a990239E5534054C66476B5
+// https://www.oklink.com/xlayer/address/0x80e11cB895a23C901a990239E5534054C66476B5
 export const PAYLOADS_CONTROLLER = '0x80e11cB895a23C901a990239E5534054C66476B5';
 
 // https://www.oklink.com/xlayer/address/0x9fE056F44510F970d724adA16903ba5D75CC4742

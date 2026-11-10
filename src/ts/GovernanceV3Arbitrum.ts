@@ -1,7 +1,7 @@
 // https://arbiscan.io/address/0xCbFB78a3Eeaa611b826E37c80E4126c8787D29f0
 export const CROSS_CHAIN_CONTROLLER = '0xCbFB78a3Eeaa611b826E37c80E4126c8787D29f0';
 
-// IPayloadsControllerCore https://arbiscan.io/address/0x89644CA1bB8064760312AE4F03ea41b05dA3637C
+// https://arbiscan.io/address/0x89644CA1bB8064760312AE4F03ea41b05dA3637C
 export const PAYLOADS_CONTROLLER = '0x89644CA1bB8064760312AE4F03ea41b05dA3637C';
 
 // https://arbiscan.io/address/0xE3B770Dc4ae3f8bECaB3Ed12dE692c741603e16A

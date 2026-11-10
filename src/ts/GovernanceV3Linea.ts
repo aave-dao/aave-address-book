@@ -1,7 +1,7 @@
 // https://lineascan.build/address/0x0D3f821e9741C8a8Bcac231162320251Db0cdf52
 export const CROSS_CHAIN_CONTROLLER = '0x0D3f821e9741C8a8Bcac231162320251Db0cdf52';
 
-// IPayloadsControllerCore https://lineascan.build/address/0x3BcE23a1363728091bc57A58a226CF2940C2e074
+// https://lineascan.build/address/0x3BcE23a1363728091bc57A58a226CF2940C2e074
 export const PAYLOADS_CONTROLLER = '0x3BcE23a1363728091bc57A58a226CF2940C2e074';
 
 // https://lineascan.build/address/0x6d4F341d8Bb3Dc5ABe822Aa940F1884508C13f99

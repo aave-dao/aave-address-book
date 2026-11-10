@@ -1,7 +1,7 @@
 // https://sonicscan.org/address/0x58e003a3C6f2Aeed6a2a6Bc77B504566523cb15c
 export const CROSS_CHAIN_CONTROLLER = '0x58e003a3C6f2Aeed6a2a6Bc77B504566523cb15c';
 
-// IPayloadsControllerCore https://sonicscan.org/address/0x0846C28Dd54DEA4Fd7Fb31bcc5EB81673D68c695
+// https://sonicscan.org/address/0x0846C28Dd54DEA4Fd7Fb31bcc5EB81673D68c695
 export const PAYLOADS_CONTROLLER = '0x0846C28Dd54DEA4Fd7Fb31bcc5EB81673D68c695';
 
 // https://sonicscan.org/address/0x6fD45D32375d5aDB8D76275A3932c740F03a8718

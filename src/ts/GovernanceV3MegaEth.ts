@@ -1,7 +1,7 @@
 // https://mega.etherscan.io/address/0x5EE63ACb37AeCDc7e23ACA283098f8ffD9677BBe
 export const CROSS_CHAIN_CONTROLLER = '0x5EE63ACb37AeCDc7e23ACA283098f8ffD9677BBe';
 
-// IPayloadsControllerCore https://mega.etherscan.io/address/0x80e11cB895a23C901a990239E5534054C66476B5
+// https://mega.etherscan.io/address/0x80e11cB895a23C901a990239E5534054C66476B5
 export const PAYLOADS_CONTROLLER = '0x80e11cB895a23C901a990239E5534054C66476B5';
 
 // https://mega.etherscan.io/address/0x9fE056F44510F970d724adA16903ba5D75CC4742

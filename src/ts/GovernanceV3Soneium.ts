@@ -1,7 +1,7 @@
 // https://soneium.blockscout.com/address/0xD92b37a5114b33F668D274Fb48f23b726a854d6E
 export const CROSS_CHAIN_CONTROLLER = '0xD92b37a5114b33F668D274Fb48f23b726a854d6E';
 
-// IPayloadsControllerCore https://soneium.blockscout.com/address/0x44D73D7C4b2f98F426Bf8B5e87628d9eE38ef0Cf
+// https://soneium.blockscout.com/address/0x44D73D7C4b2f98F426Bf8B5e87628d9eE38ef0Cf
 export const PAYLOADS_CONTROLLER = '0x44D73D7C4b2f98F426Bf8B5e87628d9eE38ef0Cf';
 
 // https://soneium.blockscout.com/address/0xd0929668178973d5994D5654929aCB3d6c2b9949

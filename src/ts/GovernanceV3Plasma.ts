@@ -1,7 +1,7 @@
 // https://plasmascan.to/address/0x643441742f73e270e565619be6DE5f4D55E08cd6
 export const CROSS_CHAIN_CONTROLLER = '0x643441742f73e270e565619be6DE5f4D55E08cd6';
 
-// IPayloadsControllerCore https://plasmascan.to/address/0xe76EB348E65eF163d85ce282125FF5a7F5712A1d
+// https://plasmascan.to/address/0xe76EB348E65eF163d85ce282125FF5a7F5712A1d
 export const PAYLOADS_CONTROLLER = '0xe76EB348E65eF163d85ce282125FF5a7F5712A1d';
 
 // https://plasmascan.to/address/0xA806DA549FcB2B4912a7dFFE4c1aA7A1ed0Bd5C9
