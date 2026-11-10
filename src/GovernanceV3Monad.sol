@@ -21,6 +21,9 @@ library GovernanceV3Monad {
   // https://monadscan.com/address/0x056E4C4E80D1D14a637ccbD0412CDAAEc5B51F4E
   address internal constant GOVERNANCE_GUARDIAN = 0x056E4C4E80D1D14a637ccbD0412CDAAEc5B51F4E;
 
+  // https://monadscan.com/address/0x4C24fFe2Cb6dE5C55ef0cA8905c13b8508994D4b
+  address internal constant CL_EMERGENCY_ORACLE = 0x4C24fFe2Cb6dE5C55ef0cA8905c13b8508994D4b;
+
   // https://monadscan.com/address/0xa9d0EAFF48cE1DF468f9eAeb7e628c413343F6A2
   address internal constant EXECUTOR_LVL_1 = 0xa9d0EAFF48cE1DF468f9eAeb7e628c413343F6A2;
 }

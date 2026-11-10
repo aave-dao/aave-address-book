@@ -21,6 +21,9 @@ library GovernanceV3MegaEth {
   // https://mega.etherscan.io/address/0x5a578ee1dA2c798Be60036AdDD223Ac164d948Af
   address internal constant GOVERNANCE_GUARDIAN = 0x5a578ee1dA2c798Be60036AdDD223Ac164d948Af;
 
+  // https://mega.etherscan.io/address/0x4978E504322a18204bd3F90Af4f9C351741a8FF4
+  address internal constant CL_EMERGENCY_ORACLE = 0x4978E504322a18204bd3F90Af4f9C351741a8FF4;
+
   // https://mega.etherscan.io/address/0xE2E8Badc5d50f8a6188577B89f50701cDE2D4e19
   address internal constant EXECUTOR_LVL_1 = 0xE2E8Badc5d50f8a6188577B89f50701cDE2D4e19;
 }
