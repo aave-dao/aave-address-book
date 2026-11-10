@@ -5115,6 +5115,9 @@
     "0x6c6494Fd9962eB98B94ffA48F6679058F820700e": {
       "name": "BoringVault"
     },
+    "0x17a200Af33bb06511b1F89709659E1807BD13957": {
+      "name": "AaveV4ConfigEngine"
+    },
     "0xE35Ee1C82fdf6524834e1Ef6Af7820bf6B1fbf0D": {
       "name": "PoolAddressesProviderRegistry"
     },
@@ -6568,6 +6571,9 @@
     },
     "0x4299b11815F25DB50fC56CD8a1C24cCCDD2AEECe": {
       "name": "TransparentUpgradeableProxy"
+    },
+    "0x17a200Af33bb06511b1F89709659E1807BD13957": {
+      "name": "AaveV4ConfigEngine"
     }
   },
   "56": {
@@ -14967,6 +14973,9 @@
     },
     "0x5Eba6D3678BBc815Be00B8A6F19BeefA6fCD0621": {
       "name": "LeverageAaveV4Adapter"
+    },
+    "0x17a200Af33bb06511b1F89709659E1807BD13957": {
+      "name": "AaveV4ConfigEngine"
     }
   },
   "9745": {
@@ -19288,6 +19297,9 @@
     },
     "0x5Eba6D3678BBc815Be00B8A6F19BeefA6fCD0621": {
       "name": "LeverageAaveV4Adapter"
+    },
+    "0x17a200Af33bb06511b1F89709659E1807BD13957": {
+      "name": "AaveV4ConfigEngine"
     }
   },
   "57073": {
