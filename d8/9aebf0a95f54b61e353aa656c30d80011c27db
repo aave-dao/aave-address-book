@@ -1,0 +1,434 @@
+README.md
+  s_dea6729a26f07b::t_15fdda49420d44 51-62
+rust/src/abis/IDefaultInterestRateStrategy.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-173
+rust/src/addresses/AaveV3Optimism.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-624
+rust/src/addresses/AaveV3Scroll.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-271
+rust/src/abis/IVotingPortal.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-205
+rust/src/addresses/GhoBase.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-23
+rust/src/abis/IRescuable.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-128
+rust/src/abis/IPool.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-2001
+rust/src/addresses/AaveV3Sonic.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-260
+rust/src/addresses/ChainlinkEthereum.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-854
+rust/src/addresses/MiscInk.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-29
+rust/src/addresses/GovernanceV3Base.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-23
+rust/src/addresses/AaveV3Monad.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-616
+rust/src/abis/IERC20.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-185
+rust/src/abis/IPoolAddressesProvider.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-498
+rust/src/addresses/ChainlinkZkSync.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-107
+rust/src/addresses/GovernanceV3Ethereum.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-62
+rust/src/addresses/MiscArbitrumSepolia.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-14
+rust/src/abis/AggregatorInterface.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-227
+rust/src/addresses/GovernanceV3Fuji.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-23
+rust/README.md
+  s_dea6729a26f07b::t_6c769eb41e191b 1-32
+rust/src/addresses/AaveV3OptimismSepolia.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-124
+rust/src/addresses/MiscBaseSepolia.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-14
+rust/src/addresses/AaveV4Ethereum.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-932
+rust/src/addresses/MiscScroll.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-44
+rust/src/addresses/MiscArbitrum.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-86
+rust/Cargo.toml
+  s_dea6729a26f07b::t_555b0684476cee 5
+  s_dea6729a26f07b::t_618c18712cc161 1-4,6-23
+rust/src/abis/IRewardsController.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-887
+rust/src/abis/IWrappedTokenGatewayV3.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-163
+rust/src/addresses/AaveV3InkSepolia.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-173
+rust/src/addresses/AaveV3Celo.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-257
+rust/src/addresses/ChainlinkArbitrum.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-848
+rust/src/addresses/AaveV3EthereumEtherFi.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-212
+package.json
+  s_dea6729a26f07b::t_c7d9f7e2095972 80-81,83-84
+rust/src/addresses/GovernanceV3Soneium.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-23
+rust/src/addresses/AaveV2Avalanche.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-262
+rust/src/abis/IAaveOracle.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-193
+rust/src/addresses/AaveV3XLayer.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-514
+rust/src/addresses/ChainlinkMantle.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-86
+rust/src/addresses/AaveV3Avalanche.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-841
+scripts/generator/rust.ts
+  s_dea6729a26f07b::t_f079eb8e4fca0e 10-159
+  s_dea6729a26f07b::t_b7d7dad1904ff0 1-9
+rust/src/addresses/AaveV3Arbitrum.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-1032
+rust/src/addresses/GovernanceV3Mantle.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-23
+rust/src/addresses/MiscBase.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-74
+rust/src/addresses/GovernanceV3Scroll.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-23
+rust/src/abis/IConfigPositionManager.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-992
+rust/src/addresses/GovernanceV3Avalanche.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-38
+rust/src/addresses/AaveV3BaseSepolia.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-295
+rust/src/addresses/GovernanceV3Metis.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-23
+rust/src/addresses/MiscPolygon.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-77
+rust/src/addresses/ChainlinkSonic.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-137
+rust/src/addresses/ChainlinkGnosis.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-119
+rust/src/abis/ITokenizationSpokeV4.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-1163
+rust/src/addresses/AaveGovernanceV2.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-29
+rust/src/addresses/ChainlinkAvalanche.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-296
+rust/src/addresses/AaveV3Gnosis.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-486
+scripts/generateABIs.ts
+  s_dea6729a26f07b::t_ca50879299cee0 2-3,7-8,12,14-20,25,28,30,35-36,40-44
+  s_dea6729a26f07b::t_56137f23222ebe 26
+  s_dea6729a26f07b::t_6337bea835dba1 21
+rust/src/addresses/AaveV3BNB.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-380
+rust/src/addresses/AaveV3Base.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-1025
+rust/src/addresses/GovernanceV3InkWhitelabel.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-11
+rust/src/addresses/AaveV3Metis.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-248
+rust/src/abis/IAaveOracleV4.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-206
+rust/src/addresses/GovernanceV3Plasma.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-26
+rust/src/addresses/MiscInkWhitelabel.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-26
+rust/src/addresses/MiscPlasma.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-47
+rust/src/addresses/MiscInkSepolia.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-8
+rust/src/abis/IAccessManagerEnumerable.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-1720
+rust/src/addresses/GovernanceV3Linea.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-23
+scripts/checkRustAddresses.ts
+  s_dea6729a26f07b::t_e5bdad3c99c514 1-19
+rust/src/addresses/AaveV3Ethereum.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-3432
+rust/src/addresses/MiscSoneium.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-11
+rust/src/addresses/AaveV2Ethereum.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-976
+scripts/generator/rustAbis.ts
+  s_dea6729a26f07b::t_0f9aaac075635b 39,42,45-51
+  s_dea6729a26f07b::t_65c15cf7fda5b4 1,3-5,23-25,30,34-36,40-41,43-44,53-55,57-64,68-71
+  s_dea6729a26f07b::t_598643ed2e0603 2,6-22,26-29,31-33,37-38,52,56,65-67
+rust/src/abis/IHubConfigurator.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-644
+rust/src/abis/IAaveV3ConfigEngine.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-680
+rust/src/addresses/ChainlinkScroll.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-119
+rust/src/addresses/GovernanceV3XLayer.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-26
+rust/src/addresses/GovernanceV3Celo.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-26
+rust/src/addresses/GovernanceV3Sonic.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-26
+rust/tests/address_book.rs
+  s_dea6729a26f07b::t_392bf94865ee45 1-12,17-23,32-35,49
+  s_dea6729a26f07b::t_a237c5bf2154e3 13-16,24-31,36-48
+rust/src/abis/IAToken.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-724
+rust/src/addresses/AaveV3Polygon.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-850
+rust/src/abis/IDataWarehouse.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-225
+rust/src/abis/ILendingPoolConfigurator.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-680
+rust/src/addresses/AaveV3Plasma.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-1391
+rust/src/addresses/ChainlinkSoneium.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-68
+rust/src/addresses/AaveV3Fuji.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-194
+rust/src/addresses/AaveV2EthereumAMM.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-625
+rust/src/abis/mod.rs
+  s_dea6729a26f07b::t_4588ce67a1c50d 9,12,16-21,27-34,45-52,63-70,81-88,99-106,117-124,135-142,153-160,171,174,178-183,189-196,207-214,225-232,243-250,261-268,279-286,297-304,315-322,333-340,351-358,369,372,376-381,387-394,405-412,423-430,441-448,459-466,477-484,495-502,513-520,531-538,549-556,567,570,574-579,585-592,603-610,621-628,639-646,657-664,675-682,693-700,711-718,729,732,736-741,747-754,765-772,783-790,801-808,819-826,837-844,855-862,873-880,891-898,909-916,927-934,945-952,963,966,970-975,981-988,999-1006,1017-1024,1035-1042,1053-1060
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-4,6-8,10-11,13-15,22-26,35-44,53-62,71-80,89-98,107-116,125-134,143-152,161-170,172-173,175-177,184-188,197-206,215-224,233-242,251-260,269-278,287-296,305-314,323-332,341-342,344-346,348-350,359-360,362-364,366-368,370-371,374-375,382,384-386,395-396,398-400,402-404,413-422,431-440,449-458,467-476,485-494,503-512,521-530,539-548,557-566,568-569,571-573,580-584,593-602,611-620,629-638,647-656,665-674,683-692,701-710,719-728,730-731,733-735,742-746,755-764,773-782,791-800,809-818,827-836,845-854,863-872,881-890,899-908,917-926,935-944,953-962,964-965,967-969,976-980,989-998,1007-1016,1025-1034,1043-1052,1061-1067
+  s_dea6729a26f07b::t_acf7769540aef1 5,343,347,361,365,373,383,397,401
+rust/src/abis/IAaveV4ConfigEngine.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-1023
+rust/src/abis/IACLManager.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-381
+rust/src/addresses/MiscCelo.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-32
+rust/src/abis/IGovernancePowerStrategy.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-40
+rust/src/addresses/AaveV3InkWhitelabel.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-615
+rust/src/addresses/GhoMantle.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-26
+rust/src/addresses/GhoInk.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-23
+rust/src/addresses/GovernanceV3Bob.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-23
+rust/src/addresses/AaveV3Soneium.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-182
+rust/src/addresses/AaveV3ArbitrumSepolia.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-121
+rust/src/abis/IStaticATokenLM.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-545
+scripts/generateRustAddresses.ts
+  s_dea6729a26f07b::t_5a87d46e4ea90f 1-37,45-48,51-66,70-118
+  s_dea6729a26f07b::t_213e031f308635 49-50
+  s_dea6729a26f07b::t_b7d7dad1904ff0 38-44,67-69
+rust/src/addresses/MiscMonad.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-29
+rust/src/abis/IVotingMachineWithProofs.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-685
+rust/src/abis/INativeTokenGateway.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-453
+rust/src/addresses/MiscXLayer.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-29
+rust/src/addresses/AaveV3BaseSepoliaLido.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-250
+rust/src/addresses/UmbrellaEthereum.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-95
+rust/src/addresses/ChainlinkCelo.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-86
+rust/src/abis/IOwnable.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-54
+rust/src/abis/ISpokeV4.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-2385
+rust/src/addresses/MiscBNB.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-53
+rust/src/addresses/UmbrellaBaseSepolia.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-115
+rust/src/addresses/mod.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-251
+rust/src/addresses/AaveV3Linea.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-496
+rust/src/abis/ILendingPoolAddressesProvider.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-413
+rust/src/addresses/ChainlinkBNB.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-686
+rust/src/addresses/GovernanceV3Monad.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-23
+rust/src/addresses/MiscOptimismSepolia.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-14
+rust/src/abis/IERC20Detailed.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-224
+rust/src/abis/IVotingStrategy.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-101
+rust/src/addresses/GhoMonad.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-41
+rust/src/abis/IStataTokenV2.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-1166
+rust/src/addresses/AaveSafetyModule.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-26
+rust/src/abis/ICrossChainController.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-1272
+rust/src/addresses/MiscFantom.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-5
+rust/src/addresses/AaveV3ZkSync.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-394
+rust/src/addresses/AaveV3MegaEth.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-590
+rust/src/addresses/MiscMetis.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-20
+rust/src/addresses/MiscFuji.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-14
+rust/src/addresses/ChainlinkBase.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-542
+rust/src/addresses/ChainlinkPolygon.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-428
+rust/src/addresses/MiscOptimism.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-83
+rust/src/abis/IGovernanceCore.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-1031
+rust/src/addresses/GovernanceV3BNB.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-26
+rust/src/addresses/MiscGnosis.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-71
+rust/src/addresses/AaveV3EthereumLido.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-574
+rust/src/addresses/MiscMegaEth.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-26
+rust/src/addresses/GhoPlasma.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-41
+rust/src/abis/IVotingMachineDataHelper.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-156
+rust/src/addresses/GovernanceV3Ink.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-23
+rust/src/addresses/AaveV4Avalanche.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-281
+rust/src/addresses/GhoXLayer.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-23
+rust/src/abis/IUmbrellaRewardsController.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-1899
+rust/src/abis/IUmbrella.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-1437
+rust/src/abis/IExecutor.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-90
+rust/src/lib.rs
+  s_dea6729a26f07b::t_08077fa53e0ede 1-9
+rust/src/addresses/GhoArbitrum.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-41
+rust/src/abis/IStakeToken.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-1499
+rust/src/addresses/AaveV3Mantle.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-542
+rust/src/addresses/GovernanceV3Arbitrum.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-23
+rust/src/abis/IPoolConfigurator.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-1333
+rust/src/addresses/MiscMantle.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-35
+rust/src/abis/ICollector.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-432
+rust/src/abis/IGovernanceDataHelper.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-300
+rust/src/addresses/AaveV2EthereumArc.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-145
+rust/src/addresses/GovernanceV3MegaEth.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-23
+rust/src/abis/ITakerPositionManager.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-913
+rust/src/addresses/ChainlinkOptimism.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-467
+rust/src/addresses/GhoEthereum.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-74
+rust/src/abis/IGiverPositionManager.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-429
+rust/src/addresses/AaveV3Sepolia.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-313
+rust/src/addresses/GovernanceV3Optimism.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-23
+rust/src/addresses/MiscZkSync.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-14
+rust/src/abis/IStataTokenFactory.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-135
+rust/src/abis/IHubV4.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-2486
+scripts/checkGeneratedABIs.ts
+  s_dea6729a26f07b::t_becc89e94d25e0 2,5-6,9-10,14,23-28,31
+  s_dea6729a26f07b::t_b7d7dad1904ff0 20
+rust/src/abis/ISpokeConfigurator.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-669
+rust/src/abis/IMetaDelegateHelper.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-57
+rust/src/addresses/AaveV2Fuji.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-166
+rust/src/addresses/MiscSonic.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-32
+rust/src/addresses/AaveV3EthereumHorizon.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-659
+rust/src/addresses/MiscLinea.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-41
+rust/src/abis/ILendingPool.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-1014
+rust/src/abis/ISignatureGateway.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-802
+rust/src/addresses/ChainlinkLinea.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-137
+rust/src/addresses/GhoAvalanche.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-23
+rust/src/abis/IUmbrellaStakeToken.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-1827
+rust/src/addresses/GhoGnosis.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-26
+rust/src/addresses/AaveV1.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-14
+rust/src/abis/IStaticATokenFactory.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-53
+rust/src/addresses/GovernanceV3ZkSync.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-23
+rust/src/addresses/GovernanceV3Polygon.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-38
+rust/src/addresses/MiscAvalanche.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-59
+rust/src/addresses/MiscSepolia.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-17
+rust/src/addresses/GovernanceV3Gnosis.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-26
+rust/src/addresses/AaveV2Polygon.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-400
+rust/src/abis/IStkAaveToken.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-1905
+rust/src/abis/IAaveToken.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-717
+.gitignore
+  s_dea6729a26f07b::t_4436ac28340187 20
+  s_dea6729a26f07b::t_c7d9f7e2095972 17-19
+rust/src/addresses/MiscBob.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-8
+rust/src/abis/IRiskSteward.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-1116
+rust/src/abis/IWithGuardian.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-69
+rust/src/abis/IPayloadsControllerCore.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-503
+rust/src/abis/IATokenWithDelegation.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-1265
+rust/src/abis/IExecutorWithTimelock.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-460
+rust/src/addresses/MiscEthereum.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-179
+rust/src/addresses/ChainlinkMetis.rs
+  s_dea6729a26f07b::t_7ea54a8facea22 1-44
+rust/src/abis/IPayloadsControllerDataHelper.json
+  s_4d44556f6db725::t_ce25fd14a0e16d 1-175
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d89aebf0a95f54b61e353aa656c30d80011c27db",
+  "prompts": {},
+  "sessions": {
+    "s_4d44556f6db725": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "52bc8458-1bee-40f4-8780-3839e566783a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "AlbertoCentonze <11707683+AlbertoCentonze@users.noreply.github.com>"
+    },
+    "s_dea6729a26f07b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c6d3dea8-9c4f-48f4-987b-b64fb73c2704",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "AlbertoCentonze <11707683+AlbertoCentonze@users.noreply.github.com>"
+    }
+  }
+}
