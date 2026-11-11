@@ -334,9 +334,9 @@ export const E_MODES = {
     ],
     ltvzeroBitmap: '0',
     ltvzeroAssets: [],
-    ltv: 9237,
-    liquidationThreshold: 9437,
-    liquidationBonus: 10259,
+    ltv: 9239,
+    liquidationThreshold: 9439,
+    liquidationBonus: 10267,
   },
   '10': {
     label: 'USDe / USDT,USDG,GHO,USDC',
