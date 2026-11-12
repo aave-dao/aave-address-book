@@ -5129,6 +5129,12 @@
     },
     "0x973195fB8F67F5B0afe7beDB2A02cec829d89991": {
       "name": "WrappedTokenGatewayV3"
+    },
+    "0x13B57382c36BAB566E75C72303622AF29E27e1d3": {
+      "name": "SafeProxy"
+    },
+    "0x09e8E1408a68778CEDdC1938729Ea126710E7Dda": {
+      "name": "Executor"
     }
   },
   "10": {

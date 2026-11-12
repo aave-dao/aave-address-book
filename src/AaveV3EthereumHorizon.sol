@@ -77,6 +77,12 @@ library AaveV3EthereumHorizon {
   // https://etherscan.io/address/0xE6ec1f0Ae6Cd023bd0a9B4d0253BDC755103253c
   address internal constant RISK_ADMIN = 0xE6ec1f0Ae6Cd023bd0a9B4d0253BDC755103253c;
 
+  // https://etherscan.io/address/0x13B57382c36BAB566E75C72303622AF29E27e1d3
+  address internal constant EMERGENCY_ADMIN = 0x13B57382c36BAB566E75C72303622AF29E27e1d3;
+
+  // https://etherscan.io/address/0x09e8E1408a68778CEDdC1938729Ea126710E7Dda
+  address internal constant LISTING_EXECUTOR = 0x09e8E1408a68778CEDdC1938729Ea126710E7Dda;
+
   // https://etherscan.io/address/0xFB36A571995C04E6FcbC7611450E805c79535174
   address internal constant CONFIG_ENGINE = 0xFB36A571995C04E6FcbC7611450E805c79535174;
 
