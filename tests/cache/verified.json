@@ -5129,6 +5129,36 @@
     },
     "0x973195fB8F67F5B0afe7beDB2A02cec829d89991": {
       "name": "WrappedTokenGatewayV3"
+    },
+    "0x4295Fe69b3e978Eb511e4558B4407AD871612fCb": {
+      "name": "PoolInstance"
+    },
+    "0xC27a4d7AC0623B129919786d88714eF16132BEaE": {
+      "name": "FlashLoanLogic"
+    },
+    "0x13Fa6017A1d0479ad3117e7E80B785Cc1372D0F3": {
+      "name": "PoolInstance"
+    },
+    "0x6d094e48Ee2E7C43787aFa0ec5aCcC5F644F976C": {
+      "name": "InitializableImmutableAdminUpgradeabilityProxy"
+    },
+    "0x234FaE51A7faF60E19f130A1bb000e3145Bc8bEF": {
+      "name": "InitializableImmutableAdminUpgradeabilityProxy"
+    },
+    "0x31E18898399A419Aa20A18eC8fc49Cc39B77CdE8": {
+      "name": "EACAggregatorProxy"
+    },
+    "0x015C477A4E2881C4B3bB8999f59ee4A04e812344": {
+      "name": "ERC1967Proxy"
+    },
+    "0x30a62C38265B9Df787d22E62e52C541051B4bCdF": {
+      "name": "InitializableImmutableAdminUpgradeabilityProxy"
+    },
+    "0xfD64ca77b7a869d6a13ce8C904129CCe2bD25328": {
+      "name": "InitializableImmutableAdminUpgradeabilityProxy"
+    },
+    "0x6b447A72D8243E96F5782ad6BdffD2dc813bb82E": {
+      "name": "EACAggregatorProxy"
     }
   },
   "10": {
@@ -6574,6 +6604,12 @@
     },
     "0x17a200Af33bb06511b1F89709659E1807BD13957": {
       "name": "AaveV4ConfigEngine"
+    },
+    "0x4d48678DE6C79c3cbB3695CbCD89c50132815b74": {
+      "name": "L2PoolInstance"
+    },
+    "0xC27a4d7AC0623B129919786d88714eF16132BEaE": {
+      "name": "FlashLoanLogic"
     }
   },
   "56": {
@@ -7869,6 +7905,12 @@
     },
     "0xaEE8B0666BF8a584e9D67bFaa65007E74c70b26a": {
       "name": "LeverageAaveV3Adapter"
+    },
+    "0x35A50DbE75228E4F02608472a47f5548eD2C549f": {
+      "name": "PoolInstance"
+    },
+    "0xC27a4d7AC0623B129919786d88714eF16132BEaE": {
+      "name": "FlashLoanLogic"
     }
   },
   "100": {
@@ -8579,6 +8621,12 @@
     },
     "0xaEE8B0666BF8a584e9D67bFaa65007E74c70b26a": {
       "name": "LeverageAaveV3Adapter"
+    },
+    "0x7F0D7d67683c30E5AEFc9a13B35cD3DB181a5889": {
+      "name": "PoolInstance"
+    },
+    "0xC27a4d7AC0623B129919786d88714eF16132BEaE": {
+      "name": "FlashLoanLogic"
     }
   },
   "137": {
@@ -10674,6 +10722,12 @@
     },
     "0x4C24fFe2Cb6dE5C55ef0cA8905c13b8508994D4b": {
       "name": "EACAggregatorProxy"
+    },
+    "0x0bC5d7941215d18287f275252b3C3abDe88Ed64b": {
+      "name": "PoolInstance"
+    },
+    "0xC27a4d7AC0623B129919786d88714eF16132BEaE": {
+      "name": "FlashLoanLogic"
     }
   },
   "146": {
@@ -11536,6 +11590,12 @@
     },
     "0xF34e9193BAcd622161D8D16C35f3F66d928cc549": {
       "name": "InitializableImmutableAdminUpgradeabilityProxy"
+    },
+    "0xec773F26B4D2040d8aFD223DAC555E9338048A09": {
+      "name": "L2PoolInstance"
+    },
+    "0xC27a4d7AC0623B129919786d88714eF16132BEaE": {
+      "name": "FlashLoanLogic"
     }
   },
   "324": {
@@ -13088,6 +13148,12 @@
     },
     "0x4978E504322a18204bd3F90Af4f9C351741a8FF4": {
       "name": "EACAggregatorProxy"
+    },
+    "0x9FCa6A771996e13a7bc160D04906d4DaAf4066eD": {
+      "name": "L2PoolInstance"
+    },
+    "0xC27a4d7AC0623B129919786d88714eF16132BEaE": {
+      "name": "FlashLoanLogic"
     }
   },
   "5000": {
@@ -13564,6 +13630,12 @@
     },
     "0xAA12BAd4a501d45A5b771e49C2Fd415BA8BFc79d": {
       "name": "GnosisSafeProxy"
+    },
+    "0x446Dd4cc29206eCB662A9b60A26396039C1a192c": {
+      "name": "L2PoolInstance"
+    },
+    "0xC27a4d7AC0623B129919786d88714eF16132BEaE": {
+      "name": "FlashLoanLogic"
     }
   },
   "8453": {
@@ -14982,6 +15054,12 @@
     },
     "0x17a200Af33bb06511b1F89709659E1807BD13957": {
       "name": "AaveV4ConfigEngine"
+    },
+    "0xf248Dd0AdB01e78043e8a423b8504c8129F11918": {
+      "name": "L2PoolInstance"
+    },
+    "0xC27a4d7AC0623B129919786d88714eF16132BEaE": {
+      "name": "FlashLoanLogic"
     }
   },
   "9745": {
@@ -15515,6 +15593,12 @@
     },
     "0xaEE8B0666BF8a584e9D67bFaa65007E74c70b26a": {
       "name": "LeverageAaveV3Adapter"
+    },
+    "0x1D238345aEdc937A1CaDF3ba60e1FD0c6Cd95463": {
+      "name": "PoolInstance"
+    },
+    "0xC27a4d7AC0623B129919786d88714eF16132BEaE": {
+      "name": "FlashLoanLogic"
     }
   },
   "42161": {
@@ -17341,6 +17425,12 @@
     },
     "0xaEE8B0666BF8a584e9D67bFaa65007E74c70b26a": {
       "name": "LeverageAaveV3Adapter"
+    },
+    "0xa6E7d235A5B2fc7811d10669bbe20fA14B658A1e": {
+      "name": "L2PoolInstance"
+    },
+    "0xC27a4d7AC0623B129919786d88714eF16132BEaE": {
+      "name": "FlashLoanLogic"
     }
   },
   "42220": {
@@ -17757,6 +17847,12 @@
     },
     "0x1E1Ef58d6286739a666C9E0eA98af77e65c5f1C1": {
       "name": "FixedPriceAdapter"
+    },
+    "0x5986C69787A35766C64e198F8C6f3297B2C59389": {
+      "name": "PoolInstance"
+    },
+    "0xC27a4d7AC0623B129919786d88714eF16132BEaE": {
+      "name": "FlashLoanLogic"
     }
   },
   "43113": {
@@ -19306,6 +19402,12 @@
     },
     "0x17a200Af33bb06511b1F89709659E1807BD13957": {
       "name": "AaveV4ConfigEngine"
+    },
+    "0x72573A9876566BA61657AF47eE09A40B592099f1": {
+      "name": "PoolInstance"
+    },
+    "0xC27a4d7AC0623B129919786d88714eF16132BEaE": {
+      "name": "FlashLoanLogic"
     }
   },
   "57073": {
@@ -20351,6 +20453,12 @@
     },
     "0xaEE8B0666BF8a584e9D67bFaa65007E74c70b26a": {
       "name": "LeverageAaveV3Adapter"
+    },
+    "0xB077CA6F343dcEbF37BC9f8113692b9a4CF1bFc2": {
+      "name": "L2PoolInstance"
+    },
+    "0xC27a4d7AC0623B129919786d88714eF16132BEaE": {
+      "name": "FlashLoanLogic"
     }
   },
   "60808": {

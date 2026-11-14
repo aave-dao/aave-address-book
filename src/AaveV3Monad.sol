@@ -29,8 +29,8 @@ library AaveV3Monad {
   IPoolDataProvider internal constant AAVE_PROTOCOL_DATA_PROVIDER =
     IPoolDataProvider(0xB65A68B98274ef7D9a60E0C0747dD1BEc3D32fad);
 
-  // https://monadscan.com/address/0x9539531EA4f6563A66421a7449506152609985be
-  address internal constant POOL_IMPL = 0x9539531EA4f6563A66421a7449506152609985be;
+  // https://monadscan.com/address/0x0bC5d7941215d18287f275252b3C3abDe88Ed64b
+  address internal constant POOL_IMPL = 0x0bC5d7941215d18287f275252b3C3abDe88Ed64b;
 
   // https://monadscan.com/address/0xCCFCA00657f9c7e062E0512c8535a5B93D5Ff254
   address internal constant POOL_CONFIGURATOR_IMPL = 0xCCFCA00657f9c7e062E0512c8535a5B93D5Ff254;
@@ -389,8 +389,8 @@ library AaveV3MonadEModes {
   uint8 internal constant PT_AUSD_17DEC2026__USDT0_USDC_USDe_mUSD_GHO = 6;
 }
 library AaveV3MonadExternalLibraries {
-  // https://monadscan.com/address/0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6
-  address internal constant FLASHLOAN_LOGIC = 0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6;
+  // https://monadscan.com/address/0xC27a4d7AC0623B129919786d88714eF16132BEaE
+  address internal constant FLASHLOAN_LOGIC = 0xC27a4d7AC0623B129919786d88714eF16132BEaE;
 
   // https://monadscan.com/address/0x52Da0ce88202D1542543598D1e1e27F0d344726A
   address internal constant BORROW_LOGIC = 0x52Da0ce88202D1542543598D1e1e27F0d344726A;

@@ -29,8 +29,8 @@ library AaveV3Avalanche {
   IPoolDataProvider internal constant AAVE_PROTOCOL_DATA_PROVIDER =
     IPoolDataProvider(0x243Aa95cAC2a25651eda86e80bEe66114413c43b);
 
-  // https://snowscan.xyz/address/0x6cddFF90124bA51afac5715314db7C9546b32204
-  address internal constant POOL_IMPL = 0x6cddFF90124bA51afac5715314db7C9546b32204;
+  // https://snowscan.xyz/address/0x72573A9876566BA61657AF47eE09A40B592099f1
+  address internal constant POOL_IMPL = 0x72573A9876566BA61657AF47eE09A40B592099f1;
 
   // https://snowscan.xyz/address/0xFF42Ce30054dcE7dc7C1282a9a497aa58eaBCe99
   address internal constant POOL_CONFIGURATOR_IMPL = 0xFF42Ce30054dcE7dc7C1282a9a497aa58eaBCe99;
@@ -550,8 +550,8 @@ library AaveV3AvalancheEModes {
   uint8 internal constant EURC__USDC_USDt = 6;
 }
 library AaveV3AvalancheExternalLibraries {
-  // https://snowscan.xyz/address/0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6
-  address internal constant FLASHLOAN_LOGIC = 0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6;
+  // https://snowscan.xyz/address/0xC27a4d7AC0623B129919786d88714eF16132BEaE
+  address internal constant FLASHLOAN_LOGIC = 0xC27a4d7AC0623B129919786d88714eF16132BEaE;
 
   // https://snowscan.xyz/address/0x52Da0ce88202D1542543598D1e1e27F0d344726A
   address internal constant BORROW_LOGIC = 0x52Da0ce88202D1542543598D1e1e27F0d344726A;

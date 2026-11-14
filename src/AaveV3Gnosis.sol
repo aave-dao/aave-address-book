@@ -29,8 +29,8 @@ library AaveV3Gnosis {
   IPoolDataProvider internal constant AAVE_PROTOCOL_DATA_PROVIDER =
     IPoolDataProvider(0xF1F5acB596568895393cB5E4D0452D6592A2fA70);
 
-  // https://gnosisscan.io/address/0x567048E77778A1a9067C6C97527623cEAFED7961
-  address internal constant POOL_IMPL = 0x567048E77778A1a9067C6C97527623cEAFED7961;
+  // https://gnosisscan.io/address/0x7F0D7d67683c30E5AEFc9a13B35cD3DB181a5889
+  address internal constant POOL_IMPL = 0x7F0D7d67683c30E5AEFc9a13B35cD3DB181a5889;
 
   // https://gnosisscan.io/address/0xFF42Ce30054dcE7dc7C1282a9a497aa58eaBCe99
   address internal constant POOL_CONFIGURATOR_IMPL = 0xFF42Ce30054dcE7dc7C1282a9a497aa58eaBCe99;
@@ -345,8 +345,8 @@ library AaveV3GnosisEModes {
   uint8 internal constant sDAI__USDCe = 3;
 }
 library AaveV3GnosisExternalLibraries {
-  // https://gnosisscan.io/address/0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6
-  address internal constant FLASHLOAN_LOGIC = 0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6;
+  // https://gnosisscan.io/address/0xC27a4d7AC0623B129919786d88714eF16132BEaE
+  address internal constant FLASHLOAN_LOGIC = 0xC27a4d7AC0623B129919786d88714eF16132BEaE;
 
   // https://gnosisscan.io/address/0x52Da0ce88202D1542543598D1e1e27F0d344726A
   address internal constant BORROW_LOGIC = 0x52Da0ce88202D1542543598D1e1e27F0d344726A;

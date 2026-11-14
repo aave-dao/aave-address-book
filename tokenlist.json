@@ -8747,6 +8747,46 @@
       }
     },
     {
+      "chainId": 1,
+      "address": "0x4E72025984424E52838cf8953E2863eFf036B67A",
+      "name": "Midas Wellington Income Opportunities",
+      "decimals": 18,
+      "symbol": "mWIN",
+      "tags": ["underlying"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x6d094e48Ee2E7C43787aFa0ec5aCcC5F644F976C",
+      "name": "Aave Horizon RWA mWIN",
+      "decimals": 18,
+      "symbol": "aHorRwamWIN",
+      "tags": ["aTokenV3", "aaveV3"],
+      "extensions": {
+        "pool": "0xAe05Cd22df81871bc7cC2a04BeCfb516bFe332C8",
+        "underlying": "0x4E72025984424E52838cf8953E2863eFf036B67A"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x015C477A4E2881C4B3bB8999f59ee4A04e812344",
+      "name": "Neuberger Securitize High Income Tokenized Fund",
+      "decimals": 6,
+      "symbol": "HINC",
+      "tags": ["underlying"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x30a62C38265B9Df787d22E62e52C541051B4bCdF",
+      "name": "Aave Horizon RWA HINC",
+      "decimals": 6,
+      "symbol": "aHorRwaHINC",
+      "tags": ["aTokenV3", "aaveV3"],
+      "extensions": {
+        "pool": "0xAe05Cd22df81871bc7cC2a04BeCfb516bFe332C8",
+        "underlying": "0x015C477A4E2881C4B3bB8999f59ee4A04e812344"
+      }
+    },
+    {
       "chainId": 59144,
       "address": "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f",
       "name": "Wrapped Ether",
@@ -11648,6 +11688,6 @@
       }
     }
   ],
-  "version": { "major": 3, "minor": 0, "patch": 195 },
-  "timestamp": "2026-11-09T19:57:20.056Z"
+  "version": { "major": 3, "minor": 0, "patch": 196 },
+  "timestamp": "2026-11-14T00:13:02.556Z"
 }
