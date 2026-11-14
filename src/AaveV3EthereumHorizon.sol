@@ -289,6 +289,42 @@ library AaveV3EthereumHorizonAssets {
   // https://etherscan.io/address/0x87593272C06f4FC49EC2942eBda0972d2F1Ab521
   address internal constant mGLOBAL_INTEREST_RATE_STRATEGY =
     0x87593272C06f4FC49EC2942eBda0972d2F1Ab521;
+
+  // https://etherscan.io/address/0x4E72025984424E52838cf8953E2863eFf036B67A
+  address internal constant mWIN_UNDERLYING = 0x4E72025984424E52838cf8953E2863eFf036B67A;
+
+  uint8 internal constant mWIN_DECIMALS = 18;
+
+  // https://etherscan.io/address/0x6d094e48Ee2E7C43787aFa0ec5aCcC5F644F976C
+  address internal constant mWIN_A_TOKEN = 0x6d094e48Ee2E7C43787aFa0ec5aCcC5F644F976C;
+
+  // https://etherscan.io/address/0x234FaE51A7faF60E19f130A1bb000e3145Bc8bEF
+  address internal constant mWIN_V_TOKEN = 0x234FaE51A7faF60E19f130A1bb000e3145Bc8bEF;
+
+  // https://etherscan.io/address/0x31E18898399A419Aa20A18eC8fc49Cc39B77CdE8
+  address internal constant mWIN_ORACLE = 0x31E18898399A419Aa20A18eC8fc49Cc39B77CdE8;
+
+  // https://etherscan.io/address/0x87593272C06f4FC49EC2942eBda0972d2F1Ab521
+  address internal constant mWIN_INTEREST_RATE_STRATEGY =
+    0x87593272C06f4FC49EC2942eBda0972d2F1Ab521;
+
+  // https://etherscan.io/address/0x015C477A4E2881C4B3bB8999f59ee4A04e812344
+  address internal constant HINC_UNDERLYING = 0x015C477A4E2881C4B3bB8999f59ee4A04e812344;
+
+  uint8 internal constant HINC_DECIMALS = 6;
+
+  // https://etherscan.io/address/0x30a62C38265B9Df787d22E62e52C541051B4bCdF
+  address internal constant HINC_A_TOKEN = 0x30a62C38265B9Df787d22E62e52C541051B4bCdF;
+
+  // https://etherscan.io/address/0xfD64ca77b7a869d6a13ce8C904129CCe2bD25328
+  address internal constant HINC_V_TOKEN = 0xfD64ca77b7a869d6a13ce8C904129CCe2bD25328;
+
+  // https://etherscan.io/address/0x6b447A72D8243E96F5782ad6BdffD2dc813bb82E
+  address internal constant HINC_ORACLE = 0x6b447A72D8243E96F5782ad6BdffD2dc813bb82E;
+
+  // https://etherscan.io/address/0x87593272C06f4FC49EC2942eBda0972d2F1Ab521
+  address internal constant HINC_INTEREST_RATE_STRATEGY =
+    0x87593272C06f4FC49EC2942eBda0972d2F1Ab521;
 }
 library AaveV3EthereumHorizonEModes {
   uint8 internal constant NONE = 0;
@@ -305,9 +341,11 @@ library AaveV3EthereumHorizonEModes {
 
   uint8 internal constant USYC__GHO = 6;
 
-  uint8 internal constant __ = 9;
+  uint8 internal constant mWIN__GHO = 7;
 
   uint8 internal constant JTRSY__GHO = 8;
+
+  uint8 internal constant HINC__GHO = 9;
 
   uint8 internal constant JAAA__GHO = 10;
 }

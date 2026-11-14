@@ -29,8 +29,8 @@ library AaveV3Optimism {
   IPoolDataProvider internal constant AAVE_PROTOCOL_DATA_PROVIDER =
     IPoolDataProvider(0x243Aa95cAC2a25651eda86e80bEe66114413c43b);
 
-  // https://optimistic.etherscan.io/address/0x66185E53343336d4FaeA5317d1Fcca103Dd4088D
-  address internal constant POOL_IMPL = 0x66185E53343336d4FaeA5317d1Fcca103Dd4088D;
+  // https://optimistic.etherscan.io/address/0x4d48678DE6C79c3cbB3695CbCD89c50132815b74
+  address internal constant POOL_IMPL = 0x4d48678DE6C79c3cbB3695CbCD89c50132815b74;
 
   // https://optimistic.etherscan.io/address/0xFF42Ce30054dcE7dc7C1282a9a497aa58eaBCe99
   address internal constant POOL_CONFIGURATOR_IMPL = 0xFF42Ce30054dcE7dc7C1282a9a497aa58eaBCe99;
@@ -457,8 +457,8 @@ library AaveV3OptimismEModes {
   uint8 internal constant WETH_wstETH_rETH__WETH = 2;
 }
 library AaveV3OptimismExternalLibraries {
-  // https://optimistic.etherscan.io/address/0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6
-  address internal constant FLASHLOAN_LOGIC = 0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6;
+  // https://optimistic.etherscan.io/address/0xC27a4d7AC0623B129919786d88714eF16132BEaE
+  address internal constant FLASHLOAN_LOGIC = 0xC27a4d7AC0623B129919786d88714eF16132BEaE;
 
   // https://optimistic.etherscan.io/address/0x52Da0ce88202D1542543598D1e1e27F0d344726A
   address internal constant BORROW_LOGIC = 0x52Da0ce88202D1542543598D1e1e27F0d344726A;

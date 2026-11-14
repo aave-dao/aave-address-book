@@ -29,8 +29,8 @@ library AaveV3Arbitrum {
   IPoolDataProvider internal constant AAVE_PROTOCOL_DATA_PROVIDER =
     IPoolDataProvider(0x243Aa95cAC2a25651eda86e80bEe66114413c43b);
 
-  // https://arbiscan.io/address/0xF05Fd3cC911b4c5E36e53c00354F645E22922C9A
-  address internal constant POOL_IMPL = 0xF05Fd3cC911b4c5E36e53c00354F645E22922C9A;
+  // https://arbiscan.io/address/0xa6E7d235A5B2fc7811d10669bbe20fA14B658A1e
+  address internal constant POOL_IMPL = 0xa6E7d235A5B2fc7811d10669bbe20fA14B658A1e;
 
   // https://arbiscan.io/address/0xFF42Ce30054dcE7dc7C1282a9a497aa58eaBCe99
   address internal constant POOL_CONFIGURATOR_IMPL = 0xFF42Ce30054dcE7dc7C1282a9a497aa58eaBCe99;
@@ -613,8 +613,8 @@ library AaveV3ArbitrumEModes {
   uint8 internal constant tBTC__USDT_USDCn = 10;
 }
 library AaveV3ArbitrumExternalLibraries {
-  // https://arbiscan.io/address/0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6
-  address internal constant FLASHLOAN_LOGIC = 0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6;
+  // https://arbiscan.io/address/0xC27a4d7AC0623B129919786d88714eF16132BEaE
+  address internal constant FLASHLOAN_LOGIC = 0xC27a4d7AC0623B129919786d88714eF16132BEaE;
 
   // https://arbiscan.io/address/0x52Da0ce88202D1542543598D1e1e27F0d344726A
   address internal constant BORROW_LOGIC = 0x52Da0ce88202D1542543598D1e1e27F0d344726A;
