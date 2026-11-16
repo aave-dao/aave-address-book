@@ -1,4 +1,4 @@
-import { Hex } from 'viem';
+import {Hex} from 'viem';
 
 interface KnownInterfaces<T extends number | Hex = any> {
   value: T;
@@ -155,6 +155,12 @@ export interface GhoAddresses<T extends Record<string, AddressInfo> = {}> {
   name: string;
   chainId: number;
   addresses: T;
+}
+
+export interface StableVaultAddresses {
+  name: string;
+  chainId: number;
+  addresses: Record<string, Hex>;
 }
 
 export interface V4Config {
