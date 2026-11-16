@@ -29,8 +29,8 @@ library AaveV3Plasma {
   IPoolDataProvider internal constant AAVE_PROTOCOL_DATA_PROVIDER =
     IPoolDataProvider(0xf2D6E38B407e31E7E7e4a16E6769728b76c7419F);
 
-  // https://plasmascan.to/address/0xCd23FF25e658395E0fe1Ce4803059144707A6223
-  address internal constant POOL_IMPL = 0xCd23FF25e658395E0fe1Ce4803059144707A6223;
+  // https://plasmascan.to/address/0x1D238345aEdc937A1CaDF3ba60e1FD0c6Cd95463
+  address internal constant POOL_IMPL = 0x1D238345aEdc937A1CaDF3ba60e1FD0c6Cd95463;
 
   // https://plasmascan.to/address/0xFF42Ce30054dcE7dc7C1282a9a497aa58eaBCe99
   address internal constant POOL_CONFIGURATOR_IMPL = 0xFF42Ce30054dcE7dc7C1282a9a497aa58eaBCe99;
@@ -526,8 +526,8 @@ library AaveV3PlasmaEModes {
   uint8 internal constant sUSDe_PT_sUSDE_22OCT2026__USDe = 26;
 }
 library AaveV3PlasmaExternalLibraries {
-  // https://plasmascan.to/address/0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6
-  address internal constant FLASHLOAN_LOGIC = 0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6;
+  // https://plasmascan.to/address/0xC27a4d7AC0623B129919786d88714eF16132BEaE
+  address internal constant FLASHLOAN_LOGIC = 0xC27a4d7AC0623B129919786d88714eF16132BEaE;
 
   // https://plasmascan.to/address/0x52Da0ce88202D1542543598D1e1e27F0d344726A
   address internal constant BORROW_LOGIC = 0x52Da0ce88202D1542543598D1e1e27F0d344726A;

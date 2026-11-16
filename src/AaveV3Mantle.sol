@@ -29,8 +29,8 @@ library AaveV3Mantle {
   IPoolDataProvider internal constant AAVE_PROTOCOL_DATA_PROVIDER =
     IPoolDataProvider(0x487c5c669D9eee6057C44973207101276cf73b68);
 
-  // https://mantlescan.xyz/address/0x13e24A78936468Bf35CB8647B08DB5Ad758b55a5
-  address internal constant POOL_IMPL = 0x13e24A78936468Bf35CB8647B08DB5Ad758b55a5;
+  // https://mantlescan.xyz/address/0x446Dd4cc29206eCB662A9b60A26396039C1a192c
+  address internal constant POOL_IMPL = 0x446Dd4cc29206eCB662A9b60A26396039C1a192c;
 
   // https://mantlescan.xyz/address/0xFF42Ce30054dcE7dc7C1282a9a497aa58eaBCe99
   address internal constant POOL_CONFIGURATOR_IMPL = 0xFF42Ce30054dcE7dc7C1282a9a497aa58eaBCe99;
@@ -282,8 +282,8 @@ library AaveV3MantleEModes {
   uint8 internal constant WMNT__USDT0_USDC_GHO = 6;
 }
 library AaveV3MantleExternalLibraries {
-  // https://mantlescan.xyz/address/0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6
-  address internal constant FLASHLOAN_LOGIC = 0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6;
+  // https://mantlescan.xyz/address/0xC27a4d7AC0623B129919786d88714eF16132BEaE
+  address internal constant FLASHLOAN_LOGIC = 0xC27a4d7AC0623B129919786d88714eF16132BEaE;
 
   // https://mantlescan.xyz/address/0x52Da0ce88202D1542543598D1e1e27F0d344726A
   address internal constant BORROW_LOGIC = 0x52Da0ce88202D1542543598D1e1e27F0d344726A;

@@ -29,8 +29,8 @@ library AaveV3MegaEth {
   IPoolDataProvider internal constant AAVE_PROTOCOL_DATA_PROVIDER =
     IPoolDataProvider(0x9588b453A4EE24a420830CB3302195cA7aA3b403);
 
-  // https://mega.etherscan.io/address/0xc74c6a98593214934e6F9C88C43c3A696C44da4D
-  address internal constant POOL_IMPL = 0xc74c6a98593214934e6F9C88C43c3A696C44da4D;
+  // https://mega.etherscan.io/address/0x9FCa6A771996e13a7bc160D04906d4DaAf4066eD
+  address internal constant POOL_IMPL = 0x9FCa6A771996e13a7bc160D04906d4DaAf4066eD;
 
   // https://mega.etherscan.io/address/0xFF42Ce30054dcE7dc7C1282a9a497aa58eaBCe99
   address internal constant POOL_CONFIGURATOR_IMPL = 0xFF42Ce30054dcE7dc7C1282a9a497aa58eaBCe99;
@@ -287,8 +287,8 @@ library AaveV3MegaEthEModes {
   uint8 internal constant stcUSD__USDT0_USDm = 8;
 }
 library AaveV3MegaEthExternalLibraries {
-  // https://mega.etherscan.io/address/0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6
-  address internal constant FLASHLOAN_LOGIC = 0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6;
+  // https://mega.etherscan.io/address/0xC27a4d7AC0623B129919786d88714eF16132BEaE
+  address internal constant FLASHLOAN_LOGIC = 0xC27a4d7AC0623B129919786d88714eF16132BEaE;
 
   // https://mega.etherscan.io/address/0x52Da0ce88202D1542543598D1e1e27F0d344726A
   address internal constant BORROW_LOGIC = 0x52Da0ce88202D1542543598D1e1e27F0d344726A;

@@ -29,8 +29,8 @@ library AaveV3Polygon {
   IPoolDataProvider internal constant AAVE_PROTOCOL_DATA_PROVIDER =
     IPoolDataProvider(0x243Aa95cAC2a25651eda86e80bEe66114413c43b);
 
-  // https://polygonscan.com/address/0x6030dB989D47cD74FC17bB6F4FcD3A8B29FEe57e
-  address internal constant POOL_IMPL = 0x6030dB989D47cD74FC17bB6F4FcD3A8B29FEe57e;
+  // https://polygonscan.com/address/0x9a375fa209Ebb87832EB258bfAE02998Bf3641aA
+  address internal constant POOL_IMPL = 0x9a375fa209Ebb87832EB258bfAE02998Bf3641aA;
 
   // https://polygonscan.com/address/0xFF42Ce30054dcE7dc7C1282a9a497aa58eaBCe99
   address internal constant POOL_CONFIGURATOR_IMPL = 0xFF42Ce30054dcE7dc7C1282a9a497aa58eaBCe99;
@@ -591,8 +591,8 @@ library AaveV3PolygonEModes {
   uint8 internal constant AAVE__USDT0_USDCn = 4;
 }
 library AaveV3PolygonExternalLibraries {
-  // https://polygonscan.com/address/0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6
-  address internal constant FLASHLOAN_LOGIC = 0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6;
+  // https://polygonscan.com/address/0xC27a4d7AC0623B129919786d88714eF16132BEaE
+  address internal constant FLASHLOAN_LOGIC = 0xC27a4d7AC0623B129919786d88714eF16132BEaE;
 
   // https://polygonscan.com/address/0x52Da0ce88202D1542543598D1e1e27F0d344726A
   address internal constant BORROW_LOGIC = 0x52Da0ce88202D1542543598D1e1e27F0d344726A;
