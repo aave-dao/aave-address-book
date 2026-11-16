@@ -9,7 +9,18 @@ const ATOKEN_ADMIN_ROLE = keccak256(toBytes('ATOKEN_ADMIN'));
 const AUTHORIZED_TRANSFER_ROLE = keccak256(toBytes('AUTHORIZED_TRANSFER'));
 
 // every reserve must be classified, so a new listing fails until it is added to one list
-const RWA_ASSETS = ['USTB', 'USCC', 'USYC', 'JTRSY', 'JAAA', 'VBILL', 'ACRED', 'mGLOBAL'];
+const RWA_ASSETS = [
+  'USTB',
+  'USCC',
+  'USYC',
+  'JTRSY',
+  'JAAA',
+  'VBILL',
+  'ACRED',
+  'mGLOBAL',
+  'mWIN',
+  'HINC',
+];
 const NON_RWA_ASSETS = ['GHO', 'USDC', 'RLUSD'];
 
 const aclManagerAbi = [

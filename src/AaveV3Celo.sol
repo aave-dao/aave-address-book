@@ -29,8 +29,8 @@ library AaveV3Celo {
   IPoolDataProvider internal constant AAVE_PROTOCOL_DATA_PROVIDER =
     IPoolDataProvider(0x2e0f8D3B1631296cC7c56538D6Eb6032601E15ED);
 
-  // https://celoscan.io/address/0x736A299843EC1bB6aA94e032489177ae0459c744
-  address internal constant POOL_IMPL = 0x736A299843EC1bB6aA94e032489177ae0459c744;
+  // https://celoscan.io/address/0x5986C69787A35766C64e198F8C6f3297B2C59389
+  address internal constant POOL_IMPL = 0x5986C69787A35766C64e198F8C6f3297B2C59389;
 
   // https://celoscan.io/address/0xFF42Ce30054dcE7dc7C1282a9a497aa58eaBCe99
   address internal constant POOL_CONFIGURATOR_IMPL = 0xFF42Ce30054dcE7dc7C1282a9a497aa58eaBCe99;
@@ -202,8 +202,8 @@ library AaveV3CeloEModes {
   uint8 internal constant NONE = 0;
 }
 library AaveV3CeloExternalLibraries {
-  // https://celoscan.io/address/0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6
-  address internal constant FLASHLOAN_LOGIC = 0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6;
+  // https://celoscan.io/address/0xC27a4d7AC0623B129919786d88714eF16132BEaE
+  address internal constant FLASHLOAN_LOGIC = 0xC27a4d7AC0623B129919786d88714eF16132BEaE;
 
   // https://celoscan.io/address/0x52Da0ce88202D1542543598D1e1e27F0d344726A
   address internal constant BORROW_LOGIC = 0x52Da0ce88202D1542543598D1e1e27F0d344726A;

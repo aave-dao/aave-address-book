@@ -29,8 +29,8 @@ library AaveV3Ethereum {
   IPoolDataProvider internal constant AAVE_PROTOCOL_DATA_PROVIDER =
     IPoolDataProvider(0x0a16f2FCC0D44FaE41cc54e079281D84A363bECD);
 
-  // https://etherscan.io/address/0x728a138A4823392C2EFA55e028d434F526fE03CF
-  address internal constant POOL_IMPL = 0x728a138A4823392C2EFA55e028d434F526fE03CF;
+  // https://etherscan.io/address/0x4295Fe69b3e978Eb511e4558B4407AD871612fCb
+  address internal constant POOL_IMPL = 0x4295Fe69b3e978Eb511e4558B4407AD871612fCb;
 
   // https://etherscan.io/address/0xFF42Ce30054dcE7dc7C1282a9a497aa58eaBCe99
   address internal constant POOL_CONFIGURATOR_IMPL = 0xFF42Ce30054dcE7dc7C1282a9a497aa58eaBCe99;
@@ -1620,8 +1620,8 @@ library AaveV3EthereumEModes {
   uint8 internal constant sUSDe_PT_srUSDe_22OCT2026__USDe = 48;
 }
 library AaveV3EthereumExternalLibraries {
-  // https://etherscan.io/address/0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6
-  address internal constant FLASHLOAN_LOGIC = 0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6;
+  // https://etherscan.io/address/0xC27a4d7AC0623B129919786d88714eF16132BEaE
+  address internal constant FLASHLOAN_LOGIC = 0xC27a4d7AC0623B129919786d88714eF16132BEaE;
 
   // https://etherscan.io/address/0x52Da0ce88202D1542543598D1e1e27F0d344726A
   address internal constant BORROW_LOGIC = 0x52Da0ce88202D1542543598D1e1e27F0d344726A;

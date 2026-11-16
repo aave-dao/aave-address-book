@@ -29,8 +29,8 @@ library AaveV3Linea {
   IPoolDataProvider internal constant AAVE_PROTOCOL_DATA_PROVIDER =
     IPoolDataProvider(0x47cd4b507B81cB831669c71c7077f4daF6762FF4);
 
-  // https://lineascan.build/address/0xF2a9096Bf98e1dd8fB31C4caCb2df5C982ec66CA
-  address internal constant POOL_IMPL = 0xF2a9096Bf98e1dd8fB31C4caCb2df5C982ec66CA;
+  // https://lineascan.build/address/0xB077CA6F343dcEbF37BC9f8113692b9a4CF1bFc2
+  address internal constant POOL_IMPL = 0xB077CA6F343dcEbF37BC9f8113692b9a4CF1bFc2;
 
   // https://lineascan.build/address/0xFF42Ce30054dcE7dc7C1282a9a497aa58eaBCe99
   address internal constant POOL_CONFIGURATOR_IMPL = 0xFF42Ce30054dcE7dc7C1282a9a497aa58eaBCe99;
@@ -298,8 +298,8 @@ library AaveV3LineaEModes {
   uint8 internal constant ezETH__USDC_USDT = 5;
 }
 library AaveV3LineaExternalLibraries {
-  // https://lineascan.build/address/0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6
-  address internal constant FLASHLOAN_LOGIC = 0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6;
+  // https://lineascan.build/address/0xC27a4d7AC0623B129919786d88714eF16132BEaE
+  address internal constant FLASHLOAN_LOGIC = 0xC27a4d7AC0623B129919786d88714eF16132BEaE;
 
   // https://lineascan.build/address/0x52Da0ce88202D1542543598D1e1e27F0d344726A
   address internal constant BORROW_LOGIC = 0x52Da0ce88202D1542543598D1e1e27F0d344726A;

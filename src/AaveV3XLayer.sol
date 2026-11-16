@@ -29,8 +29,8 @@ library AaveV3XLayer {
   IPoolDataProvider internal constant AAVE_PROTOCOL_DATA_PROVIDER =
     IPoolDataProvider(0x6C505C31714f14e8af2A03633EB2Cdfb4959138F);
 
-  // https://www.oklink.com/xlayer/address/0x5Bc7204274230a8F4778a35A58B776D16CF104b4
-  address internal constant POOL_IMPL = 0x5Bc7204274230a8F4778a35A58B776D16CF104b4;
+  // https://www.oklink.com/xlayer/address/0xec773F26B4D2040d8aFD223DAC555E9338048A09
+  address internal constant POOL_IMPL = 0xec773F26B4D2040d8aFD223DAC555E9338048A09;
 
   // https://www.oklink.com/xlayer/address/0xFF42Ce30054dcE7dc7C1282a9a497aa58eaBCe99
   address internal constant POOL_CONFIGURATOR_IMPL = 0xFF42Ce30054dcE7dc7C1282a9a497aa58eaBCe99;
@@ -349,8 +349,8 @@ library AaveV3XLayerEModes {
   uint8 internal constant USDe__USDT_USDG_GHO_USDC = 10;
 }
 library AaveV3XLayerExternalLibraries {
-  // https://www.oklink.com/xlayer/address/0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6
-  address internal constant FLASHLOAN_LOGIC = 0x6D414cd0d5eAf8C43200ac0c325A7E2Ad83B8be6;
+  // https://www.oklink.com/xlayer/address/0xC27a4d7AC0623B129919786d88714eF16132BEaE
+  address internal constant FLASHLOAN_LOGIC = 0xC27a4d7AC0623B129919786d88714eF16132BEaE;
 
   // https://www.oklink.com/xlayer/address/0x52Da0ce88202D1542543598D1e1e27F0d344726A
   address internal constant BORROW_LOGIC = 0x52Da0ce88202D1542543598D1e1e27F0d344726A;
