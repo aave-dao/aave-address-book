@@ -182,7 +182,6 @@ export type AaveAppCommonAddresses = {
   ADI_CROSS_CHAIN_CONTROLLER: Hex;
   REBALANCER_MULTICALL: Hex;
   DISABLER_MULTICALL: Hex;
-  ATOKEN_VAULT_USDC: Hex;
   // profiles from the deployment config
   MAIN_ADMIN: Hex;
   SECONDARY_ADMIN: Hex;
@@ -202,24 +201,26 @@ export type AaveAppAccountingChainAddresses = AaveAppCommonAddresses & {
   ACCOUNTING_CHAIN_GATEWAY: Hex;
   CHAIN_BALANCE_ORACLE: Hex;
   DEPOSIT_POLICY: Hex;
-  ATOKEN_VAULT_GHO: Hex;
-  ATOKEN_VAULT_USDT0: Hex;
   CHAINLINK_L2_CHAIN_BALANCE_ORACLE_ADAPTER: Hex;
-  CHAINLINK_L2_PRICE_ORACLE_ADAPTER_GHO: Hex;
-  CHAINLINK_L2_PRICE_ORACLE_ADAPTER_USDC: Hex;
-  CHAINLINK_L2_PRICE_ORACLE_ADAPTER_USDT: Hex;
 };
 
 export type AaveAppEarningChainAddresses = AaveAppCommonAddresses & {
   EARNING_CHAIN_GATEWAY: Hex;
   EARNING_CHAIN_STATE_PROVIDER: Hex;
-  ATOKEN_VAULT_USDT: Hex;
-  CHAINLINK_PRICE_ORACLE_ADAPTER_GHO: Hex;
-  CHAINLINK_PRICE_ORACLE_ADAPTER_USDC: Hex;
-  CHAINLINK_PRICE_ORACLE_ADAPTER_USDT: Hex;
 };
 
-export type AaveAppAddresses = {name: string; chainId: number} & (
+export type AaveAppAsset = {
+  UNDERLYING: Hex;
+  DECIMALS: number;
+  // The deployment's ERC4626 aToken vault for the asset, where there is one
+  ATOKEN_VAULT?: Hex;
+  PRICE_ORACLE_ADAPTER: Hex;
+};
+
+// Same keys on every chain (USDT is USD₮0 on Arbitrum), so proposals can name an asset chain-independently
+export type AaveAppAssets = {GHO: AaveAppAsset; USDC: AaveAppAsset; USDT: AaveAppAsset};
+
+export type AaveAppAddresses = {name: string; chainId: number; assets: AaveAppAssets} & (
   | {chainKind: AaveAppChainKind.Accounting; addresses: AaveAppAccountingChainAddresses}
   | {chainKind: AaveAppChainKind.Earning; addresses: AaveAppEarningChainAddresses}
 );

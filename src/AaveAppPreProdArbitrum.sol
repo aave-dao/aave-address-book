@@ -65,30 +65,9 @@ library AaveAppPreProdArbitrum {
   // https://arbiscan.io/address/0x9A83c7cC21ECFD412eD52274aE2dEf238E190a9A
   address internal constant FUNDS_BRIDGING_POLICY = 0x9A83c7cC21ECFD412eD52274aE2dEf238E190a9A;
 
-  // https://arbiscan.io/address/0xCcBBA93342f1b30fE82bdc991d1279dAdf4a4B90
-  address internal constant ATOKEN_VAULT_GHO = 0xCcBBA93342f1b30fE82bdc991d1279dAdf4a4B90;
-
-  // https://arbiscan.io/address/0x035bDeeA7963B7Af85B2bBC635BB91CA1d3E1116
-  address internal constant ATOKEN_VAULT_USDC = 0x035bDeeA7963B7Af85B2bBC635BB91CA1d3E1116;
-
-  // https://arbiscan.io/address/0x51828daBf24a268b4dbFc0CE486c146bBFD3F51F
-  address internal constant ATOKEN_VAULT_USDT0 = 0x51828daBf24a268b4dbFc0CE486c146bBFD3F51F;
-
   // https://arbiscan.io/address/0x08F2427614Ff2746b4e8C7ba4a81442e10A6eAda
   address internal constant CHAINLINK_L2_CHAIN_BALANCE_ORACLE_ADAPTER =
     0x08F2427614Ff2746b4e8C7ba4a81442e10A6eAda;
-
-  // https://arbiscan.io/address/0xAec86820AF33098538246D61c75BDbCCa7E032EE
-  address internal constant CHAINLINK_L2_PRICE_ORACLE_ADAPTER_GHO =
-    0xAec86820AF33098538246D61c75BDbCCa7E032EE;
-
-  // https://arbiscan.io/address/0xac6cE7600DD7a1Ed19658Fe40883f88f13541Ffe
-  address internal constant CHAINLINK_L2_PRICE_ORACLE_ADAPTER_USDC =
-    0xac6cE7600DD7a1Ed19658Fe40883f88f13541Ffe;
-
-  // https://arbiscan.io/address/0x4e554E42E7dE537FA166e105688E964623E8A26c
-  address internal constant CHAINLINK_L2_PRICE_ORACLE_ADAPTER_USDT =
-    0x4e554E42E7dE537FA166e105688E964623E8A26c;
 
   // https://arbiscan.io/address/0x3fb05A739e391eb9ab57C6393373AD486A97169D
   address internal constant REBALANCER_MULTICALL = 0x3fb05A739e391eb9ab57C6393373AD486A97169D;
@@ -129,4 +108,38 @@ library AaveAppPreProdArbitrum {
 
   // https://arbiscan.io/address/0x569c8D2D5fA781cef3D8799b15a4F651aFf1b806
   address internal constant RESCUER = 0x569c8D2D5fA781cef3D8799b15a4F651aFf1b806;
+}
+library AaveAppPreProdArbitrumAssets {
+  // https://arbiscan.io/address/0x7dfF72693f6A4149b17e7C6314655f6A9F7c8B33
+  address internal constant GHO_UNDERLYING = 0x7dfF72693f6A4149b17e7C6314655f6A9F7c8B33;
+
+  uint8 internal constant GHO_DECIMALS = 18;
+
+  // https://arbiscan.io/address/0xCcBBA93342f1b30fE82bdc991d1279dAdf4a4B90
+  address internal constant GHO_ATOKEN_VAULT = 0xCcBBA93342f1b30fE82bdc991d1279dAdf4a4B90;
+
+  // https://arbiscan.io/address/0xAec86820AF33098538246D61c75BDbCCa7E032EE
+  address internal constant GHO_PRICE_ORACLE_ADAPTER = 0xAec86820AF33098538246D61c75BDbCCa7E032EE;
+
+  // https://arbiscan.io/address/0xaf88d065e77c8cC2239327C5EDb3A432268e5831
+  address internal constant USDC_UNDERLYING = 0xaf88d065e77c8cC2239327C5EDb3A432268e5831;
+
+  uint8 internal constant USDC_DECIMALS = 6;
+
+  // https://arbiscan.io/address/0x035bDeeA7963B7Af85B2bBC635BB91CA1d3E1116
+  address internal constant USDC_ATOKEN_VAULT = 0x035bDeeA7963B7Af85B2bBC635BB91CA1d3E1116;
+
+  // https://arbiscan.io/address/0xac6cE7600DD7a1Ed19658Fe40883f88f13541Ffe
+  address internal constant USDC_PRICE_ORACLE_ADAPTER = 0xac6cE7600DD7a1Ed19658Fe40883f88f13541Ffe;
+
+  // https://arbiscan.io/address/0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9
+  address internal constant USDT_UNDERLYING = 0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9;
+
+  uint8 internal constant USDT_DECIMALS = 6;
+
+  // https://arbiscan.io/address/0x51828daBf24a268b4dbFc0CE486c146bBFD3F51F
+  address internal constant USDT_ATOKEN_VAULT = 0x51828daBf24a268b4dbFc0CE486c146bBFD3F51F;
+
+  // https://arbiscan.io/address/0x4e554E42E7dE537FA166e105688E964623E8A26c
+  address internal constant USDT_PRICE_ORACLE_ADAPTER = 0x4e554E42E7dE537FA166e105688E964623E8A26c;
 }

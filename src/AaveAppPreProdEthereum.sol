@@ -57,24 +57,6 @@ library AaveAppPreProdEthereum {
   // https://etherscan.io/address/0x9A83c7cC21ECFD412eD52274aE2dEf238E190a9A
   address internal constant FUNDS_BRIDGING_POLICY = 0x9A83c7cC21ECFD412eD52274aE2dEf238E190a9A;
 
-  // https://etherscan.io/address/0x34E0ed1044c382572381afCBFBF55C5588862272
-  address internal constant ATOKEN_VAULT_USDC = 0x34E0ed1044c382572381afCBFBF55C5588862272;
-
-  // https://etherscan.io/address/0x24BAe66440AAAd6c46a39C5668D43A7b06f392b6
-  address internal constant ATOKEN_VAULT_USDT = 0x24BAe66440AAAd6c46a39C5668D43A7b06f392b6;
-
-  // https://etherscan.io/address/0xEfF6B8d2a28BE77fD9C209DC02556A49E8209273
-  address internal constant CHAINLINK_PRICE_ORACLE_ADAPTER_GHO =
-    0xEfF6B8d2a28BE77fD9C209DC02556A49E8209273;
-
-  // https://etherscan.io/address/0x2eab2895000Bf11350D84Acda66baa1139BE0E6f
-  address internal constant CHAINLINK_PRICE_ORACLE_ADAPTER_USDC =
-    0x2eab2895000Bf11350D84Acda66baa1139BE0E6f;
-
-  // https://etherscan.io/address/0x114B7A0054761eAA7Ce0C90786eCe25C4834e295
-  address internal constant CHAINLINK_PRICE_ORACLE_ADAPTER_USDT =
-    0x114B7A0054761eAA7Ce0C90786eCe25C4834e295;
-
   // https://etherscan.io/address/0x3fb05A739e391eb9ab57C6393373AD486A97169D
   address internal constant REBALANCER_MULTICALL = 0x3fb05A739e391eb9ab57C6393373AD486A97169D;
 
@@ -114,4 +96,35 @@ library AaveAppPreProdEthereum {
 
   // https://etherscan.io/address/0x569c8D2D5fA781cef3D8799b15a4F651aFf1b806
   address internal constant RESCUER = 0x569c8D2D5fA781cef3D8799b15a4F651aFf1b806;
+}
+library AaveAppPreProdEthereumAssets {
+  // https://etherscan.io/address/0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f
+  address internal constant GHO_UNDERLYING = 0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f;
+
+  uint8 internal constant GHO_DECIMALS = 18;
+
+  // https://etherscan.io/address/0xEfF6B8d2a28BE77fD9C209DC02556A49E8209273
+  address internal constant GHO_PRICE_ORACLE_ADAPTER = 0xEfF6B8d2a28BE77fD9C209DC02556A49E8209273;
+
+  // https://etherscan.io/address/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48
+  address internal constant USDC_UNDERLYING = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
+
+  uint8 internal constant USDC_DECIMALS = 6;
+
+  // https://etherscan.io/address/0x34E0ed1044c382572381afCBFBF55C5588862272
+  address internal constant USDC_ATOKEN_VAULT = 0x34E0ed1044c382572381afCBFBF55C5588862272;
+
+  // https://etherscan.io/address/0x2eab2895000Bf11350D84Acda66baa1139BE0E6f
+  address internal constant USDC_PRICE_ORACLE_ADAPTER = 0x2eab2895000Bf11350D84Acda66baa1139BE0E6f;
+
+  // https://etherscan.io/address/0xdAC17F958D2ee523a2206206994597C13D831ec7
+  address internal constant USDT_UNDERLYING = 0xdAC17F958D2ee523a2206206994597C13D831ec7;
+
+  uint8 internal constant USDT_DECIMALS = 6;
+
+  // https://etherscan.io/address/0x24BAe66440AAAd6c46a39C5668D43A7b06f392b6
+  address internal constant USDT_ATOKEN_VAULT = 0x24BAe66440AAAd6c46a39C5668D43A7b06f392b6;
+
+  // https://etherscan.io/address/0x114B7A0054761eAA7Ce0C90786eCe25C4834e295
+  address internal constant USDT_PRICE_ORACLE_ADAPTER = 0x114B7A0054761eAA7Ce0C90786eCe25C4834e295;
 }
