@@ -9,11 +9,12 @@ import {
   wrapIntoSolidityLibrary,
 } from 'scripts/generator/utils';
 
-// Constants typed with the interfaces in src/common/IAaveAppPolicies.sol
-const INTERFACES: Record<string, string> = {
-  DEPOSIT_POLICY: 'IDepositPolicy',
-  FUNDS_BRIDGING_POLICY: 'IFundsBridgingPolicy',
-  WITHDRAWAL_EXECUTION_POLICY: 'IWithdrawalExecutionPolicy',
+// Constants typed with interfaces from src/common
+const INTERFACES: Record<string, {type: string; file: string}> = {
+  ACCESS_MANAGER: {type: 'IAccessManager', file: 'IAccessManager.sol'},
+  DEPOSIT_POLICY: {type: 'IDepositPolicy', file: 'IAaveAppPolicies.sol'},
+  FUNDS_BRIDGING_POLICY: {type: 'IFundsBridgingPolicy', file: 'IAaveAppPolicies.sol'},
+  WITHDRAWAL_EXECUTION_POLICY: {type: 'IWithdrawalExecutionPolicy', file: 'IAaveAppPolicies.sol'},
 };
 
 export function generateAaveApp(config: AaveAppAddresses) {
@@ -22,16 +23,19 @@ export function generateAaveApp(config: AaveAppAddresses) {
   const addresses: Addresses = Object.fromEntries(
     Object.entries(config.addresses).map(([key, value]) => [
       key,
-      INTERFACES[key] ? {value: value as Hex, type: INTERFACES[key]} : value,
+      INTERFACES[key] ? {value: value as Hex, type: INTERFACES[key].type} : value,
     ]),
   );
-  const interfaces = [
-    ...new Set(
-      Object.keys(config.addresses)
-        .filter((k) => INTERFACES[k])
-        .map((k) => INTERFACES[k]),
-    ),
-  ];
+  const interfaceImports = Object.entries(
+    Object.keys(config.addresses)
+      .filter((k) => INTERFACES[k])
+      .reduce<Record<string, Set<string>>>((acc, k) => {
+        (acc[INTERFACES[k].file] ??= new Set()).add(INTERFACES[k].type);
+        return acc;
+      }, {}),
+  )
+    .map(([file, types]) => `import {${[...types].join(', ')}} from './common/${file}';\n`)
+    .join('');
 
   const solidityLibrary = wrapIntoSolidityLibrary(
     [
@@ -46,7 +50,8 @@ export function generateAaveApp(config: AaveAppAddresses) {
     prefixWithGeneratedWarning(
       prefixWithPragma(
         `import {AaveAppChainKind} from './common/AaveAppTypes.sol';\n` +
-          `import {${interfaces.join(', ')}} from './common/IAaveAppPolicies.sol';\n\n` +
+          interfaceImports +
+          '\n' +
           solidityLibrary,
       ),
     ),

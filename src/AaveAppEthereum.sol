@@ -3,6 +3,7 @@
 pragma solidity >=0.6.0;
 
 import {AaveAppChainKind} from './common/AaveAppTypes.sol';
+import {IAccessManager} from './common/IAccessManager.sol';
 import {IWithdrawalExecutionPolicy, IFundsBridgingPolicy} from './common/IAaveAppPolicies.sol';
 
 library AaveAppEthereum {
@@ -12,7 +13,8 @@ library AaveAppEthereum {
   address internal constant TRANSFER_HELPER = 0x7C569A3533c0a71cCAA0Ed58D27d28ead2a68B42;
 
   // https://etherscan.io/address/0xC011104eBC0b784A6DA60CE70CE3875AACc2ec8d
-  address internal constant ACCESS_MANAGER = 0xC011104eBC0b784A6DA60CE70CE3875AACc2ec8d;
+  IAccessManager internal constant ACCESS_MANAGER =
+    IAccessManager(0xC011104eBC0b784A6DA60CE70CE3875AACc2ec8d);
 
   // https://etherscan.io/address/0x023bdA72445376AD5F7a8BcC613A5e1e0376441e
   address internal constant ASSET_REGISTRY = 0x023bdA72445376AD5F7a8BcC613A5e1e0376441e;
