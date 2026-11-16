@@ -1,0 +1,21 @@
+scripts/configs/types.ts
+  s_bcb38003376361::t_6da7910dc4aab1 1
+scripts/generateAddresses.ts
+  s_bcb38003376361::t_9868c1bd79f7db 2-4,11,22-120,161,225-227
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "0a203e07c8b9608bf1b994083a0bf4af88940747",
+  "prompts": {},
+  "sessions": {
+    "s_bcb38003376361": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "fb51dbc5-6ee1-4e81-9173-b1ef3a49f144",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "AlbertoCentonze <11707683+AlbertoCentonze@users.noreply.github.com>"
+    }
+  }
+}
