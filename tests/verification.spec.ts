@@ -104,6 +104,7 @@ const knownErrors = {
   1: {
     '0xD01ab9a6577E1D84F142e44D49380e23A340387d': true, // very old contracts we know will never be verified
     '0x9f336eB940730596548C342A8BF1fC530B10cc96': true, // PT_srUSDe_25JUN2026 oracle verified but not detecting
+    '0x569c8D2D5fA781cef3D8799b15a4F651aFf1b806': true, // StableVaultPreProdEthereum FUNDER/RESCUER, EIP-7702 delegated EOA
   },
   1101: {
     '0xF1c11BE0b4466728DDb7991A0Ac5265646ec9672': true, // very old contracts we know will never be verified
