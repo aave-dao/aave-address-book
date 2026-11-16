@@ -3,6 +3,7 @@
 pragma solidity >=0.6.0;
 
 import {AaveAppChainKind} from './common/AaveAppTypes.sol';
+import {IWithdrawalExecutionPolicy, IFundsBridgingPolicy} from './common/IAaveAppPolicies.sol';
 
 library AaveAppPreProdEthereum {
   AaveAppChainKind internal constant CHAIN_KIND = AaveAppChainKind.Earning;
@@ -20,8 +21,8 @@ library AaveAppPreProdEthereum {
   address internal constant POLICY_REGISTRY = 0x52Ce0f80E1E30999787de2F2B8019D35cae2A31e;
 
   // https://etherscan.io/address/0xd24051fCe1b216fD95C0999CD0B0F64050dc2be3
-  address internal constant WITHDRAWAL_EXECUTION_POLICY =
-    0xd24051fCe1b216fD95C0999CD0B0F64050dc2be3;
+  IWithdrawalExecutionPolicy internal constant WITHDRAWAL_EXECUTION_POLICY =
+    IWithdrawalExecutionPolicy(0xd24051fCe1b216fD95C0999CD0B0F64050dc2be3);
 
   // https://etherscan.io/address/0xc85D851746Deffd2B04Bf995E5a576f95695D386
   address internal constant IOU_TOKEN = 0xc85D851746Deffd2B04Bf995E5a576f95695D386;
@@ -55,7 +56,8 @@ library AaveAppPreProdEthereum {
     0x3698fE55bCbF43AE2b6823a6cE613FC355509057;
 
   // https://etherscan.io/address/0x9A83c7cC21ECFD412eD52274aE2dEf238E190a9A
-  address internal constant FUNDS_BRIDGING_POLICY = 0x9A83c7cC21ECFD412eD52274aE2dEf238E190a9A;
+  IFundsBridgingPolicy internal constant FUNDS_BRIDGING_POLICY =
+    IFundsBridgingPolicy(0x9A83c7cC21ECFD412eD52274aE2dEf238E190a9A);
 
   // https://etherscan.io/address/0x3fb05A739e391eb9ab57C6393373AD486A97169D
   address internal constant REBALANCER_MULTICALL = 0x3fb05A739e391eb9ab57C6393373AD486A97169D;

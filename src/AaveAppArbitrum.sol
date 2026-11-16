@@ -3,6 +3,7 @@
 pragma solidity >=0.6.0;
 
 import {AaveAppChainKind} from './common/AaveAppTypes.sol';
+import {IWithdrawalExecutionPolicy, IDepositPolicy, IFundsBridgingPolicy} from './common/IAaveAppPolicies.sol';
 
 library AaveAppArbitrum {
   AaveAppChainKind internal constant CHAIN_KIND = AaveAppChainKind.Accounting;
@@ -20,8 +21,8 @@ library AaveAppArbitrum {
   address internal constant POLICY_REGISTRY = 0x7D138e25D4e5798184b3B2A33D00fEE4e27ec000;
 
   // https://arbiscan.io/address/0x5A77D1D6290E7375617E3E2e59f2d5Ea652A2D46
-  address internal constant WITHDRAWAL_EXECUTION_POLICY =
-    0x5A77D1D6290E7375617E3E2e59f2d5Ea652A2D46;
+  IWithdrawalExecutionPolicy internal constant WITHDRAWAL_EXECUTION_POLICY =
+    IWithdrawalExecutionPolicy(0x5A77D1D6290E7375617E3E2e59f2d5Ea652A2D46);
 
   // https://arbiscan.io/address/0x6D304f0c11f1941DeA2260048f9D1ED4F522FA6A
   address internal constant IOU_TOKEN = 0x6D304f0c11f1941DeA2260048f9D1ED4F522FA6A;
@@ -60,10 +61,12 @@ library AaveAppArbitrum {
   address internal constant ADI_ADAPTER = 0xa9DCDEC8eC46e76eb33552e823b50A992b670443;
 
   // https://arbiscan.io/address/0x7A837ae4Aaf025d4EcaCFCc5Ee91F67B8d4CfE36
-  address internal constant DEPOSIT_POLICY = 0x7A837ae4Aaf025d4EcaCFCc5Ee91F67B8d4CfE36;
+  IDepositPolicy internal constant DEPOSIT_POLICY =
+    IDepositPolicy(0x7A837ae4Aaf025d4EcaCFCc5Ee91F67B8d4CfE36);
 
   // https://arbiscan.io/address/0xb2696bFCcF4e8aD2ab5752436C7dd5691F7FaF8C
-  address internal constant FUNDS_BRIDGING_POLICY = 0xb2696bFCcF4e8aD2ab5752436C7dd5691F7FaF8C;
+  IFundsBridgingPolicy internal constant FUNDS_BRIDGING_POLICY =
+    IFundsBridgingPolicy(0xb2696bFCcF4e8aD2ab5752436C7dd5691F7FaF8C);
 
   // https://arbiscan.io/address/0x2D66F350C0Bb2159fAE9B1a04B71A6d41FFfB39C
   address internal constant CHAINLINK_L2_CHAIN_BALANCE_ORACLE_ADAPTER =
