@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.77.8](https://github.com/aave-dao/aave-address-book/compare/v4.77.7...v4.77.8) (2026-11-16)
+
+
+### Bug Fixes
+
+* **deps:** bump lib/aave-v4 from `2524fe4` to `4885a7a` ([6a42083](https://github.com/aave-dao/aave-address-book/commit/6a42083f1045cf9df61e8486c43d2162e16c8801))
+
 ## [4.77.7](https://github.com/aave-dao/aave-address-book/compare/v4.77.6...v4.77.7) (2026-11-16)
 
 
