@@ -1,0 +1,29 @@
+scripts/generator/aaveAppGenerator.ts
+  s_bcb38003376361::t_f8f3fc52124ec8 12-17,26,29-38,53-54
+src/AaveAppArbitrum.sol
+  s_bcb38003376361::t_a79794ee253575 6,16-17
+src/AaveAppEthereum.sol
+  s_bcb38003376361::t_ed33e191b228ea 6,16-17
+src/AaveAppPreProdArbitrum.sol
+  s_bcb38003376361::t_4dc2283194cbda 6,16-17
+src/AaveAppPreProdEthereum.sol
+  s_bcb38003376361::t_53c7df19c2ce15 6,16-17
+src/common/IAccessManager.sol
+  s_bcb38003376361::t_6bc3b6db62cf83 1-104
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "2273b572ca7f75bb927f75e1f985b4d37d2ce00f",
+  "prompts": {},
+  "sessions": {
+    "s_bcb38003376361": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "fb51dbc5-6ee1-4e81-9173-b1ef3a49f144",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "AlbertoCentonze <11707683+AlbertoCentonze@users.noreply.github.com>"
+    }
+  }
+}
