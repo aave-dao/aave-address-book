@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.77.7](https://github.com/aave-dao/aave-address-book/compare/v4.77.6...v4.77.7) (2026-11-16)
+
+
+### Bug Fixes
+
+* update addresses and classify Horizon mWIN and HINC as RWA assets ([#1694](https://github.com/aave-dao/aave-address-book/issues/1694)) ([dae05ac](https://github.com/aave-dao/aave-address-book/commit/dae05acef38c4d2305776695ac81c3cab7437e29))
+
 ## [4.77.6](https://github.com/aave-dao/aave-address-book/compare/v4.77.5...v4.77.6) (2026-11-11)
 
 
