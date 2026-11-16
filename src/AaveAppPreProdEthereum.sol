@@ -2,7 +2,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.6.0;
 
-library StableVaultPreProdEthereum {
+import {AaveAppChainKind} from './common/AaveAppTypes.sol';
+
+library AaveAppPreProdEthereum {
+  AaveAppChainKind internal constant CHAIN_KIND = AaveAppChainKind.Earning;
+
   // https://etherscan.io/address/0x2f2C74890958f6C850d931E902e7bBb80750bA09
   address internal constant TRANSFER_HELPER = 0x2f2C74890958f6C850d931E902e7bBb80750bA09;
 
@@ -76,6 +80,12 @@ library StableVaultPreProdEthereum {
 
   // https://etherscan.io/address/0x18820b8BCE5945dD3EEE6B6dD3082AE0F3e6003F
   address internal constant DISABLER_MULTICALL = 0x18820b8BCE5945dD3EEE6B6dD3082AE0F3e6003F;
+
+  // https://etherscan.io/address/0x61061a159dAdd1635B7B5D2bc68b8a2E3EFbD749
+  address internal constant ADI_CROSS_CHAIN_CONTROLLER = 0x61061a159dAdd1635B7B5D2bc68b8a2E3EFbD749;
+
+  // https://etherscan.io/address/0xFE0c55c1E97D277AdadDF1EA1A6F123b5274C532
+  address internal constant SECONDARY_ADMIN_SAFE = 0xFE0c55c1E97D277AdadDF1EA1A6F123b5274C532;
 
   // https://etherscan.io/address/0x3641e760fCB45cCC6eF1f8a40f9c6048e719C6a5
   address internal constant MAIN_ADMIN = 0x3641e760fCB45cCC6eF1f8a40f9c6048e719C6a5;

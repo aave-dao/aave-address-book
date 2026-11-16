@@ -47,11 +47,11 @@ import { generateGovernanceLibrary } from 'scripts/generator/governanceV3Generat
 import { generateProtocolV2Library } from 'scripts/generator/protocolV2Generator';
 import { generateProtocolV3Library } from 'scripts/generator/protocolV3Generator';
 import { generateUmbrellaLibrary } from 'scripts/generator/umbrellaGenerator';
-import { generateStableVault } from 'scripts/generator/stableVaultGenerator';
-import { stableVaultArbitrum } from 'scripts/configs/stableVault/arbitrum';
-import { stableVaultEthereum } from 'scripts/configs/stableVault/ethereum';
-import { stableVaultPreProdArbitrum } from 'scripts/configs/stableVault/preProdArbitrum';
-import { stableVaultPreProdEthereum } from 'scripts/configs/stableVault/preProdEthereum';
+import { generateAaveApp } from 'scripts/generator/aaveAppGenerator';
+import { aaveAppArbitrum } from 'scripts/configs/aaveApp/arbitrum';
+import { aaveAppEthereum } from 'scripts/configs/aaveApp/ethereum';
+import { aaveAppPreProdArbitrum } from 'scripts/configs/aaveApp/preProdArbitrum';
+import { aaveAppPreProdEthereum } from 'scripts/configs/aaveApp/preProdEthereum';
 import { generateGovV2 } from 'scripts/generator/governanceV2Generator';
 import { prefixWithGeneratedWarning } from 'scripts/generator/utils';
 import { generateSafetyModule } from 'scripts/generator/safetyModuleGenerator';
@@ -230,12 +230,12 @@ async function main() {
       generateUmbrellaLibrary(config),
     ),
   );
-  const stableVaultAddresses = [
-    stableVaultArbitrum,
-    stableVaultEthereum,
-    stableVaultPreProdArbitrum,
-    stableVaultPreProdEthereum,
-  ].map((config) => generateStableVault(config));
+  const aaveAppAddresses = [
+    aaveAppArbitrum,
+    aaveAppEthereum,
+    aaveAppPreProdArbitrum,
+    aaveAppPreProdEthereum,
+  ].map((config) => generateAaveApp(config));
   const tokenListImports = await generateTokenList([
     ...v2LibraryNames,
     ...v3LibraryNames,
@@ -299,7 +299,7 @@ async function main() {
     tokenListImports,
     ghoAddresses,
     umbrellaAddresses,
-    stableVaultAddresses,
+    aaveAppAddresses,
     cl,
   ].flat();
 

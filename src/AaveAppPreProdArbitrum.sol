@@ -2,7 +2,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.6.0;
 
-library StableVaultPreProdArbitrum {
+import {AaveAppChainKind} from './common/AaveAppTypes.sol';
+
+library AaveAppPreProdArbitrum {
+  AaveAppChainKind internal constant CHAIN_KIND = AaveAppChainKind.Accounting;
+
   // https://arbiscan.io/address/0x2f2C74890958f6C850d931E902e7bBb80750bA09
   address internal constant TRANSFER_HELPER = 0x2f2C74890958f6C850d931E902e7bBb80750bA09;
 
@@ -91,6 +95,12 @@ library StableVaultPreProdArbitrum {
 
   // https://arbiscan.io/address/0x18820b8BCE5945dD3EEE6B6dD3082AE0F3e6003F
   address internal constant DISABLER_MULTICALL = 0x18820b8BCE5945dD3EEE6B6dD3082AE0F3e6003F;
+
+  // https://arbiscan.io/address/0xFEB932b3e01E587eceCebC62C91b554073AfFE86
+  address internal constant ADI_CROSS_CHAIN_CONTROLLER = 0xFEB932b3e01E587eceCebC62C91b554073AfFE86;
+
+  // https://arbiscan.io/address/0xFE0c55c1E97D277AdadDF1EA1A6F123b5274C532
+  address internal constant SECONDARY_ADMIN_SAFE = 0xFE0c55c1E97D277AdadDF1EA1A6F123b5274C532;
 
   // https://arbiscan.io/address/0x3641e760fCB45cCC6eF1f8a40f9c6048e719C6a5
   address internal constant MAIN_ADMIN = 0x3641e760fCB45cCC6eF1f8a40f9c6048e719C6a5;

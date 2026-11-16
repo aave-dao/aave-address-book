@@ -157,11 +157,72 @@ export interface GhoAddresses<T extends Record<string, AddressInfo> = {}> {
   addresses: T;
 }
 
-export interface StableVaultAddresses {
-  name: string;
-  chainId: number;
-  addresses: Record<string, Hex>;
+// Matches `AaveAppChainKind` in src/common/AaveAppTypes.sol
+export enum AaveAppChainKind {
+  Accounting = 0,
+  Earning = 1,
 }
+
+// Deployed on both kinds of chain (CREATE3: same address on every chain of a deployment)
+export type AaveAppCommonAddresses = {
+  TRANSFER_HELPER: Hex;
+  ACCESS_MANAGER: Hex;
+  ASSET_REGISTRY: Hex;
+  POLICY_REGISTRY: Hex;
+  WITHDRAWAL_EXECUTION_POLICY: Hex;
+  FUNDS_BRIDGING_POLICY: Hex;
+  IOU_TOKEN: Hex;
+  IOU_TOKEN_MANAGER: Hex;
+  PRICE_ORACLE: Hex;
+  ALLOCATOR: Hex;
+  SLIPPAGE_COVERAGE_VAULT: Hex;
+  SWAPPER: Hex;
+  CCIP_ADAPTER: Hex;
+  ADI_ADAPTER: Hex;
+  ADI_CROSS_CHAIN_CONTROLLER: Hex;
+  REBALANCER_MULTICALL: Hex;
+  DISABLER_MULTICALL: Hex;
+  ATOKEN_VAULT_USDC: Hex;
+  // profiles from the deployment config
+  MAIN_ADMIN: Hex;
+  SECONDARY_ADMIN: Hex;
+  SECONDARY_ADMIN_SAFE?: Hex;
+  REBALANCER_MULTICALL_OWNER: Hex;
+  DISABLER_MULTICALL_OWNER: Hex;
+  WITHDRAWAL_POLICY_MANAGER: Hex;
+  ATOKEN_VAULT_REWARD_CLAIMER: Hex;
+  STABLE_VAULT_MANAGER: Hex;
+  FUNDER: Hex;
+  RESCUER: Hex;
+};
+
+export type AaveAppAccountingChainAddresses = AaveAppCommonAddresses & {
+  STABLE_VAULT: Hex;
+  FUNDS_HANDLER: Hex;
+  ACCOUNTING_CHAIN_GATEWAY: Hex;
+  CHAIN_BALANCE_ORACLE: Hex;
+  DEPOSIT_POLICY: Hex;
+  ATOKEN_VAULT_GHO: Hex;
+  ATOKEN_VAULT_USDT0: Hex;
+  CHAINLINK_L2_CHAIN_BALANCE_ORACLE_ADAPTER: Hex;
+  CHAINLINK_L2_PRICE_ORACLE_ADAPTER_GHO: Hex;
+  CHAINLINK_L2_PRICE_ORACLE_ADAPTER_USDC: Hex;
+  CHAINLINK_L2_PRICE_ORACLE_ADAPTER_USDT: Hex;
+};
+
+export type AaveAppEarningChainAddresses = AaveAppCommonAddresses & {
+  EARNING_CHAIN_GATEWAY: Hex;
+  EARNING_CHAIN_STATE_PROVIDER: Hex;
+  ATOKEN_VAULT_USDT: Hex;
+  CHAINLINK_PRICE_ORACLE_ADAPTER_GHO: Hex;
+  CHAINLINK_PRICE_ORACLE_ADAPTER_USDC: Hex;
+  CHAINLINK_PRICE_ORACLE_ADAPTER_USDT: Hex;
+};
+
+export type AaveAppAddresses = {name: string; chainId: number} & (
+  | {chainKind: AaveAppChainKind.Accounting; addresses: AaveAppAccountingChainAddresses}
+  | {chainKind: AaveAppChainKind.Earning; addresses: AaveAppEarningChainAddresses}
+);
 
 export interface V4Config {
   name: string;
