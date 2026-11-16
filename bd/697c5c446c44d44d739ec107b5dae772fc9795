@@ -1,0 +1,45 @@
+scripts/configs/aaveApp/arbitrum.ts
+  s_bcb38003376361::t_ddd0d0bad96969 43-62
+scripts/configs/aaveApp/ethereum.ts
+  s_bcb38003376361::t_593a98fc0742f0 39-57
+scripts/configs/aaveApp/preProdArbitrum.ts
+  s_bcb38003376361::t_9d528886473b6b 45-64
+scripts/configs/aaveApp/preProdEthereum.ts
+  s_bcb38003376361::t_5f7fa45cdacbff 41-59
+scripts/configs/types.ts
+  s_bcb38003376361::t_ffcb8036b57ce9 212-223
+scripts/generator/aaveAppGenerator.ts
+  s_bcb38003376361::t_f5f54e06be186f 2,41-62
+src/AaveAppArbitrum.sol
+  s_bcb38003376361::t_6365cb4f7f7449 109-142
+src/AaveAppEthereum.sol
+  s_bcb38003376361::t_0a26c416fe40b3 97-127
+src/AaveAppPreProdArbitrum.sol
+  s_bcb38003376361::t_be50cca500f756 112-145
+src/AaveAppPreProdEthereum.sol
+  s_bcb38003376361::t_db38345c2e45a1 100-130
+src/ts/AaveAppArbitrum.ts
+  s_bcb38003376361::t_5ea5e342014106 102-122
+src/ts/AaveAppEthereum.ts
+  s_bcb38003376361::t_a73c5eee51d3e6 89-108
+src/ts/AaveAppPreProdArbitrum.ts
+  s_bcb38003376361::t_fdf4e5d5fe3c24 105-125
+src/ts/AaveAppPreProdEthereum.ts
+  s_bcb38003376361::t_f2769988a1ccc3 92-111
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "bd697c5c446c44d44d739ec107b5dae772fc9795",
+  "prompts": {},
+  "sessions": {
+    "s_bcb38003376361": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "fb51dbc5-6ee1-4e81-9173-b1ef3a49f144",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "AlbertoCentonze <11707683+AlbertoCentonze@users.noreply.github.com>"
+    }
+  }
+}
