@@ -1,0 +1,53 @@
+scripts/configs/aaveApp/arbitrum.ts
+  s_bcb38003376361::t_5a52db3d302e87 2,5,8,38
+scripts/configs/aaveApp/ethereum.ts
+  s_bcb38003376361::t_c7097345a1d6dc 2,5,8,33
+scripts/configs/aaveApp/preProdArbitrum.ts
+  s_bcb38003376361::t_d3ac7ea2a3c9aa 2,5,8,38-40
+scripts/configs/aaveApp/preProdEthereum.ts
+  s_bcb38003376361::t_96151d5c3d82b6 2,5,8,33-35
+scripts/configs/types.ts
+  s_bcb38003376361::t_cfcf1dbdf3ead6 160-163,166-226
+scripts/generateAddresses.ts
+  s_bcb38003376361::t_ab5edf072798a0 50-54,233-238,302
+scripts/generator/aaveAppGenerator.ts
+  s_bcb38003376361::t_cb887b7e0c0386 2,11-13,15-19,25-29,34-38
+src/AaveAppArbitrum.sol
+  s_bcb38003376361::t_c92ca5b25654cd 5-9,99-101
+src/AaveAppEthereum.sol
+  s_bcb38003376361::t_8590894d0d9ca9 5-9,84-86
+src/AaveAppPreProdArbitrum.sol
+  s_bcb38003376361::t_7a871caeafa7cb 5-9,99-104
+src/AaveAppPreProdEthereum.sol
+  s_bcb38003376361::t_6a85241c567347 5-9,84-89
+src/common/AaveAppTypes.sol
+  s_bcb38003376361::t_2ac84308aa6240 1-10
+src/ts/AaveAddressBook.ts
+  s_bcb38003376361::t_6e7ee67aa361f2 115-118
+src/ts/AaveAppArbitrum.ts
+  s_bcb38003376361::t_b3a0bdfb103e90 2-3,89-91
+src/ts/AaveAppEthereum.ts
+  s_bcb38003376361::t_a7bc014a14d914 2-3,73-75
+src/ts/AaveAppPreProdArbitrum.ts
+  s_bcb38003376361::t_289b9e87aff3b5 2-3,89-94
+src/ts/AaveAppPreProdEthereum.ts
+  s_bcb38003376361::t_8f0816352aa389 2-3,73-78
+tests/verification.spec.ts
+  s_bcb38003376361::t_fd28cf74d2ef55 107
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "e54adc9cf1508e652bd673dd18e010477be9036b",
+  "prompts": {},
+  "sessions": {
+    "s_bcb38003376361": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "fb51dbc5-6ee1-4e81-9173-b1ef3a49f144",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "AlbertoCentonze <11707683+AlbertoCentonze@users.noreply.github.com>"
+    }
+  }
+}
