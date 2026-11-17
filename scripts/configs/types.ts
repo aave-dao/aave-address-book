@@ -1,4 +1,4 @@
-import { Hex } from 'viem';
+import {Hex} from 'viem';
 
 interface KnownInterfaces<T extends number | Hex = any> {
   value: T;
@@ -163,45 +163,29 @@ export enum AaveAppChainKind {
   Earning = 1,
 }
 
-// Deployed on both kinds of chain (CREATE3: same address on every chain of a deployment)
+// Contracts nothing on-chain points to: the roots the generator starts from. Everything else (policies, wiring,
+// assets, implementations) is read from these on-chain. Role holders other than the two admins are out of scope:
+// they're indexed by the Stable Vault permissions book.
 export type AaveAppCommonAddresses = {
-  TRANSFER_HELPER: Hex;
   ACCESS_MANAGER: Hex;
-  ASSET_REGISTRY: Hex;
+  TRANSFER_HELPER: Hex;
   POLICY_REGISTRY: Hex;
-  WITHDRAWAL_EXECUTION_POLICY: Hex;
-  FUNDS_BRIDGING_POLICY: Hex;
-  IOU_TOKEN: Hex;
-  IOU_TOKEN_MANAGER: Hex;
+  ASSET_REGISTRY: Hex;
   PRICE_ORACLE: Hex;
   ALLOCATOR: Hex;
-  SLIPPAGE_COVERAGE_VAULT: Hex;
   SWAPPER: Hex;
   CCIP_ADAPTER: Hex;
   ADI_ADAPTER: Hex;
-  ADI_CROSS_CHAIN_CONTROLLER: Hex;
   REBALANCER_MULTICALL: Hex;
   DISABLER_MULTICALL: Hex;
-  // profiles from the deployment config
   MAIN_ADMIN: Hex;
   SECONDARY_ADMIN: Hex;
-  SECONDARY_ADMIN_SAFE?: Hex;
-  REBALANCER_MULTICALL_OWNER: Hex;
-  DISABLER_MULTICALL_OWNER: Hex;
-  WITHDRAWAL_POLICY_MANAGER: Hex;
-  ATOKEN_VAULT_REWARD_CLAIMER: Hex;
-  STABLE_VAULT_MANAGER: Hex;
-  FUNDER: Hex;
-  RESCUER: Hex;
 };
 
 export type AaveAppAccountingChainAddresses = AaveAppCommonAddresses & {
   STABLE_VAULT: Hex;
-  FUNDS_HANDLER: Hex;
   ACCOUNTING_CHAIN_GATEWAY: Hex;
   CHAIN_BALANCE_ORACLE: Hex;
-  DEPOSIT_POLICY: Hex;
-  CHAINLINK_L2_CHAIN_BALANCE_ORACLE_ADAPTER: Hex;
 };
 
 export type AaveAppEarningChainAddresses = AaveAppCommonAddresses & {
@@ -209,19 +193,13 @@ export type AaveAppEarningChainAddresses = AaveAppCommonAddresses & {
   EARNING_CHAIN_STATE_PROVIDER: Hex;
 };
 
-export type AaveAppAsset = {
-  UNDERLYING: Hex;
-  DECIMALS: number;
-  // The deployment's ERC4626 aToken vault for the asset, where there is one
-  ATOKEN_VAULT?: Hex;
-  PRICE_ORACLE_ADAPTER: Hex;
-};
-
-// Same keys on every chain (USDT is USD₮0 on Arbitrum), so proposals can name an asset chain-independently
-export type AaveAppAssets = {GHO: AaveAppAsset; USDC: AaveAppAsset; USDT: AaveAppAsset};
-
-export type AaveAppAddresses = {name: string; chainId: number; assets: AaveAppAssets} & (
-  | {chainKind: AaveAppChainKind.Accounting; addresses: AaveAppAccountingChainAddresses}
+export type AaveAppAddresses = {name: string; chainId: number} & (
+  | {
+      chainKind: AaveAppChainKind.Accounting;
+      addresses: AaveAppAccountingChainAddresses;
+      // earning chains this accounting chain tracks, by name: CHAIN_BALANCE_ORACLE_ADAPTER_<NAME>
+      earningChains: Record<string, number>;
+    }
   | {chainKind: AaveAppChainKind.Earning; addresses: AaveAppEarningChainAddresses}
 );
 
