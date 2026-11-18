@@ -3,8 +3,8 @@
 pragma solidity >=0.6.0;
 
 library ChainlinkCelo {
-  // https://celoscan.io/address/0x0826492a24b1dBd1d8fcB4701b38C557CE685e9D
-  address internal constant KES__USD = 0x0826492a24b1dBd1d8fcB4701b38C557CE685e9D;
+  // https://celoscan.io/address/0x8e1f834ca4B8Efd81D9c557426C70ed5F67e87B1
+  address internal constant KES__USD_kes_usd_fx = 0x8e1f834ca4B8Efd81D9c557426C70ed5F67e87B1;
 
   // https://celoscan.io/address/0xe38A27BE4E7d866327e09736F3C570F256FFd048
   address internal constant CUSD__USD = 0xe38A27BE4E7d866327e09736F3C570F256FFd048;
@@ -12,14 +12,14 @@ library ChainlinkCelo {
   // https://celoscan.io/address/0xe8EcaF727080968Ed5F6DBB595B91e50eEb9F8B3
   address internal constant BRL__USD = 0xe8EcaF727080968Ed5F6DBB595B91e50eEb9F8B3;
 
-  // https://celoscan.io/address/0x5e37AF40A7A344ec9b03CCD34a250F3dA9a20B02
-  address internal constant USDT__USD = 0x5e37AF40A7A344ec9b03CCD34a250F3dA9a20B02;
-
   // https://celoscan.io/address/0x6b6a4c71ec3858A024f3f0Ee44bb0AdcBEd3DcC2
   address internal constant LINK__USD = 0x6b6a4c71ec3858A024f3f0Ee44bb0AdcBEd3DcC2;
 
   // https://celoscan.io/address/0x1FcD30A73D67639c1cD89ff5746E7585731c083B
   address internal constant ETH__USD = 0x1FcD30A73D67639c1cD89ff5746E7585731c083B;
+
+  // https://celoscan.io/address/0x116Ac3EA0C18D101581E927A449851Ab720a39C1
+  address internal constant KES__USD_kes_usd = 0x116Ac3EA0C18D101581E927A449851Ab720a39C1;
 
   // https://celoscan.io/address/0x0568fD19986748cEfF3301e55c0eb1E729E0Ab7e
   address internal constant CELO__USD = 0x0568fD19986748cEfF3301e55c0eb1E729E0Ab7e;
@@ -27,11 +27,8 @@ library ChainlinkCelo {
   // https://celoscan.io/address/0xe76FE54dfeD2ce8B4d1AC63c982DfF7CFc92bf82
   address internal constant GBP__USD = 0xe76FE54dfeD2ce8B4d1AC63c982DfF7CFc92bf82;
 
-  // https://celoscan.io/address/0xc7A353BaE210aed958a1A2928b654938EC59DaB2
-  address internal constant USDC__USD = 0xc7A353BaE210aed958a1A2928b654938EC59DaB2;
-
-  // https://celoscan.io/address/0xf323563241BF8B77a2979e9edC1181788A98EcB2
-  address internal constant JPY__USD = 0xf323563241BF8B77a2979e9edC1181788A98EcB2;
+  // https://celoscan.io/address/0x6312034F70390d09bb03F789F84f00215a444AEa
+  address internal constant JPY__USD_jpy_usd = 0x6312034F70390d09bb03F789F84f00215a444AEa;
 
   // https://celoscan.io/address/0x04cE1b865a45cAF8e5218114C9DD03540753C68a
   address internal constant KRW__USD = 0x04cE1b865a45cAF8e5218114C9DD03540753C68a;
@@ -57,8 +54,8 @@ library ChainlinkCelo {
   // https://celoscan.io/address/0x128fE88eaa22bFFb868Bb3A584A54C96eE24014b
   address internal constant BTC__USD = 0x128fE88eaa22bFFb868Bb3A584A54C96eE24014b;
 
-  // https://celoscan.io/address/0x235e5c8697177931459fA7D19fba7256d29F17DA
-  address internal constant NGN__USD = 0x235e5c8697177931459fA7D19fba7256d29F17DA;
+  // https://celoscan.io/address/0xc17cBE2dB40e53F4984C46F608DA6DA1fF074c11
+  address internal constant NGN__USD_ngn_usd_fx = 0xc17cBE2dB40e53F4984C46F608DA6DA1fF074c11;
 
   // https://celoscan.io/address/0x11b7221a0DD025778A95e9E0B87b477522C32E02
   address internal constant ZAR__USD = 0x11b7221a0DD025778A95e9E0B87b477522C32E02;
@@ -68,6 +65,9 @@ library ChainlinkCelo {
 
   // https://celoscan.io/address/0x85d4Ec34339478F73c153710B19f2D5C402dce6F
   address internal constant INR__USD = 0x85d4Ec34339478F73c153710B19f2D5C402dce6F;
+
+  // https://celoscan.io/address/0x5e37AF40A7A344ec9b03CCD34a250F3dA9a20B02
+  address internal constant USDT__USD = 0x5e37AF40A7A344ec9b03CCD34a250F3dA9a20B02;
 
   // https://celoscan.io/address/0x91b21900E91CD302EBeD05E45D8f270ddAED944d
   address internal constant AAVE_Network_Emergency_Count_Celo =
@@ -79,9 +79,24 @@ library ChainlinkCelo {
   // https://celoscan.io/address/0x1626095f9548291cA67A6Aa743c30A1BB9380c9d
   address internal constant XOF__USD = 0x1626095f9548291cA67A6Aa743c30A1BB9380c9d;
 
+  // https://celoscan.io/address/0xf323563241BF8B77a2979e9edC1181788A98EcB2
+  address internal constant JPY__USD = 0xf323563241BF8B77a2979e9edC1181788A98EcB2;
+
+  // https://celoscan.io/address/0xc7A353BaE210aed958a1A2928b654938EC59DaB2
+  address internal constant USDC__USD = 0xc7A353BaE210aed958a1A2928b654938EC59DaB2;
+
   // https://celoscan.io/address/0xBa45f0a1a2fa3FB62a4D6dC135741E2aeb1b14e7
   address internal constant LINK__CELO = 0xBa45f0a1a2fa3FB62a4D6dC135741E2aeb1b14e7;
 
+  // https://celoscan.io/address/0x0826492a24b1dBd1d8fcB4701b38C557CE685e9D
+  address internal constant KES__USD = 0x0826492a24b1dBd1d8fcB4701b38C557CE685e9D;
+
+  // https://celoscan.io/address/0x225342d9CAfc539a2b34207f5be25e7B45030b3d
+  address internal constant USDC__USD_TEST_CAPPED = 0x225342d9CAfc539a2b34207f5be25e7B45030b3d;
+
   // https://celoscan.io/address/0x9a48d9b0AF457eF040281A9Af3867bc65522Fecd
   address internal constant EURC__USD = 0x9a48d9b0AF457eF040281A9Af3867bc65522Fecd;
+
+  // https://celoscan.io/address/0x235e5c8697177931459fA7D19fba7256d29F17DA
+  address internal constant NGN__USD = 0x235e5c8697177931459fA7D19fba7256d29F17DA;
 }

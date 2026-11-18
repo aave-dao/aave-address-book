@@ -12873,6 +12873,9 @@
     },
     "0x45cCB319C57A6Ae0d53C4dB1a151dF75015103b1": {
       "name": "SafeProxy"
+    },
+    "0x6B35cfA2ff5E3e617D080d8Af4d773C9D744dB6C": {
+      "name": "EACAggregatorProxy"
     }
   },
   "4326": {

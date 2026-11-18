@@ -3,11 +3,106 @@
 pragma solidity >=0.6.0;
 
 library ChainlinkArc {
+  // https://explorer.arc.io/address/0xc65BdE76b0B44756Ce9A12795d97ad4AD3cAa3af
+  address internal constant SVR_BCH__USD = 0xc65BdE76b0B44756Ce9A12795d97ad4AD3cAa3af;
+
+  // https://explorer.arc.io/address/0x1470F94EcecEFBc92014D883E4DB8d9726d1f25E
+  address internal constant SVR_BCH__USD_BASE = 0x1470F94EcecEFBc92014D883E4DB8d9726d1f25E;
+
+  // https://explorer.arc.io/address/0xa0575396F2fc7DCac6c4D6a6427Ee6Cc3B5Bdc77
+  address internal constant SVR_CAD__USD = 0xa0575396F2fc7DCac6c4D6a6427Ee6Cc3B5Bdc77;
+
+  // https://explorer.arc.io/address/0x5024DF70A748e5f1E720AAe8EEfc590430d71573
+  address internal constant SVR_CAD__USD_BASE = 0x5024DF70A748e5f1E720AAe8EEfc590430d71573;
+
+  // https://explorer.arc.io/address/0xbD6c2a896745c7e13a2ccC2F6163c6801be0b3aD
+  address internal constant SVR_JPY__USD = 0xbD6c2a896745c7e13a2ccC2F6163c6801be0b3aD;
+
+  // https://explorer.arc.io/address/0xF9Fc1C20C82d774A3787845E73E41BCbF7F38F25
+  address internal constant SVR_JPY__USD_BASE = 0xF9Fc1C20C82d774A3787845E73E41BCbF7F38F25;
+
+  // https://explorer.arc.io/address/0x3f929667bdf783b99274F10465a89d6aF772736E
+  address internal constant SVR_KRW__USD = 0x3f929667bdf783b99274F10465a89d6aF772736E;
+
+  // https://explorer.arc.io/address/0x07040A33A0204596e927595D0994C5D841d7d61D
+  address internal constant SVR_KRW__USD_BASE = 0x07040A33A0204596e927595D0994C5D841d7d61D;
+
+  // https://explorer.arc.io/address/0x8DEDE26eFA1fe4C13aA242ead52a8004247159C1
+  address internal constant SVR_TRX__USD = 0x8DEDE26eFA1fe4C13aA242ead52a8004247159C1;
+
+  // https://explorer.arc.io/address/0x5693D678943AE1FDfCECFf98B6c677FbAf331AE9
+  address internal constant SVR_TRX__USD_BASE = 0x5693D678943AE1FDfCECFf98B6c677FbAf331AE9;
+
+  // https://explorer.arc.io/address/0xf9a809114d4081066737B37d41e9433f9B2da2bD
+  address internal constant SVR_USD__ARS = 0xf9a809114d4081066737B37d41e9433f9B2da2bD;
+
+  // https://explorer.arc.io/address/0xa261C56CABf7Ed6081646b892E57175AB2Dd8617
+  address internal constant SVR_USD__ARS_BASE = 0xa261C56CABf7Ed6081646b892E57175AB2Dd8617;
+
+  // https://explorer.arc.io/address/0x53fFB82B6A09Dc2b6Fea13e2795104efa9b458CC
+  address internal constant SVR_BNB__USD = 0x53fFB82B6A09Dc2b6Fea13e2795104efa9b458CC;
+
+  // https://explorer.arc.io/address/0x00d1516C06e030Ef2142478ce14CEbce2De81771
+  address internal constant SVR_BNB__USD_BASE = 0x00d1516C06e030Ef2142478ce14CEbce2De81771;
+
   // https://explorer.arc.io/address/0xBC88A5182848151AE1f7b4877021F828d8F4D735
   address internal constant SVR_USDC__USD = 0xBC88A5182848151AE1f7b4877021F828d8F4D735;
 
   // https://explorer.arc.io/address/0x84EA90AC252Dc437031461836DB5164219147905
   address internal constant SVR_USDC__USD_BASE = 0x84EA90AC252Dc437031461836DB5164219147905;
+
+  // https://explorer.arc.io/address/0xaD902511CbF378977149687D6aFB7D93A390D06e
+  address internal constant SVR_SOL__USD = 0xaD902511CbF378977149687D6aFB7D93A390D06e;
+
+  // https://explorer.arc.io/address/0x2d04D354f5fDaE3De723df475745B0a9B4edf90C
+  address internal constant SVR_SOL__USD_BASE = 0x2d04D354f5fDaE3De723df475745B0a9B4edf90C;
+
+  // https://explorer.arc.io/address/0x137eDe0803eDC0470A2FEde55493bc66232b6670
+  address internal constant ARS__USD = 0x137eDe0803eDC0470A2FEde55493bc66232b6670;
+
+  // https://explorer.arc.io/address/0xfb023B057bDD670d12d7419e73B2BB1485C8B2Fa
+  address internal constant USDAI__USD = 0xfb023B057bDD670d12d7419e73B2BB1485C8B2Fa;
+
+  // https://explorer.arc.io/address/0xB27522566BE765c94D21BFA0A9a1e19934999AB2
+  address internal constant XAUM_Reference_Rate = 0xB27522566BE765c94D21BFA0A9a1e19934999AB2;
+
+  // https://explorer.arc.io/address/0xCe9cF881f64A50bDAC54Fd7b4ee10438F97Ec322
+  address internal constant STCAPUSD__CAPUSD_Exchange_Rate =
+    0xCe9cF881f64A50bDAC54Fd7b4ee10438F97Ec322;
+
+  // https://explorer.arc.io/address/0xEB0884a871ea1f6483B5FC10fd3D7dC5806411fc
+  address internal constant cirBTC_Reserves = 0xEB0884a871ea1f6483B5FC10fd3D7dC5806411fc;
+
+  // https://explorer.arc.io/address/0x21b641ed53B2a91Ec616689298B067298B942012
+  address internal constant SVR_BRL__USD = 0x21b641ed53B2a91Ec616689298B067298B942012;
+
+  // https://explorer.arc.io/address/0x3406DB72AC5136b89eba6808CFcaD83aF523B3C2
+  address internal constant SVR_BRL__USD_BASE = 0x3406DB72AC5136b89eba6808CFcaD83aF523B3C2;
+
+  // https://explorer.arc.io/address/0x1AbF15E82566d274Bf8722AC3E42fC3c79304051
+  address internal constant PSTUSDC__USDC_Exchange_Rate =
+    0x1AbF15E82566d274Bf8722AC3E42fC3c79304051;
+
+  // https://explorer.arc.io/address/0x3E0a1296e6CBF0a8fa54F2b4909643214EfCeE4D
+  address internal constant GBP__USD = 0x3E0a1296e6CBF0a8fa54F2b4909643214EfCeE4D;
+
+  // https://explorer.arc.io/address/0x0Bd931F734D4fA4F6e7566225Ce02B19996D8Ff4
+  address internal constant SVR_HYPE__USD = 0x0Bd931F734D4fA4F6e7566225Ce02B19996D8Ff4;
+
+  // https://explorer.arc.io/address/0x953E668F395a76283ff73CCd26ACaEC96a057F9A
+  address internal constant SVR_HYPE__USD_BASE = 0x953E668F395a76283ff73CCd26ACaEC96a057F9A;
+
+  // https://explorer.arc.io/address/0x2E4AdB39B4f54B592293Eb832f54d2dCf081A02c
+  address internal constant SVR_USDT__USD = 0x2E4AdB39B4f54B592293Eb832f54d2dCf081A02c;
+
+  // https://explorer.arc.io/address/0x9F95c96324c07166B6C329B317c96DeD1dc14387
+  address internal constant SVR_USDT__USD_BASE = 0x9F95c96324c07166B6C329B317c96DeD1dc14387;
+
+  // https://explorer.arc.io/address/0x89f0bA0D46f51D6dbd2B315325FE1276EF937ec7
+  address internal constant SVR_CBBTC__USD = 0x89f0bA0D46f51D6dbd2B315325FE1276EF937ec7;
+
+  // https://explorer.arc.io/address/0x0baD7926628b6408FeedcABaEc68c1Ea77bd127c
+  address internal constant SVR_CBBTC__USD_BASE = 0x0baD7926628b6408FeedcABaEc68c1Ea77bd127c;
 
   // https://explorer.arc.io/address/0x7777547914e03BCbB04Ae034942765a0dbb26aE3
   address internal constant SVR_BTC__USD = 0x7777547914e03BCbB04Ae034942765a0dbb26aE3;
@@ -15,11 +110,48 @@ library ChainlinkArc {
   // https://explorer.arc.io/address/0xa109B535C70C8Be9995be64Bb6751AcDB27e03De
   address internal constant SVR_BTC__USD_BASE = 0xa109B535C70C8Be9995be64Bb6751AcDB27e03De;
 
+  // https://explorer.arc.io/address/0xaCBDEcFEf02BF72A802CC2bbb0a7188Fa4059a19
+  address internal constant SVR_AAVE__USD = 0xaCBDEcFEf02BF72A802CC2bbb0a7188Fa4059a19;
+
+  // https://explorer.arc.io/address/0x06e59eA707FEAA09467C689Baf8D49C180fE2118
+  address internal constant SVR_AAVE__USD_BASE = 0x06e59eA707FEAA09467C689Baf8D49C180fE2118;
+
+  // https://explorer.arc.io/address/0x8Dc05B530f2d919c738F6Fa710c20AeC00258A12
+  address internal constant SVR_AUD__USD = 0x8Dc05B530f2d919c738F6Fa710c20AeC00258A12;
+
+  // https://explorer.arc.io/address/0xaF452c2EA72b6E08AB64a67133a13C4ED35343eb
+  address internal constant SVR_AUD__USD_BASE = 0xaF452c2EA72b6E08AB64a67133a13C4ED35343eb;
+
+  // https://explorer.arc.io/address/0x5b52CA11e433EBefb408464c460035A157ee8fAa
+  address internal constant CAPUSD__USD_Exchange_Rate = 0x5b52CA11e433EBefb408464c460035A157ee8fAa;
+
+  // https://explorer.arc.io/address/0xEd288826d3c2Dbb962534f4085073931aD7eeC93
+  address internal constant AAVE_Network_Emergency_Count_Arc =
+    0xEd288826d3c2Dbb962534f4085073931aD7eeC93;
+
+  // https://explorer.arc.io/address/0xAFa801e508613be7CA88D2d0fDB3F84f4c1B0384
+  address internal constant SVR_MXN__USD = 0xAFa801e508613be7CA88D2d0fDB3F84f4c1B0384;
+
+  // https://explorer.arc.io/address/0x302eaa6cd6f7AdDdc973fAC2Bb8fa32e9Ce19f21
+  address internal constant SVR_MXN__USD_BASE = 0x302eaa6cd6f7AdDdc973fAC2Bb8fa32e9Ce19f21;
+
   // https://explorer.arc.io/address/0xa4266689D107aF71c7dBE975cfB92aB40E7b4EFE
   address internal constant SVR_EUR__USD = 0xa4266689D107aF71c7dBE975cfB92aB40E7b4EFE;
 
   // https://explorer.arc.io/address/0xDd5B15443cd733D3966a50a3E48cB7DF9Fb5DE0D
   address internal constant SVR_EUR__USD_BASE = 0xDd5B15443cd733D3966a50a3E48cB7DF9Fb5DE0D;
+
+  // https://explorer.arc.io/address/0x3893e2b2820833d80679D61A4a77725c1787EDEe
+  address internal constant SVR_XRP__USD = 0x3893e2b2820833d80679D61A4a77725c1787EDEe;
+
+  // https://explorer.arc.io/address/0xFFb04Fba8384e0a53Ee9975F9164905030F5ea29
+  address internal constant SVR_XRP__USD_BASE = 0xFFb04Fba8384e0a53Ee9975F9164905030F5ea29;
+
+  // https://explorer.arc.io/address/0x48F9A46BA852B5c22D4153D0534397B59AbfdeF5
+  address internal constant SVR_AVAX__USD = 0x48F9A46BA852B5c22D4153D0534397B59AbfdeF5;
+
+  // https://explorer.arc.io/address/0xf17C0EdcAA28371e9c8012D7699bF40ECF0F58d1
+  address internal constant SVR_AVAX__USD_BASE = 0xf17C0EdcAA28371e9c8012D7699bF40ECF0F58d1;
 
   // https://explorer.arc.io/address/0x2c7Dc3567b3490f53A8d32625d766834dd023F60
   address internal constant SVR_ETH__USD = 0x2c7Dc3567b3490f53A8d32625d766834dd023F60;
@@ -27,9 +159,35 @@ library ChainlinkArc {
   // https://explorer.arc.io/address/0x50FCDD99D6762D1C170DC6A9111db944AEE6D364
   address internal constant SVR_ETH__USD_BASE = 0x50FCDD99D6762D1C170DC6A9111db944AEE6D364;
 
+  // https://explorer.arc.io/address/0x053f9160FC1997540F6c1A3dc75E5D6677e9aA4E
+  address internal constant SVR_LINK__USD = 0x053f9160FC1997540F6c1A3dc75E5D6677e9aA4E;
+
+  // https://explorer.arc.io/address/0xD37600AB06758356F0f5eE607299204785bF8c3a
+  address internal constant SVR_LINK__USD_BASE = 0xD37600AB06758356F0f5eE607299204785bF8c3a;
+
+  // https://explorer.arc.io/address/0xe6382D7e5203E97C5e4c58f04506Ca1CCd0e2e22
+  address internal constant SVR_UNI__USD = 0xe6382D7e5203E97C5e4c58f04506Ca1CCd0e2e22;
+
+  // https://explorer.arc.io/address/0x1CF4Ab7f18f42e4Aedb34475b9FF067Ad19698A9
+  address internal constant SVR_UNI__USD_BASE = 0x1CF4Ab7f18f42e4Aedb34475b9FF067Ad19698A9;
+
+  // https://explorer.arc.io/address/0x2aB5ae572e9db5E653Ee98c3DdaDdC37A737Fb63
+  address internal constant SUSDAI__USDAI_Exchange_Rate =
+    0x2aB5ae572e9db5E653Ee98c3DdaDdC37A737Fb63;
+
   // https://explorer.arc.io/address/0x71B0305ACA6A29d6485f9e4ac5a333af5Df2b62c
   address internal constant SVR_EURC__USD = 0x71B0305ACA6A29d6485f9e4ac5a333af5Df2b62c;
 
   // https://explorer.arc.io/address/0x361b95c10b76Ca3f35C686d423e43A951755Bf23
   address internal constant SVR_EURC__USD_BASE = 0x361b95c10b76Ca3f35C686d423e43A951755Bf23;
+
+  // https://explorer.arc.io/address/0x1702C284E0bE388C877FAFB791A0B4f029088617
+  address internal constant SVR_PAXG__USD = 0x1702C284E0bE388C877FAFB791A0B4f029088617;
+
+  // https://explorer.arc.io/address/0xD7a3C3E82867e606f21A1fEa9b38cF4f34B96D2a
+  address internal constant SVR_PAXG__USD_BASE = 0xD7a3C3E82867e606f21A1fEa9b38cF4f34B96D2a;
+
+  // https://explorer.arc.io/address/0x46c87ABb22510DE522121BE80adbB0Ca05Fb14E4
+  address internal constant SYRUPUSDC__USDC_Exchange_Rate =
+    0x46c87ABb22510DE522121BE80adbB0Ca05Fb14E4;
 }

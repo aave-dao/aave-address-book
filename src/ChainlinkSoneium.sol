@@ -26,12 +26,6 @@ library ChainlinkSoneium {
   // https://soneium.blockscout.com/address/0x75196350e8F9Ffa8e6a917E3C6E073D24F458781
   address internal constant WBTC__USD = 0x75196350e8F9Ffa8e6a917E3C6E073D24F458781;
 
-  // https://soneium.blockscout.com/address/0x2580FA33f9dfD9D26F1aC418E09113f3E9c316c2
-  address internal constant Calculated_wstASTR__USD = 0x2580FA33f9dfD9D26F1aC418E09113f3E9c316c2;
-
-  // https://soneium.blockscout.com/address/0x316DefA0f4BA9567aF55E66212e66b4fD6646eEE
-  address internal constant USR__USD = 0x316DefA0f4BA9567aF55E66212e66b4fD6646eEE;
-
   // https://soneium.blockscout.com/address/0x877654fE4da2FC54453a212aac601247b2A1B786
   address internal constant USR_USD_Exchange_Rate = 0x877654fE4da2FC54453a212aac601247b2A1B786;
 
@@ -66,6 +60,9 @@ library ChainlinkSoneium {
 
   // https://soneium.blockscout.com/address/0x931602D8758E7A891Dce57A31c2A23A98931Fe1c
   address internal constant stETH__ETH = 0x931602D8758E7A891Dce57A31c2A23A98931Fe1c;
+
+  // https://soneium.blockscout.com/address/0x6B35cfA2ff5E3e617D080d8Af4d773C9D744dB6C
+  address internal constant USDC__USD_TEST_CAPPED = 0x6B35cfA2ff5E3e617D080d8Af4d773C9D744dB6C;
 
   // https://soneium.blockscout.com/address/0x42237D7d96A4178bB22498bb3B2C689D502DE847
   address internal constant xSolvBTC_NAV = 0x42237D7d96A4178bB22498bb3B2C689D502DE847;
