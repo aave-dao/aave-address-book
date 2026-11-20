@@ -3,15 +3,15 @@
 pragma solidity >=0.6.0;
 
 library ChainlinkZkSync {
+  // https://explorer.zksync.io/address/0x6939a4D826A78ad8Df7810A63bA2D6B3bdAA6778
+  address internal constant USDC__USD_TEST_CAPPED = 0x6939a4D826A78ad8Df7810A63bA2D6B3bdAA6778;
+
   // https://explorer.zksync.io/address/0x11353117EB9cd5179Bb7F54BB22d8274dc4f1db7
   address internal constant USD1__USD = 0x11353117EB9cd5179Bb7F54BB22d8274dc4f1db7;
 
   // https://explorer.zksync.io/address/0x2CfAb79113c81ebD672bC77c5B88Fc803b64cA77
   address internal constant Real_Final_Sales_to_Private_Domestic_Purchasers_Level =
     0x2CfAb79113c81ebD672bC77c5B88Fc803b64cA77;
-
-  // https://explorer.zksync.io/address/0x600E54Fc4cF6148Cd6696A3D37F5f672829BF7C2
-  address internal constant ezETH__ETH = 0x600E54Fc4cF6148Cd6696A3D37F5f672829BF7C2;
 
   // https://explorer.zksync.io/address/0x6E2Eb2F1E5d31Db83B6982a3E753F8615565fD1f
   address internal constant PCE_Price_Index_Percent_Change_Annual_Rate =
@@ -44,14 +44,14 @@ library ChainlinkZkSync {
   // https://explorer.zksync.io/address/0x7e161604Da57DF30bbC9f0C166e8163fB9147a7a
   address internal constant xSolvBTC_NAV = 0x7e161604Da57DF30bbC9f0C166e8163fB9147a7a;
 
+  // https://explorer.zksync.io/address/0x1824D297C6d6D311A204495277B63e943C2D376E
+  address internal constant USDC__USD = 0x1824D297C6d6D311A204495277B63e943C2D376E;
+
   // https://explorer.zksync.io/address/0x8D3184a992f93729b249407C33F1e78abE0d650e
   address internal constant weETH__eETH_Exchange_Rate = 0x8D3184a992f93729b249407C33F1e78abE0d650e;
 
   // https://explorer.zksync.io/address/0x97920183c36B022B46D6C14b9dA36c5f31A98C6A
   address internal constant sUSDe__USDe_Exchange_Rate = 0x97920183c36B022B46D6C14b9dA36c5f31A98C6A;
-
-  // https://explorer.zksync.io/address/0x1824D297C6d6D311A204495277B63e943C2D376E
-  address internal constant USDC__USD = 0x1824D297C6d6D311A204495277B63e943C2D376E;
 
   // https://explorer.zksync.io/address/0x43b29AF5d5527ebe35c4788810D11BdbA9205669
   address
@@ -66,12 +66,6 @@ library ChainlinkZkSync {
 
   // https://explorer.zksync.io/address/0x92c2ed09B096470DF40973231Dac5aC987F9b8F9
   address internal constant rswETH__ETH_Exchange_Rate = 0x92c2ed09B096470DF40973231Dac5aC987F9b8F9;
-
-  // https://explorer.zksync.io/address/0x20Af81052722DbE38792e595De231C41F4D3255B
-  address internal constant MELANIA__USD = 0x20Af81052722DbE38792e595De231C41F4D3255B;
-
-  // https://explorer.zksync.io/address/0x5d336664b5D7A332Cd256Bf68CbF2270C6202fc6
-  address internal constant DAI__USD = 0x5d336664b5D7A332Cd256Bf68CbF2270C6202fc6;
 
   // https://explorer.zksync.io/address/0x372A10990183E99FB29D4905b71f807ca5474827
   address internal constant Real_GDP_Level = 0x372A10990183E99FB29D4905b71f807ca5474827;
@@ -100,9 +94,6 @@ library ChainlinkZkSync {
   // https://explorer.zksync.io/address/0x960eA047617cfB29AFcf2Ef6794C76713ff0C20C
   address internal constant TRUMP__USD = 0x960eA047617cfB29AFcf2Ef6794C76713ff0C20C;
 
-  // https://explorer.zksync.io/address/0xB615075979AE1836B476F651f1eB79f0Cd3956a9
-  address internal constant USDT__USD = 0xB615075979AE1836B476F651f1eB79f0Cd3956a9;
-
   // https://explorer.zksync.io/address/0x7024c64Ad30Ebf224e417CfDE4438606d2b9B690
   address internal constant rsETH__ETH_Exchange_Rate = 0x7024c64Ad30Ebf224e417CfDE4438606d2b9B690;
 
@@ -112,4 +103,7 @@ library ChainlinkZkSync {
   // https://explorer.zksync.io/address/0x1B242BEfc3008E8590Fc7aca27C74592CdEce6e3
   address internal constant AAVE_Network_Emergency_Count_ZKSync =
     0x1B242BEfc3008E8590Fc7aca27C74592CdEce6e3;
+
+  // https://explorer.zksync.io/address/0xB615075979AE1836B476F651f1eB79f0Cd3956a9
+  address internal constant USDT__USD = 0xB615075979AE1836B476F651f1eB79f0Cd3956a9;
 }

@@ -10,11 +10,8 @@ library ChainlinkSonic {
   address internal constant Fraxtal_sdUSD_DUSD_Exchange_Rate =
     0x4a61dB12d0Cb4293d799ecdD82e5994B5746f850;
 
-  // https://sonicscan.org/address/0x1654Df3d2543717534eE1c38eb9aF5F0407Ec708
-  address internal constant DAI__USD = 0x1654Df3d2543717534eE1c38eb9aF5F0407Ec708;
-
-  // https://sonicscan.org/address/0xc9541134848f525f8eaEA262599a1668A3a9b6eD
-  address internal constant mooBIFI__USD = 0xc9541134848f525f8eaEA262599a1668A3a9b6eD;
+  // https://sonicscan.org/address/0x76F4C040A792aFB7F6dBadC7e30ca3EEa140D216
+  address internal constant USDT__USD = 0x76F4C040A792aFB7F6dBadC7e30ca3EEa140D216;
 
   // https://sonicscan.org/address/0xECB564e91f620fBFb59d0C4A41d7f10aDb0D1934
   address internal constant AAVE_Network_Emergency_Count_Sonic =
@@ -29,11 +26,11 @@ library ChainlinkSonic {
   // https://sonicscan.org/address/0x26e450ca14D7bF598C89f212010c691434486119
   address internal constant LINK__USD = 0x26e450ca14D7bF598C89f212010c691434486119;
 
-  // https://sonicscan.org/address/0xA63b1614D17536C22fDB4c1a58023E35d08Cccef
-  address internal constant LBTC__BTC = 0xA63b1614D17536C22fDB4c1a58023E35d08Cccef;
-
   // https://sonicscan.org/address/0x8Bcd59Cb7eEEea8e2Da3080C891609483dae53EF
   address internal constant BTC__USD = 0x8Bcd59Cb7eEEea8e2Da3080C891609483dae53EF;
+
+  // https://sonicscan.org/address/0x8B68832c213a73dCaeC8B65a2Ef8f8eEfBE5F327
+  address internal constant USDC__USD_TEST_CAPPED = 0x8B68832c213a73dCaeC8B65a2Ef8f8eEfBE5F327;
 
   // https://sonicscan.org/address/0xe5bd703E6C4C7679e10D429D87EF4550a9fA6fF4
   address internal constant wstkscUSD__stkscUSD_Exchange_Rate =
@@ -45,6 +42,9 @@ library ChainlinkSonic {
 
   // https://sonicscan.org/address/0x61140C09956495F1ce49D28E125Ed4035e1CAE95
   address internal constant WBTC__USD = 0x61140C09956495F1ce49D28E125Ed4035e1CAE95;
+
+  // https://sonicscan.org/address/0x55bCa887199d5520B3Ce285D41e6dC10C08716C9
+  address internal constant USDC__USD = 0x55bCa887199d5520B3Ce285D41e6dC10C08716C9;
 
   // https://sonicscan.org/address/0xdA49fdf6a5606Ca7FF180a9B71928Db01a00b0a8
   address internal constant wstkscBTC__stkscBTC_Exchange_Rate =
@@ -59,9 +59,6 @@ library ChainlinkSonic {
 
   // https://sonicscan.org/address/0x824364077993847f71293B24ccA8567c00c2de11
   address internal constant ETH__USD = 0x824364077993847f71293B24ccA8567c00c2de11;
-
-  // https://sonicscan.org/address/0x55bCa887199d5520B3Ce285D41e6dC10C08716C9
-  address internal constant USDC__USD = 0x55bCa887199d5520B3Ce285D41e6dC10C08716C9;
 
   // https://sonicscan.org/address/0x15643d909F07e4083fCE3e3204F7e1A0A37D52f4
   address internal constant beS__S_Exchange_Rate = 0x15643d909F07e4083fCE3e3204F7e1A0A37D52f4;
@@ -80,9 +77,6 @@ library ChainlinkSonic {
   // https://sonicscan.org/address/0x852aE0B1Af1aAeDB0fC4428B4B24420780976ca8
   address internal constant PCE_Price_Index_Percent_Change_Annual_Rate =
     0x852aE0B1Af1aAeDB0fC4428B4B24420780976ca8;
-
-  // https://sonicscan.org/address/0xCdF021EbD115b1B225801F4056c40F4Ff14A574d
-  address internal constant solvBTC__BTC = 0xCdF021EbD115b1B225801F4056c40F4Ff14A574d;
 
   // https://sonicscan.org/address/0x419BB1910D6e13DCF8Fcd87E01C5B826493c1845
   address internal constant vyUSD__USD_Exchange_Rate = 0x419BB1910D6e13DCF8Fcd87E01C5B826493c1845;
@@ -123,9 +117,6 @@ library ChainlinkSonic {
   // https://sonicscan.org/address/0xB5882f52428d10C99BbF56539C02820dda809Ccf
   address internal constant yUSD__USD_Exchange_Rate = 0xB5882f52428d10C99BbF56539C02820dda809Ccf;
 
-  // https://sonicscan.org/address/0xd3b87e6F953B1126056b914A8CBE78035fB3E241
-  address internal constant PumpBTC__BTC_Exchange_Rate = 0xd3b87e6F953B1126056b914A8CBE78035fB3E241;
-
   // https://sonicscan.org/address/0x8f0240dc9C7644D121D370d8ee61FF9F2356521E
   address internal constant EURC__USD = 0x8f0240dc9C7644D121D370d8ee61FF9F2356521E;
 
@@ -135,15 +126,6 @@ library ChainlinkSonic {
   // https://sonicscan.org/address/0x960BDD1dFD20d7c98fa482D793C3dedD73A113a3
   address internal constant uniBTC__BTC_Exchange_Rate = 0x960BDD1dFD20d7c98fa482D793C3dedD73A113a3;
 
-  // https://sonicscan.org/address/0xfdee80dec97AF9AddcDccD208eC09d7Ea5eEbB9a
-  address internal constant ZAR__USD = 0xfdee80dec97AF9AddcDccD208eC09d7Ea5eEbB9a;
-
-  // https://sonicscan.org/address/0x76F4C040A792aFB7F6dBadC7e30ca3EEa140D216
-  address internal constant USDT__USD = 0x76F4C040A792aFB7F6dBadC7e30ca3EEa140D216;
-
   // https://sonicscan.org/address/0xEE04fA54F0aDFB6a0d7791EA8236F4BbC5d07E97
   address internal constant wOS__OS_Exchange_Rate = 0xEE04fA54F0aDFB6a0d7791EA8236F4BbC5d07E97;
-
-  // https://sonicscan.org/address/0xb00C13A3a919259D1A2F47181ECD32C3b7df8636
-  address internal constant Calculated_stS__USD = 0xb00C13A3a919259D1A2F47181ECD32C3b7df8636;
 }

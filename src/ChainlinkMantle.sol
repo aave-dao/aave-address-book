@@ -3,6 +3,9 @@
 pragma solidity >=0.6.0;
 
 library ChainlinkMantle {
+  // https://mantlescan.xyz/address/0x9Eb902C11A3999d8537A68D083c4B6db4b265adA
+  address internal constant WRSETH__ETH_Exchange_Rate = 0x9Eb902C11A3999d8537A68D083c4B6db4b265adA;
+
   // https://mantlescan.xyz/address/0x2D787621f9C635ADe313126dF7615c02bff35517
   address internal constant FBTC__BTC_Exchange_Rate = 0x2D787621f9C635ADe313126dF7615c02bff35517;
 
@@ -13,15 +16,18 @@ library ChainlinkMantle {
   address internal constant L2_Sequencer_Uptime_Status_Feed =
     0xaDE1b9AbB98c6A542E4B49db2588a3Ec4bF7Cdf0;
 
+  // https://mantlescan.xyz/address/0xd645567129C54D549826faA06340448a2Cc6A3Bf
+  address internal constant EUR__USD = 0xd645567129C54D549826faA06340448a2Cc6A3Bf;
+
   // https://mantlescan.xyz/address/0x5bc7Cf88EB131DB18b5d7930e793095140799aD5
   address internal constant ETH__USD = 0x5bc7Cf88EB131DB18b5d7930e793095140799aD5;
-
-  // https://mantlescan.xyz/address/0x22b422CECb0D4Bd5afF3EA999b048FA17F5263bD
-  address internal constant USDC__USD = 0x22b422CECb0D4Bd5afF3EA999b048FA17F5263bD;
 
   // https://mantlescan.xyz/address/0x8A6D34330E8F61364a62899fD0a8F4C4021e3296
   address internal constant Real_GDP_Percent_Change_Annual_Rate =
     0x8A6D34330E8F61364a62899fD0a8F4C4021e3296;
+
+  // https://mantlescan.xyz/address/0x23A1105fd2C26BCc9EA691725Bbda3f5F1bC0b78
+  address internal constant XAU__USD = 0x23A1105fd2C26BCc9EA691725Bbda3f5F1bC0b78;
 
   // https://mantlescan.xyz/address/0x5871AdBEEdAD531C68A8FD32fE86f07d6b4C645d
   address internal constant LINK__USD = 0x5871AdBEEdAD531C68A8FD32fE86f07d6b4C645d;
@@ -38,8 +44,11 @@ library ChainlinkMantle {
   // https://mantlescan.xyz/address/0x5fc69E6bA39D9150D41B4FFBDa3Deb1b9Bd4611A
   address internal constant Real_GDP_Level = 0x5fc69E6bA39D9150D41B4FFBDa3Deb1b9Bd4611A;
 
-  // https://mantlescan.xyz/address/0x02959651ED50f9866BF39D29884dF245D03FdC51
-  address internal constant Calculated_cmETH__ETH = 0x02959651ED50f9866BF39D29884dF245D03FdC51;
+  // https://mantlescan.xyz/address/0xd86048D5e4fe96157CE03Ae519A9045bEDaa6551
+  address internal constant USDT__USD = 0xd86048D5e4fe96157CE03Ae519A9045bEDaa6551;
+
+  // https://mantlescan.xyz/address/0x7B08bBa122baa24Ef4b1c7F72237d7fc0d343543
+  address internal constant METH__ETH_Exchange_Rate = 0x7B08bBa122baa24Ef4b1c7F72237d7fc0d343543;
 
   // https://mantlescan.xyz/address/0xdDEaeAdF319bd363120Af02fBdb1e2C5A3Ce172a
   address internal constant SYRUPUSDT__USDT_Exchange_Rate =
@@ -49,18 +58,21 @@ library ChainlinkMantle {
   address internal constant SYRUPUSDC__USDC_Exchange_Rate =
     0xA6B6A4E844126b8a44Ab6564b3A65048217cB58C;
 
-  // https://mantlescan.xyz/address/0x80C42686a5F953d3c629cb5a35BCC86B1Ddd21e3
-  address internal constant Calculated_cmETH__USD = 0x80C42686a5F953d3c629cb5a35BCC86B1Ddd21e3;
-
   // https://mantlescan.xyz/address/0xAa7B3679db156d3773620eBce98E38Cd87544C0e
   address internal constant RSETH__ETH_Exchange_Rate = 0xAa7B3679db156d3773620eBce98E38Cd87544C0e;
 
-  // https://mantlescan.xyz/address/0x73b15e19b247263D03D7938f1356304b7B330Ff0
-  address internal constant Calculated_FBTC__USD = 0x73b15e19b247263D03D7938f1356304b7B330Ff0;
+  // https://mantlescan.xyz/address/0x03fc4C004F8Ac9047860Dd9eC0c087eD5326dBE1
+  address internal constant SGD__USD = 0x03fc4C004F8Ac9047860Dd9eC0c087eD5326dBE1;
+
+  // https://mantlescan.xyz/address/0x5a40c0E0b7763851E41a606456781DC2130FFd03
+  address internal constant CNY__USD = 0x5a40c0E0b7763851E41a606456781DC2130FFd03;
 
   // https://mantlescan.xyz/address/0x4F923DaC0871d29E6147C27Fb7f53bEf13267E31
   address internal constant Real_Final_Sales_to_Private_Domestic_Purchasers_Level =
     0x4F923DaC0871d29E6147C27Fb7f53bEf13267E31;
+
+  // https://mantlescan.xyz/address/0x70AB7A0cf78A3dECaF372Fe9cfb0dF2224ce396d
+  address internal constant JPY__USD = 0x70AB7A0cf78A3dECaF372Fe9cfb0dF2224ce396d;
 
   // https://mantlescan.xyz/address/0x1D28137b7695d1Dcd122E5Bf0ce7eE92360e83b7
   address internal constant SUSDE__USDE_Exchange_Rate = 0x1D28137b7695d1Dcd122E5Bf0ce7eE92360e83b7;
@@ -80,8 +92,14 @@ library ChainlinkMantle {
   // https://mantlescan.xyz/address/0x6d5110FB8F6a65c46B89a64C9ac7E3542D31AbA3
   address internal constant sUSDe__USD = 0x6d5110FB8F6a65c46B89a64C9ac7E3542D31AbA3;
 
+  // https://mantlescan.xyz/address/0x75f10Cb45612FBfB6500706e63EABBDBf143AB15
+  address internal constant CHF__USD = 0x75f10Cb45612FBfB6500706e63EABBDBf143AB15;
+
   // https://mantlescan.xyz/address/0x7db2275279F52D0914A481e14c4Ce5a59705A25b
   address internal constant BTC__USD = 0x7db2275279F52D0914A481e14c4Ce5a59705A25b;
+
+  // https://mantlescan.xyz/address/0x22b422CECb0D4Bd5afF3EA999b048FA17F5263bD
+  address internal constant USDC__USD = 0x22b422CECb0D4Bd5afF3EA999b048FA17F5263bD;
 
   // https://mantlescan.xyz/address/0x01dd982820B7c25e2A9C77BDd3bC0eDA90298A2F
   address internal constant USD1__USD = 0x01dd982820B7c25e2A9C77BDd3bC0eDA90298A2F;
@@ -89,6 +107,6 @@ library ChainlinkMantle {
   // https://mantlescan.xyz/address/0xD97F20bEbeD74e8144134C4b148fE93417dd0F96
   address internal constant MNT__USD = 0xD97F20bEbeD74e8144134C4b148fE93417dd0F96;
 
-  // https://mantlescan.xyz/address/0xd86048D5e4fe96157CE03Ae519A9045bEDaa6551
-  address internal constant USDT__USD = 0xd86048D5e4fe96157CE03Ae519A9045bEDaa6551;
+  // https://mantlescan.xyz/address/0xC3A38144D810cDcC61d36D2765245ba73aBF6897
+  address internal constant HKD__USD = 0xC3A38144D810cDcC61d36D2765245ba73aBF6897;
 }

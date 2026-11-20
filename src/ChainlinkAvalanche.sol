@@ -6,14 +6,14 @@ library ChainlinkAvalanche {
   // https://snowscan.xyz/address/0xebEfEAA58636DF9B20a4fAd78Fad8759e6A20e87
   address internal constant WBTCe_Proof_of_Reserves = 0xebEfEAA58636DF9B20a4fAd78Fad8759e6A20e87;
 
+  // https://snowscan.xyz/address/0xEBE676ee90Fe1112671f19b6B7459bC678B67e8a
+  address internal constant USDT__USD = 0xEBE676ee90Fe1112671f19b6B7459bC678B67e8a;
+
   // https://snowscan.xyz/address/0x735f816f63890c6E9FF28484E2d257e9c5dc4788
   address internal constant YETH_ETH_Exchange_Rate = 0x735f816f63890c6E9FF28484E2d257e9c5dc4788;
 
   // https://snowscan.xyz/address/0x0A6fd6F735faCD3Cdb1D5aE1c74ebd54a4fc3CCf
   address internal constant GLV_AVAX_USDC___USD = 0x0A6fd6F735faCD3Cdb1D5aE1c74ebd54a4fc3CCf;
-
-  // https://snowscan.xyz/address/0x6f2A1D4014FED967172FC7caCf7a6e04Cf02752e
-  address internal constant SAND__USD = 0x6f2A1D4014FED967172FC7caCf7a6e04Cf02752e;
 
   // https://snowscan.xyz/address/0x1ff75B09dC8B749252F46ec482c8a4700Eb6C644
   address internal constant savUSD_vUSD_Exchange_Rate = 0x1ff75B09dC8B749252F46ec482c8a4700Eb6C644;
@@ -33,11 +33,18 @@ library ChainlinkAvalanche {
   // https://snowscan.xyz/address/0x52F8026423B5E04FdD9E4b5725B68230b71D019b
   address internal constant CVX__USD = 0x52F8026423B5E04FdD9E4b5725B68230b71D019b;
 
+  // https://snowscan.xyz/address/0x42677eec284D594A8d99aE102Cc7Fd9Aaf8f4D2d
+  address internal constant KRW__USD = 0x42677eec284D594A8d99aE102Cc7Fd9Aaf8f4D2d;
+
   // https://snowscan.xyz/address/0x1f9789982b7c72FFFa1874f0017F7de9BBdA0901
   address internal constant WSRUSD__RUSD_Exchange_Rate = 0x1f9789982b7c72FFFa1874f0017F7de9BBdA0901;
 
   // https://snowscan.xyz/address/0xA5ecED13b233BcF5c58BFbada5247d5B2893cB9a
   address internal constant Exchange_Rate_ggAVAX__AVAX = 0xA5ecED13b233BcF5c58BFbada5247d5B2893cB9a;
+
+  // https://snowscan.xyz/address/0x9072cdc167f73a5F488ba5F83307040a678f5881
+  address internal constant HASTRAAUTO__WYLDS_Exchange_Rate =
+    0x9072cdc167f73a5F488ba5F83307040a678f5881;
 
   // https://snowscan.xyz/address/0x976D7fAc81A49FA71EF20694a3C56B9eFB93c30B
   address internal constant DAIe_Proof_of_Reserves = 0x976D7fAc81A49FA71EF20694a3C56B9eFB93c30B;
@@ -57,18 +64,12 @@ library ChainlinkAvalanche {
   // https://snowscan.xyz/address/0xc79a363a3f849d8b3F6A1932f748eA9d4fB2f607
   address internal constant Re_Offchain_Reserves = 0xc79a363a3f849d8b3F6A1932f748eA9d4fB2f607;
 
-  // https://snowscan.xyz/address/0xfAa665F5a0e13beea63b6DfF601DD634959690Df
-  address internal constant WOO__ETH = 0xfAa665F5a0e13beea63b6DfF601DD634959690Df;
-
   // https://snowscan.xyz/address/0xA418573AB5226711c8564Eeb449c3618ABFaf677
   address internal constant CHF__USD = 0xA418573AB5226711c8564Eeb449c3618ABFaf677;
 
   // https://snowscan.xyz/address/0x41185495Bc8297a65DC46f94001DC7233775EbEe
   address internal constant AAVE_Network_Emergency_Count_Avalanche =
     0x41185495Bc8297a65DC46f94001DC7233775EbEe;
-
-  // https://snowscan.xyz/address/0x9df2195dc96e6Ef983B1aAC275649F3f28F82Aa1
-  address internal constant KNC__USD = 0x9df2195dc96e6Ef983B1aAC275649F3f28F82Aa1;
 
   // https://snowscan.xyz/address/0x05950959B6d876ae0fed1BBe5Caa2d74d8659D59
   address internal constant SGD__USD = 0x05950959B6d876ae0fed1BBe5Caa2d74d8659D59;
@@ -112,8 +113,15 @@ library ChainlinkAvalanche {
   // https://snowscan.xyz/address/0x02D35d3a8aC3e1626d3eE09A78Dd87286F5E8e3a
   address internal constant JOE__USD = 0x02D35d3a8aC3e1626d3eE09A78Dd87286F5E8e3a;
 
+  // https://snowscan.xyz/address/0x526aD3cb43a49C7cfD229708b11456d7C9c6D9eA
+  address internal constant HINC_NAV = 0x526aD3cb43a49C7cfD229708b11456d7C9c6D9eA;
+
   // https://snowscan.xyz/address/0xd604e3c218d567b648Cd4B81cCd7Dddb56696331
   address internal constant WSTLINK_LINK_Exchange_Rate = 0xd604e3c218d567b648Cd4B81cCd7Dddb56696331;
+
+  // https://snowscan.xyz/address/0x430425ff4DE2A3612faBcdFE1a87F40C9dc5126B
+  address internal constant PST_USDC_Exchange_Rate_Calculated =
+    0x430425ff4DE2A3612faBcdFE1a87F40C9dc5126B;
 
   // https://snowscan.xyz/address/0x943cEF1B112Ca9FD7EDaDC9A46477d3812a382b6
   address internal constant LINKe_Proof_of_Reserves = 0x943cEF1B112Ca9FD7EDaDC9A46477d3812a382b6;
@@ -121,9 +129,6 @@ library ChainlinkAvalanche {
   // https://snowscan.xyz/address/0x982057Fd0A53d52E558A722ba53Ad95E702Da0dF
   address internal constant Real_Final_Sales_to_Private_Domestic_Purchasers_Level =
     0x982057Fd0A53d52E558A722ba53Ad95E702Da0dF;
-
-  // https://snowscan.xyz/address/0xF096872672F44d6EBA71458D74fe67F9a77a23B9
-  address internal constant USDC__USD = 0xF096872672F44d6EBA71458D74fe67F9a77a23B9;
 
   // https://snowscan.xyz/address/0x1b8a25F73c9420dD507406C3A3816A276b62f56a
   address internal constant LINK__AVAX = 0x1b8a25F73c9420dD507406C3A3816A276b62f56a;
@@ -137,20 +142,17 @@ library ChainlinkAvalanche {
   // https://snowscan.xyz/address/0x545d17579D0F7b422Cd647B9E6a6FA4b45F6e1C5
   address internal constant CZK__USD = 0x545d17579D0F7b422Cd647B9E6a6FA4b45F6e1C5;
 
-  // https://snowscan.xyz/address/0x3427232b88Ce4e7d62A03289247eE0cA5324f6ba
-  address internal constant BEAM__USD = 0x3427232b88Ce4e7d62A03289247eE0cA5324f6ba;
-
   // https://snowscan.xyz/address/0xB5f607A2bb2C950053F4DA1F535180e5902EAD16
   address internal constant WSTETH__USD = 0xB5f607A2bb2C950053F4DA1F535180e5902EAD16;
 
   // https://snowscan.xyz/address/0x7B0e7d292d414788B080EfCa58b04B6372789639
   address internal constant POL__USD = 0x7B0e7d292d414788B080EfCa58b04B6372789639;
 
-  // https://snowscan.xyz/address/0x4F3ddF9378a4865cf4f28BE51E10AECb83B7daeE
-  address internal constant SPELL__USD = 0x4F3ddF9378a4865cf4f28BE51E10AECb83B7daeE;
-
   // https://snowscan.xyz/address/0xA61bF273688Ea095b5e4c11f1AF5E763F7aEEE91
   address internal constant TRY__USD = 0xA61bF273688Ea095b5e4c11f1AF5E763F7aEEE91;
+
+  // https://snowscan.xyz/address/0xaaac35A8E89aB5708B7310aBEe44796e09A9e104
+  address internal constant Lombard_BTCb_Reserves = 0xaaac35A8E89aB5708B7310aBEe44796e09A9e104;
 
   // https://snowscan.xyz/address/0x84FF93CAD57DcD39b21895171D30A7A0e7851C75
   address internal constant wstETH_stETH_Exchange_Rate = 0x84FF93CAD57DcD39b21895171D30A7A0e7851C75;
@@ -158,10 +160,6 @@ library ChainlinkAvalanche {
   // https://snowscan.xyz/address/0x908C8195E085b3290d335014B94E6F1C886a889F
   address internal constant SYRUPUSDT__USD_Exchange_Rate =
     0x908C8195E085b3290d335014B94E6F1C886a889F;
-
-  // https://snowscan.xyz/address/0xfD2b540D6c147D0889A1F1B97a2A9aB694992677
-  address internal constant fsBTC_Frictionless_Bitcoin_Treasury_Fund_Reserves =
-    0xfD2b540D6c147D0889A1F1B97a2A9aB694992677;
 
   // https://snowscan.xyz/address/0xc0990e0989141a5F535a2a24b6Af65618CC83d32
   address internal constant SolvBTCBBN__SolvBTC_Exchange_Rate =
@@ -188,11 +186,11 @@ library ChainlinkAvalanche {
   // https://snowscan.xyz/address/0x32543Ad9dDAC8f883eE4d3c0a21a24E095A9E1B0
   address internal constant XCU__USD = 0x32543Ad9dDAC8f883eE4d3c0a21a24E095A9E1B0;
 
-  // https://snowscan.xyz/address/0x0AB119EB3f6820BA43c345e9aAbF1e3dE3C09Ce4
-  address internal constant Ion_Digital_Total_Reserve = 0x0AB119EB3f6820BA43c345e9aAbF1e3dE3C09Ce4;
-
   // https://snowscan.xyz/address/0x51D7180edA2260cc4F6e4EebB82FEF5c3c2B8300
   address internal constant DAI__USD = 0x51D7180edA2260cc4F6e4EebB82FEF5c3c2B8300;
+
+  // https://snowscan.xyz/address/0x70F88d3083FC1CA357f1efAF89F2F53281e09f5b
+  address internal constant XCU__USD_xcu_usd_new = 0x70F88d3083FC1CA357f1efAF89F2F53281e09f5b;
 
   // https://snowscan.xyz/address/0x49ccd9ca821EfEab2b98c60dC60F518E765EDe9a
   address internal constant LINK__USD = 0x49ccd9ca821EfEab2b98c60dC60F518E765EDe9a;
@@ -200,8 +198,8 @@ library ChainlinkAvalanche {
   // https://snowscan.xyz/address/0x976B3D034E162d8bD72D6b9C989d545b839003b0
   address internal constant ETH__USD = 0x976B3D034E162d8bD72D6b9C989d545b839003b0;
 
-  // https://snowscan.xyz/address/0xc43861646Cdc051D04CA0c9dF2265FFcFa0dF6f3
-  address internal constant MATICX__USD_Calculated = 0xc43861646Cdc051D04CA0c9dF2265FFcFa0dF6f3;
+  // https://snowscan.xyz/address/0xF096872672F44d6EBA71458D74fe67F9a77a23B9
+  address internal constant USDC__USD = 0xF096872672F44d6EBA71458D74fe67F9a77a23B9;
 
   // https://snowscan.xyz/address/0xC63eD21bb4577Ff5a762591c73D4b0BCCfAD7AEb
   address internal constant syrupUSDC_USDC_Exchange_Rate =
@@ -209,6 +207,9 @@ library ChainlinkAvalanche {
 
   // https://snowscan.xyz/address/0x962Aba596fe6842D644c51b2F112190e6B6e94B4
   address internal constant PCE_Price_Index_Level = 0x962Aba596fe6842D644c51b2F112190e6B6e94B4;
+
+  // https://snowscan.xyz/address/0x4f16bb738C589852B6E7Ce202D2ce7906C547E05
+  address internal constant MWIN_NAV = 0x4f16bb738C589852B6E7Ce202D2ce7906C547E05;
 
   // https://snowscan.xyz/address/0xD73a74314AcCb53b30cAfDA0cb61c9772B57C4a2
   address internal constant DOT__USD = 0xD73a74314AcCb53b30cAfDA0cb61c9772B57C4a2;
@@ -231,6 +232,10 @@ library ChainlinkAvalanche {
   // https://snowscan.xyz/address/0xA771e0D1e9E1eCc07C56CC38240779E54337d682
   address internal constant XAG__USD = 0xA771e0D1e9E1eCc07C56CC38240779E54337d682;
 
+  // https://snowscan.xyz/address/0xBd0b5C3A63Db7183B000b26EF8df426f9cc59e33
+  address internal constant HASTRAPRIME__WYLDS_Exchange_Rate =
+    0xBd0b5C3A63Db7183B000b26EF8df426f9cc59e33;
+
   // https://snowscan.xyz/address/0xFbAc2cBC1c0083D4edC9ce47F72F3B0D9bc67F9C
   address internal constant wstPOL_POL_Exchange_Rate = 0xFbAc2cBC1c0083D4edC9ce47F72F3B0D9bc67F9C;
 
@@ -240,14 +245,8 @@ library ChainlinkAvalanche {
   // https://snowscan.xyz/address/0x9D6AA0AC8c4818433bEA7a74F49C73B57BcEC4Ec
   address internal constant COMP__USD = 0x9D6AA0AC8c4818433bEA7a74F49C73B57BcEC4Ec;
 
-  // https://snowscan.xyz/address/0x55b5dc7d7CDD5d3b2Eb189bf11140839076E5d40
-  address internal constant xSolvBTC_NAV = 0x55b5dc7d7CDD5d3b2Eb189bf11140839076E5d40;
-
   // https://snowscan.xyz/address/0x9Cf3Ef104A973b351B2c032AA6793c3A6F76b448
   address internal constant TUSD__USD = 0x9Cf3Ef104A973b351B2c032AA6793c3A6F76b448;
-
-  // https://snowscan.xyz/address/0x7f7A07FFDe2ab490dad0C0D139d6c730bbe842cC
-  address internal constant YBTCB__BTC = 0x7f7A07FFDe2ab490dad0C0D139d6c730bbe842cC;
 
   // https://snowscan.xyz/address/0xBb92195Ec95DE626346eeC8282D53e261dF95241
   address internal constant BNB__USD = 0xBb92195Ec95DE626346eeC8282D53e261dF95241;
@@ -261,11 +260,11 @@ library ChainlinkAvalanche {
   // https://snowscan.xyz/address/0x2854Ca10a54800e15A2a25cFa52567166434Ff0a
   address internal constant Calculated_SAVAX__USD = 0x2854Ca10a54800e15A2a25cFa52567166434Ff0a;
 
-  // https://snowscan.xyz/address/0x774f067083f23cAB866310489419C884a6Dc00a8
-  address internal constant MANA__USD = 0x774f067083f23cAB866310489419C884a6Dc00a8;
-
   // https://snowscan.xyz/address/0x3CA13391E9fb38a75330fb28f8cc2eB3D9ceceED
   address internal constant AAVE__USD = 0x3CA13391E9fb38a75330fb28f8cc2eB3D9ceceED;
+
+  // https://snowscan.xyz/address/0x3f10B014b6BF51fA4a3A6a483f1D0671D9F74b45
+  address internal constant btc_usd_soak = 0x3f10B014b6BF51fA4a3A6a483f1D0671D9F74b45;
 
   // https://snowscan.xyz/address/0x28043B1Ebd41860B93EC1F1eC19560760B6dB556
   address internal constant YFI__USD = 0x28043B1Ebd41860B93EC1F1eC19560760B6dB556;
@@ -276,14 +275,14 @@ library ChainlinkAvalanche {
   // https://snowscan.xyz/address/0x0A77230d17318075983913bC2145DB16C7366156
   address internal constant AVAX__USD = 0x0A77230d17318075983913bC2145DB16C7366156;
 
+  // https://snowscan.xyz/address/0x5dF3D7a07DF29DB7330FF56FD162EB8b6E4421B4
+  address internal constant USDC__USD_TEST_CAPPED = 0x5dF3D7a07DF29DB7330FF56FD162EB8b6E4421B4;
+
   // https://snowscan.xyz/address/0x3368310bC4AeE5D96486A73bae8E6b49FcDE62D3
   address internal constant EURC__USD = 0x3368310bC4AeE5D96486A73bae8E6b49FcDE62D3;
 
   // https://snowscan.xyz/address/0x94D8c2548018C27F1aa078A23C4158206bE1CC72
   address internal constant USDTe_Proof_of_Reserves = 0x94D8c2548018C27F1aa078A23C4158206bE1CC72;
-
-  // https://snowscan.xyz/address/0xEBE676ee90Fe1112671f19b6B7459bC678B67e8a
-  address internal constant USDT__USD = 0xEBE676ee90Fe1112671f19b6B7459bC678B67e8a;
 
   // https://snowscan.xyz/address/0x7CF8A6090A9053B01F3DF4D4e6CfEdd8c90d9027
   address internal constant CRV__USD = 0x7CF8A6090A9053B01F3DF4D4e6CfEdd8c90d9027;
@@ -300,6 +299,10 @@ library ChainlinkAvalanche {
 
   // https://snowscan.xyz/address/0x63769951E4cfDbDC653dD9BBde63D2Ce0746e5F2
   address internal constant USDCe_Proof_of_Reserves = 0x63769951E4cfDbDC653dD9BBde63D2Ce0746e5F2;
+
+  // https://snowscan.xyz/address/0x6C5AF5D7fd38c4C1E810a496F5B15e87BBfed135
+  address internal constant HASTRASMB__WYLDS_Exchange_Rate =
+    0x6C5AF5D7fd38c4C1E810a496F5B15e87BBfed135;
 
   // https://snowscan.xyz/address/0xC4D7270aCc921DE5A17452437257f075C1298eB3
   address internal constant CHZ__USD = 0xC4D7270aCc921DE5A17452437257f075C1298eB3;
