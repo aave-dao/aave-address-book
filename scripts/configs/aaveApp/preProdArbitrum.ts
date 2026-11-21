@@ -1,0 +1,29 @@
+import {ChainId} from '@aave-dao/toolbox';
+import {AaveAppAddresses, AaveAppChainKind} from 'scripts/configs/types';
+
+// Source: https://github.com/aave/stable-vault deployments/preprod/accounting.json and config/deployment-config.preprod.jsonc
+export const aaveAppPreProdArbitrum: AaveAppAddresses = {
+  name: 'PreProdArbitrum',
+  chainId: ChainId.arbitrum,
+  chainKind: AaveAppChainKind.Accounting,
+  addresses: {
+    ACCESS_MANAGER: '0x0cA5A1F7F75C3F3294769C2B87a01E512e5e920B',
+    TRANSFER_HELPER: '0x2f2C74890958f6C850d931E902e7bBb80750bA09',
+    POLICY_REGISTRY: '0x52Ce0f80E1E30999787de2F2B8019D35cae2A31e',
+    ASSET_REGISTRY: '0xb8Ef31efe7B2cb126A3c66b06D2F36272Bf53a81',
+    PRICE_ORACLE: '0xfAA61Fe73Cc9f8Cd023cBd5F1ec7d41BF3b29Dcb',
+    ALLOCATOR: '0x5Df7EdfeBae44DA66B2302a9a7934B1E178988f1',
+    SWAPPER: '0xF102Beb20006B3bE080B4254e8f6fd544171f91f',
+    CCIP_ADAPTER: '0xDE5D9572aEa59fab25100920093b5D233A9c1A18',
+    ADI_ADAPTER: '0xaA9269672489e9D39fb11d8e9717681c23Da8696',
+    REBALANCER_MULTICALL: '0x3fb05A739e391eb9ab57C6393373AD486A97169D',
+    DISABLER_MULTICALL: '0x18820b8BCE5945dD3EEE6B6dD3082AE0F3e6003F',
+    STABLE_VAULT: '0xD7609570EB7F2a02Bb80a16521eFB2e0708f5dDf',
+    ACCOUNTING_CHAIN_GATEWAY: '0x8738690b2900f6097F4BE466638281b6613A8695',
+    CHAIN_BALANCE_ORACLE: '0xBd136C970050475908f8D7D9F71bFC5BeeBf2b81',
+    // governance anchors
+    MAIN_ADMIN: '0x3641e760fCB45cCC6eF1f8a40f9c6048e719C6a5',
+    SECONDARY_ADMIN: '0x1eD5a8f85b4381F7Ef151890aeeD6fD3dCD32093',
+  },
+  earningChains: {ETHEREUM: ChainId.mainnet},
+};
