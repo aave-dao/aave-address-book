@@ -19414,6 +19414,15 @@
     },
     "0xC27a4d7AC0623B129919786d88714eF16132BEaE": {
       "name": "FlashLoanLogic"
+    },
+    "0xCcE4d712CA51098e89F26f79F114132942DE9134": {
+      "name": "OneUSDFixedAdapter"
+    },
+    "0x653F2541E7d51a846e92fA6F7866bA92e465a379": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x9A5926fd88F747c357738b1e82aFB46AB80f0A6b": {
+      "name": "TransparentUpgradeableProxy"
     }
   },
   "57073": {
