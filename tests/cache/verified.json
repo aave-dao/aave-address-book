@@ -19957,6 +19957,15 @@
     },
     "0x6C5AF5D7fd38c4C1E810a496F5B15e87BBfed135": {
       "name": "EACAggregatorProxy"
+    },
+    "0xCcE4d712CA51098e89F26f79F114132942DE9134": {
+      "name": "OneUSDFixedAdapter"
+    },
+    "0x653F2541E7d51a846e92fA6F7866bA92e465a379": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x9A5926fd88F747c357738b1e82aFB46AB80f0A6b": {
+      "name": "TransparentUpgradeableProxy"
     }
   },
   "57073": {

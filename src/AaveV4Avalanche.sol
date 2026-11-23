@@ -107,6 +107,9 @@ library AaveV4AvalancheSpokePriceFeeds {
   // https://snowscan.xyz/address/0x3368310bC4AeE5D96486A73bae8E6b49FcDE62D3
   address internal constant MAIN_SPOKE_EURC_PRICE_FEED = 0x3368310bC4AeE5D96486A73bae8E6b49FcDE62D3;
 
+  // https://snowscan.xyz/address/0xCcE4d712CA51098e89F26f79F114132942DE9134
+  address internal constant MAIN_SPOKE_USAT_PRICE_FEED = 0xCcE4d712CA51098e89F26f79F114132942DE9134;
+
   // https://snowscan.xyz/address/0x3368310bC4AeE5D96486A73bae8E6b49FcDE62D3
   address internal constant FOREX_SPOKE_EURC_PRICE_FEED =
     0x3368310bC4AeE5D96486A73bae8E6b49FcDE62D3;
@@ -138,6 +141,10 @@ library AaveV4AvalancheSpokePriceFeeds {
   // https://snowscan.xyz/address/0xb0D7A8bbDcdb1203850b742bB4d7f57a1F1C8483
   address internal constant ETHENA_ECOSYSTEM_SPOKE_USDC_PRICE_FEED =
     0xb0D7A8bbDcdb1203850b742bB4d7f57a1F1C8483;
+
+  // https://snowscan.xyz/address/0xCcE4d712CA51098e89F26f79F114132942DE9134
+  address internal constant ETHENA_ECOSYSTEM_SPOKE_USAT_PRICE_FEED =
+    0xCcE4d712CA51098e89F26f79F114132942DE9134;
 }
 library AaveV4AvalancheTokenizationSpokes {
   // https://snowscan.xyz/address/0x1604D602f8A05CBA2d8Ff5d14DE4C3498f15B6B4
@@ -167,6 +174,10 @@ library AaveV4AvalancheTokenizationSpokes {
   // https://snowscan.xyz/address/0x6c27A7435040B7cC512319d5690BeEF234dfE76e
   ITokenizationSpoke internal constant CORE_sAVAX_TOKENIZATION_SPOKE =
     ITokenizationSpoke(0x6c27A7435040B7cC512319d5690BeEF234dfE76e);
+
+  // https://snowscan.xyz/address/0x653F2541E7d51a846e92fA6F7866bA92e465a379
+  ITokenizationSpoke internal constant CORE_USAT_TOKENIZATION_SPOKE =
+    ITokenizationSpoke(0x653F2541E7d51a846e92fA6F7866bA92e465a379);
 }
 library AaveV4AvalancheIRStrategies {
   // https://snowscan.xyz/address/0x446eb3913b3fd3a9219A07B0f6AbE98BD0fAeed4
@@ -199,6 +210,10 @@ library AaveV4AvalancheIRStrategies {
 
   // https://snowscan.xyz/address/0x446eb3913b3fd3a9219A07B0f6AbE98BD0fAeed4
   IBasicInterestRateStrategy internal constant CORE_USDe_IR_STRATEGY =
+    IBasicInterestRateStrategy(0x446eb3913b3fd3a9219A07B0f6AbE98BD0fAeed4);
+
+  // https://snowscan.xyz/address/0x446eb3913b3fd3a9219A07B0f6AbE98BD0fAeed4
+  IBasicInterestRateStrategy internal constant CORE_USAT_IR_STRATEGY =
     IBasicInterestRateStrategy(0x446eb3913b3fd3a9219A07B0f6AbE98BD0fAeed4);
 }
 library AaveV4AvalanchePositionManagers {
@@ -266,6 +281,11 @@ library AaveV4AvalancheAssets {
   address internal constant USDe_UNDERLYING = 0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34;
 
   uint8 internal constant USDe_DECIMALS = 18;
+
+  // https://snowscan.xyz/address/0x9A5926fd88F747c357738b1e82aFB46AB80f0A6b
+  address internal constant USAT_UNDERLYING = 0x9A5926fd88F747c357738b1e82aFB46AB80f0A6b;
+
+  uint8 internal constant USAT_DECIMALS = 6;
 }
 library AaveV4AvalancheGetters {
   function getAllHubs() internal pure returns (IHub[] memory) {
@@ -284,7 +304,7 @@ library AaveV4AvalancheGetters {
   }
 
   function getAllTokenizationSpokes() internal pure returns (ITokenizationSpoke[] memory) {
-    ITokenizationSpoke[] memory tokenizedSpokes = new ITokenizationSpoke[](7);
+    ITokenizationSpoke[] memory tokenizedSpokes = new ITokenizationSpoke[](8);
     tokenizedSpokes[0] = AaveV4AvalancheTokenizationSpokes.CORE_WAVAX_TOKENIZATION_SPOKE;
     tokenizedSpokes[1] = AaveV4AvalancheTokenizationSpokes.CORE_BTCb_TOKENIZATION_SPOKE;
     tokenizedSpokes[2] = AaveV4AvalancheTokenizationSpokes.CORE_USDC_TOKENIZATION_SPOKE;
@@ -292,11 +312,12 @@ library AaveV4AvalancheGetters {
     tokenizedSpokes[4] = AaveV4AvalancheTokenizationSpokes.CORE_WETHe_TOKENIZATION_SPOKE;
     tokenizedSpokes[5] = AaveV4AvalancheTokenizationSpokes.CORE_EURC_TOKENIZATION_SPOKE;
     tokenizedSpokes[6] = AaveV4AvalancheTokenizationSpokes.CORE_sAVAX_TOKENIZATION_SPOKE;
+    tokenizedSpokes[7] = AaveV4AvalancheTokenizationSpokes.CORE_USAT_TOKENIZATION_SPOKE;
     return tokenizedSpokes;
   }
 
   function getAllSpokesRaw() internal pure returns (address[] memory) {
-    address[] memory spokes = new address[](12);
+    address[] memory spokes = new address[](13);
     spokes[0] = address(AaveV4AvalancheSpokes.TREASURY_SPOKE);
     spokes[1] = address(AaveV4AvalancheSpokes.MAIN_SPOKE);
     spokes[2] = address(AaveV4AvalancheSpokes.FOREX_SPOKE);
@@ -309,6 +330,7 @@ library AaveV4AvalancheGetters {
     spokes[9] = address(AaveV4AvalancheTokenizationSpokes.CORE_WETHe_TOKENIZATION_SPOKE);
     spokes[10] = address(AaveV4AvalancheTokenizationSpokes.CORE_EURC_TOKENIZATION_SPOKE);
     spokes[11] = address(AaveV4AvalancheTokenizationSpokes.CORE_sAVAX_TOKENIZATION_SPOKE);
+    spokes[12] = address(AaveV4AvalancheTokenizationSpokes.CORE_USAT_TOKENIZATION_SPOKE);
     return spokes;
   }
 
