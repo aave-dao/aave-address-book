@@ -1,43 +1,47 @@
 import {execFile} from 'node:child_process';
-import {mkdirSync, mkdtempSync, renameSync, rmSync, writeFileSync} from 'node:fs';
-import {dirname, join} from 'node:path';
+import {mkdirSync, writeFileSync} from 'node:fs';
+import {join} from 'node:path';
 import {promisify} from 'node:util';
 import {prefixWithGeneratedWarning} from 'scripts/generator/utils';
 import {generateABIImports} from 'scripts/generator/abis';
+import {RUST_ABI_DIRECTORY, replaceDirectory} from 'scripts/generator/rust';
+import {writeRustABIs} from 'scripts/generator/rustAbis';
 import {ABI_INTERFACES} from 'scripts/configs/abis';
 
 const awaitableExecFile = promisify(execFile);
-const ABI_DIRECTORY = './src/ts/abis';
+export const ABI_DIRECTORY = './src/ts/abis';
 
-export async function generateABIs(outputDirectory: string) {
-  mkdirSync(outputDirectory, {recursive: true});
+/**
+ * @dev Compiles every interface once and writes the same ABI to both outputs: TypeScript under
+ * `tsOutputDirectory` and alloy bindings under `rustOutputDirectory`.
+ */
+export async function generateABIs(tsOutputDirectory: string, rustOutputDirectory: string) {
+  mkdirSync(tsOutputDirectory, {recursive: true});
+  mkdirSync(rustOutputDirectory, {recursive: true});
+  const abis: {name: string; target: string; abi: unknown}[] = [];
 
   for (const {name, target} of ABI_INTERFACES) {
     const {stdout} = await awaitableExecFile('forge', ['inspect', '--json', target, 'abi']);
-    const varName = `${name}_ABI`;
+    const abi = JSON.parse(stdout.trim());
+    abis.push({name, target, abi});
     writeFileSync(
-      join(outputDirectory, `${name}.ts`),
+      join(tsOutputDirectory, `${name}.ts`),
       prefixWithGeneratedWarning(
-        `export const ${varName} = ${JSON.stringify(JSON.parse(stdout.trim()), null, 2)} as const;`,
+        `export const ${name}_ABI = ${JSON.stringify(abi, null, 2)} as const;`,
       ),
     );
   }
 
-  writeFileSync(join(outputDirectory, 'index.ts'), `${generateABIImports().join('\n')}\n`);
+  writeFileSync(join(tsOutputDirectory, 'index.ts'), `${generateABIImports().join('\n')}\n`);
+  writeRustABIs(rustOutputDirectory, abis);
 }
 
 async function replaceGeneratedABIs() {
-  mkdirSync(dirname(ABI_DIRECTORY), {recursive: true});
-  const stagingDirectory = mkdtempSync(join(dirname(ABI_DIRECTORY), '.abis-'));
-
-  try {
-    await generateABIs(stagingDirectory);
-    rmSync(ABI_DIRECTORY, {recursive: true, force: true});
-    renameSync(stagingDirectory, ABI_DIRECTORY);
-  } catch (error) {
-    rmSync(stagingDirectory, {recursive: true, force: true});
-    throw error;
-  }
+  await replaceDirectory(ABI_DIRECTORY, (tsStagingDirectory) =>
+    replaceDirectory(RUST_ABI_DIRECTORY, (rustStagingDirectory) =>
+      generateABIs(tsStagingDirectory, rustStagingDirectory),
+    ),
+  );
 }
 
 if (require.main === module) {

@@ -14,3 +14,7 @@ dist/
 
 .DS_STORE
 .vercel
+
+# Rust
+rust/target/
+rust/Cargo.lock
