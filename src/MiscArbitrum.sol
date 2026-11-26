@@ -98,6 +98,10 @@ library MiscArbitrum {
   // https://arbiscan.io/address/0x3Fe54E476007CB315B23284BC1064cCC01a1f666
   address internal constant LLAMARISK_CAPS_CUT_AGENT = 0x3Fe54E476007CB315B23284BC1064cCC01a1f666;
 
+  // https://arbiscan.io/address/0x6bDBAF2B3aCdA83391D1C30b58dD137C5767eAdd
+  address internal constant LLAMARISK_CAPS_BORROW_FORWARDER =
+    0x6bDBAF2B3aCdA83391D1C30b58dD137C5767eAdd;
+
   // https://arbiscan.io/address/0x66Ac7223048037826e12cef9a848199e31AEFabE
   address internal constant BUDGET_INCENTIVE_SAFE = 0x66Ac7223048037826e12cef9a848199e31AEFabE;
 
