@@ -17461,6 +17461,9 @@
     },
     "0x6bDBAF2B3aCdA83391D1C30b58dD137C5767eAdd": {
       "name": "CapsBorrowForwarder"
+    },
+    "0x1a0267E9E5929a5914Ae9DbBf23Bc07B14365471": {
+      "name": "SafeProxy"
     }
   },
   "42220": {
