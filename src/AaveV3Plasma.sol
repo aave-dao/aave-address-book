@@ -83,6 +83,9 @@ library AaveV3Plasma {
   // https://plasmascan.to/address/0x300f49ddf6fB9358ddCB22b12fFae62F1Cce9CdD
   address internal constant DUST_BIN = 0x300f49ddf6fB9358ddCB22b12fFae62F1Cce9CdD;
 
+  // https://plasmascan.to/address/0xB5c5D35553826d681F3f3CC5Bae6cfA0446dE706
+  address internal constant POOL_EXPOSURE_STEWARD = 0xB5c5D35553826d681F3f3CC5Bae6cfA0446dE706;
+
   // https://plasmascan.to/address/0xAe48F22903d43f13f66Cc650F57Bd4654ac222cb
   address internal constant EDGE_RISK_ORACLE = 0xAe48F22903d43f13f66Cc650F57Bd4654ac222cb;
 
