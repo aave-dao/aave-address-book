@@ -10734,6 +10734,9 @@
     },
     "0xC27a4d7AC0623B129919786d88714eF16132BEaE": {
       "name": "FlashLoanLogic"
+    },
+    "0x72EAfbD4331dD482f5c8135fF0452d97da6F77B0": {
+      "name": "PoolExposureSteward"
     }
   },
   "146": {
@@ -15605,6 +15608,9 @@
     },
     "0xC27a4d7AC0623B129919786d88714eF16132BEaE": {
       "name": "FlashLoanLogic"
+    },
+    "0xB5c5D35553826d681F3f3CC5Bae6cfA0446dE706": {
+      "name": "PoolExposureSteward"
     }
   },
   "42161": {
