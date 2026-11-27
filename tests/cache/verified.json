@@ -5160,6 +5160,15 @@
     "0x6b447A72D8243E96F5782ad6BdffD2dc813bb82E": {
       "name": "EACAggregatorProxy"
     },
+    "0x436dCCC028322AfC355f608CF582B7d7F19FDfEd": {
+      "name": "GhoDirectFacilitator"
+    },
+    "0x0cB7C2A2Ab38Aed3e6096631D7Dba3DaBf237134": {
+      "name": "GhoDirectFacilitator"
+    },
+    "0x647bf6b636ED76cE44d33eebF9C86d96Dfd004E9": {
+      "name": "GhoDirectFacilitator"
+    },
     "0x207b377b904D5e227337F7E708e27Dfa34F6381A": {
       "name": "GhoDirectFacilitator"
     }
