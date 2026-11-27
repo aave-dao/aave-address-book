@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.78.0](https://github.com/aave-dao/aave-address-book/compare/v4.77.13...v4.78.0) (2026-11-27)
+
+
+### Features
+
+* add GhoDirectFacilitator for Arbitrum, Monad and Aave Institutional ([#1696](https://github.com/aave-dao/aave-address-book/issues/1696)) ([30187cb](https://github.com/aave-dao/aave-address-book/commit/30187cb0bdc0ab2c560f0b013d14e77cdb25cd9a))
+
 ## [4.77.13](https://github.com/aave-dao/aave-address-book/compare/v4.77.12...v4.77.13) (2026-11-27)
 
 
