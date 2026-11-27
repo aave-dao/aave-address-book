@@ -31,7 +31,7 @@ library GhoAvalanche {
   address internal constant GSM_REGISTRY = 0x0a0dFf46122dFdc2aF0D5D66f23BA8f78bf17edF;
 
   // https://snowscan.xyz/address/0xF6b70344b92cAb2D23c96eA834bbb45ADbdd6c40
-  address internal constant PERMISSIONED_GSM_USAT = 0xF6b70344b92cAb2D23c96eA834bbb45ADbdd6c40;
+  address internal constant GSM_USAT_PERMISSIONED = 0xF6b70344b92cAb2D23c96eA834bbb45ADbdd6c40;
 
   // https://snowscan.xyz/address/0x8513e6F37dBc52De87b166980Fa3F50639694B60
   address internal constant RISK_COUNCIL = 0x8513e6F37dBc52De87b166980Fa3F50639694B60;
