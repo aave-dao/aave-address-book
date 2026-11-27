@@ -12,9 +12,6 @@ library ChainlinkLinea {
   // https://lineascan.build/address/0x8eCE1AbA32716FdDe8D6482bfd88E9a0ee01f565
   address internal constant WSTETH__USD = 0x8eCE1AbA32716FdDe8D6482bfd88E9a0ee01f565;
 
-  // https://lineascan.build/address/0xdE14081b6bd39230EcA7Be1137413b7b87B07C07
-  address internal constant FOXY__USD = 0xdE14081b6bd39230EcA7Be1137413b7b87B07C07;
-
   // https://lineascan.build/address/0xC4bF21Ab46bd22Cf993c0AAa363577bD2Af83544
   address internal constant weETH__ETH = 0xC4bF21Ab46bd22Cf993c0AAa363577bD2Af83544;
 
@@ -93,9 +90,6 @@ library ChainlinkLinea {
   // https://lineascan.build/address/0xEEDF0B095B5dfe75F3881Cb26c19DA209A27463a
   address internal constant wrsETH_ETH_Exchange_Rate = 0xEEDF0B095B5dfe75F3881Cb26c19DA209A27463a;
 
-  // https://lineascan.build/address/0xAADAa473C1bDF7317ec07c915680Af29DeBfdCb5
-  address internal constant USDC__USD = 0xAADAa473C1bDF7317ec07c915680Af29DeBfdCb5;
-
   // https://lineascan.build/address/0x452b408b3e2805C109D52C80Bd54Deda239716d1
   address internal constant LINEA__USD = 0x452b408b3e2805C109D52C80Bd54Deda239716d1;
 
@@ -123,12 +117,12 @@ library ChainlinkLinea {
   // https://lineascan.build/address/0x57011f81c93Da4dFb244c80667aAECf8cA9D53Bb
   address internal constant ynETH__ETH_Exchange_Rate = 0x57011f81c93Da4dFb244c80667aAECf8cA9D53Bb;
 
+  // https://lineascan.build/address/0xAADAa473C1bDF7317ec07c915680Af29DeBfdCb5
+  address internal constant USDC__USD = 0xAADAa473C1bDF7317ec07c915680Af29DeBfdCb5;
+
   // https://lineascan.build/address/0x0AAC940015d333b8E4f93fcE9c0f6f365d252741
   address internal constant SAVUSD__AVUSD_Exchange_Rate =
     0x0AAC940015d333b8E4f93fcE9c0f6f365d252741;
-
-  // https://lineascan.build/address/0xefCA2bbe0EdD0E22b2e0d2F8248E99F4bEf4A7dB
-  address internal constant USDT__USD = 0xefCA2bbe0EdD0E22b2e0d2F8248E99F4bEf4A7dB;
 
   // https://lineascan.build/address/0x1FBc7d24654b10c71fd74d3730d9Df17836181EF
   address internal constant weETH__eETH_Exchange_Rate = 0x1FBc7d24654b10c71fd74d3730d9Df17836181EF;
@@ -142,6 +136,9 @@ library ChainlinkLinea {
   // https://lineascan.build/address/0x3C8A95F2264bB3b52156c766b738357008d87cB7
   address internal constant wstETH__stETH_Exchange_Rate =
     0x3C8A95F2264bB3b52156c766b738357008d87cB7;
+
+  // https://lineascan.build/address/0xefCA2bbe0EdD0E22b2e0d2F8248E99F4bEf4A7dB
+  address internal constant USDT__USD = 0xefCA2bbe0EdD0E22b2e0d2F8248E99F4bEf4A7dB;
 
   // https://lineascan.build/address/0x921000Dd4faA3Dc53F5Ee1c21Ab6e4211B191C5C
   address internal constant YBTC_BTC_Exchange_Rate = 0x921000Dd4faA3Dc53F5Ee1c21Ab6e4211B191C5C;
