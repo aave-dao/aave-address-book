@@ -5168,6 +5168,9 @@
     },
     "0x647bf6b636ED76cE44d33eebF9C86d96Dfd004E9": {
       "name": "GhoDirectFacilitator"
+    },
+    "0x207b377b904D5e227337F7E708e27Dfa34F6381A": {
+      "name": "GhoDirectFacilitator"
     }
   },
   "10": {
@@ -19431,6 +19434,18 @@
       "name": "TransparentUpgradeableProxy"
     },
     "0x9A5926fd88F747c357738b1e82aFB46AB80f0A6b": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x07ad9BEA5626ceAbcf857aaB1e398dd2327C901b": {
+      "name": "GhoGsmSteward"
+    },
+    "0x15f22f39FD7b3612840cF0De49b6f9C4879Aa642": {
+      "name": "TransparentUpgradeableProxy"
+    },
+    "0x0a0dFf46122dFdc2aF0D5D66f23BA8f78bf17edF": {
+      "name": "GsmRegistry"
+    },
+    "0xF6b70344b92cAb2D23c96eA834bbb45ADbdd6c40": {
       "name": "TransparentUpgradeableProxy"
     }
   },

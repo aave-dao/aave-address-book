@@ -83,6 +83,10 @@ library GhoEthereum {
   address internal constant GHO_DIRECT_FACILITATOR_AAVE_INSTITUTIONAL =
     0x647bf6b636ED76cE44d33eebF9C86d96Dfd004E9;
 
+  // https://etherscan.io/address/0x207b377b904D5e227337F7E708e27Dfa34F6381A
+  address internal constant GHO_DIRECT_FACILITATOR_AVALANCHE_GSMS =
+    0x207b377b904D5e227337F7E708e27Dfa34F6381A;
+
   // https://etherscan.io/address/0x98217A06721Ebf727f2C8d9aD7718ec28b7aAe34
   address internal constant GHO_AAVE_CORE_STEWARD = 0x98217A06721Ebf727f2C8d9aD7718ec28b7aAe34;
 
