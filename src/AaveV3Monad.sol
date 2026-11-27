@@ -82,6 +82,9 @@ library AaveV3Monad {
 
   // https://monadscan.com/address/0xf23C65c8C92E42e990786523744Db9d5cdcF6cbE
   address internal constant DUST_BIN = 0xf23C65c8C92E42e990786523744Db9d5cdcF6cbE;
+
+  // https://monadscan.com/address/0x72EAfbD4331dD482f5c8135fF0452d97da6F77B0
+  address internal constant POOL_EXPOSURE_STEWARD = 0x72EAfbD4331dD482f5c8135fF0452d97da6F77B0;
 }
 library AaveV3MonadAssets {
   // https://monadscan.com/address/0xe7cd86e13AC4309349F30B3435a9d337750fC82D

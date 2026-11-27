@@ -71,6 +71,9 @@ export const STATA_FACTORY = '0x9ce311E3Ea6e781DC9a3a7F61ef24250E2B8cDF8';
 // https://monadscan.com/address/0xf23C65c8C92E42e990786523744Db9d5cdcF6cbE
 export const DUST_BIN = '0xf23C65c8C92E42e990786523744Db9d5cdcF6cbE';
 
+// https://monadscan.com/address/0x72EAfbD4331dD482f5c8135fF0452d97da6F77B0
+export const POOL_EXPOSURE_STEWARD = '0x72EAfbD4331dD482f5c8135fF0452d97da6F77B0';
+
 export const CHAIN_ID = 143;
 export const ASSETS = {
   USDT0: {
