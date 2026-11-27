@@ -1,4 +1,4 @@
-import { Hex } from 'viem';
+import {Hex} from 'viem';
 
 interface KnownInterfaces<T extends number | Hex = any> {
   value: T;
@@ -156,6 +156,52 @@ export interface GhoAddresses<T extends Record<string, AddressInfo> = {}> {
   chainId: number;
   addresses: T;
 }
+
+// Matches `AaveAppChainKind` in src/common/AaveAppTypes.sol
+export enum AaveAppChainKind {
+  Accounting = 0,
+  Earning = 1,
+}
+
+// Contracts nothing on-chain points to: the roots the generator starts from. Everything else (policies, wiring,
+// assets, implementations) is read from these on-chain. Role holders other than the two admins are out of scope:
+// they're indexed by the Stable Vault permissions book.
+export type AaveAppCommonAddresses = {
+  ACCESS_MANAGER: Hex;
+  TRANSFER_HELPER: Hex;
+  POLICY_REGISTRY: Hex;
+  ASSET_REGISTRY: Hex;
+  PRICE_ORACLE: Hex;
+  ALLOCATOR: Hex;
+  SWAPPER: Hex;
+  CCIP_ADAPTER: Hex;
+  ADI_ADAPTER: Hex;
+  REBALANCER_MULTICALL: Hex;
+  DISABLER_MULTICALL: Hex;
+  MAIN_ADMIN: Hex;
+  SECONDARY_ADMIN: Hex;
+};
+
+export type AaveAppAccountingChainAddresses = AaveAppCommonAddresses & {
+  STABLE_VAULT: Hex;
+  ACCOUNTING_CHAIN_GATEWAY: Hex;
+  CHAIN_BALANCE_ORACLE: Hex;
+};
+
+export type AaveAppEarningChainAddresses = AaveAppCommonAddresses & {
+  EARNING_CHAIN_GATEWAY: Hex;
+  EARNING_CHAIN_STATE_PROVIDER: Hex;
+};
+
+export type AaveAppAddresses = {name: string; chainId: number} & (
+  | {
+      chainKind: AaveAppChainKind.Accounting;
+      addresses: AaveAppAccountingChainAddresses;
+      // earning chains this accounting chain tracks, by name: CHAIN_BALANCE_ORACLE_ADAPTER_<NAME>
+      earningChains: Record<string, number>;
+    }
+  | {chainKind: AaveAppChainKind.Earning; addresses: AaveAppEarningChainAddresses}
+);
 
 export interface V4Config {
   name: string;
